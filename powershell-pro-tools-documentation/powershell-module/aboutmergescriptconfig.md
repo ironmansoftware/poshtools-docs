@@ -6,7 +6,8 @@ About config hashtables for Merge-Script
 
 ## LONG DESCRIPTION
 
-This about file contains information about using hashtables and PSD1 files to configure Merge-Script.
+This about file contains information about using hashtables and PSD1 files to 
+configure Merge-Script.
 
 ### Config File Schema
 
@@ -48,22 +49,16 @@ will not bundle nested modules or required assemblies of any modules it is bundl
 
 
 
-`Merge-Script -Config @{ `
-
-`	Root = ".\MyScript.ps1"`
-
-`	OutputPath = ".\"`
-
-`	Bundle = @{`
-
-`		Enabled = $true`
-
-`		Modules = $true`
-
-`	}`
-
-`}`
-
+```
+Merge-Script -Config @{ 
+	Root = ".\MyScript.ps1"
+	OutputPath = ".\"
+	Bundle = @{
+		Enabled = $true
+		Modules = $true
+	}
+}
+```
 
 
 
