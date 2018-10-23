@@ -35,13 +35,13 @@ Write-Host "Hi! I'm script 3"\`
 
 This enables developers to organize their code into multiple scripts but then deploy a single script. You could store all three scripts in source control, such as GitHub, and then run a bundling step using a continuous integration system, such as AppVeyor.
 
-You can bundle scripts with PowerShell Pro tools using [Visual Studio](https://poshtools.com/docs/posh-pro-tools/bundling-packaging-msbuild/), [PSPack.exe](https://poshtools.com/docs/posh-pro-tools/pspack-exe/) or [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/).
+You can bundle scripts with PowerShell Pro tools using [Visual Studio](https://poshtools.com/docs/posh-pro-tools/bundling-packaging-msbuild/) or [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/).
 
 **Packaging as an Executable**
 
 Scripts can be packaged as a .NET executable for easy deployment on any Windows system. You can combine bundling with packaging to include multiple scripts into a single executable.
 
-You can package scripts with PowerShell Pro tools using [Visual Studio](https://poshtools.com/docs/posh-pro-tools/bundling-packaging-msbuild/), [PSPack.exe](https://poshtools.com/docs/posh-pro-tools/pspack-exe/) or [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/).
+You can package scripts with PowerShell Pro tools using [Visual Studio](https://poshtools.com/docs/posh-pro-tools/bundling-packaging-msbuild/) or [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/).
 
 **Obfuscation**
 
