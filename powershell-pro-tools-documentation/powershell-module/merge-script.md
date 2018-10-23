@@ -12,7 +12,7 @@ Packages, bundles and\or obfuscates scripts.
 
 ## SYNTAX
 
-```
+```text
 Merge-Script -Script <String> [-OutputPath <String>] [-Bundle] [-Package] [-Obfuscate]
 
 Merge-Script -Config <Hashtable>
@@ -29,7 +29,7 @@ requires packaging.
 
 ### Example 1
 
-```
+```text
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\ -Package
 ```
 
@@ -37,7 +37,7 @@ Packages MyScript.ps1 into MyScript.exe and then outputs it to .\
 
 ### Example 2
 
-```
+```text
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle
 ```
 
@@ -45,7 +45,7 @@ Bundles MyScript.ps1 and any scripts it dot sources into a single file and outpu
 
 ### Example 3
 
-```
+```text
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle -Package
 ```
 
@@ -53,7 +53,7 @@ Bundles MyScript.ps1 and any scripts it dot sources into a single file and then 
 
 ### Example 4
 
-```
+```text
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle -Package -Obfuscate
 ```
 
@@ -185,6 +185,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
-
 

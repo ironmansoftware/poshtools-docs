@@ -1,28 +1,28 @@
-## Packaging in Visual Studio Code
+# Packaging in Visual Studio Code
 
 Since [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/) can be called from the task integration in Visual Studio Code, it’s very easy to create a task.json file that packages scripts by using Ctrl+Shift+B. You can define the task.json like this.
 
-`{`
+`{`
 
-`    "version": "0.1.0",`
+`"version": "0.1.0",`
 
-`    "tasks": [`
+`"tasks": [`
 
-`        {`
+`{`
 
-`            "taskName": "build",`
+`"taskName": "build",`
 
-`            "command": "powershell",`
+`"command": "powershell",`
 
-`            "args": ["Merge-Script -Script '${file}' -Bundle -OutputPath '${fileDirname}\\out' -OutputType Executable"],`
+`"args": ["Merge-Script -Script '${file}' -Bundle -OutputPath '${fileDirname}\\out' -OutputType Executable"],`
 
-`            "isBuildCommand": true,`
+`"isBuildCommand": true,`
 
-`            "showOutput": "silent"`
+`"showOutput": "silent"`
 
-`        }`
+`}`
 
-`    ]`
+`]`
 
 `}`
 

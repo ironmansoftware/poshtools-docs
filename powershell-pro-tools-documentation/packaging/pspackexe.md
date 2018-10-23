@@ -1,14 +1,14 @@
-## PSPack.exe
+# PSPack.exe
 
-PSPack.exe is the same executable used to package PowerShell scripts into .NET executables in Visual Studio. PSPack.exe accepts a script and outputs an executable or a bundled script. PSPack.exe does not require Visual Studio.
+PSPack.exe is the same executable used to package PowerShell scripts into .NET executables in Visual Studio. PSPack.exe accepts a script and outputs an executable or a bundled script. PSPack.exe does not require Visual Studio.
 
 You can download PSPack.exe as part of the [PoshProTools command line tools](https://www.powershellgallery.com/packages/PowerShellProTools). PSPack is also available as a cmdlet: [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/).
 
-### Command Line Reference
+## Command Line Reference
 
 **–Script**– Relative or absolute path to the script to package.
 
-**–Output**– Relative or absolute directory to output the packaged executable.
+**–Output**– Relative or absolute directory to output the packaged executable.
 
 **–License**– Installs a PoshProTools license.
 
@@ -20,7 +20,7 @@ You can download PSPack.exe as part of the [PoshProTools command line tools](htt
 
 **–Help**– Displays help information.
 
-### Technical Considerations
+## Technical Considerations
 
 Packaging Requires .NET Core SDK version 1.0.0 or higher.
 

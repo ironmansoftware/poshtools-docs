@@ -1,27 +1,30 @@
 ---
 external help file: PowerShellToolsPro.Cmdlets.dll-Help.xml
-online version: 
+online version: null
 schema: 2.0.0
 ---
 
 # Install-PoshProToolsLicense
 
 ## SYNOPSIS
+
 Installs a PowerShell Pro Tools license.
 
 ## SYNTAX
 
-```
+```text
 Install-PoshProToolsLicense -License <String>
 ```
 
 ## DESCRIPTION
+
 Installs a PowerShell Pro Tools license.
 
 ## EXAMPLES
 
 ### Example 1
-```
+
+```text
 PS C:\> Install-PoshProToolsLicense -License "<License><Terms>asdfas</Terms></License>"
 ```
 
@@ -30,8 +33,8 @@ Installs the specified PowerShell Pro Tools license.
 ## PARAMETERS
 
 ### -License
-License to install.
-This should be the content of the license and not a path.
+
+License to install. This should be the content of the license and not a path.
 
 ```yaml
 Type: String
@@ -48,7 +51,6 @@ Accept wildcard characters: False
 ## INPUTS
 
 ### None
-
 
 ## OUTPUTS
 

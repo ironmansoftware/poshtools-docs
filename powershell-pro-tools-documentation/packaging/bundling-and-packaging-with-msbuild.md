@@ -1,4 +1,4 @@
-## Bundling and Packaging with MSBuild
+# Bundling and Packaging with MSBuild
 
 PowerShell Pro Tools exposes bundling and packaging as an MSBuild task and PowerShell project system property page.
 

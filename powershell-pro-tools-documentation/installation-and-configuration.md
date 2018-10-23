@@ -1,23 +1,25 @@
-## 
-
-# Installing PowerShell Pro Tools for Visual Studio
+# Installation and Licensing
 
 ### From inside Visual Studio
 
 1. Click Tools on the top menu bar
 2. Click Extensions and Updates…
-3. Click Online on the left hand tree
+3. Click Online on the left hand tree
 4. In the top right search field, type “PowerShell Pro Tools for Visual Studio”
-5. Click the Download button
+5. Click the Download button
 6. Follow the installation prompts
 7. Restart Visual Studio
 
 ### From the Visual Studio Marketplace
 
 1. Visit the
+
    [PowerShell Pro Tools for Visual Studio 2017 Marketplace page](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellProToolsforVisualStudio2017)
+
    or Visit the
+
    [PowerShell Pro Tools for Visual Studio 2015 Marketplace page](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellProToolsforVisualStudio2015)
+
 2. Click Download
 3. Double click the VSIX package that you downloaded
 4. Follow the installation prompts

@@ -1,53 +1,61 @@
 ---
 external help file: PowerShellToolsPro.Cmdlets.dll-Help.xml
-online version: 
+online version: null
 schema: 2.0.0
 ---
 
 # ConvertTo-PowerShell
 
 ## SYNOPSIS
-Converts C# code to PowerShell script.
+
+Converts C\# code to PowerShell script.
 
 ## SYNTAX
 
 ### PathByPipeline
-```
+
+```text
 ConvertTo-PowerShell -CSharpFile <FileInfo>
 ```
 
 ### Path
-```
+
+```text
 ConvertTo-PowerShell -CSharpFilePath <String>
 ```
 
 ### Text
-```
+
+```text
 ConvertTo-PowerShell -CSharpCode <String>
 ```
 
 ## DESCRIPTION
-Converts C# code to PowerShell script.
+
+Converts C\# code to PowerShell script.
 
 ## EXAMPLES
 
 ### Example 1
-```
+
+```text
 PS C:\> ConvertTo-PowerShell -CSharpCode "void CreateDate(int year) { new DateTime(year); }"
 ```
 
-Converts the CreateDate method to a PowerShell function. 
+Converts the CreateDate method to a PowerShell function.
 
 ### Example 2
-```
+
+```text
 PS C:\> ConvertTo-PowerShell -CSharpFilePath .\*.cs
 ```
 
 Converts all the CS files into PowerShell script and returns them as a collection of strings.
 
 ### Example 3
-```
-PS C:\> Get-ChildItem .\*.cs | ConvertTo-PowerShell 
+
+```text
+PS C:\> Get-ChildItem .\*.cs | ConvertTo-PowerShell
 ```
 
 Converts all the piped CS files into PowerShell script and returns them as a collection of strings.
@@ -55,7 +63,8 @@ Converts all the piped CS files into PowerShell script and returns them as a col
 ## PARAMETERS
 
 ### -CSharpCode
-C# code to convert
+
+C\# code to convert
 
 ```yaml
 Type: String
@@ -70,7 +79,8 @@ Accept wildcard characters: False
 ```
 
 ### -CSharpFilePath
-C# file (cs) to convert
+
+C\# file \(cs\) to convert
 
 ```yaml
 Type: String
@@ -85,7 +95,8 @@ Accept wildcard characters: True
 ```
 
 ### -CSharpFile
-C# file (cs) to convert
+
+C\# file \(cs\) to convert
 
 ```yaml
 Type: FileInfo
@@ -102,7 +113,6 @@ Accept wildcard characters: False
 ## INPUTS
 
 ### System.String
-
 
 ## OUTPUTS
 

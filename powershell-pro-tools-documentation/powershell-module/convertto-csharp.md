@@ -1,72 +1,83 @@
 ---
 external help file: PowerShellToolsPro.Cmdlets.dll-Help.xml
-online version: 
+online version: null
 schema: 2.0.0
 ---
 
 # ConvertTo-CSharp
 
 ## SYNOPSIS
-Converts PowerShell script to C# code.
+
+Converts PowerShell script to C\# code.
 
 ## SYNTAX
 
 ### PathByPipeline
-```
+
+```text
 ConvertTo-CSharp -PowerShellScriptFile <FileInfo>
 ```
 
 ### Path
-```
+
+```text
 ConvertTo-CSharp -PowerShellScriptPath <String>
 ```
 
 ### Text
-```
+
+```text
 ConvertTo-CSharp -PowerShellScript <String>
 ```
 
 ### ScriptBlock
-```
+
+```text
 ConvertTo-CSharp -ScriptBlock <ScriptBlock>
 ```
 
 ## DESCRIPTION
-Converts PowerShell script to C# code. You can specify a path, PowerShell script text or a PowerShell script block.
+
+Converts PowerShell script to C\# code. You can specify a path, PowerShell script text or a PowerShell script block.
 
 ## EXAMPLES
 
 ### Example 1
-```
+
+```text
 PS C:\> ConvertTo-CSharp -PowerShellScriptPath .\*.ps1
 ```
 
-Converts all PS1 files in the current directory to C# code. Returns an array of the contents of the files.
+Converts all PS1 files in the current directory to C\# code. Returns an array of the contents of the files.
 
 ### Example 2
-```
+
+```text
 PS C:\> ConvertTo-CSharp -PowerShellScript "Get-Process"
 ```
 
-Converts the specified PowerShell script to C# code.
+Converts the specified PowerShell script to C\# code.
 
 ### Example 3
-```
+
+```text
 PS C:\> ConvertTo-CSharp -ScriptBlock { Get-Process }
 ```
 
-Converts the specified PowerShell ScriptBlock to C# code.
+Converts the specified PowerShell ScriptBlock to C\# code.
 
 ### Example 4
-```
-PS C:\> Get-ChildItem .\*.ps1 | ConvertTo-CSharp 
+
+```text
+PS C:\> Get-ChildItem .\*.ps1 | ConvertTo-CSharp
 ```
 
-Converts the piped PS1 files to C#
+Converts the piped PS1 files to C\#
 
 ## PARAMETERS
 
 ### -PowerShellScriptFile
+
 A FileInfo for a PS1 or PSM1
 
 ```yaml
@@ -82,6 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -PowerShellScript
+
 The contents of a PowerShell script
 
 ```yaml
@@ -97,6 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -PowerShellScriptPath
+
 The path to a PS1 or PSM1 file.
 
 ```yaml
@@ -112,6 +125,7 @@ Accept wildcard characters: True
 ```
 
 ### -ScriptBlock
+
 A PowerShell ScriptBlock
 
 ```yaml
@@ -129,8 +143,8 @@ Accept wildcard characters: False
 ## INPUTS
 
 ### System.String
-System.Management.Automation.ScriptBlock
 
+System.Management.Automation.ScriptBlock
 
 ## OUTPUTS
 

@@ -1,14 +1,14 @@
-## Package as Executable
+# Package as Executable
 
-PowerShell Pro Tools supports packaging PowerShell scripts as executables. The packaging functionality creates a .NET executable and embeds the PowerShell script into the assembly. The .NET executable takes advantage of the PowerShell console host to run the script. The host supports accepting arguments from the command line and all the functionality of PowerShell.exe in your own custom executable.
+PowerShell Pro Tools supports packaging PowerShell scripts as executables. The packaging functionality creates a .NET executable and embeds the PowerShell script into the assembly. The .NET executable takes advantage of the PowerShell console host to run the script. The host supports accepting arguments from the command line and all the functionality of PowerShell.exe in your own custom executable.
 
-### Benefits of Packaging
+## Benefits of Packaging
 
 Packaging enables easy distribution of PowerShell scripts in easy to consume executables. Scripts cannot be changed and can be provided to end users without the worry of what may happen if they modify them.
 
-### Packaging Steps
+## Packaging Steps
 
-Assume we have a simple script that accepts a couple parameters and outputs to the screen.
+Assume we have a simple script that accepts a couple parameters and outputs to the screen.
 
 ![](https://i1.wp.com/poshtools.com/wp-content/uploads/2017/05/script.png?resize=767%2C225&ssl=1)
 
@@ -24,7 +24,7 @@ The resulting executable will behave similar to PowerShell.exe but will pass arg
 
 ![](https://i2.wp.com/poshtools.com/wp-content/uploads/2017/05/result.png?resize=716%2C415&ssl=1)
 
-### Technical Considerations
+## Technical Considerations
 
 Packaging Requires .NET Core SDK version 1.0.0 or higher.
 
