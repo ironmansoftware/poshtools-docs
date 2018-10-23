@@ -31,7 +31,6 @@
   * [Bundling and Packaging with MSBuild](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
   * [Package as Executable](powershell-pro-tools-documentation/packaging/package-as-executable.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/packaging/packaging-in-visual-studio-code.md)
-  * [PSPack.exe](powershell-pro-tools-documentation/packaging/pspackexe.md)
   * [Installers](powershell-pro-tools-documentation/packaging/installers.md)
 * [User Interface Design](powershell-pro-tools-documentation/user-interface-design/README.md)
   * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
