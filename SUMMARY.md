@@ -45,3 +45,7 @@
 * [Code Conversion](powershell-pro-tools-documentation/code-conversion/README.md)
   * [Paste As](powershell-pro-tools-documentation/code-conversion/paste-as.md)
 
+## Release Notes
+
+* [4.0](release-notes/4.0.md)
+
