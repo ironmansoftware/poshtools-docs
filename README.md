@@ -1,8 +1,8 @@
 # Introduction
 
-The PowerShell Tools for Visual Studio source code repository can be found on [GitHub](https://github.com/adamdriscoll/poshtools).
+PowerShell Tools for Visual Studio provides PowerShell language support to the development environment. 
 
-The page contains all the documentation for PowerShell Tools for Visual Studio and it's extension, PowerShell Pro Tools for Visual Studio. To learn more about the PowerShell Pro Tools, visit [PoshTools.com](https://poshtools.com/).
+You can file issues you encounter [here](https://poshtools.com/issues).
 
 ## PowerShell Tools for Visual Studio Offers
 
@@ -16,6 +16,8 @@ The page contains all the documentation for PowerShell Tools for Visual Studio a
 * Snippet Support
 
 ## PowerShell Pro Tools Offers
+
+You can purchase a license for the pro tools on [PoshTools.com](https://poshtools.com/buy).
 
 * User Interface design tools for WPF and Windows Forms
 * Packaging
