@@ -19,13 +19,6 @@
 
 ## PowerShell Pro Tools Documentation
 
-* [Updates](powershell-pro-tools-documentation/updates/README.md)
-  * [v1.6.0](powershell-pro-tools-documentation/updates/v160.md)
-  * [v1.5.1](powershell-pro-tools-documentation/updates/v151.md)
-  * [v1.5.0](powershell-pro-tools-documentation/updates/v150.md)
-  * [v1.4.0](powershell-pro-tools-documentation/updates/v140.md)
-  * [v1.2.1](powershell-pro-tools-documentation/updates/v121.md)
-  * [v1.2.2](powershell-pro-tools-documentation/updates/v122.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Bundling and Packaging with MSBuild](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
@@ -49,4 +42,10 @@
 
 * [4.0.6](release-notes/4.0.6.md)
 * [4.0.5](release-notes/4.0.md)
+* [v1.6.0](release-notes/v160.md)
+* [v1.5.1](release-notes/v151.md)
+* [v1.5.0](release-notes/v150.md)
+* [v1.4.0](release-notes/v140.md)
+* [v1.2.1](release-notes/v121.md)
+* [v1.2.2](release-notes/v122.md)
 
