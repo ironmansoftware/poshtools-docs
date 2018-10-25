@@ -20,7 +20,7 @@ You can file issues you encounter [here](https://poshtools.com/issues).
 You can purchase a license for the pro tools on [PoshTools.com](https://poshtools.com/buy).
 
 * User Interface design tools for WPF and Windows Forms
-* Packaging
+* [Packaging](https://docs.poshtools.com/powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild)
   * Bundling scripts
   * Packing into executables
   * Obfuscation
