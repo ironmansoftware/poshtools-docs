@@ -1,30 +1,8 @@
 # Packaging in Visual Studio Code
 
-Since [Merge-Script](https://poshtools.com/docs/posh-pro-tools/merge-script/) can be called from the task integration in Visual Studio Code, it’s very easy to create a task.json file that packages scripts by using Ctrl+Shift+B. You can define the task.json like this.
+PowerShell Pro Tools provides an [extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools). The VSC extension relies on the [PowerShell Pro Tools](https://www.powershellgallery.com/packages/powershellprotools/1.3.0) module to be installed. If it is not installed, the VSC extension will install it automatically. 
 
-`{`
+Once installed in VS Code, you can execute the `PowerShell: Package as Executable` command. This command will package the current PS1 script into and executable using `Merge-Script`. 
 
-`"version": "0.1.0",`
-
-`"tasks": [`
-
-`{`
-
-`"taskName": "build",`
-
-`"command": "powershell",`
-
-`"args": ["Merge-Script -Script '${file}' -Bundle -OutputPath '${fileDirname}\\out' -OutputType Executable"],`
-
-`"isBuildCommand": true,`
-
-`"showOutput": "silent"`
-
-`}`
-
-`]`
-
-`}`
-
-From VS Code, you can simply open a PS1 file and press the key combination Ctrl+Shift+B. The output of the command will be written to a “out” folder in the same directory as the PS1 file you are building.
+Additionally, a `package.psd1` file will be created to allow for greater control over the options available when packaging via `Merge-Script`. For more information on the settings available in the `package.psd1` file, check out the documentation here.
 
