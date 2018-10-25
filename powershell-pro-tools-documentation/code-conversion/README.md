@@ -2,7 +2,7 @@
 
 **What to expect**
 
-Code conversion is a difficult problem and PowerShell Pro Tools implements a solution to help with the process. Since code conversion is very specific to the syntax of both languages and the style of code, it is often very difficult to support every single scenario. PowerShell Pro Tools takes a “best effort” approach to conversion. Assume that the conversion process may have issues that need manual resolution. That said, we are looking to ever improve the conversion process. Feel free to open a[GitHub issue](https://github.com/adamdriscoll/poshprotools)if you experience an issue converting a snippet of code.
+Code conversion is a difficult problem and PowerShell Pro Tools implements a solution to help with the process. Since code conversion is very specific to the syntax of both languages and the style of code, it is often very difficult to support every single scenario. PowerShell Pro Tools takes a “best effort” approach to conversion. Assume that the conversion process may have issues that need manual resolution. That said, we are looking to ever improve the conversion process. 
 
 **PowerShell to C\# Details**
 
@@ -12,7 +12,7 @@ _Cmdlets_
 
 PowerShell cmdlets do not exist in C\#. In order to accommodate the conversion, the PowerShell SDK will be wrapped around calls that cannot be translated. For example, if you want to convert a cmdlet like Disable-IisSecurityAuthentication, there is not currently a defined translation for that cmdlet. The resulting C\# code would use the PowerShell class and AddCommand methods.
 
-Some cmdlets do have a conversion from PowerShell to C\#. For a full list of these cmdlets, visit the[Cmdlet Intent conversion document](https://poshtools.com/docs/posh-pro-tools/cmdlet-intent-conversion/%20‎).
+Some cmdlets do have a conversion from PowerShell to C\#. For a full list of these cmdlets, visit the [Cmdlet Intent conversion document](https://poshtools.com/docs/posh-pro-tools/cmdlet-intent-conversion/%20‎).
 
 _Pipeline_
 
