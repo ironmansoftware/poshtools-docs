@@ -40,6 +40,7 @@
 
 ## Release Notes
 
+* [4.0.10](release-notes/4.0.7.md)
 * [4.0.6](release-notes/4.0.6.md)
 * [4.0.5](release-notes/4.0.md)
 * [v1.6.0](release-notes/v160.md)
@@ -48,5 +49,4 @@
 * [v1.4.0](release-notes/v140.md)
 * [v1.2.1](release-notes/v121.md)
 * [v1.2.2](release-notes/v122.md)
-* [4.0.7](release-notes/4.0.7.md)
 
