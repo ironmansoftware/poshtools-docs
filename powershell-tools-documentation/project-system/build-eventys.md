@@ -1,6 +1,6 @@
 # Build Events
 
-[_Visual Studio 2015_](https://poshtools.com/docs/poshtools-docs/enabling-msbuild-support-visual-studio-2015-powershell-projects/)_requires a manual step in order to take advantage of build events._ 
+[_Visual Studio 2015_](https://poshtools.com/docs/poshtools-docs/enabling-msbuild-support-visual-studio-2015-powershell-projects/) _requires a manual step in order to take advantage of build events._ 
 
 PowerShell Projects support pre-build and post-build events. Currently, there is no actually build step so running pre-build will simply run a script before the post-build script.
 
