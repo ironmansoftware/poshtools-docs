@@ -12,7 +12,7 @@ _Cmdlets_
 
 PowerShell cmdlets do not exist in C\#. In order to accommodate the conversion, the PowerShell SDK will be wrapped around calls that cannot be translated. For example, if you want to convert a cmdlet like Disable-IisSecurityAuthentication, there is not currently a defined translation for that cmdlet. The resulting C\# code would use the PowerShell class and AddCommand methods.
 
-Some cmdlets do have a conversion from PowerShell to C\#. For a full list of these cmdlets, visit the [Cmdlet Intent conversion document](https://poshtools.com/docs/posh-pro-tools/cmdlet-intent-conversion/%20‎).
+Some cmdlets do have a conversion from PowerShell to C\#. 
 
 _Pipeline_
 
