@@ -16,6 +16,7 @@
 * [Settings](powershell-tools-documentation/settings/README.md)
   * [Syntax Highlighting](powershell-tools-documentation/settings/syntax-highlighting.md)
 * [Unit Test Adapter](powershell-tools-documentation/unit-test-adapter.md)
+* [Script Analysis](powershell-tools-documentation/script-analysis.md)
 
 ## PowerShell Pro Tools Documentation
 
