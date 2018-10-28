@@ -33,7 +33,7 @@ Trial licenses are automatically installed on machines that have no been license
 
 ### Purchasing a License
 
-Visit the[purchasing page](https://poshtools.com/buy)and follow the instructions to purchase a license. A license will be emailed to you.
+Visit the [purchasing page](https://poshtools.com/buy) and follow the instructions to purchase a license. A license will be emailed to you.
 
 ### Installing a License
 
