@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [About](README.md)
+* [System Requirements](system-requirements.md)
 
 ## PowerShell Tools Documentation
 

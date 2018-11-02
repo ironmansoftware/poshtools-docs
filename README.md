@@ -1,29 +1,41 @@
-# Introduction
+# About
 
-PowerShell Tools for Visual Studio provides PowerShell language support to the development environment. 
+PowerShell Tools for Visual Studio provides PowerShell language support to the development environment. You can enhance your experience with PowerShell Pro Tools features such as packaging, user interface designers and code conversion.
+
+{% hint style="info" %}
+To purchase a license to PowerShell Pro Tools, please visit [PoshTools.com](https://poshtools.com/buy/powershell-pro-tools/).
+{% endhint %}
 
 You can file issues you encounter [here](https://poshtools.com/issues).
 
-## PowerShell Tools for Visual Studio Offers
+## Feature Comparison
 
-* Syntax highlighting and IntelliSense
-* Function navigation
-* Project system with build events
-* Local and remote debugging
-* Interactive Prompt
-* Module Explorer
-* Pester Test Adapter
-* Snippet Support
+| Feature | PowerShell Tools | PowerShell Pro Tools |
+| :--- | :--- | :--- |
+| **Editor** |  ✅ |  ✅ |
+| Syntax Highlighting |  ✅ |  ✅ |
+| IntelliSense |  ✅ |  ✅ |
+| PSScriptAnalyzer Support |  ✅ |  ✅ |
+| Quick Fix Support |  ✅ |  ✅ |
+| Function Navigation |  ✅ |  ✅ |
+| Snippets |  ✅ |  ✅  |
+| C\# to PowerShell Code Conversion |  ❌ |  ✅ |
+| **Project System** |  |  |
+| Build events |  ✅ |  ✅ |
+| Bundling |  ❌ |  ✅ |
+| Package as executable |  ❌ |  ✅ |
+| Obfuscation |  ❌ |  ✅ |
+| **Debugging** |   |  |
+| Local Debugging |  ✅ |  ✅ |
+| Remote Debugging |  ✅ |  ✅ |
+| Locals and Watch Window |  ✅ |  ✅ |
+| Call Stack Window |  ✅ |  ✅ |
+| **Pester Test Adapter** |  ✅ |  ✅ |
+| **Tools** |  |  |
+| Module Explorer |  ✅ |  ✅ |
+| MSI Installer Cmdlets |  ❌ |  ✅ |
+| WinForm Designer |  ❌ |  ✅ |
+| WPF Designer |  ❌ |  ✅ |
 
-## PowerShell Pro Tools Offers
 
-You can purchase a license for the pro tools on [PoshTools.com](https://poshtools.com/buy).
-
-* User Interface design tools for WPF and Windows Forms
-* [Packaging](https://docs.poshtools.com/powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild)
-  * Bundling scripts
-  * Packing into executables
-  * Obfuscation
-* MSI Installer Cmdlets
-* Code Conversion between C\# and PowerShell
 
