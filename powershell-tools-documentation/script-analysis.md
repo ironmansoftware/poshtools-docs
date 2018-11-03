@@ -16,5 +16,5 @@ PoshTools supports quick fix actions provided by PSScriptAnalyzer. If the sugges
 
 If you don't want PoshTools to use PSScriptAnalyzer, you can disable the analysis via the PoshTools options. Open the options menu by clicking Tools-&gt;Options and selecting PowerShell Tools. You can set Script Analyzer to false to prevent PoshTools from running PSScriptAnalyzer on your scripts. 
 
-![Script Analyzer option](../.gitbook/assets/image%20%282%29.png)
+![Script Analyzer option](../.gitbook/assets/image%20%283%29.png)
 
