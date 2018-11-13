@@ -2,7 +2,7 @@
 description: Provides information about packaging a PowerShell script as a service.
 ---
 
-# Package a Service
+# Package as Service
 
 {% hint style="info" %}
 Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
