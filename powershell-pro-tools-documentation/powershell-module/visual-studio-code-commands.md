@@ -1,5 +1,9 @@
 # Visual Studio Code Commands
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 The PowerShell Pro Tools PowerShell module automatically adds commands to Visual Studio Code when loaded into the editor. These commands allow you to convert code to C\# and PowerShell as well as bundle and package scripts. You will need the PowerShell extension for Visual Studio Code installed.
 
 ## Accessing the PowerShell Pro Tools Commands

@@ -1,5 +1,9 @@
 # Installers
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 PowerShell Pro Tools includes cmdlets for creating MSI packages that can contain any file and directory structure you wish. It also includes functionality to customize the installer interface by including custom EULAs and images.
 
 ## Getting Started

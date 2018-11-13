@@ -6,6 +6,10 @@ schema: 2.0.0
 
 # Install-PoshProToolsLicense
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 ## SYNOPSIS
 
 Installs a PowerShell Pro Tools license.

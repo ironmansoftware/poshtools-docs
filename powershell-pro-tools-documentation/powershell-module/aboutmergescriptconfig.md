@@ -1,5 +1,9 @@
 # about\_MergeScriptConfig
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 ## SHORT DESCRIPTION
 
 About config hashtables for Merge-Script

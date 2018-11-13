@@ -1,5 +1,9 @@
 # Building a GUI with WPF in Visual Studio
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 ## Building a GUI with Windows Forms in Visual Studio
 
 ## Applies to:

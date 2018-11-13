@@ -6,6 +6,10 @@ schema: 2.0.0
 
 # ConvertTo-PowerShell
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 ## SYNOPSIS
 
 Converts C\# code to PowerShell script.

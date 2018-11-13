@@ -6,6 +6,10 @@ schema: 2.0.0
 
 # Merge-Script
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 ## SYNOPSIS
 
 Packages, bundles and\or obfuscates scripts.

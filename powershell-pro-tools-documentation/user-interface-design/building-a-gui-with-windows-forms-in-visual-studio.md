@@ -1,11 +1,8 @@
 # Building a GUI with Windows Forms in Visual Studio
 
-## Applies to:
-
-You will need the following:
-
-* Visual Studio 2015 and Visual Studio 2017
-* PowerShell Pro Tools for Visual Studio 2015 and 2017
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
 
 ## Creating a Project
 

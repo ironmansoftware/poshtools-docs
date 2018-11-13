@@ -1,5 +1,9 @@
 # Bundling and Packaging with MSBuild
 
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+{% endhint %}
+
 PowerShell Pro Tools exposes bundling and packaging as an MSBuild task and PowerShell project system property page.
 
 ## About Packaging

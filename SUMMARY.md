@@ -25,6 +25,7 @@
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Bundling and Packaging with MSBuild](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
   * [Package as Executable](powershell-pro-tools-documentation/packaging/package-as-executable.md)
+  * [Package a Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/packaging/packaging-in-visual-studio-code.md)
   * [Installers](powershell-pro-tools-documentation/packaging/installers.md)
 * [User Interface Design](powershell-pro-tools-documentation/user-interface-design/README.md)
@@ -42,6 +43,7 @@
 
 ## Release Notes
 
+* [4.0.25](release-notes/4.0.24.md)
 * [4.0.19](release-notes/4.0.19.md)
 * [4.0.18](release-notes/4.0.18.md)
 * [4.0.14](release-notes/4.0.14.md)
