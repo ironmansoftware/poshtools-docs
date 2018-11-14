@@ -43,7 +43,7 @@
 
 ## Release Notes
 
-* [4.0.26](release-notes/4.0.26.md)
+* [4.0.27](release-notes/4.0.26.md)
 * [4.0.25](release-notes/4.0.24.md)
 * [4.0.19](release-notes/4.0.19.md)
 * [4.0.18](release-notes/4.0.18.md)
