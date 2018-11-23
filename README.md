@@ -36,6 +36,7 @@ You can file issues you encounter [here](https://poshtools.com/issues).
 | MSI Installer Cmdlets |  ❌ |  ✅ |
 | WinForm Designer |  ❌ |  ✅ |
 | WPF Designer |  ❌ |  ✅ |
+| Profiler |  ❌ |  ✅ |
 
 
 
