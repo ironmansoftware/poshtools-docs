@@ -16,39 +16,38 @@ This about file contains information about using hashtables and PSD1 files to co
 
 ```text
 @{
-    Root = "" # The root script. This is required.
-    OutputPath = "" # The output path for Merge-Script. This is required.
-    Bundle = @{
-        Enabled = $true # Whether bundling is enabled
-        Modules = $true # Whether to bundle imported modules
-        NestedModules = $true #Whether to bundle modules required by other modules
-        RequiredAssemblies = $true # Whether to bundle required assemblies 
-        IgnoredModules = @() # Modules to ignore when bundling scripts
+        Root = 'c:\Users\Adam\Desktop\service.ps1' # Root script to package. This is the main entry point for the package. 
+        OutputPath = 'c:\Users\Adam\Desktop\out' # The output directory for the packaging process. 
+        Package = @{
+            Enabled = $true # Whether to package as an executable. 
+            Obfuscate = $false # Whether to obfuscate the resulting executable. 
+            HideConsoleWindow = $false # Whether to hide the console window.  Only valid for console applications.
+            DotNetVersion = 'v4.6.2' # The target .NET Framework version. You will need the .NET Developer Pack for this version installed on your machine.  
+            FileVersion = '1.0.0' # The output file version
+            FileDescription = '' # The output file description
+            ProductName = '' # The output file product name
+            ProductVersion = '' # The output file product version.
+            Copyright = '' # The output file copyright
+            RequireElevation = $false # Whether to require elevation when running the executable. Only valid for console applications. 
+            ApplicationIconPath = '' # The path to the application icon to use for the executable. 
+            PackageType = 'Console' # The type of executable to generate. Valid values are Service or Console. 
+            ServiceName = "" # The name of the service if the package type is Service. 
+            ServiceDisplayName = "" # The display name of the service if the package type is Service. 
+        }
+        Bundle = @{
+            Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
+        }
     }
-    Package = @{
-        Enabled = $true # Whether to package as an executable
-        Obfuscate = $true # Whether to obfuscate the executable
-        HideConsoleWindow = $true # Whether to hide the console window after starting the script
-        DotNetVersion = "v4.6.1" # The .NET Framework version to target. The developer pack for that version must be installed on the machine for this to target a particular version. 
-    }
-}
+    
 ```
 
 ### Using a config file
 
-A config file can be used either from within a PowerShell script as a hashtable or imported from a PSD1
-
-file containing the hashtable.
+A config file can be used either from within a PowerShell script as a hashtable or imported from a PSD1 file containing the hashtable.
 
 ## EXAMPLES
 
-It is not required to include all aspects of the config when using Merge-Script. The only required
-
-components are Root and OutputPath. Aside from that, anything that is not include will be considered
-
-false. This means that in the below example, packaging is disabled but bundling is not. The below operation
-
-will not bundle nested modules or required assemblies of any modules it is bundling.
+It is not required to include all aspects of the config when using Merge-Script. The only required components are Root and OutputPath. Aside from that, anything that is not include will be considered false. This means that in the below example, packaging is disabled but bundling is not. The below operation will not bundle nested modules or required assemblies of any modules it is bundling.
 
 ```text
 Merge-Script -Config @{ 
@@ -59,5 +58,47 @@ Merge-Script -Config @{
         Modules = $true
     }
 }
+```
+
+### Create console application
+
+Creates a PowerShell console based application that has an application icon and hides the console window. 
+
+```text
+@{
+        Root = 'c:\Users\Adam\Desktop\form.ps1'
+        OutputPath = 'c:\Users\Adam\Desktop\out'
+        Package = @{
+            Enabled = $true
+            HideConsoleWindow = $true
+            DotNetVersion = 'v4.6.2'
+            ApplicationIconPath = 'C:\users\adam\desktop\icon.ico'
+        }
+    }
+    
+```
+
+### Create a service
+
+Creates a PowerShell service based on the service.ps1 file and outputs to the out directory on the desktop. It will use the .NET 4.6.2 Developer Pack. The service name will be PSService and the display name will be PowerShell Service. 
+
+```text
+@{
+        Root = 'c:\Users\Adam\Desktop\service.ps1'
+        OutputPath = 'c:\Users\Adam\Desktop\out'
+        Package = @{
+            Enabled = $true
+            DotNetVersion = 'v4.6.2'
+            FileVersion = '1.0.0'
+            FileDescription = ''
+            ProductName = ''
+            ProductVersion = ''
+            Copyright = ''
+            PackageType = 'Service'
+            ServiceName = "PSService"
+            ServiceDisplayName = "PowerShell Service"
+        }
+    }
+    
 ```
 
