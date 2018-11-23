@@ -38,6 +38,7 @@
   * [Install-PoshProToolsLicense](powershell-pro-tools-documentation/powershell-module/install-poshprotoolslicense.md)
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Visual Studio Code Commands](powershell-pro-tools-documentation/powershell-module/visual-studio-code-commands.md)
+* [Profiler](powershell-pro-tools-documentation/profiler.md)
 * [Code Conversion](powershell-pro-tools-documentation/code-conversion/README.md)
   * [Paste As](powershell-pro-tools-documentation/code-conversion/paste-as.md)
 
