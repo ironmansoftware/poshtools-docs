@@ -21,6 +21,8 @@
 
 ## PowerShell Pro Tools Documentation
 
+* [Code Conversion](powershell-pro-tools-documentation/code-conversion/README.md)
+  * [Paste As](powershell-pro-tools-documentation/code-conversion/paste-as.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Bundling and Packaging with MSBuild](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
@@ -28,9 +30,6 @@
   * [Package as Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/packaging/packaging-in-visual-studio-code.md)
   * [Installers](powershell-pro-tools-documentation/packaging/installers.md)
-* [User Interface Design](powershell-pro-tools-documentation/user-interface-design/README.md)
-  * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
-  * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
@@ -39,8 +38,10 @@
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Visual Studio Code Commands](powershell-pro-tools-documentation/powershell-module/visual-studio-code-commands.md)
 * [Profiler](powershell-pro-tools-documentation/profiler.md)
-* [Code Conversion](powershell-pro-tools-documentation/code-conversion/README.md)
-  * [Paste As](powershell-pro-tools-documentation/code-conversion/paste-as.md)
+* [User Interface Design](powershell-pro-tools-documentation/user-interface-design/README.md)
+  * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
+  * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
+* [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code.md)
 
 ## Release Notes
 
