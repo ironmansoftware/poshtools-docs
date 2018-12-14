@@ -4,7 +4,7 @@
 Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 {% endhint %}
 
-PowerShell Pro Tools provides an [extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools). The VSC extension relies on the [PowerShell Pro Tools](https://www.powershellgallery.com/packages/powershellprotools/1.3.0) module to be installed. If it is not installed, the VSC extension will install it automatically. 
+PowerShell Pro Tools provides an [extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools). The VSC extension installs the PowerShell Pro Tools module and utilizes the functionality within it to provide the package experience via the `Merge-Script` cmdlet.
 
 Once installed in VS Code, you can execute the `PowerShell: Package as Executable` command. This command will package the current PS1 script into and executable using `Merge-Script`. 
 
