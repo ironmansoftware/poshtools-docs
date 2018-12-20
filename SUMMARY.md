@@ -47,6 +47,7 @@
 ## Release Notes
 
 * [PowerShell Tools for Visual Studio](release-notes/powershell-tools-for-visual-studio/README.md)
+  * [4.1.2](release-notes/powershell-tools-for-visual-studio/4.1.2.md)
   * [4.1.1](release-notes/powershell-tools-for-visual-studio/4.1.1.md)
   * [4.1.0](release-notes/powershell-tools-for-visual-studio/4.1.0.md)
   * [4.0.31](release-notes/powershell-tools-for-visual-studio/4.0.31.md)
@@ -69,6 +70,7 @@
 * [PowerShell Pro Tools PowerShell Module](release-notes/powershell-pro-tools-powershell-module/README.md)
   * [1.10.0](release-notes/powershell-pro-tools-powershell-module/1.10.0.md)
 * [PowerShell Pro Tools for Visual Studio Code](release-notes/powershell-pro-tools-for-visual-studio-code/README.md)
+  * [0.5.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.5.0.md)
   * [0.4.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.4.0.md)
   * [0.3.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.3.0.md)
   * [0.2.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.2.0.md)

@@ -4,7 +4,7 @@
 
 PowerShell Tools for Visual studio supports [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) integration. If you have PSScriptAnalyzer installed in your $PSModulePath, PoshTools will automatically call Invoke-ScriptAnalyzer on your script and show the results as tagged regions within your code. 
 
-![Script Analyzer Alias Warning](../.gitbook/assets/image%20%283%29.png)
+![Script Analyzer Alias Warning](../.gitbook/assets/image%20%284%29.png)
 
 ## Quick Fix
 
