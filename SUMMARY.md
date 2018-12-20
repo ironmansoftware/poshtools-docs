@@ -32,6 +32,7 @@
     * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
     * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 * [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/README.md)
+  * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
