@@ -1,7 +1,3 @@
----
-description: Provides information about packaging a PowerShell script as a service.
----
-
 # Package as Service
 
 {% hint style="info" %}

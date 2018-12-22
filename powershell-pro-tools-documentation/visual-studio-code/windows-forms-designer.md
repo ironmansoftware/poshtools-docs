@@ -1,9 +1,3 @@
----
-description: >-
-  Provides the steps necessary for working with the standalone WinForm designer
-  in VS Code.
----
-
 # Windows Forms Designer
 
 ## Opening the Designer
