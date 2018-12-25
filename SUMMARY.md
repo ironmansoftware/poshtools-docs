@@ -72,6 +72,7 @@
 * [PowerShell Pro Tools PowerShell Module](release-notes/powershell-pro-tools-powershell-module/README.md)
   * [1.10.0](release-notes/powershell-pro-tools-powershell-module/1.10.0.md)
 * [PowerShell Pro Tools for Visual Studio Code](release-notes/powershell-pro-tools-for-visual-studio-code/README.md)
+  * [0.5.2](release-notes/powershell-pro-tools-for-visual-studio-code/0.5.2.md)
   * [0.5.1](release-notes/powershell-pro-tools-for-visual-studio-code/0.5.1.md)
   * [0.5.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.5.0.md)
   * [0.4.0](release-notes/powershell-pro-tools-for-visual-studio-code/0.4.0.md)
