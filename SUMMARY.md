@@ -70,6 +70,7 @@
   * [v1.2.1](release-notes/powershell-tools-for-visual-studio/v121.md)
   * [v1.2.2](release-notes/powershell-tools-for-visual-studio/v122.md)
 * [PowerShell Pro Tools PowerShell Module](release-notes/powershell-pro-tools-powershell-module/README.md)
+  * [1.11.0](release-notes/powershell-pro-tools-powershell-module/1.11.0.md)
   * [1.10.0](release-notes/powershell-pro-tools-powershell-module/1.10.0.md)
 * [PowerShell Pro Tools for Visual Studio Code](release-notes/powershell-pro-tools-for-visual-studio-code/README.md)
   * [0.5.2](release-notes/powershell-pro-tools-for-visual-studio-code/0.5.2.md)
