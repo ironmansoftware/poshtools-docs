@@ -35,6 +35,7 @@
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
+  * [Visual Studio Code Commands](powershell-pro-tools-documentation/visual-studio-code/visual-studio-code-commands.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Installers](powershell-pro-tools-documentation/powershell-module/installers.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
@@ -42,7 +43,7 @@
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)
   * [Install-PoshProToolsLicense](powershell-pro-tools-documentation/powershell-module/install-poshprotoolslicense.md)
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
-  * [Visual Studio Code Commands](powershell-pro-tools-documentation/powershell-module/visual-studio-code-commands.md)
+  * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration.md)
 
 ## Release Notes
