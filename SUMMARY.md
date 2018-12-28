@@ -49,6 +49,7 @@
 ## Release Notes
 
 * [PowerShell Tools for Visual Studio](release-notes/powershell-tools-for-visual-studio/README.md)
+  * [4.1.4](release-notes/powershell-tools-for-visual-studio/4.1.4.md)
   * [4.1.3](release-notes/powershell-tools-for-visual-studio/4.1.3.md)
   * [4.1.2](release-notes/powershell-tools-for-visual-studio/4.1.2.md)
   * [4.1.1](release-notes/powershell-tools-for-visual-studio/4.1.1.md)
