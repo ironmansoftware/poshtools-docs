@@ -33,9 +33,11 @@ This about file contains information about using hashtables and PSD1 files to co
             PackageType = 'Console' # The type of executable to generate. Valid values are Service or Console. 
             ServiceName = "" # The name of the service if the package type is Service. 
             ServiceDisplayName = "" # The display name of the service if the package type is Service. 
+            PowerShellCore = $true # Whether to bundle the PowerShell Core runtime within your executable. 
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
+            Modules = $true # Whether to bundle modules into the package
         }
     }
     
@@ -100,5 +102,24 @@ Creates a PowerShell service based on the service.ps1 file and outputs to the ou
         }
     }
     
+```
+
+### Bundle PowerShell Core Engine with your Script
+
+Creates an executable that contains the PowerShell Core engine. This executable does not require the target machine have PowerShell Core or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable. 
+
+```text
+@{
+    Root = 'c:\Users\Adam\Desktop\script.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        PowerShellCore = $true
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
 ```
 
