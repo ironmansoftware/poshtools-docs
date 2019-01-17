@@ -2,6 +2,8 @@
 
 | Version | Release Date | Release Notes | Download |
 | :--- | :--- | :--- | :--- |
+| 4.1.6 | 1/17/2019 | [Notes](4.1.6.md) | [Download](https://adamdriscollstorage.blob.core.windows.net/poshtools-releases/PowerShellTools.15.0-.4.1.6.vsix) |
+| 4.1.5 | 1/14/2019 | [Notes](4.1.5.md) | [Download](https://adamdriscollstorage.blob.core.windows.net/poshtools-releases/PowerShellTools.15.0-4.1.5.vsix) |
 | 4.1.4 | 12/28/2018 | [Notes](4.1.4.md) | [Download](https://adamdriscollstorage.blob.core.windows.net/poshtools-releases/PowerShellTools.15.0-4.1.4.vsix) |
 | 4.1.3 | 12/20/2018 | [Notes](https://docs.poshtools.com/release-notes/powershell-tools-for-visual-studio/4.1.3) | [Download](https://adamdriscollstorage.blob.core.windows.net/poshtools-releases/PowerShellTools.15.0-4.1.3.vsix) |
 | 4.1.2 | 12/19/2018 | [Notes](https://docs.poshtools.com/release-notes/powershell-tools-for-visual-studio/4.1.2) | [Download](https://adamdriscollstorage.blob.core.windows.net/poshtools-releases/PowerShellTools.15.0-4.1.2.vsix) |
