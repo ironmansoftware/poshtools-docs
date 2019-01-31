@@ -26,7 +26,19 @@ Visit the [purchasing page](https://ironmansoftware.com/collections/powershell/p
 
 ### Installing a License
 
-Once your trial expires a license window will appear when attempting to use functionality of this product. You can enter your license information into that window at this time. To update or change your license at any time, Click Help and About PowerShell Pro Tools to view and change your license.
+### Visual Studio 
 
-You can install you license using the PowerShell module by invoking the `Install-PoshProToolsLicense` cmdlet or from within VS Code using the `PowerShell Pro Tools: Install License` command. 
+Click Help and About PowerShell Pro Tools to view and change your license.
+
+#### Visual Studio Code
+
+Use the `PowerShell Pro Tools: Install License Key` command to install your license. Simply copy and paste the contents of your license in to the text box that appears. You can access the commands by using the `Ctrl+Shift+P` key stroke. 
+
+### PowerShell
+
+You can use the `Install-PoshProToolsLicense` cmdlet to install your license.
+
+```text
+Install-PoshProToolsLicense -Path C:\license.txt
+```
 
