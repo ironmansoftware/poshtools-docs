@@ -33,6 +33,7 @@
     * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 * [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/README.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
+  * [Generating a UI from a function](powershell-pro-tools-documentation/visual-studio-code/generating-a-ui-from-a-function.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
   * [Visual Studio Code Commands](powershell-pro-tools-documentation/visual-studio-code/visual-studio-code-commands.md)
