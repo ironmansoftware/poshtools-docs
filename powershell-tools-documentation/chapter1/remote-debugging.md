@@ -20,7 +20,7 @@ Before attaching to a remote process, you will need to know the name or address 
 
 > some.machine.net
 
-Next, you will need to know whether or not your machine requires you to connect with a secure \(SSL\) connection. If it does, you will need to install the SSL certificate of your remote machine before continuing \(see Remote Attaching with Azure below for more information\). Finally, you will need to know the port number your remote machine uses for PowerShell sessions. By default, PowerShell and PowerShell Tools attempt to connect to 5985 for non-SSL connections and 5986 for SSL connections. If your port is different you can simply add it to the end of your machine name/address as so:
+Next, you will need to know whether or not your machine requires you to connect with a secure \(SSL\) connection. If it does, you will need to install the [SSL](https://hosting.review/web-hosting-glossary/#12) certificate of your remote machine before continuing \(see Remote Attaching with Azure below for more information\). Finally, you will need to know the port number your remote machine uses for PowerShell sessions. By default, PowerShell and PowerShell Tools attempt to connect to 5985 for non-SSL connections and 5986 for SSL connections. If your port is different you can simply add it to the end of your machine name/address as so:
 
 > some.machine.net:5988
 
