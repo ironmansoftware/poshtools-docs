@@ -35,6 +35,7 @@ This about file contains information about using hashtables and PSD1 files to co
             ServiceDisplayName = "" # The display name of the service if the package type is Service. 
             PowerShellCore = $true # Whether to bundle the PowerShell Core runtime within your executable. 
             HighDPISupport = $true  # Whether to enable high DPI support for WinForm applications
+            PowerShellArguments = '' # Sets the arguments for the PowerShell process that is hosted within the executable. You can use arguments like -NoExit, -ExecutionPolicy and -NoProfile.
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
