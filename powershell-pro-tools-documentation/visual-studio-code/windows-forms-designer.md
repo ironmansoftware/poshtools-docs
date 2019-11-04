@@ -14,7 +14,7 @@ Below the toolbox is the properties dialog. You can select a control and modify 
 
 On the bottom of the designer is a status bar. It displays the file that is being modified by the designer. An asterisk will be shown when the form is modified. 
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 ## Event Handlers
 

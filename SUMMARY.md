@@ -5,6 +5,7 @@
 
 ## PowerShell Tools Documentation
 
+* [PowerShell Support](powershell-tools-documentation/powershell-support.md)
 * [Debugging](powershell-tools-documentation/chapter1/README.md)
   * [Local Debugging](powershell-tools-documentation/chapter1/local-debugging.md)
   * [Remote Debugging](powershell-tools-documentation/chapter1/remote-debugging.md)
@@ -22,6 +23,7 @@
 ## PowerShell Pro Tools Documentation
 
 * [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
+  * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
   * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion/README.md)
     * [Paste As](powershell-pro-tools-documentation/visual-studio/code-conversion/paste-as.md)
   * [Packaging](powershell-pro-tools-documentation/visual-studio/packaging/README.md)

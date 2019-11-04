@@ -12,7 +12,7 @@ To use the profiler, you will need the PowerShell Pro Tools [Visual Studio Code 
 
 To profile a script, open the script you wish to profile and execute the `PowerShell: Profile Script` command from within VS Code \(Ctrl+Shift+P\). The script will be instrumented and then executed within the VS Code PowerShell Session. After execution is complete, script timings will be added directly to the editor on the lines in which they were recorded. 
 
-![Profiler information](../../.gitbook/assets/image%20%289%29.png)
+![Profiler information](../../.gitbook/assets/image%20%2810%29.png)
 
 The profile information will remain in the editor until you execute the `PowerShell: Clear Profiling Information` command in VS Code. 
 
