@@ -15,7 +15,6 @@
   * [Build Events](powershell-tools-documentation/project-system/build-eventys.md)
   * [Enabling MSBuild Support for VS2015](powershell-tools-documentation/project-system/enabling-msbuild-support-for-vs2015.md)
   * [Upgrading a PowerShell Project to use June Release MSBuild Tasks](powershell-tools-documentation/project-system/upgrading-a-powershell-project-to-use-june-release-msbuild-tasks.md)
-* [Script Analysis and Quick Fix](powershell-tools-documentation/script-analysis.md)
 * [Settings](powershell-tools-documentation/settings/README.md)
   * [Syntax Highlighting](powershell-tools-documentation/settings/syntax-highlighting.md)
 * [Unit Test Adapter](powershell-tools-documentation/unit-test-adapter.md)
@@ -23,6 +22,7 @@
 ## PowerShell Pro Tools Documentation
 
 * [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
+  * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
   * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
   * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion/README.md)
     * [Paste As](powershell-pro-tools-documentation/visual-studio/code-conversion/paste-as.md)
