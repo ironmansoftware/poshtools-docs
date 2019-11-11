@@ -15,8 +15,8 @@ You can file issues you encounter [here](https://poshtools.com/issues).
 | **Editor** |  ✅ |  ✅ |
 | Syntax Highlighting |  ✅ |  ✅ |
 | IntelliSense |  ✅ |  ✅ |
-| PSScriptAnalyzer Support |  ✅ |  ✅ |
-| Quick Fix Support |  ✅ |  ✅ |
+| PSScriptAnalyzer Support |  ❌ |  ✅ |
+| Quick Fix Support |  ❌ |  ✅ |
 | Function Navigation |  ✅ |  ✅ |
 | Snippets |  ✅ |  ✅  |
 | C\# to PowerShell Code Conversion |  ❌ |  ✅ |
