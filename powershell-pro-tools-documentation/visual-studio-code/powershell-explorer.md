@@ -26,5 +26,9 @@ You can use the PowerShell Provider Explorer in the PowerShell Explorer window t
 
 ![](../../.gitbook/assets/providers.PNG)
 
+## Variable Explorer
 
+The Variable Explorer allows you to see a variables defined in your session without being in the debugger. You can expand and view their properties. Clicking the refresh button will refresh the variable list. 
+
+![Variable Explorer](../../.gitbook/assets/variables.png)
 

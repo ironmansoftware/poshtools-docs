@@ -22,7 +22,7 @@ Trial licenses are automatically installed on machines that have no been license
 
 ### Purchasing a License
 
-Visit the [purchasing page](https://ironmansoftware.com/collections/powershell/products/powershell-pro-tools) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
+Visit the [purchasing page](https://ironmansoftware.com/powershell-pro-tools/) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
 
 ### Installing a License
 
