@@ -40,7 +40,6 @@
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
-  * [Visual Studio Code Commands](powershell-pro-tools-documentation/visual-studio-code/visual-studio-code-commands.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Installers](powershell-pro-tools-documentation/powershell-module/installers.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
