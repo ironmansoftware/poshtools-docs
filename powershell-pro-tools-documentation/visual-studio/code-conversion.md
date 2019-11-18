@@ -1,6 +1,12 @@
 # Code Conversion
 
-**What to expect**
+## Executing Code Conversion
+
+To execute code conversion, select your C\# code in a PS1 file. Right click on the C\# code and click Convert to PowerShell. The code will be converted from PowerShell to C\#. 
+
+![Converting C\# to PowerShell](../../.gitbook/assets/kvb9uuxzya.gif)
+
+## What to Expect
 
 Code conversion is a difficult problem and PowerShell Pro Tools implements a solution to help with the process. Since code conversion is very specific to the syntax of both languages and the style of code, it is often very difficult to support every single scenario. PowerShell Pro Tools takes a “best effort” approach to conversion. Assume that the conversion process may have issues that need manual resolution. That said, we are looking to ever improve the conversion process. 
 

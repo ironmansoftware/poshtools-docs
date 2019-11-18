@@ -2,7 +2,7 @@
 
 The PowerShell Explorer allows you to view the AST, Modules and Providers in your PowerShell Environment.
 
-![Viewing the PowerShell Explorer Window](../../.gitbook/assets/image%20%2812%29.png)
+![Viewing the PowerShell Explorer Window](../../.gitbook/assets/image%20%2813%29.png)
 
 ## AST Explorer
 
