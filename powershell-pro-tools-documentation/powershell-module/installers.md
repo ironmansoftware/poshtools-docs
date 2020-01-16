@@ -46,7 +46,7 @@ The full script for this installer looks like this.
 
 ```text
 New-Installer -Product "My First Product" -UpgradeCode '1a73a1be-50e6-4e92-af03-586f4a9d9e82'
- - Content {
+ -Content {
     New-InstallerDirectory -PredefinedDirectory "LocalAppDataFolder"  -Content {
        New-InstallerDirectory -DirectoryName "My First Product" -Content {
           New-InstallerFile -Source .\MyTextFile.txt
