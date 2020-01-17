@@ -45,14 +45,13 @@ New-InstallerFile -Source .\MyTextFile.txt
 The full script for this installer looks like this.
 
 ```text
-New-Installer -Product "My First Product" -UpgradeCode '1a73a1be-50e6-4e92-af03-586f4a9d9e82'
- -Content {
+New-Installer -Product "My First Product" -UpgradeCode '1a73a1be-50e6-4e92-af03-586f4a9d9e82' -Content {
     New-InstallerDirectory -PredefinedDirectory "LocalAppDataFolder"  -Content {
        New-InstallerDirectory -DirectoryName "My First Product" -Content {
-          New-InstallerFile -Source .\MyTextFile.txt
+          New-InstallerFile -Source .\license.txt
        }
     }
- } -Output (Join-Path $PSScriptRoot "output")
+ } -OutputDirectory (Join-Path $PSScriptRoot "output")
 ```
 
 Running the above script will product a WXS, WXSOBJ and MSI file in the output directory. The MSI is the only file that you need to provide to your end users. The WXS and WXSOBJ files are artifacts of the Windows Installer XML Toolkit used to generate these installers.
