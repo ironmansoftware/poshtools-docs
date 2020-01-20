@@ -41,6 +41,7 @@
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Installers](powershell-pro-tools-documentation/powershell-module/installers.md)
+  * [Show-PSScriptPad](powershell-pro-tools-documentation/powershell-module/show-psscriptpad.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)

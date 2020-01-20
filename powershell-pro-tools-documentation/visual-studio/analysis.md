@@ -2,7 +2,7 @@
 
 PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click Tools-&gt;Options and navigating to PowerShell Tools. 
 
-![Script Analysis Options](../../.gitbook/assets/image%20%2827%29.png)
+![Script Analysis Options](../../.gitbook/assets/image%20%2823%29.png)
 
 On the options page, you can turn on and off script analyzer completely, manage solution wide analysis, disable specific severities or even specific rules. 
 
@@ -10,7 +10,7 @@ When Script Analyzer is enabled, squiggly lines will be present within source fi
 
 If you have solution wide analysis enabled, you will be able to see errors within your entire solution within the Error List window. 
 
-![Error List Window](../../.gitbook/assets/image%20%289%29.png)
+![Error List Window](../../.gitbook/assets/image%20%288%29.png)
 
 ## Quick Fix
 
