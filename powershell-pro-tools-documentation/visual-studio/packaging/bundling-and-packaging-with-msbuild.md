@@ -14,7 +14,7 @@ Packaging a PowerShell script embeds the scrip in a .NET executable so that othe
 
 Packaging is configured via the PowerShell Project properties page of either a module or script project in Visual Studio. You can configure many types of options for your package. 
 
-![Packaging settings for a PowerShell Project](../../../.gitbook/assets/image.png)
+![Packaging settings for a PowerShell Project](../../../.gitbook/assets/image%20%281%29.png)
 
 #### Entry Point 
 
