@@ -12,6 +12,18 @@ You can download PSScriptPad from our website. It is just a .exe file.
 
 PSScriptPad can just be opened by double clicking the PSScriptPad.exe. 
 
+You can also open PSScriptPad if you have the PowerShell Pro Tools module installed. 
+
+```text
+Show-PSScriptPad 
+```
+
+You can also use the `pad` alias. 
+
+```text
+pad .\test.ps1
+```
+
 ## Editing PowerShell
 
 PSScriptPad supports editing PowerShell scripts. It supports syntax highlighting, syntax checking, IntelliSense and code folding. 
