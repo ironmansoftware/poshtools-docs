@@ -12,7 +12,7 @@ You will now need to [download the PowerShell Tools VSIX](https://marketplace.vi
 
 On a machine with an internet connection, double click the VSIX file.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 The online machine will install the certificate to the local machine.  After the VSIX installer opens, click the Digital Signature link to view more information about the certificate. 
 
