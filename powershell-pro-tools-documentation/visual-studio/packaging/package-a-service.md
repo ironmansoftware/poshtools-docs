@@ -31,11 +31,23 @@ $CanStop = $true
 
 The `OnStart` function will be called when the service is started. You should not block the execution of this function. If you need to start a background process, consider using `Start-Job` . Once the function returns, the service will be listed as running in Service Control Manager. 
 
+You will have access to a `$Service` variable within the `OnStart` function that is the [ServiceBase ](https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase?view=netframework-4.8)instance for your service.
+
 ## OnStop Function
 
 The `OnStop` function will be called when the Service Control Manager attempts to stop the service. You can do any clean up of resources for your service in this function. This would be a good place to stop any jobs using `Stop-Job`.
 
+You will have access to a `$Service` variable within the `OnStop` function that is the [ServiceBase ](https://docs.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicebase?view=netframework-4.8)instance for your service.
+
 ## CanStop Variable
 
 You can set the `$CanStop` variable to either `$true` or `$false`. If set to `$false`, the service cannot be stopped by the Service Control Manager.
+
+## Installing a Service
+
+You can install your service by passing `--install` to the service's executable. Install will not start the service so use Start-Service to start your new service by the name you provided. 
+
+## Uninstall a Service
+
+To uninstall a service, use the `--uninstall` flag for your service's executable. It will also take care of stopping the service. 
 

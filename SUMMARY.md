@@ -39,6 +39,7 @@
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
+* [Untitled](powershell-pro-tools-documentation/untitled.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Installers](powershell-pro-tools-documentation/powershell-module/installers.md)
   * [Show-PSScriptPad](powershell-pro-tools-documentation/powershell-module/show-psscriptpad.md)
@@ -49,7 +50,8 @@
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [PSScriptPad](powershell-pro-tools-documentation/psscriptpad.md)
-* [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration.md)
+* [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration/README.md)
+  * [Visual Studio Offline Installation](powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md)
 
 ## Release Notes
 

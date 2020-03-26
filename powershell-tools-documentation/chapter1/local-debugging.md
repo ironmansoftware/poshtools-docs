@@ -22,3 +22,9 @@ You can also run a script from the solution explorer. Just right click on the sc
 
 ![](https://camo.githubusercontent.com/49415f7630b636d8914d44440f59596a67b03552/687474703a2f2f692e696d6775722e636f6d2f6b5a6f6872364b2e706e67)
 
+## Execute Selection 
+
+You can execute a selection using the Ctrl+F8 key or by right clicking the code and clicking Execute Selection. 
+
+
+

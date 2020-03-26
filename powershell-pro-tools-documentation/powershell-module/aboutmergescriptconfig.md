@@ -107,6 +107,8 @@ Creates a PowerShell service based on the service.ps1 file and outputs to the ou
     
 ```
 
+After building a service, you can install the service with the `--install` parameter of your service's executable. To uninstall a service, use the `--uninstall` parameter. 
+
 ### Bundle PowerShell Core Engine with your Script
 
 Creates an executable that contains the PowerShell Core engine. This executable does not require the target machine have PowerShell Core or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable. 
