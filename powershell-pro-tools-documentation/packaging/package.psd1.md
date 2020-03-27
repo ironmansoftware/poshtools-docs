@@ -83,6 +83,8 @@ Creates a PowerShell console based application that has an application icon and 
 
 Creates a PowerShell service based on the service.ps1 file and outputs to the out directory on the desktop. It will use the .NET 4.6.2 Developer Pack. The service name will be PSService and the display name will be PowerShell Service. 
 
+For more information on services, see the [Package as Service](package-a-service.md) section.
+
 ```text
 @{
         Root = 'c:\Users\Adam\Desktop\service.ps1'
