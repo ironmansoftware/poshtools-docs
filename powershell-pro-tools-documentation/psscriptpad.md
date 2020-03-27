@@ -56,5 +56,9 @@ Code Folding collapses blocks of PowerShell script that you wish to hide. You ca
 
 PSScriptPad can also debug PowerShell scripts. It supports executing scripts, setting breakpoints, stepping through scripts and viewing the output of scripts in the terminal window. 
 
+## PSReadline
+
+PSScriptPad supports [PSReadline](https://github.com/PowerShell/PSReadLine). PSReadline is packaged into the PSScriptPad executable and there is no need to install it separately. 
+
 
 
