@@ -43,6 +43,10 @@ You will have access to a `$Service` variable within the `OnStop` function that 
 
 You can set the `$CanStop` variable to either `$true` or `$false`. If set to `$false`, the service cannot be stopped by the Service Control Manager.
 
+## Arguments
+
+PowerShell services have access to both the process arguments and the service startup parameters. You can access the process arguments by referencing the `$ProcessArgs` variable. You can access the service startup parameters by accessing the `$ServiceArgs` variable. 
+
 ## Installing a Service
 
 You can install your service by passing `--install` to the service's executable. Install will not start the service so use Start-Service to start your new service by the name you provided. 

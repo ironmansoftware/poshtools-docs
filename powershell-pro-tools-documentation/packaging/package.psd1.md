@@ -1,18 +1,12 @@
-# about\_MergeScriptConfig
-
-
+# Package.psd1
 
 {% hint style="info" %}
 Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 {% endhint %}
 
-## SHORT DESCRIPTION
+## About
 
-About config hashtables for Merge-Script
-
-## LONG DESCRIPTION
-
-This about file contains information about using hashtables and PSD1 files to configure Merge-Script.
+This about file contains information about using hashtables and PSD1 files to configure Merge-Script. These psd1 files are also used by PowerShell Tools for Visual Studio Code. 
 
 ### Config File Schema
 
