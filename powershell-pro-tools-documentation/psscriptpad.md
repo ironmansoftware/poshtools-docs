@@ -32,19 +32,19 @@ PSScriptPad supports editing PowerShell scripts. It supports syntax highlighting
 
 Click the New File button on the toolbar to create a new file. 
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 #### Opening a PowerShell Script
 
 Click the Open File button on the toolbar to open a script. 
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2823%29%20%281%29.png)
 
 #### IntelliSense 
 
 IntelliSense is automatically invoked. It will complete PowerShell cmdlet names, variables, paths, and parameter names. You can also press `Ctrl+Space` to manually invoke IntelliSense. As you type, the IntelliSense list will be filtered. Pressing tab will select and insert the current option. 
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2822%29%20%281%29.png)
 
 #### Code Folding 
 

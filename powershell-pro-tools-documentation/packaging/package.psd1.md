@@ -18,7 +18,9 @@ This about file contains information about using hashtables and PSD1 files to co
             Enabled = $true # Whether to package as an executable. 
             Obfuscate = $false # Whether to obfuscate the resulting executable. 
             HideConsoleWindow = $false # Whether to hide the console window.  Only valid for console applications.
-            DotNetVersion = 'v4.6.2' # The target .NET Framework version. You will need the .NET Developer Pack for this version installed on your machine.  
+            # The target .NET Framework version. You will need the .NET Developer Pack for this version installed on your machine.
+            # If target PowerShell 7, you can also use netcoreapp31 here 
+            DotNetVersion = 'v4.6.2'
             FileVersion = '1.0.0' # The output file version
             FileDescription = '' # The output file description
             ProductName = '' # The output file product name
@@ -29,10 +31,11 @@ This about file contains information about using hashtables and PSD1 files to co
             PackageType = 'Console' # The type of executable to generate. Valid values are Service or Console. 
             ServiceName = "" # The name of the service if the package type is Service. 
             ServiceDisplayName = "" # The display name of the service if the package type is Service. 
-            PowerShellCore = $true # Whether to bundle the PowerShell Core runtime within your executable. 
             HighDPISupport = $true  # Whether to enable high DPI support for WinForm applications
             PowerShellArguments = '' # Sets the arguments for the PowerShell process that is hosted within the executable. You can use arguments like -NoExit, -ExecutionPolicy and -NoProfile.
             Platform = 'x64' # Sets the architecture of the executable. Can be either 'x86' or 'x64'
+            PowerShellVersion = 'Windows PowerShell' # You can specify Windows PowerShell or PowerShell 7 or later versions version (e.g. 7.0.0)
+            RuntimeIdentifier = 'win-x64' # You can specify other runtimes like linux-x64 (See .NET Core runtime identifiers)
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
