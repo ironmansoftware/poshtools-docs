@@ -35,6 +35,7 @@
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
+  * [Diagnostics](powershell-pro-tools-documentation/visual-studio-code/diagnostics.md)
 * [Installers](powershell-pro-tools-documentation/installers.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Package.psd1](powershell-pro-tools-documentation/packaging/package.psd1.md)
