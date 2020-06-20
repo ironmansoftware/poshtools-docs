@@ -4,7 +4,11 @@ The [PowerShell Pro Tools extension for Visual Studio Code](https://marketplace.
 
 The primary features include
 
-* Packaging Integration 
+* Script Packaging
+* Windows Form Designer
+* Variable Explorer
+* Form Generator
+* One-Click Attach
 * Code Conversion 
 * Profiling 
 * Universal Dashboard Previewer
