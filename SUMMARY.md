@@ -34,6 +34,7 @@
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
+  * [One-Click Attach](powershell-pro-tools-documentation/visual-studio-code/one-click-attach.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Diagnostics](powershell-pro-tools-documentation/visual-studio-code/diagnostics.md)
 * [Installers](powershell-pro-tools-documentation/installers.md)
