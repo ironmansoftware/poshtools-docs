@@ -20,7 +20,7 @@ The PowerShell Module is available on the [PowerShell Gallery](https://www.power
 
 ### Trial Licenses
 
-Trial licenses are automatically installed on machines that have no been licensed previously. You have full access to all features of the product. The license will expire in three weeks.
+By default, PowerShell Pro Tools installs and allows for a limited set of features. If you would like to trial PowerShell Pro Tools without these limitations, you can [request a trial key](https://ironmansoftware.com/product/powershell-pro-tools-trial/). 
 
 ### Purchasing a License
 
@@ -43,4 +43,8 @@ You can use the `Install-PoshProToolsLicense` cmdlet to install your license.
 ```text
 Install-PoshProToolsLicense -Path C:\license.txt
 ```
+
+### Manual Installation
+
+You can manually install your license by placing a `license.lic` file in your `%AppData%\PowerShell Pro Tools` directory. The directory may not exist. Place the full XML of the license file you received in this file. 
 
