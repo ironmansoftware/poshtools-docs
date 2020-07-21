@@ -4,10 +4,6 @@ PowerShell Pro Tools offers a script performance profiler to time the execution 
 
 The feature is best defined as an instrumentation profiler that injects cmdlet calls into your script to thoroughly analyze your script. The script is executed with this injected code to accurately time the pipelines within your script. 
 
-## Requirements
-
-To use the profiler, you will need the PowerShell Pro Tools [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools) and [module](https://www.powershellgallery.com/packages/PowerShellProTools/1.10.0). Currently, the module is only available on Windows. 
-
 ## Profiling a Script
 
 To profile a script, open the script you wish to profile and execute the `PowerShell: Profile Script` command from within VS Code \(Ctrl+Shift+P\). The script will be instrumented and then executed within the VS Code PowerShell Session. After execution is complete, script timings will be added directly to the editor on the lines in which they were recorded. 
