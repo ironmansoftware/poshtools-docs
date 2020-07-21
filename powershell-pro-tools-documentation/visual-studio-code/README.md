@@ -11,5 +11,4 @@ The primary features include
 * One-Click Attach
 * Code Conversion 
 * Profiling 
-* Universal Dashboard Previewer
 
