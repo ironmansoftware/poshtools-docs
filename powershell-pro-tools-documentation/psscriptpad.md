@@ -58,7 +58,19 @@ PSScriptPad can also debug PowerShell scripts. It supports executing scripts, se
 
 ## PSReadline
 
-PSScriptPad supports [PSReadline](https://github.com/PowerShell/PSReadLine). PSReadline is packaged into the PSScriptPad executable and there is no need to install it separately. 
+PSScriptPad supports [PSReadline](https://github.com/PowerShell/PSReadLine). You will need to install PSReadline to use it.
+
+```text
+Install-Module PSReadline
+```
+
+## Themes 
+
+You can switch between dark and light themes using the options dialog. 
+
+![](../.gitbook/assets/image%20%2828%29.png)
+
+
 
 
 
