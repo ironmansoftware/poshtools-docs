@@ -32,6 +32,7 @@
   * [Automating Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/automating-visual-studio-code.md)
   * [Diagnostics](powershell-pro-tools-documentation/visual-studio-code/diagnostics.md)
   * [Generating a UI from a function](powershell-pro-tools-documentation/visual-studio-code/generating-a-ui-from-a-function.md)
+  * [Generate a Tool from a Function](powershell-pro-tools-documentation/visual-studio-code/generate-a-tool-from-a-function.md)
   * [One-Click Attach](powershell-pro-tools-documentation/visual-studio-code/one-click-attach.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
