@@ -12,6 +12,16 @@ For offline installation instructions, click here.
 
 The Visual Studio Code extension is available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools) and can be installed from within Visual Studio Code. Search for PowerShell Pro Tools when searching in VSC. 
 
+**Visual Studio Code Offline Install**
+
+You can install a Visual Studio Code extension by downloading the VSIX file from the Marketplace and then clicking Install from VSIX within the extension pane in Visual Studio Code. 
+
+![](../../.gitbook/assets/image%20%2829%29.png)
+
+![](../../.gitbook/assets/image%20%2830%29.png)
+
+
+
 **PowerShell Module**
 
 The PowerShell Module is available on the [PowerShell Gallery](https://www.powershellgallery.com/packages/powershellprotools/1.3.0). 
