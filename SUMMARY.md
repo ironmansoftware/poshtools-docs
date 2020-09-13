@@ -61,7 +61,7 @@
 
 ---
 
-* [PowerShell Tools for Visual Studio](powershell-tools-for-visual-studio.md)
-* [PowerShell Pro Tools for Visual Studio Code](powershell-pro-tools-for-visual-studio-code.md)
-* [PSScriptPad](psscriptpad.md)
+* [PowerShell Tools for Visual Studio](poshtools-changelog.md)
+* [PowerShell Pro Tools for Visual Studio Code](poshtools-vscode-changelog.md)
+* [PSScriptPad](psscriptpad-changelog.md)
 
