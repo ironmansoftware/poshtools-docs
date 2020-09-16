@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.6.0 - 9-16-2020
+
+**Added**
+
+* Added support for packaging the 7.0.2 and 7.0.3 PowerShell SDK
+
 ### 5.5.7 - 9-13-2020
 
 **Changed**
