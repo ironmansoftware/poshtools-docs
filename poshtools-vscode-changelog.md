@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.14.1 - 9-17-2020
+
+**Changed**
+
+* Fixed an issue with packaging Windows Forms applications with PS7
+
 ### 5.14.0 - 9-16-2020
 
 **Added**
