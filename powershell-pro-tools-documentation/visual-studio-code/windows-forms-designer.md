@@ -1,5 +1,9 @@
 # Windows Forms Designer
 
+{% hint style="info" %}
+The Windows Form Designer is only supported on Windows.
+{% endhint %}
+
 ## Opening the Designer
 
 To open the designer, issue the `PowerShell: Show Windows Forms Designer` command in VS Code. You will want to have an active PS1 file selected as this will be the main file that the editor will use. 
