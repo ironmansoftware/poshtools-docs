@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.15.0 - 9-21-2020
+
+**Added**
+
+* Support for Linux
+
 ### 5.14.1 - 9-17-2020
 
 **Changed**
