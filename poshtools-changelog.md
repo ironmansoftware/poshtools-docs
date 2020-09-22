@@ -8,6 +8,14 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.6.2 - 9-22-2020
+
+**Changed**
+
+* Fixed an issue where parse errors would not be highlighed
+* Fixed an issue where clicking a parse or analysis error in the error list would throw an exception
+* Fixed an issue with the NumericDropDown Windows Form component would not be generated correctly. 
+
 ### 5.6.1 - 9-17-2020
 
 **Changed**
