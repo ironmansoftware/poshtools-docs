@@ -9,14 +9,15 @@
 * [Debugging](powershell-tools-documentation/chapter1/README.md)
   * [Local Debugging](powershell-tools-documentation/chapter1/local-debugging.md)
   * [Remote Debugging](powershell-tools-documentation/chapter1/remote-debugging.md)
-* [Diagnostics](powershell-tools-documentation/diagnostics.md)
 * [PowerShell Interactive Window](powershell-tools-documentation/powershell-interactive-window.md)
 * [Project System](powershell-tools-documentation/project-system/README.md)
   * [Build Events](powershell-tools-documentation/project-system/build-eventys.md)
   * [Enabling MSBuild Support for VS2015](powershell-tools-documentation/project-system/enabling-msbuild-support-for-vs2015.md)
   * [Upgrading a PowerShell Project to use June Release MSBuild Tasks](powershell-tools-documentation/project-system/upgrading-a-powershell-project-to-use-june-release-msbuild-tasks.md)
 * [Settings](powershell-tools-documentation/settings/README.md)
-  * [Syntax Highlighting](powershell-tools-documentation/settings/syntax-highlighting.md)
+  * [General](powershell-tools-documentation/settings/general.md)
+  * [Analysis](powershell-tools-documentation/settings/analysis.md)
+  * [Diagnostics](powershell-tools-documentation/settings/diagnostics.md)
 * [Unit Test Adapter](powershell-tools-documentation/unit-test-adapter.md)
 
 ## PowerShell Pro Tools Documentation

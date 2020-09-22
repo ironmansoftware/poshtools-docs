@@ -6,5 +6,3 @@ PowerShell Projects support pre-build and post-build events. Currently, there is
 
 You can access the pre and post build events by opening the Properties page for you project. You can add PowerShell scripts and access MSBuild variables in your build events. You build events are executed when MSBuild builds your PowerShell project.
 
-![](https://i2.wp.com/poshtools.com/wp-content/uploads/2017/06/buildevents.png?resize=567%2C472&ssl=1)
-
