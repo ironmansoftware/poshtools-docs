@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.6.3 - 9-24-2020
+
+**Changed**
+
+* Fixed an issue where compiling a PowerShell 7 executable that included WinForms wouldn't work if Hide Console Window was unchecked. 
+
 ### 5.6.2 - 9-22-2020
 
 **Changed**
