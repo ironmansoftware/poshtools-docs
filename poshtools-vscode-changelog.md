@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.15.1 - 9-28-2020
+
+**Changed**
+
+* Fixed an issue with bundling the ActiveDirectory module in PowerShell 7 standalone executables
+
 ### 5.15.0 - 9-21-2020
 
 **Added**

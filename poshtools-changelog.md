@@ -8,6 +8,13 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.6.4 - 9-28-2020
+
+**Changed**
+
+* Fixed an issue where the error list line number would be off by one
+* Fixed an issue with bundling the ActiveDirectory module in PowerShell 7 standalone executables
+
 ### 5.6.3 - 9-24-2020
 
 **Changed**
