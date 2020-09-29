@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.15.2 - 9-29-2020
+
+**Changed**
+
+* Fixed an issue in PSScriptPad where variables would not be shown during debugging. 
+
 ### 5.15.1 - 9-28-2020
 
 **Changed**

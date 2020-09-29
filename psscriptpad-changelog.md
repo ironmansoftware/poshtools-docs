@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.7.4 - 9-29-2020
+
+**Changed**
+
+* Fixed an issue where variables would not be shown during debugging.
+
 ### 5.7.2 – 9-13-2020
 
 **Changed**
