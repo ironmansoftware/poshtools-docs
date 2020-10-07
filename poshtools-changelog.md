@@ -12,7 +12,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Added**
 
-* Go to definition support for commands and functions
+* [Go to definition support](powershell-pro-tools-documentation/visual-studio/go-to-definition.md) for commands and functions
 
 ### 5.6.4 - 9-28-2020
 
