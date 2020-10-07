@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.0 - 10-07-2020
+
+**Added**
+
+* Go to definition support for commands and functions
+
 ### 5.6.4 - 9-28-2020
 
 **Changed**
