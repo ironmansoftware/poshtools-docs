@@ -4,6 +4,13 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.15.4 - 10-15-2020
+
+**Changed**
+
+* Fixed an issue with bundling modules that contained System.Management.Automation.dll
+* Fixed an issue with bundling modules that contained RootModules nested in a folder
+
 ### 5.15.2 - 9-29-2020
 
 **Changed**
