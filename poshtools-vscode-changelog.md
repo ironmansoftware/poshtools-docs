@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+### 5.16.0 - 10-20-2020
+
+**Added**
+
+* Added support for Mac OS
+
 ### 5.15.4 - 10-15-2020
 
 **Changed**
