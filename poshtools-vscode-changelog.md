@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.1 - 10-26-2020
+
+**Changed**
+
+* Fixed an issue where packaging would fail with a duplicate assembly error 
+
 ### 5.16.0 - 10-20-2020
 
 **Added**
