@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.2 - 10-28-2020
+
+**Changed**
+
+* Fixed an issue where the profile would run within the PoshTools host process rather than in the PowerShell process. 
+
 ## 5.16.1 - 10-26-2020
 
 **Changed**
