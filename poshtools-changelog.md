@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.6 - 10-26-2020
+
+* Fixed an issue where script analysis would fail to start due to a threading issue
+* Fixed an issue where the packager would state that there was unreachable code detected
+
 ### 5.7.5 - 10-26-2020
 
 **Changed**

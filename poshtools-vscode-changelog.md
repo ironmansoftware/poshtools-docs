@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.3 - 10-30-2020
+
+* Fixed an issue where the packager would state that there was unreachable code detected
+
 ## 5.16.2 - 10-28-2020
 
 **Changed**
