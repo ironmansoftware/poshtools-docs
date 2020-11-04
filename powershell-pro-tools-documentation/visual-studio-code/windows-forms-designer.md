@@ -6,7 +6,7 @@ The Windows Form Designer is only supported on Windows.
 
 ## Creating a New Form
 
-Create a PowerShell script clicking File \ New File, entering the name of the file with a `.PS1` extension. Then, open the Windows Form designer.
+Create a PowerShell script by clicking File \ New File, entering the name of the file with a `.PS1` extension. This will be the script that is used to launch your form. 
 
 ## Opening the Designer
 
