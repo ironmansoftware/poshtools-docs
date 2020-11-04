@@ -12,3 +12,11 @@ The primary features include
 * Code Conversion 
 * Profiling 
 
+PowerShell Pro Tools provides an activity bar icon to access many of the tools. 
+
+![](../../.gitbook/assets/image%20%2835%29.png)
+
+Within the activity bar, you'll find tools like the AST explorer, the module explorer and the variable explorer. 
+
+![](../../.gitbook/assets/image%20%2836%29.png)
+
