@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.4 - 11-4-2020
+
+* Fixed an issue with packaging the NTFSSecurity module
+
 ## 5.16.3 - 10-30-2020
 
 * Fixed an issue where the packager would state that there was unreachable code detected

@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.7.5 - 11-4-2020
+
+* Fixed an issue with packaging the NTFSSecurity module
+
 ### 5.7.4 - 9-29-2020
 
 **Changed**
