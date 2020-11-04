@@ -4,9 +4,17 @@
 The Windows Form Designer is only supported on Windows.
 {% endhint %}
 
+## Creating a New Form
+
+Create a PowerShell script clicking File \ New File, entering the name of the file with a `.PS1` extension. Then, open the Windows Form designer.
+
 ## Opening the Designer
 
-To open the designer, issue the `PowerShell: Show Windows Forms Designer` command in VS Code. You will want to have an active PS1 file selected as this will be the main file that the editor will use. 
+To open the designer press `Ctrl+Shift+P` and then type `Show Windows Forms Designer` . The `PowerShell Pro Tools: Show Windows Forms Designer` command should be show. Click or press enter.  
+
+You can also open a form by clicking the Show Windows Forms Designer button in the tool bar of a PS1 file. 
+
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 ## Working with the Designer
 
