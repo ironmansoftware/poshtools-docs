@@ -1,4 +1,4 @@
-# Bundling and Packaging with MSBuild
+# Packaging in Visual Studio
 
 {% hint style="info" %}
 Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
@@ -79,4 +79,26 @@ Output from the packaging process will be shown in the Output pane.
 ### Package Output 
 
 The package is output to the configured output directory in the PowerShell Project. You can get the full path to the executable by looking in the Output pane after packaging. 
+
+## Packaging PowerShell 7 in Visual Studio 
+
+In Visual Studio, you can package PowerShell 7 into the executable. When you package for PowerShell 7, it includes the .NET Core runtime and PowerShell SDK directly into your executable. Your executable will be significantly larger in size but will also be able to run without having to install PowerShell 7.
+
+{% hint style="info" %}
+You will need the [.NET Core 3.1 or later](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.404-windows-x64-installer) SDK installed to bundle PowerShell 7 executables. 
+{% endhint %}
+
+To bundle for PowerShell 7, you will need to set two settings. First, set the .NET version to `netcoreapp31`. This will use the .NET Core 3.1 SDK to bundle your executable. Next, you will need to set the PowerShell version to 7.0 or later. 
+
+![](../../.gitbook/assets/image%20%2839%29.png)
+
+The resulting executable will be written to the output directory listed in the Output pane. 
+
+![](../../.gitbook/assets/image%20%2838%29.png)
+
+To deploy your executable, you will only need to include the exe file. For example: 
+
+```text
+ C:\Users\adamr\source\repos\PowerShellProject3\PowerShellProject3\bin\Debug\Form.exe
+```
 

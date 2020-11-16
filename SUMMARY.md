@@ -44,7 +44,7 @@
 * [Installers](powershell-pro-tools-documentation/installers.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Package.psd1](powershell-pro-tools-documentation/packaging/package.psd1.md)
-  * [Bundling and Packaging with MSBuild](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
+  * [Packaging in Visual Studio](powershell-pro-tools-documentation/packaging/bundling-and-packaging-with-msbuild.md)
   * [Package as Executable](powershell-pro-tools-documentation/packaging/package-as-executable.md)
   * [Package as Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
