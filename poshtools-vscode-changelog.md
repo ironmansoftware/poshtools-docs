@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.6 - 11-16-2020
+
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules. 
+
 ## 5.16.5 - 11-09-2020
 
 * Fixed an issue where the PoshTools extension would fail to load if the user profile contained spaces.

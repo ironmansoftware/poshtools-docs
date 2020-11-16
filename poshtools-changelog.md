@@ -11,6 +11,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ### 5.7.8 - 11-16-2020
 
 * Fixed an issue where the analysis service could fail to start
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules. 
 
 ### 5.7.7 - 11-4-2020
 
