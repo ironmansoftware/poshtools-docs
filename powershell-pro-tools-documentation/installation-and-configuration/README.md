@@ -44,7 +44,9 @@ Click Help and About PowerShell Pro Tools to view and change your license.
 
 #### Visual Studio Code
 
-Use the `PowerShell Pro Tools: Install License Key` command to install your license. Simply copy and paste the contents of your license in to the text box that appears. You can access the commands by using the `Ctrl+Shift+P` key stroke. 
+Use the `PowerShell Pro Tools: Install License Key` command to install your license. 
+
+In Visual Studio Code, press `Ctrl+Shift+P` to activate the command palette. Once the palette is shown, you can start to search for the command listed above. Select it and press enter. A new text box will be shown. Copy and paste the contents of your license file into the textbox and press enter. 
 
 ### PowerShell
 
