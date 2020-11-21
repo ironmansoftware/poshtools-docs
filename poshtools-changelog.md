@@ -11,6 +11,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ### 5.7.9 - 11-21-2020
 
 * Fixed an issue where debugging wouldn't stop on breakpoints in PowerShell 7.1
+* Removed the Reset PowerShell Session option because it caused many problems when enabled. 
 
 ### 5.7.8 - 11-16-2020
 
