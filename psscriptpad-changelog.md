@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.7.6 - 11-21-2020
+
+* Fixed an issue where the license link would go to a 404 page.
+
 ### 5.7.5 - 11-4-2020
 
 * Fixed an issue with packaging the NTFSSecurity module
