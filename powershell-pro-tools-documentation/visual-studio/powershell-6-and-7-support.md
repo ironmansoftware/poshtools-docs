@@ -10,3 +10,9 @@ You can use the General options page of PowerShell Tools to select PowerShell 6 
 
 You can also use the PowerShell Tools toolbar PowerShell Version combo box to select the PowerShell version. You can enable the toolbar by right clicking on the Visual Studio toolbar and then select PowerShell Tools. 
 
+![](../../.gitbook/assets/image%20%2845%29.png)
+
+To select the PowerShell version, select the version in the drop down.
+
+![](../../.gitbook/assets/image%20%2846%29.png)
+
