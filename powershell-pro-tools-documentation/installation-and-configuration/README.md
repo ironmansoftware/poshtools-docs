@@ -48,6 +48,8 @@ Use the `PowerShell Pro Tools: Install License Key` command to install your lice
 
 In Visual Studio Code, press `Ctrl+Shift+P` to activate the command palette. Once the palette is shown, you can start to search for the command listed above. Select it and press enter. A new text box will be shown. Copy and paste the contents of your license file into the textbox and press enter. 
 
+You can also click the Install License button on the notification that is shown when starting the VS Code extension. This will prompt for you to select the license file. 
+
 ### PowerShell
 
 You can use the `Install-PoshProToolsLicense` cmdlet to install your license.
