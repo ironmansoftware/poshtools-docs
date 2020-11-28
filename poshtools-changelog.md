@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.11 - 11-27-2020
+
+* Fixed an issue where expanding a collection in the variable window with a single value wouldn't work. 
+
 ### 5.7.10 - 11-23-2020
 
 * Fixed an issue where the PowerShell version drop down wouldn't show the current version
