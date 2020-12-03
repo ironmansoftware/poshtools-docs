@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.6.8 - 12-3-2020
+
+* Added support for PowerShell Pro Tools subscriptions
+
 ## 5.6.7 - 11-16-2020
 
 * Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules. 

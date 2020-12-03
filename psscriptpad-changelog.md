@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.7.7 - 12-2-2020
+
+* Added support for PowerShell Pro Tools subscriptions
+
 ### 5.7.6 - 11-21-2020
 
 * Fixed an issue where the license link would go to a 404 page.

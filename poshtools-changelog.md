@@ -13,6 +13,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 * Fixed an issue where script analysis could fail after a script was saved with syntax errors
 * Fixed an issue with the WPF event binding service where it would fail silently when an event handler was added to a control without a name.
 * Fixed an issue with the WPF event binding service where it would generate functions with unapproved verbs
+* Added support for PowerShell Pro Tools subscriptions
 
 ### 5.7.12 - 11-30-2020
 
