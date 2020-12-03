@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.9 - 12-2-2020
+
+* Changed purchasing links to point to new store
+* Fixed an issue where collections would not expand correctly.
+
 ## 5.16.7 - 11-21-2020
 
 * Added support for [scoped package.psd1 files](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md#scoped-package-psd1)
