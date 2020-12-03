@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.13 - 12-3-2020
+
+* Fixed an issue where script analysis could fail after a script was saved with syntax errors
+* Fixed an issue with the WPF event binding service where it would fail silently when an event handler was added to a control without a name.
+* Fixed an issue with the WPF event binding service where it would generate functions with unapproved verbs
+
 ### 5.7.12 - 11-30-2020
 
 * Fixed an issue where variable expansion would not work correctly for objects that were IEnumerable but did not generic
