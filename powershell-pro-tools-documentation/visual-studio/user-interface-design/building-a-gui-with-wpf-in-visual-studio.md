@@ -6,12 +6,16 @@ Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 
 ## Building a GUI with Windows Forms in Visual Studio
 
+{% embed url="https://youtu.be/qh\_GGiSkxnw" %}
+
+
+
 ## Applies to:
 
 You will need the following:
 
-* Visual Studio 2015 and Visual Studio 2017
-* PowerShell Pro Tools for Visual Studio 2015 and 2017
+* Visual Studio 2017 and Visual Studio 2019
+* PowerShell Pro Tools for Visual Studio
 
 ## Creating a Project
 
