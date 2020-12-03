@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.10 - 12-3-2020
+
+* Added support for PowerShell Pro Tools subscriptions
+
 ## 5.16.9 - 12-2-2020
 
 * Changed purchasing links to point to new store
