@@ -34,19 +34,21 @@ By default, PowerShell Pro Tools installs and allows for a limited set of featur
 
 ### Purchasing a License
 
-Visit the [purchasing page](https://ironmansoftware.com/powershell-pro-tools/) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
+Visit the [purchasing page](https://store.ironmansoftware.com/pricing/powershell-pro-tools) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
 
 ### Installing a License
 
 ### Visual Studio 
 
-Click Help and About PowerShell Pro Tools to view and change your license.
+You can install your license file in Visual Studio by click Help and then About PowerShell Pro Tools Licensing. This will open a dialog that will allow you to install your license. Click the Install License button and select your license file. 
+
+![](../../.gitbook/assets/license.gif)
 
 #### Visual Studio Code
 
 Use the `PowerShell Pro Tools: Install License Key` command to install your license. 
 
-In Visual Studio Code, press `Ctrl+Shift+P` to activate the command palette. Once the palette is shown, you can start to search for the command listed above. Select it and press enter. A new text box will be shown. Copy and paste the contents of your license file into the textbox and press enter. 
+In Visual Studio Code, press `Ctrl+Shift+P` to activate the command palette. Once the palette is shown, you can start to search for the command listed above. Select it and press enter. VS Code will open the File Open dialog. Select your license file.
 
 You can also click the Install License button on the notification that is shown when starting the VS Code extension. This will prompt for you to select the license file. 
 

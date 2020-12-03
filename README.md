@@ -3,10 +3,8 @@
 PowerShell Tools for Visual Studio provides PowerShell language support to the development environment. You can enhance your experience with PowerShell Pro Tools features such as packaging, user interface designers and code conversion.
 
 {% hint style="info" %}
-To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com](https://ironmansoftware.com/powershell-pro-tools/).
+To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com](https://store.ironmansoftware.com/pricing/powershell-pro-tools).
 {% endhint %}
-
-You can file issues you encounter [here](https://poshtools.com/issues).
 
 ## Feature Comparison
 
