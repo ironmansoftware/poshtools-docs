@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.14 - 12-4-2020
+
+* Fix an issue with subscription registration. 
+
 ### 5.7.13 - 12-3-2020
 
 * Fixed an issue where script analysis could fail after a script was saved with syntax errors
