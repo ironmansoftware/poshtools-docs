@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.16.11 - 12-5-2020
+
+* Fixed an issue where the profiler failing to return results
+* Added millisecond timing to the profiler
+
 ## 5.16.10 - 12-3-2020
 
 * Added support for PowerShell Pro Tools subscriptions
