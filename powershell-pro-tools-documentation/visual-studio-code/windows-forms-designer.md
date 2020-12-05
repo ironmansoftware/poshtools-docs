@@ -4,6 +4,8 @@
 The Windows Form Designer is only supported on Windows.
 {% endhint %}
 
+{% embed url="https://youtu.be/LULI64meTUs" caption="Building A Windows Form with PowerShell in Visual Studio Code" %}
+
 ## Creating a New Form
 
 Create a PowerShell script by clicking File \ New File, entering the name of the file with a `.PS1` extension. This will be the script that is used to launch your form. 
