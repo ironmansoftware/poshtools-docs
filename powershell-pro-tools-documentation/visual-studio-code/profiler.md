@@ -4,6 +4,10 @@ PowerShell Pro Tools offers a script performance profiler to time the execution 
 
 The feature is best defined as an instrumentation profiler that injects cmdlet calls into your script to thoroughly analyze your script. The script is executed with this injected code to accurately time the pipelines within your script. 
 
+{% embed url="https://youtu.be/9DkxJ78C5ks" %}
+
+
+
 ## Profiling a Script
 
 To profile a script, open the script you wish to profile and execute the `PowerShell: Profile Script` command from within VS Code \(Ctrl+Shift+P\). The script will be instrumented and then executed within the VS Code PowerShell Session. After execution is complete, script timings will be added directly to the editor on the lines in which they were recorded. 
@@ -20,7 +24,7 @@ Being an early version of the profiler, there are some limitations.
 
 The profiler only profiles the current script. It will not profile scripts or modules that you reference. If you use functions within pipelines in your profiled script, those functions will be timed but their internal operations will not.
 
-Hot Path Support
+**Hot Path Support**
 
 Although the hot path information is available in the output from the profiler, there is no visual representation of this information.
 
@@ -31,6 +35,4 @@ The profiler has early support for pipeline element timing but does not expose t
 ```text
 Get-Process | Select-Object Name | Out-String  40.85% (1 calls)
 ```
-
-In a future version, individual commands will be able to be profiled.
 
