@@ -11,6 +11,7 @@ The primary features include
 * One-Click Attach
 * Code Conversion 
 * Profiling 
+* RapidSense
 
 PowerShell Pro Tools provides an activity bar icon to access many of the tools. 
 
