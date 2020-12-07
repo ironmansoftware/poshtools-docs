@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.17.0 - 12-6-2020
+
+* Added [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
+
 ## 5.16.11 - 12-5-2020
 
 * Fixed an issue where the profiler failing to return results
