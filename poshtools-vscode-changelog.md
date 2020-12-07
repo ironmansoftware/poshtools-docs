@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.17.1 - 12-7-2020
+
+* Fixed an issue where RapidSense wouldn't refresh caches after changing settings
+* Added Ignored Variables setting to RapidSense
+* Fixed an issue where the PowerShell Pro Tools module wouldn't be imported correctly
+
 ## 5.17.0 - 12-6-2020
 
 * Added [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
