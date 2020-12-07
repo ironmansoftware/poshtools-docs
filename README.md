@@ -13,6 +13,7 @@ To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com
 | **Editor** |  ✅ |  ✅ |
 | Syntax Highlighting |  ✅ |  ✅ |
 | IntelliSense |  ✅ |  ✅ |
+| [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md) |  ❌ |  ✅ |
 | PSScriptAnalyzer Support |  ❌ |  ✅ |
 | Quick Fix Support |  ❌ |  ✅ |
 | Function Navigation |  ✅ |  ✅ |
