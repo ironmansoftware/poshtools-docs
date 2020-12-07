@@ -10,6 +10,10 @@ RapidSense is an alternative to the default PowerShell IntelliSense that provide
 
 RapidSense works with Windows PowerShell and PowerShell 7.
 
+{% embed url="https://youtu.be/rIp6VPh91h0" %}
+
+
+
 ## Enabling RapidSense
 
 To enable RapidSense, click the IntelliSense button on the status bar. 
