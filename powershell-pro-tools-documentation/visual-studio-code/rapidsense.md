@@ -4,10 +4,6 @@ description: High performance statement completion.
 
 # RapidSense
 
-{% hint style="warning" %}
-This documentation is for an upcoming feature. 
-{% endhint %}
-
 RapidSense is an alternative to the default PowerShell IntelliSense that provides high performance, customizable statement completion. It aggressively caches PowerShell elements to provide to the best performance possible. It sacrifices some of the features of IntelliSense to provide this performance but aims to provide the most common statement completion suggestions. You can quickly toggle between IntelliSense and RapidSense. 
 
 RapidSense works with Windows PowerShell and PowerShell 7.
