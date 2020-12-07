@@ -39,6 +39,7 @@
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
+  * [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
 * [Installers](powershell-pro-tools-documentation/installers.md)
