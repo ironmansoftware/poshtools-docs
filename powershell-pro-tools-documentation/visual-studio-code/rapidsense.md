@@ -22,7 +22,7 @@ After clicking the IntelliSense button, it will toggle to RapidSense. RapidSense
 
 ![](../../.gitbook/assets/image%20%2850%29.png)
 
-RapidSense works the same as IntelliSense. As you being typing, it will suggest commands, parameters, variables, properties, methods and types. RapidSense currently does not complete paths, classes, or attributes. 
+RapidSense works the same as IntelliSense. As you begin typing, it will suggest commands, parameters, variables, properties, methods, paths and types. RapidSense currently does not complete static members, classes, or attributes. 
 
 RapidSense triggers on on the following characters: 
 
@@ -31,6 +31,7 @@ RapidSense triggers on on the following characters:
 .
 -
 [
+\
 ```
 
 When a trigger character is pressed the standard statement completion UI will be shown. 
@@ -43,9 +44,11 @@ RapidSense can be configured to ignore certain assemblies, types, modules and co
 
 For each of the ignored elements, you can define an array and separate them with semicolons. Each segment is treated as a regular expression.
 
-For example, the following configuration won't show commands from the `ActiveDirectory` module. You can still use these commands in your scripts but they will not be suggested to you are you type. Ignoring elements improves performance because they are not included in the cache at all. Including many ignored elements may reduce performance of the recaching process as it need to process additional regular expressions across the elements. Reaching happens after executing the debugger.
+For example, the following configuration won't show commands from the `ActiveDirectory` module. 
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
+
+You can still use these commands in your scripts but they will not be suggested to you are you type. Ignoring elements improves performance because they are not included in the cache at all. Including many ignored elements may reduce performance of the recaching process as it need to process additional regular expressions across the elements. Reaching happens after executing the debugger.
 
 ## Disabling RapidSense
 
