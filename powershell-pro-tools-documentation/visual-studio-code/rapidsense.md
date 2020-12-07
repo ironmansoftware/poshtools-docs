@@ -44,19 +44,27 @@ RapidSense can be configured to ignore certain assemblies, types, modules and co
 
 For each of the ignored elements, you can define an array and separate them with semicolons. Each segment is treated as a regular expression.
 
-For example, the following configuration won't show commands from the `ActiveDirectory` module. 
+For example, if you wanted to prevent cmdlets in the `ActiveDirectory` module from showing in RapidSense, add the following to the Ignored Modules setting.
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+```text
+ActiveDirectory
+```
 
-You can still use these commands in your scripts but they will not be suggested to you are you type. Ignoring elements improves performance because they are not included in the cache at all. Including many ignored elements may reduce performance of the recaching process as it need to process additional regular expressions across the elements. Reaching happens after executing the debugger.
+If you wanted to exclude all `System` assemblies from type completion. You could add a regular expression to the Ignore Assemblies setting.
+
+```text
+System.*
+```
+
+You can still use these commands in your scripts but they will not be suggested to you are you type. Ignoring elements improves performance because they are not included in the cache at all. Including many ignored elements may reduce performance of the recaching process as it need to process additional regular expressions across the elements. Recaching happens after executing the debugger.
 
 ### Available Settings
 
-Ignored Assemblies - Ignore types in certain assemblies   
-Ignored Types - Ignore specific types  
-Ignore Modules - Ignore commands found in certain modules  
-Ignore Commands - Ignore specific commands  
-Ignore Variables - Ignore specific variables.
+**Ignored Assemblies** - Ignore types in certain assemblies   
+**Ignored Types** - Ignore specific types  
+**Ignore Modules** - Ignore commands found in certain modules  
+**Ignore Commands** - Ignore specific commands  
+**Ignore Variables** - Ignore specific variables.
 
 ## Disabling RapidSense
 
