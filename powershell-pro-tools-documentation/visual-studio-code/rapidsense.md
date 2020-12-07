@@ -50,6 +50,14 @@ For example, the following configuration won't show commands from the `ActiveDir
 
 You can still use these commands in your scripts but they will not be suggested to you are you type. Ignoring elements improves performance because they are not included in the cache at all. Including many ignored elements may reduce performance of the recaching process as it need to process additional regular expressions across the elements. Reaching happens after executing the debugger.
 
+### Available Settings
+
+Ignored Assemblies - Ignore types in certain assemblies   
+Ignored Types - Ignore specific types  
+Ignore Modules - Ignore commands found in certain modules  
+Ignore Commands - Ignore specific commands  
+Ignore Variables - Ignore specific variables.
+
 ## Disabling RapidSense
 
 You can toggle back to standard IntelliSense by click the RapidSense button in the status bar. RapidSense caches will not be recached when RapidSense is disabled. 
