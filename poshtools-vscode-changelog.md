@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.17.2 - 12-8-2020
+
+* Fixed an issue where ignored elements were case sensitive 
+* Added support for expanding paths in strings
+* Added support for ignoring paths 
+
 ## 5.17.1 - 12-7-2020
 
 * Fixed an issue where RapidSense wouldn't refresh caches after changing settings
