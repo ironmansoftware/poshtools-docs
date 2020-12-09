@@ -12,6 +12,10 @@ Global hotkeys allow you to assign hotkeys to PowerShell script blocks. You have
 
 ## Defining a Hotkey
 
+{% hint style="warning" %}
+Hotkeys are associated with the current PowerShell window. If you close the window, the hotkeys won't work. You can use the hotkeys anywhere on your desktop as long as PowerShell is open. 
+{% endhint %}
+
 You can define hot keys using `Set-Hotkey`. This cmdlet allows you to specify the action to execute and the modifiers and key to invoke the action.
 
 In the example, pressing `Ctrl+B` will open notepad. 
