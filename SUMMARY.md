@@ -49,6 +49,7 @@
   * [Package as Executable](powershell-pro-tools-documentation/packaging/package-as-executable.md)
   * [Package as Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
+  * [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md)
   * [Show-PSScriptPad](powershell-pro-tools-documentation/powershell-module/show-psscriptpad.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
