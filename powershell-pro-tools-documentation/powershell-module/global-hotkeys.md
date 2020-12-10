@@ -26,16 +26,16 @@ Set-Hotkey -Action { Start-Process Notepad } -ModifierKeys Ctrl -Key B
 
 ### Passing Variables
 
-You can pass variables to actions just by defining them in the parent scope.
+You can pass variables by using the `$ArgumentList` parameter. These variables will appear in `$args` variable after the built in foreground and process ID variables. 
 
 ```text
 $Process = "Notepad"
-Set-Hotkey -Action { Start-Process $Process } -ModifierKeys Ctrl -Key B
+Set-Hotkey -Action { Start-Process $args[2] } -ArgumentList $Process -ModifierKeys Ctrl -Key B
 ```
 
 ### Accessing Foreground Window and Process Information
 
-You can access the foreground window title and process information by using the `$args` variable. The first argument it the foreground window title and the second argument is the process object for that window. 
+You can access the foreground window title and process information by using the `$args` variable. The first argument it the foreground window title and the second argument is the process ID.
 
 This example will write the foreground window title to the console. 
 
@@ -43,10 +43,10 @@ This example will write the foreground window title to the console.
 Set-Hotkey -Action { Write-Host $args[0] } -ModifierKeys Ctrl -Key B
 ```
 
-This example will open another instance of the selected process. The second argument is a [Process class](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=net-5.0).
+This example will open another instance of the selected process. The second argument is a process ID.
 
 ```text
-Set-Hotkey -Action { Start-Process $args[1].Path } -ModifierKeys Ctrl -Key B
+Set-Hotkey -Action { Start-Process (Get-Process -Id $args[1]).Path } -ModifierKeys Ctrl -Key B
 ```
 
 ## Retrieving Hotkeys

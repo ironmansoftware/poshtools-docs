@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.7.1 - 12-10-2020
+
+* Fixed an issue where Global Hotkeys could cause the PowerShell process to crash
+* Added an -ArgumentList parameter to the Set-HotKey cmdlet
+
 ## 5.7.0 - 12-9-2020
 
 * Added support for [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md).
