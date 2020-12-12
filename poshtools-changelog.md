@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.17 - 12-12-2020
+
+* Fixed an issue with the locals and watch window when using PowerShell 7.1
+
 ### 5.7.16 - 12-11-2020
 
 * Fixed an issue where copy and paste would not work as expected when debugging with the REPL window open
