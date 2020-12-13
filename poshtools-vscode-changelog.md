@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.17.3 - 12-13-2020
+
+* Fixed an issue where variables wouldn't work in PowerShell 7.1
+* Fixed an issue where Out-VSCodeGridView wouldn't work in PowerShell 7.1
+
 ## 5.17.2 - 12-8-2020
 
 * Fixed an issue where ignored elements were case sensitive 
