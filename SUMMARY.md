@@ -42,6 +42,7 @@
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
+  * [Refactoring](powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
 * [Installers](powershell-pro-tools-documentation/installers.md)
