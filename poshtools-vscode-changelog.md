@@ -4,10 +4,13 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
-## 5.17.3 - 12-13-2020
+## 5.18.0 - 12-13-2020
 
 * Fixed an issue where variables wouldn't work in PowerShell 7.1
 * Fixed an issue where Out-VSCodeGridView wouldn't work in PowerShell 7.1
+* Added a command to insert paths from [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
+* Added a command to view child items of a path in [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
+* Added a command to view item properties in [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
 
 ## 5.17.2 - 12-8-2020
 
