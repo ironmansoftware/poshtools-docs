@@ -16,7 +16,7 @@ If you want to clear the AST node selection, click the Clear Selection button.
 
 ## Host Process Explorer
 
-The host process explorer let's you view processes running PowerShell on your machine. You can click the Attach button to use the [One-Click Attach](one-click-attach.md) feature. 
+The host process explorer let's you view processes running PowerShell on your machine. You can click the Attach button to use the [One-Click Attach](debugging/one-click-attach.md) feature. 
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
