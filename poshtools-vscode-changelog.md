@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.0 - 12-14-2020
+
+* Added [Run in new Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
+* Added [Refactoring](powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
+
 ## 5.18.0 - 12-13-2020
 
 * Fixed an issue where variables wouldn't work in PowerShell 7.1

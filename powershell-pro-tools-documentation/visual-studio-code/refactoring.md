@@ -4,10 +4,6 @@ description: Refactoring commands for VS Code.
 
 # Refactoring
 
-{% hint style="warning" %}
-This functionality is coming in a future version of PowerShell Pro Tools.
-{% endhint %}
-
 ## About
 
 Refactorings allow you to change or generate code based on the code you have. You will find a list of refactors below. You can invoke a refactor by invoke the Refactor command or by pressing the key binding `Ctrl+Alt+R` . 

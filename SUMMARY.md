@@ -33,7 +33,7 @@
 * [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/README.md)
   * [Automating Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/automating-visual-studio-code.md)
   * [Debugging](powershell-pro-tools-documentation/visual-studio-code/debugging/README.md)
-    * [Start in New Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
+    * [Run in New Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
     * [One-Click Attach](powershell-pro-tools-documentation/visual-studio-code/debugging/one-click-attach.md)
   * [Diagnostics](powershell-pro-tools-documentation/visual-studio-code/diagnostics.md)
   * [Generating a UI from a function](powershell-pro-tools-documentation/visual-studio-code/generating-a-ui-from-a-function.md)
