@@ -14,6 +14,12 @@ Refactorings allow you to change or generate code based on the code you have. Yo
 
 Only valid refactorings will be returned in the drop down menu.
 
+## Convert to Splat
+
+Converts a command invocation into a splatting expression and creates a hashtable named `$Parameters` and then passes that hashtable as a splatting expression to the command. Positional arguments are not added to the hashtable.
+
+![Convert to Splat](../../.gitbook/assets/convert-to-splat.gif)
+
 ## Export Module Member
 
 Exports the selected variable or function from a module using `Export-ModuleMember`.
