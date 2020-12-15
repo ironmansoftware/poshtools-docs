@@ -12,10 +12,6 @@ Only valid refactors will be returned in the drop down menu.
 
 ## Convert to Multiline Command
 
-{% hint style="warning" %}
-The command is coming in a future version of PowerShell Pro Tools.
-{% endhint %}
-
 Converts a command invocation into a multi-line command. Each parameter and argument is broken up with backticks. 
 
 ![](../../.gitbook/assets/multi-line.gif)

@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.1 - 12-15-2020
+
+* Added [Convert To Multiline Command](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-multiline-command) Refactoring
+
 ## 5.19.0 - 12-14-2020
 
 * Added [Run in new Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
