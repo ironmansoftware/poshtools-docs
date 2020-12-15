@@ -10,6 +10,12 @@ Refactorings allow you to change or generate code based on the code you have. Yo
 
 Only valid refactors will be returned in the drop down menu.
 
+## Convert to Multiline Command
+
+Converts a command invocation into a multi-line command. Each parameter and argument is broken up with backticks. 
+
+![](../../.gitbook/assets/multi-line.gif)
+
 ## Convert to Splat
 
 Converts a command invocation into a splatting expression and creates a hashtable named `$Parameters` and then passes that hashtable as a splatting expression to the command. Positional arguments are not added to the hashtable.
