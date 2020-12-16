@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.8.0 - 12-16-2020
+
+* Settings are now stored in the registry
+* Added a setting for overriding the machine's execution policy
+* Fixed an issue where errors would be thrown when attempting to view variables in Windows PowerShell
+
 ### 5.7.7 - 12-2-2020
 
 * Added support for PowerShell Pro Tools subscriptions
