@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.2 - 12-17-2020
+
+* Added [Generate Function from Usage ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-function-from-usage)Refactoring
+
 ## 5.19.1 - 12-15-2020
 
 * Added [Convert To Multiline Command](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-multiline-command) Refactoring
