@@ -40,3 +40,9 @@ You can use the Extract Selection to File refactor to create a new file based on
 
 ![Extract Selection to File](../../.gitbook/assets/extract-file%20%281%29.gif)
 
+## Generate Function from Usage
+
+You can generate a function based on a command example. This refactoring will analyze the parameters, arguments and whether the command is used in a pipeline. If used in a pipeline, this refactoring will generate an advanced function. 
+
+![Generate Function from Usage](../../.gitbook/assets/generate-function.gif)
+
