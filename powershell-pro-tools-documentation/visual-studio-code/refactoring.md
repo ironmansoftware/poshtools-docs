@@ -46,3 +46,9 @@ You can generate a function based on a command example. This refactoring will an
 
 ![Generate Function from Usage](../../.gitbook/assets/generate-function.gif)
 
+## Reorder Parameters
+
+You can reorder parameters by using the `Ctrl+PageUp` and `Ctrl+PageDown` key bindings. Ensure that your cursor is on top of a parameter for a command. Press one of the key bindings. To move a parameter to the right, use Page Up. To move a parameter to the left, use Page Down. 
+
+![Reorder Parameters](../../.gitbook/assets/move-parameters.gif)
+

@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.3 - 12-18-2020
+
+* Added [Reorder Parameters](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters) 
+
 ## 5.19.2 - 12-17-2020
 
 * Added [Generate Function from Usage ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-function-from-usage)Refactoring
