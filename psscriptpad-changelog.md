@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.8.1 - 12-21-2020
+
+* Fixed an issue with the console running commands in the wrong runspace
+* Fixed a display issue with the terminal
+
 ### 5.8.0 - 12-16-2020
 
 * Settings are now stored in the registry
