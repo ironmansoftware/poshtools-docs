@@ -7,6 +7,10 @@ description: Changelog for PSScriptPad
 ### 5.8.2 - 12-24-2020
 
 * Added option for Font Size
+* Fixed a crash that would happen when setting a breakpoint after saving a new file
+* Added support for package.psd1 config files
+* Added support for opening and saving PSM1 and PSD1 files
+* Fixed an issue where output from the package process would not be shown
 
 ### 5.8.1 - 12-21-2020
 
