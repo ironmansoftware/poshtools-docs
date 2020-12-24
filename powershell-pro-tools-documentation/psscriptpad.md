@@ -72,9 +72,9 @@ You can select an PS1 file and click the package button and the script will be p
 
 ### Packaging with a Package.PSD1 File
 
-Package.psd1 files allow you to configure all the settings for the packaging process. You can create a package.psd1 file and then when you click the Package button, it will use that file for configuration.
+[Package.psd1](packaging/package.psd1.md) files allow you to configure all the settings for the packaging process. You can create a package.psd1 file and then when you click the Package button, it will use that file for configuration.
 
-
+![Package.PSD1](../.gitbook/assets/packagepsd1.gif)
 
 
 
@@ -112,7 +112,21 @@ You can run a form by open the PS1 file for your form and pressing `F5` or by cl
 
 ![Running a Form](../.gitbook/assets/run-form.gif)
 
-## Themes 
+## Options
+
+### Context Menu
+
+Add an Open with PSScriptPad context menu item to Windows Explorer so you can right click on PS1 files and open them in the editor.
+
+### Font Size
+
+Set the font size for the terminal and code editor windows.
+
+### Override Execution Policy
+
+Set the execution policy for PSScriptPad to Bypass.
+
+### Themes
 
 You can switch between dark and light themes using the options dialog. 
 
