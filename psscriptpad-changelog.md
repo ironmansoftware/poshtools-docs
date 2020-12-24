@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.8.2 - 12-24-2020
+
+* Added option for Font Size
+
 ### 5.8.1 - 12-21-2020
 
 * Fixed an issue with the console running commands in the wrong runspace
