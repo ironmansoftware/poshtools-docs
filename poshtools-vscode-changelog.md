@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.4 - 12-23-2020
+
+* Added support for the PowerShell Preview extension
+
 ## 5.19.3 - 12-18-2020
 
 * Added [Reorder Parameters](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters) 
