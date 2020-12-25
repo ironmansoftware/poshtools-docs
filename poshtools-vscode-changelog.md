@@ -4,6 +4,14 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.5 - 12-25-2020
+
+* Reorganized tree view providers
+* Added Help and Information node
+* Fixed an issue where an error could be shown if the tree view was clicked before the extension was fully loaded
+* Added options for hiding tree view providers
+* Added an option to enable module update checks \(now disabled by default\) as it was slow on many machines
+
 ## 5.19.4 - 12-23-2020
 
 * Added support for the PowerShell Preview extension
