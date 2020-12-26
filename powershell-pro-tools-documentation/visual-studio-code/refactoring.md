@@ -46,6 +46,12 @@ You can generate a function based on a command example. This refactoring will an
 
 ![Generate Function from Usage](../../.gitbook/assets/generate-function.gif)
 
+## Introduce Using Namespace
+
+The introduce using namespace refactoring adds a `using namespace` statement to the top of a script and replaces the selected type expression with the namespace removed. 
+
+![Introduce Using Namespace](../../.gitbook/assets/introduce-using.gif)
+
 ## Reorder Parameters
 
 You can reorder parameters by using the `Ctrl+PageUp` and `Ctrl+PageDown` key bindings. Ensure that your cursor is on top of a parameter for a command. Press one of the key bindings. To move a parameter to the right, use Page Up. To move a parameter to the left, use Page Down. 
