@@ -52,3 +52,9 @@ You can reorder parameters by using the `Ctrl+PageUp` and `Ctrl+PageDown` key bi
 
 ![Reorder Parameters](../../.gitbook/assets/move-parameters.gif)
 
+## Split Pipeline
+
+The split pipe refactoring will split a pipe into multiple lines. Each element in the pipe is stored in a variable and passed to the next item in the pipe. This can be useful for debugging long or complex pipeline operations.
+
+![Split pipeline](../../.gitbook/assets/split-pipe.gif)
+
