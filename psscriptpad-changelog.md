@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.8.3 - 12-26-2020
+
+* Fixed an issue where PSScriptPad would crash when using Save As
+
 ### 5.8.2 - 12-24-2020
 
 * Added option for Font Size
