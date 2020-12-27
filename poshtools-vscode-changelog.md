@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.8 - 12-28-2020
+
+* Added [Enhanced Hover](powershell-pro-tools-documentation/visual-studio-code/enhanced-hover.md) support
+
 ## 5.19.7 - 12-27-2020
 
 * Fixed issue with Split Pipeline refactoring changing the functionality of a script
