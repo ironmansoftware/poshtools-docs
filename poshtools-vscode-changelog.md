@@ -8,8 +8,8 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 * Fixed issue with Split Pipeline refactoring changing the functionality of a script
 * Added integration into VS Code refactoring provider system
-* Added Convert to $PSItem refactoring
-* Added Convert to $\_ refactoring
+* Added [Convert to $PSItem](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usdpsitem) refactoring
+* Added [Convert to $\_](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd_) refactoring
 * Fixed an issue where Split Pipeline would show on one-command pipelines
 
 ## 5.19.6 - 12-26-2020
