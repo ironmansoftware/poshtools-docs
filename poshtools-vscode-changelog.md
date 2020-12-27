@@ -4,7 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
-## 5.19.6 - 12-16-2020
+## 5.19.7 - 12-27-2020
+
+* Fixed issue with Split Pipeline refactoring
+* Added integration into VS Code refactoring provider system
+
+## 5.19.6 - 12-26-2020
 
 * Added [Split Pipeline ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#split-pipeline)refactoring
 * Added [Introduce Using Namespace ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#introduce-using-namespace)refactoring
