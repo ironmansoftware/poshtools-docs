@@ -10,6 +10,18 @@ Refactorings allow you to change or generate code based on the code you have. Yo
 
 Only valid refactors will be returned in the drop down menu.
 
+## Convert to $\_
+
+This refactoring converts a `$PSItem` variable to the `$_` variable. 
+
+![Convert to $\_](../../.gitbook/assets/converttodollarunder.gif)
+
+## Convert to $PSItem
+
+Converts a reference to the `$_` variable to `$PSItem`.
+
+![Convert to $PSItem](../../.gitbook/assets/converttopsitem.gif)
+
 ## Convert to Multiline Command
 
 Converts a command invocation into a multi-line command. Each parameter and argument is broken up with backticks. 

@@ -6,8 +6,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.19.7 - 12-27-2020
 
-* Fixed issue with Split Pipeline refactoring
+* Fixed issue with Split Pipeline refactoring changing the functionality of a script
 * Added integration into VS Code refactoring provider system
+* Added Convert to $PSItem refactoring
+* Added Convert to $\_ refactoring
+* Fixed an issue where Split Pipeline would show on one-command pipelines
 
 ## 5.19.6 - 12-26-2020
 
