@@ -58,6 +58,12 @@ You can generate a function based on a command example. This refactoring will an
 
 ![Generate Function from Usage](../../.gitbook/assets/generate-function.gif)
 
+## Generate Proxy Function
+
+Proxy functions allow you to extend existing functions with new parameters and functionality. You can select a command that you use within your script and select the Generate Proxy Function refactoring to have it generate the proxy function code for you.
+
+![Generate Proxy Function](../../.gitbook/assets/proxy.gif)
+
 ## Introduce Using Namespace
 
 The introduce using namespace refactoring adds a `using namespace` statement to the top of a script and replaces the selected type expression with the namespace removed. 
