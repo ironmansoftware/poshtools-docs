@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.9 - 12-31-2020
+
+* Added [Generate Proxy Function ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-proxy-function)refactoring
+* Fixed an issue with convert to $\_ and convert to $PSItem refactorings
+
 ## 5.19.8 - 12-28-2020
 
 * Added [Enhanced Hover](powershell-pro-tools-documentation/visual-studio-code/enhanced-hover.md) support
