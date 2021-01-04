@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.19.10 - 1-04-2021
+
+* Fixed an issue where Generate Proxy Function would show errors in the terminal
+* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case. 
+
 ## 5.19.9 - 12-31-2020
 
 * Added [Generate Proxy Function ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-proxy-function)refactoring
