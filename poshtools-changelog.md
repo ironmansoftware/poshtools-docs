@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.19 - 1-4-2021
+
+* Fixed an issue where stepping through a ForEach loop would fail to step properly
+* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case. 
+
 ### 5.7.18 - 12-30-2020
 
 * Fixed an issue where constrained language mode would fail silently.
