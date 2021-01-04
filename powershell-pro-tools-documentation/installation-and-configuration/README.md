@@ -1,6 +1,6 @@
 # Installation and Licensing
 
-### Installation
+## Installation
 
 **Visual Studio**
 
@@ -25,6 +25,28 @@ You can install a Visual Studio Code extension by downloading the VSIX file from
 **PowerShell Module**
 
 The PowerShell Module is available on the [PowerShell Gallery](https://www.powershellgallery.com/packages/powershellprotools/1.3.0). 
+
+### Installing Previous Versions
+
+#### Visual Studio
+
+Previous versions of the Visual Studio extension can be found on our [downloads page.](https://ironmansoftware.com/downloads)
+
+![](../../.gitbook/assets/image%20%2861%29.png)
+
+#### Visual Studio Code
+
+You can select from previous versions of the Visual Studio Code extension in the extension pane. Click the Gear icon next to PowerShell Pro Tools and select Install Another Version...
+
+![](../../.gitbook/assets/image%20%2860%29.png)
+
+#### PowerShell Module
+
+You can install a previous version of the PowerShell Module by using the `-RequiredVersion` parameter of `Install-Module`.
+
+```text
+Install-Module -Name PowerShellProTools -RequiredVersion 5.7.0
+```
 
 ## Licensing
 
