@@ -112,6 +112,24 @@ You can run a form by open the PS1 file for your form and pressing `F5` or by cl
 
 ![Running a Form](../.gitbook/assets/run-form.gif)
 
+## WPF Designer
+
+{% hint style="warning" %}
+The WPF designer is coming in a future version of PSScriptPad.
+{% endhint %}
+
+The WPF designer allows you to visually create WPF forms. You can use the inline editor to adjust properties of the form and see it update in real time. You can then use the XAML in your PowerShell scripts.
+
+### Create a WPF Form
+
+Click the New WPF Form button to create a new WPF form. It will open the WPF designer.
+
+![WPF Editor in PSScriptPad](../.gitbook/assets/wpf.gif)
+
+### Editing the Form
+
+You can use the inline XAML editor to adjust properties of controls and add new ones. 
+
 ## Options
 
 ### Context Menu
