@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.1 - 1-10-2021
+
+* Fixed a licensing issue with a 3rd party component
+
 ### 5.9.0 - 1-10-2021
 
 * Added WPF Designer

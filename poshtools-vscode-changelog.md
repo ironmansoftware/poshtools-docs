@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.1 - 1-10-2021
+
+* Fixed a licensing issue with a 3rd party component
+
 ## 5.20.0 - 1-10-2021
 
 * Added support for the [PSScriptPad WPF Designer](powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
