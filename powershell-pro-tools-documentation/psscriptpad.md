@@ -136,7 +136,49 @@ You can use the Property window to set properties of a control. To do so, select
 
 ![Setting Properties of a Window](../.gitbook/assets/properties.gif)
 
+### Integrating with PowerShell
 
+XAML can be loaded directly with PowerShell using WPF classes. To load a WPF form from XAML, you can use the `Import-Xaml` function below.
+
+```text
+function Import-Xaml {
+	[xml]$xaml = Get-Content -Path $PSScriptRoot\WpfWindow.xaml
+	$manager = New-Object System.Xml.XmlNamespaceManager -ArgumentList $xaml.NameTable
+	$manager.AddNamespace("x", "http://schemas.microsoft.com/winfx/2006/xaml");
+	$xamlReader = New-Object System.Xml.XmlNodeReader $xaml
+	[Windows.Markup.XamlReader]::Load($xamlReader)
+}
+```
+
+To show the form, you can load the XAML, store the result in a  variable and then call `ShowDialog`.
+
+```text
+$Window = Import-Xaml
+$Window.ShowDialog()
+```
+
+You can configure event handlers by selecting the controls and then add script blocks to the events. You will need to ensure that you have names provided for your controls. For example, the XAML below defines a button with the name `Button`.
+
+```text
+<?xml version="1.0" encoding="utf-16"?>
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Name="wpfWindow" Background="White" Title="WPF Window">
+   <Button x:Name="Button">Click</Button>
+</Window>
+```
+
+To select the button in PowerShell, you can use the Window's `FindName` method.
+
+```text
+$Button = $Window.FindName('Button')
+```
+
+To set an event handler, like a button click, you can then use `add_Click` on the button.
+
+```text
+$Button.add_Click({
+   # Script Here
+})
+```
 
 ## Options
 
