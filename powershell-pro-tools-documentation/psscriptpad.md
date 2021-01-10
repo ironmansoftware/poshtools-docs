@@ -138,6 +138,12 @@ You can use the Property window to set properties of a control. To do so, select
 
 ### Integrating with PowerShell
 
+Depending on the PowerShell host, you may need to load the WPF framework.
+
+```text
+[System.Reflection.Assembly]::LoadWithPartialName("PresentationFramework") | Out-Null
+```
+
 XAML can be loaded directly with PowerShell using WPF classes. To load a WPF form from XAML, you can use the `Import-Xaml` function below.
 
 ```text
