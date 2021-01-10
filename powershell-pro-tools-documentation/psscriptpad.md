@@ -128,7 +128,11 @@ Click the New WPF Form button to create a new WPF form. It will open the WPF des
 
 ### Editing the Form
 
-You can use the inline XAML editor to adjust properties of controls and add new ones. 
+You can use the inline XAML editor to adjust properties of controls and add new ones. For example, you can add a button to your form by including the following XAML.
+
+```text
+<Button>Click Me</Button>
+```
 
 ### Setting Control Properties
 
