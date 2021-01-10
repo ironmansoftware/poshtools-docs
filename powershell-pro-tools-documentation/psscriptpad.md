@@ -130,6 +130,14 @@ Click the New WPF Form button to create a new WPF form. It will open the WPF des
 
 You can use the inline XAML editor to adjust properties of controls and add new ones. 
 
+### Setting Control Properties
+
+You can use the Property window to set properties of a control. To do so, select the control you'd like to modify and then set the specified property in the Property window. The designer and XAML will update after you press `Enter` . 
+
+![Setting Properties of a Window](../.gitbook/assets/properties.gif)
+
+
+
 ## Options
 
 ### Context Menu
