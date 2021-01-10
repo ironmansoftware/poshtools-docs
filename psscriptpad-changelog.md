@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.0 - 1-10-2021
+
+* Added WPF Designer
+
 ### 5.8.3 - 12-26-2020
 
 * Fixed an issue where PSScriptPad would crash when using Save As
