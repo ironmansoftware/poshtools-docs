@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.0 - 1-10-2021
+
+* Added support for the [PSScriptPad WPF Designer](powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
+
 ## 5.19.10 - 1-04-2021
 
 * Fixed an issue where Generate Proxy Function would show errors in the terminal
