@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.2 - 1-11-2021
+
+* Fixed an issue where PSScriptPad could crash when opening a XAML file
+
 ## 5.20.1 - 1-10-2021
 
 * Fixed a licensing issue with a 3rd party component
