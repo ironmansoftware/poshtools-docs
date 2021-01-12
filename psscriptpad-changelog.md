@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.3 - 1-12-2021
+
+* Added toolbox support for the WPF designer in PSScriptPad
+
 ### 5.9.2 - 1-11-2021
 
 * Fixed an issue where PSScriptPad could crash when opening a XAML file
