@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.4 - 11-14-2021
+
+* Fixed an issue where Generate Proxy Function would run on empty command names and show an error in the terminal
+* PSScriptPad now persists loaded WPF assembly locations so they are loaded when the application is restarted
+
 ## 5.20.3 - 11-12-2021
 
 * Added toolbox support for the WPF designer in PSScriptPad

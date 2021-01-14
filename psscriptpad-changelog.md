@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.4 - 1-14-2021
+
+* PSScriptPad now persists loaded WPF assembly locations so they are loaded when the application is restarted
+
 ### 5.9.3 - 1-12-2021
 
 * Added toolbox support for the WPF designer in PSScriptPad
