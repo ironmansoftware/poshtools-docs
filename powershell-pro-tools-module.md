@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.7.2 - 1-15-2021
+
+* Fixed an issue where the license key would always show the incorrect date 
+* Updated to the latest version of PSScriptPad.
+
 ## 5.7.1 - 12-10-2020
 
 * Fixed an issue where Global Hotkeys could cause the PowerShell process to crash
