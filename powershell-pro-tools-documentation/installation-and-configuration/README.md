@@ -52,11 +52,11 @@ Install-Module -Name PowerShellProTools -RequiredVersion 5.7.0
 
 ### Trial Licenses
 
-By default, PowerShell Pro Tools installs and allows for a limited set of features. If you would like to trial PowerShell Pro Tools without these limitations, you can [request a trial key](https://ironmansoftware.com/product/powershell-pro-tools-trial/). 
+By default, PowerShell Pro Tools installs and allows for a limited set of features. If you would like to trial PowerShell Pro Tools without these limitations, you can [request a trial key](https://www.ironmansoftware.com/trial/powershell-pro-tools). 
 
 ### Purchasing a License
 
-Visit the [purchasing page](https://store.ironmansoftware.com/pricing/powershell-pro-tools) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
+Visit the [purchasing page](https://www.ironmansoftware.com/pricing/powershell-pro-tools) and follow the instructions to purchase a license. A license will be emailed to you within ten minutes of purchase. 
 
 ### Installing a License
 
