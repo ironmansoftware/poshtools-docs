@@ -63,6 +63,7 @@
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [PSScriptPad](powershell-pro-tools-documentation/psscriptpad.md)
+* [TUI Designer](powershell-pro-tools-documentation/tui-designer.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration/README.md)
   * [Visual Studio Offline Installation](powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md)
 
