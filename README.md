@@ -36,6 +36,7 @@ To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com
 | WinForm Designer |  ❌ |  ✅ |
 | WPF Designer |  ❌ |  ✅ |
 | Profiler |  ❌ |  ✅ |
+| Terminal User Interface Designer |  ❌ |  ✅ |
 
 
 
