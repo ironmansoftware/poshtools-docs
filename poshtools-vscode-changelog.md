@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.7 - 1-31-2021
+
+* Fixed an issue where an error could be shown in the console when navigating PowerShell scripts.
+
 ## 5.20.6 - 1-25-2021
 
 * Fixed an issue where an error would be shown when the VS Code automation feature could not connect properly
