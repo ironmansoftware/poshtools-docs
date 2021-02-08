@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.8 - 2-8-2021
+
+* Fixed an issue where arguments would not be passed to packaged scripts running PowerShell 7
+* Added support for [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
+
 ## 5.20.7 - 1-31-2021
 
 * Fixed an issue where an error could be shown in the console when navigating PowerShell scripts.

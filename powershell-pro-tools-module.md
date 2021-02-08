@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.7.3 - 2-8-2021
+
+* Fixed an issue where arguments would not be passed to packaged scripts running PowerShell 7
+* Added support for [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
+
 ## 5.7.2 - 1-15-2021
 
 * Fixed an issue where the license key would always show the incorrect date 
