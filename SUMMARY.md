@@ -54,6 +54,7 @@
   * [Package as Executable](powershell-pro-tools-documentation/packaging/package-as-executable.md)
   * [Package as Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
   * [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
+  * [Packaging on Mac OSX](powershell-pro-tools-documentation/packaging/packaging-on-mac-osx.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md)
   * [Show-PSScriptPad](powershell-pro-tools-documentation/powershell-module/show-psscriptpad.md)
