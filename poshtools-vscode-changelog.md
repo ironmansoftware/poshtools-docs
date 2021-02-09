@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.20.9 - 2-9-2021
+
+* Added support for Packaging on Mac OSX
+
 ## 5.20.8 - 2-8-2021
 
 * Fixed an issue where arguments would not be passed to packaged scripts running PowerShell 7
