@@ -1,10 +1,10 @@
-# Packaging on Mac OSX
+# Packaging on Mac OS X
 
 Packaging is supported on Mac OSX systems. Packaged executables will contain the entire PowerShell and .NET runtime so destination systems will not need either of these installed. 
 
 ## Prerequisites 
 
-You will need to install the following in order to package on Mac OSX.
+You will need to install the following in order to package on Mac OS X.
 
 * [.NET Core SDK 3.1 or later](https://docs.microsoft.com/en-us/dotnet/core/install/macos)
 * [PowerShell 7 or later](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7.1)
@@ -78,7 +78,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
   Determining projects to restore...
   Restored /tmp/259a5b5f8e164250af2fb04c10e1b829/test.csproj (in 566 ms).
-  test -> /tmp/259a5b5f8e164250af2fb04c10e1b829/bin/Debug/netcoreapp3.1/linux-x64/test.dll
+  test -> /tmp/259a5b5f8e164250af2fb04c10e1b829/bin/Debug/netcoreapp3.1/osx-x64/test.dll
   test -> /Users/adamdriscoll/Downloads/out
 
 VERBOSE: Microsoft (R) Build Engine version 16.8.3+39993bd9d for .NET
