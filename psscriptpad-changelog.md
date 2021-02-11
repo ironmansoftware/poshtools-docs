@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.5 - 2-11-2021
+
+* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+
 ### 5.9.4 - 1-14-2021
 
 * PSScriptPad now persists loaded WPF assembly locations so they are loaded when the application is restarted

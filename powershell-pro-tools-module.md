@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.7.5 0 - 2-11-2021
+
+* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+
 ## 5.7.4 - 2-9-2021
 
 * Added support for Packaging on Mac OSX

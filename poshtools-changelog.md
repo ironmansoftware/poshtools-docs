@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.7.22 - 2-11-2021
+
+* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+
 ### 5.7.21 - 1-25-2021
 
 * Fixed an issue with subscription licenses not displaying correctly.
