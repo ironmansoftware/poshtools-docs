@@ -8,6 +8,10 @@ To execute code conversion, select your C\# code in a PS1 file. Right click on t
 
 ### Convert C\# to PowerShell
 
+{% hint style="info" %}
+Your PS1 file must be a part of a PowerShell Project for this functionality to be visible.
+{% endhint %}
+
 1. Create a .ps1 script file in Visual Studio.
 2. Paste the C\# code into the PS1 file.
 3. Select the C\# code within the PS1 file and right click the selection.
