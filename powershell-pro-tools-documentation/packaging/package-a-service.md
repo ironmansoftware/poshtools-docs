@@ -47,11 +47,27 @@ You can set the `$CanStop` variable to either `$true` or `$false`. If set to `$f
 
 PowerShell services have access to both the process arguments and the service startup parameters. You can access the process arguments by referencing the `$ProcessArgs` variable. You can access the service startup parameters by accessing the `$ServiceArgs` variable. 
 
-## Installing a Service
+## Installing a Service for Windows PowerShell
 
 You can install your service by passing `--install` to the service's executable. Install will not start the service so use Start-Service to start your new service by the name you provided. 
 
-## Uninstall a Service
+## Uninstall a Service for Windows PowerShell
 
 To uninstall a service, use the `--uninstall` flag for your service's executable. It will also take care of stopping the service. 
+
+## Install a Service for PowerShell 7
+
+You will need to use the `New-Service` cmdlet to install a service for PowerShell 7. 
+
+```text
+New-Service -Name 'PowerShellService' -BinaryPathName "C:\myService.exe"
+```
+
+## Uninstall a Service for PowerShell 7
+
+You will need to use the `Remove-Service` cmdlet to uninstall a service built for PowerShell 7.
+
+```text
+Remove-Service -name 'PowerShellService'
+```
 
