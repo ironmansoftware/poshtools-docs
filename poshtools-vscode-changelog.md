@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.21.0 - 3-1-2021
+
+* Added support for building .NET Core based Windows Services with PowerShell 7
+
 ## 5.20.10 - 2-11-2021
 
 * Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)

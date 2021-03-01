@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.8.0 - 3-1-2021
+
+* Added support for building .NET Core based Windows Services with PowerShell 7
+
 ### 5.7.22 - 2-11-2021
 
 * Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)

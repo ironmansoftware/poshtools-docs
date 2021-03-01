@@ -4,7 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
-## 5.7.5 0 - 2-11-2021
+## 5.8.0 - 3-1-2021
+
+* Added support for building .NET Core based Windows Services with PowerShell 7
+
+## 5.7.5 - 2-11-2021
 
 * Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
 
