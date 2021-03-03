@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.21.1 - 3-3-2021
+
+* Added a setting for the license key so that licensing works with Settings Sync. 
+
 ## 5.21.0 - 3-1-2021
 
 * Added support for building .NET Core based Windows Services with PowerShell 7
