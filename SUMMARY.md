@@ -64,6 +64,7 @@
   * [Install-PoshProToolsLicense](powershell-pro-tools-documentation/powershell-module/install-poshprotoolslicense.md)
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
+* [PSCommander](powershell-pro-tools-documentation/pscommander.md)
 * [PSScriptPad](powershell-pro-tools-documentation/psscriptpad.md)
 * [TUI Designer](powershell-pro-tools-documentation/tui-designer.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration/README.md)
