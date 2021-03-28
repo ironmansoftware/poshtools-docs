@@ -17,8 +17,7 @@ PSCommander allows you to configure various Windows integration points and execu
 * Explorer Context Menu 
 * File Associations 
 * Global Hot Keys 
-* Tray Icon
-* Tray Icon Context Menu
+* Tray Icon and Menu
 
 ## Installation 
 
@@ -61,7 +60,9 @@ Start-Commander
 
 The following sections outline the commands you can use within the `config.ps1` file. These cmdlets will not work outside of PSCommander. 
 
-## CRON Schedules 
+## Features 
+
+### CRON Schedules 
 
 PSCommander allows you to run script blocks based on CRON schedules. Note that PSCommander uses a single runspace. Long running scripts are not recommended for use with PSCommander. 
 
@@ -75,7 +76,7 @@ New-CommanderSchedule -CronExpression "* * * * *" -Action {
 }
 ```
 
-## Desktop Shortcuts
+### Desktop Shortcuts
 
 PSCommander can create desktop shortcuts that will execute PowerShell when clicked. Desktop shortcuts require the PSCommander is running so you may want to use `Install-Commander` to ensure that it has been started before a user clicks a shortcut. 
 
@@ -87,7 +88,7 @@ New-CommanderShortcut -Text 'Click Me' -Description 'Nice' -Action {
 }
 ```
 
-## Explorer Context Menus 
+### Explorer Context Menus 
 
 PSCommander can create context menu items that appear when right clicking on folders and files within Windows Explorer. Your script block will receive the path to the folder or file via the `$Args[0]` variable. 
 
@@ -101,7 +102,7 @@ New-CommanderContextMenu -Text 'Click me' -Action {
 }
 ```
 
-## File Associations
+### File Associations
 
 PSCommander allows you to associate files with script blocks defined within the commander configuration. You can define the extension and action to take when the file type is open. You will receive the full file path in the `$Args[0]` variable. 
 
@@ -113,5 +114,41 @@ New-CommanderFileAssociation -Extension ".ps2" -Action {
 }
 ```
 
+### Global Hot Keys
 
+PSCommander allows you to associate global hot keys to PowerShell actions. 
+
+This example defines a hot key that is invoked whenever the `Ctrl+T` key combo is pressed. Note that key combinations cannot interfere with other pre-existing combinations. 
+
+```text
+New-CommanderHotKey -Key 'T' -ModifierKey 'Ctrl' -Action { 
+    Start-Process notepad
+}
+```
+
+### Tray Icon and Menu
+
+PSCommander provides configuration for the tray icon. You can define the hover text and the icon that is displayed. You can choose to hide the Exit and Edit Config options and define your own right click menus. 
+
+Tray menu items can invoke script actions and you can define menu items dynamically. This example creates some menu items statically and dynamically.
+
+```text
+New-CommanderToolbarIcon -MenuItem @(
+    New-CommanderMenuItem -Text 'Notepad' -Action {
+        Start-Process notepad
+    } -MenuItem @(
+        New-CommanderMenuItem -Text 'Subnotepad' -Action {
+            Start-Process notepad
+        }
+    ) -LoadMenuItems {  
+        New-CommanderMenuItem -Text 'Dynamic SubNotepad' -Action {
+            Start-Process notepad
+        }
+    }
+) -LoadMenuItems {
+    New-CommanderMenuItem -Text 'Dynmaic Notepad' -Action {
+        Start-Process notepad
+    }
+}
+```
 
