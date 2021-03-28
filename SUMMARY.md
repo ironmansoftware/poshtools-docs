@@ -76,6 +76,7 @@
 
 * [PowerShell Tools for Visual Studio](poshtools-changelog.md)
 * [PowerShell Pro Tools for Visual Studio Code](poshtools-vscode-changelog.md)
+* [PSCommander](pscommander.md)
 * [PSScriptPad](psscriptpad-changelog.md)
 * [PowerShell Pro Tools Module](powershell-pro-tools-module.md)
 * [TUI Designer](tui-designer.md)
