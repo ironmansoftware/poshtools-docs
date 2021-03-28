@@ -4,10 +4,6 @@ description: Command your desktop with PSCommander.
 
 # PSCommander
 
-{% hint style="warning" %}
-This documentation refers to a future version of PowerShell Pro Tools. 
-{% endhint %}
-
 ![](../.gitbook/assets/4a9c6a24400e45aea31c30b7b1f2bdf8.png)
 
 PSCommander allows you to configure various Windows integration points and execute PowerShell script blocks when certain things happen on your desktop. 
