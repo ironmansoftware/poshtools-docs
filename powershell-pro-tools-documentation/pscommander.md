@@ -8,6 +8,8 @@ description: Command your desktop with PSCommander.
 
 PSCommander allows you to configure various Windows integration points and execute PowerShell script blocks when certain things happen on your desktop. 
 
+{% embed url="https://youtu.be/Pzjr88j8yL4" %}
+
 ## Features
 
 * CRON Schedules 
