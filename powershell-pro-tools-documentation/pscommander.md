@@ -88,6 +88,18 @@ New-CommanderShortcut -Text 'Click Me' -Description 'Nice' -Action {
 }
 ```
 
+### Events
+
+PSCommander can register event handlers that invoke script blocks based on events happening within your system. You can use the `Register-CommanderEvent` cmdlet to listen to these events.
+
+The following example starts notepad when commander starts.
+
+```text
+Reigster-CommanderEvent -OnCommander Start -Action {
+   Start-Process notepad
+}
+```
+
 ### Explorer Context Menus 
 
 PSCommander can create context menu items that appear when right clicking on folders and files within Windows Explorer. Your script block will receive the path to the folder or file via the `$Args[0]` variable. 
