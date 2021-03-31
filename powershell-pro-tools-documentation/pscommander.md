@@ -113,6 +113,14 @@ Register-CommanderEvent -OnWindows ProcessStarted -Action {
 }
 ```
 
+If you want to configure a custom WMI event, you can use the `-WmiEventType` and `-WmiEventFilter` parameters to listen for those events. 
+
+```text
+Register-CommanderEvent -OnWindows WmiEvent -WmiEventType '__InstanceCreationEvent' -WmiEventFilter 'TargetInstance isa "Win32_Process"' -Action {
+   $Args[0]['Name'] | Out-File C:\users\adamr\desktop\process-name.txt
+}
+```
+
 ### Explorer Context Menus 
 
 PSCommander can create context menu items that appear when right clicking on folders and files within Windows Explorer. Your script block will receive the path to the folder or file via the `$Args[0]` variable. 
