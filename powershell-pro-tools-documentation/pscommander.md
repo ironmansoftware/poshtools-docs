@@ -100,8 +100,16 @@ PSCommander can register event handlers that invoke script blocks based on event
 The following example starts notepad when commander starts.
 
 ```text
-Reigster-CommanderEvent -OnCommander Start -Action {
+Register-CommanderEvent -OnCommander Start -Action {
    Start-Process notepad
+}
+```
+
+You can also listen to events that are happening with Windows using WMI event filters. This example will use the built-in `ProcessStarted` event to run a script block whenever a process is started. This example writes to a file. The `$args[0]` is the WMI object that was created. 
+
+```text
+Register-CommanderEvent -OnWindows ProcessStarted -Action {
+   $Args[0]['Name'] | Out-File C:\users\adamr\desktop\process-name.txt
 }
 ```
 
