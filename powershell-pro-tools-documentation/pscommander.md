@@ -14,6 +14,7 @@ PSCommander allows you to configure various Windows integration points and execu
 
 * CRON Schedules 
 * Desktop Shortcuts
+* Events
 * Explorer Context Menu 
 * File Associations 
 * Global Hot Keys 
