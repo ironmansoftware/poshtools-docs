@@ -4,6 +4,19 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.1.0 - 4-5-2021
+
+### Added
+
+* Added -Icon to New-CommanderToolbarIcon for customizing the icon
+* Added Register-CommanderEvent for handling events that happen within commander.
+* Added -ArgumentList to New-CommanderMenuItem to easily pass arguments to the Action script block.
+* Added -ConfigFilePath to Start-Commander
+
+### Changed
+
+* Fixed an issue where launching Edit Config would not work when installed to a path with a space
+
 ## 1.0.2 - 3-28-2021
 
 Bugs Fixed
