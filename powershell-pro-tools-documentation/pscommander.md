@@ -91,10 +91,6 @@ New-CommanderShortcut -Text 'Click Me' -Description 'Nice' -Action {
 
 ### Events
 
-{% hint style="warning" %}
-This documentation is for a future version of PSCommander.
-{% endhint %}
-
 PSCommander can register event handlers that invoke script blocks based on events happening within your system. You can use the `Register-CommanderEvent` cmdlet to listen to these events.
 
 The following example starts notepad when commander starts.
