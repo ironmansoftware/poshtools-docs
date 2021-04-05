@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.22.0 - 4-5-2021
+
+* Added 'Open PSCommander Configuration' Command
+
 ## 5.21.1 - 3-3-2021
 
 * Added a setting for the license key so that licensing works with Settings Sync. 
