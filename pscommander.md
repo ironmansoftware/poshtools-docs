@@ -4,6 +4,13 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.1.1 - 4-6-2021
+
+### Changed
+
+* Code signed the PSCommander module
+* Fixed an issue where PSCommander could fail to load
+
 ## 1.1.0 - 4-5-2021
 
 ### Added
