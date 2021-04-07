@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.22.1 - 4-7-2021
+
+* Fixed an issue where the Introduce Using refactoring could cause the PowerShell Pro Tools host to stop responding
+* Removed an unnecessary and noisy log message.
+
 ## 5.22.0 - 4-5-2021
 
 * Added 'Open PSCommander Configuration' Command
