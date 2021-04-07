@@ -77,6 +77,32 @@ New-CommanderSchedule -CronExpression "* * * * *" -Action {
 }
 ```
 
+### Custom Protocol Handlers
+
+A custom protocol handler can cause a PSCommander action to be taken from a website or other invocation of the custom protocol. 
+
+To define a custom protocol, you can use the `New-CommanderCustomProtocol`. The `$args[0]` parameter will have the URL that was clicked. 
+
+```text
+New-CommanderCustomProtocol -Protocol myApp -Action {
+     if ($args[0] -eq 'notepad') { Start-Process notepad }
+     if ($args[0] -eq 'calc') { Start-Process calc }
+     if ($args[0] -eq 'wordpad') { Start-Process wordpad }
+}
+```
+
+To use the custom protocol, you can include regular links in websites and it will invoke PSCommander remotely. 
+
+```text
+<html>
+  <body>
+    <a href="myApp://notepad">Start Notepad</a>
+  </body>
+</html>
+```
+
+![](../.gitbook/assets/protocol.gif)
+
 ### Desktop Shortcuts
 
 PSCommander can create desktop shortcuts that will execute PowerShell when clicked. Desktop shortcuts require the PSCommander is running so you may want to use `Install-Commander` to ensure that it has been started before a user clicks a shortcut. 
