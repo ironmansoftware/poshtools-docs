@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.1 - 4-7-2021
+
+* Updated the version of PSScriptPad
+
 ## 5.8.0 - 3-1-2021
 
 * Added support for building .NET Core based Windows Services with PowerShell 7

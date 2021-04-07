@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.6 - 4-7-2021
+
+* Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines. 
+
 ### 5.9.5 - 2-11-2021
 
 * Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)

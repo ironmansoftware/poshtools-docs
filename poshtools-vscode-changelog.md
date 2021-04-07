@@ -8,6 +8,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 * Fixed an issue where the Introduce Using refactoring could cause the PowerShell Pro Tools host to stop responding
 * Removed an unnecessary and noisy log message.
+* Updated the version of PSScriptPad
 
 ## 5.22.0 - 4-5-2021
 
