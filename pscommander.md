@@ -4,6 +4,13 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.2.0 - 4-7-2021
+
+### Added
+
+* Added support for custom protocol handlers
+* Added update notifications
+
 ## 1.1.1 - 4-6-2021
 
 ### Changed
