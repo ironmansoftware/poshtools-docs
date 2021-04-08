@@ -103,6 +103,77 @@ To use the custom protocol, you can include regular links in websites and it wil
 
 ![](../.gitbook/assets/protocol.gif)
 
+### Desktop Widgets
+
+PSCommander providers a desktop widget system that allows you to place text, images, web pages, custom WPF windows and measurement counters on the desktop. It is a similar experience to SysInternals bginfo and Rainmeter. 
+
+All widgets are created using the `New-CommanderDesktopWidget` cmdlet in combination with the `New-CommanderDesktop` or `Set-CommanderDesktop` cmdlets. 
+
+![](../.gitbook/assets/desktop.gif)
+
+#### Text Widget
+
+The following example creates a text widget with some computer information.
+
+```text
+$CI = Get-ComputerInfo
+
+$ComputerInfo = @"
+	Number of Processes: $($CI.OsNumberOfProcesses)
+	Number of Users: $($CI.OsNumberOfUsers)
+	User Name: $($CI.CsUserName)
+	System Family: $($CI.CsSystemFamily)
+"@
+
+New-CommanderDesktop -Widget @(
+   New-CommanderDesktopWidget -Text $ComputerInfo -Height 300 -Width 1000 -FontSize 30 -Top 500 -Left 500 -FontColor 'Black'
+)
+```
+
+#### Image Widget
+
+The following example creates an image widget on the desktop.
+
+```text
+New-CommanderDesktop -Widget @(
+   New-CommanderDesktopWidget -Image 'C:\src\blog\content\images\news.png' -Height 200 -Width 200 -Top 200 
+)
+```
+
+#### Webpage Widget
+
+The following example creates a webpage widget on the desktop.
+
+```text
+New-CommanderDesktop -Widget @(
+   New-CommanderDesktopWidget -Url 'https://www.google.com' -Height 500 -Width 500 -Top 400
+)
+```
+
+#### Custom WPF Widget
+
+The following example creates a custom WPF widget on the desktop.
+
+```text
+New-CommanderDesktop -Widget @(
+   New-CommanderDesktopWidget -LoadWidget {
+       [xml]$Form = "<Window xmlns=`"http://schemas.microsoft.com/winfx/2006/xaml/presentation`"><Grid><Label Content=`"Hello, World`" Height=`"30`" Width=`"110`"/></Grid></Window>"
+		$XMLReader = (New-Object System.Xml.XmlNodeReader $Form)
+		[Windows.Markup.XamlReader]::Load($XMLReader)
+   } -Height 200 -Width 200 -Top 200 -Left 200
+)
+```
+
+#### Measurement Widget
+
+The following creates a measurement widget on the desktop.
+
+```text
+New-CommanderDesktop -Widget @(
+   New-CommanderDesktopWidget -LoadMeasurement {Get-Random} -MeasurementTitle 'Random' -MeasurementSubtitle 'A random number' -MeasurementUnit 'units' -Height 300 -Width 500 -Left 600 -Top 200 -MeasurementFrequency 1 -MeasurementDescription "Nice" -MeasurementTheme 'DarkBlue'
+)
+```
+
 ### Desktop Shortcuts
 
 PSCommander can create desktop shortcuts that will execute PowerShell when clicked. Desktop shortcuts require the PSCommander is running so you may want to use `Install-Commander` to ensure that it has been started before a user clicks a shortcut. 

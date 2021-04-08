@@ -4,6 +4,16 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.3.0 - 4-8-2021
+
+### Added 
+
+* Commander desktop support
+* New-CommanderDesktop cmdlet
+* New-CommanderDesktopWidget cmdlet
+* Set-CommanderDesktop cmdlet
+* Clear-CommanderDesktop cmdlet
+
 ## 1.2.0 - 4-7-2021
 
 ### Added
