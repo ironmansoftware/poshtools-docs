@@ -4,6 +4,13 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.0 - 4-14-2021
+
+### Added
+
+* Added `Register-CommanderDataSource`
+* Added data source support to desktop widgets
+
 ## 1.3.0 - 4-8-2021
 
 ### Added 
