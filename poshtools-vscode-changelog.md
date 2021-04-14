@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.22.2 - 4-14-2021
+
+* Fixed an issue where packaging would use the wrong PowerShell version when looking up modules causing certain modules to fail to load
+
 ## 5.22.1 - 4-7-2021
 
 * Fixed an issue where the Introduce Using refactoring could cause the PowerShell Pro Tools host to stop responding

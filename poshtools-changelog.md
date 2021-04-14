@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.8.2 - 4-14-2021
+
+* Fixed an issue where packaging would use the wrong PowerShell version when looking up modules causing certain modules to fail to load
+
 ### 5.8.1 - 4-7-2021
 
 * Fixed an issue where the extension would fail to install due to a expired certificate

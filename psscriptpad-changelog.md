@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.7 - 4-14-2021
+
+* Fixed an issue where packaging would use the wrong PowerShell version when looking up modules causing certain modules to fail to load
+
 ### 5.9.6 - 4-7-2021
 
 * Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines. 

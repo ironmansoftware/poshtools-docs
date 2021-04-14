@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.2 - 4-14-2021
+
+* Fixed an issue where packaging would use the wrong PowerShell version when looking up modules causing certain modules to fail to load
+
 ## 5.8.1 - 4-7-2021
 
 * Updated the version of PSScriptPad
