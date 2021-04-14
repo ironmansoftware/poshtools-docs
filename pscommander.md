@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.1 - 4-14-2021
+
+* Fixed an issue with desktop widgets. 
+
 ## 1.4.0 - 4-14-2021
 
 ### Added
