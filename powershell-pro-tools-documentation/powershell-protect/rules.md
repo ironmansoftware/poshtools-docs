@@ -208,9 +208,9 @@ You can disable default rules by using the `-DisableBuiltinRules`.
 New-PSPConfiguration -DisableBuiltinRules
 ```
 
-You can disable default rules by using the `-DisabledDefaultConditions` parameter. 
+You can disable default rules by using the `-DisabledBuiltInConditions` parameter. 
 
 ```text
-New-PSPConfiguration -DisabledDefaultConditions "asmiBypass"
+New-PSPConfiguration -DisabledBuiltInConditions "asmiBypass"
 ```
 
