@@ -4,6 +4,11 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.3 - 4-20-2021
+
+* Fixed an issue with the update check
+* Fixed an issue with desktop widget transparency.
+
 ## 1.4.1 - 4-14-2021
 
 * Fixed an issue with desktop widgets. 
