@@ -8,7 +8,7 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
-### 5.8.3 - 4-21-2021
+### 5.8.4 - 4-21-2021
 
 * Fixed an issue where packaging modules could cause an Access Denied error
 * Added subscription activation caching to prevent excessive web requests
