@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+### 5.8.5 - 4-23-2021
+
+* Fixed an issue with activation caching
+* Fixed an issue with ImageList controls in the form designer
+* Fixed an issue with packaging PowerCLI 
+
 ### 5.8.4 - 4-21-2021
 
 * Fixed an issue where packaging modules could cause an Access Denied error

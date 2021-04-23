@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.9.11 - 4-23-2021
+
+* Fixed an issue with activation caching
+* Fixed an issue with packaging PowerCLI 
+
 ### 5.9.10 - 4-21-2021
 
 * Fixed an issue where packaging modules could cause an Access Denied error

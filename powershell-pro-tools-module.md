@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.5 - 4-23-2021
+
+* Fixed an issue with activation caching
+* Fixed an issue with packaging PowerCLI 
+
 ## 5.8.3 - 4-21-2021
 
 * Fixed an issue where packaging modules could cause an Access Denied error

@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.22.4 - 4-23-2021
+
+* Fixed an issue with activation caching
+* Fixed an issue with packaging PowerCLI 
+
 ## 5.22.3 - 4-21-2021
 
 * Fixed an issue where packaging modules could cause an Access Denied error
