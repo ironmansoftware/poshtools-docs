@@ -77,13 +77,11 @@
 
 ## Changelog
 
----
-
-* [PowerShell Tools for Visual Studio](poshtools-changelog.md)
-* [PowerShell Pro Tools for Visual Studio Code](poshtools-vscode-changelog.md)
-* [PowerShell Protect](powershell-protect.md)
-* [PSCommander](pscommander.md)
-* [PSScriptPad](psscriptpad-changelog.md)
-* [PowerShell Pro Tools Module](powershell-pro-tools-module.md)
-* [TUI Designer](tui-designer.md)
+* [PowerShell Tools for Visual Studio](changelog/poshtools-changelog.md)
+* [PowerShell Pro Tools for Visual Studio Code](changelog/poshtools-vscode-changelog.md)
+* [PowerShell Protect](changelog/powershell-protect.md)
+* [PSCommander](changelog/pscommander.md)
+* [PSScriptPad](changelog/psscriptpad-changelog.md)
+* [PowerShell Pro Tools Module](changelog/powershell-pro-tools-module.md)
+* [TUI Designer](changelog/tui-designer.md)
 

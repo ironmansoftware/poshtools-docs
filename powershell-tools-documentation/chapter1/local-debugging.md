@@ -26,7 +26,7 @@ You can also run a script from the solution explorer. Just right click on the sc
 
 You can execute a selection using the Ctrl+F8 key or by right clicking the code and clicking Execute Selection. 
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 You can execute a selection from within a PS1 file. 
 

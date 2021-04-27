@@ -37,7 +37,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 ## 5.7.3 - 2-8-2021
 
 * Fixed an issue where arguments would not be passed to packaged scripts running PowerShell 7
-* Added support for [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
+* Added support for [Packaging on Linux](../powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
 
 ## 5.7.2 - 1-15-2021
 
@@ -51,7 +51,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 ## 5.7.0 - 12-9-2020
 
-* Added support for [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md).
+* Added support for [Global Hotkeys](../powershell-pro-tools-documentation/powershell-module/global-hotkeys.md).
 
 ## 5.6.8 - 12-3-2020
 

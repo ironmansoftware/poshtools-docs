@@ -77,5 +77,17 @@ Take the following folder structure for example.
 
 When packaging the `test\test.ps1` file, the `test\package.psd1` will be used to package the script. When packaging the `test2\test2.ps1` file, the `test\package.psd1` file will be used. The root `package.psd1` will used when packaging `test3\test3.ps1` because that folder does not have a scoped package config file. 
 
+### Package.psd1 template
+
+You can set the package.psd1 template that is used to create the default package.psd1 by setting the path to the file within your settings. 
+
+![](../../.gitbook/assets/image%20%2822%29.png)
+
+You can use two replacement variables that will be set when the file is created. 
+
+**$root** - Replaced by the path to the PS1 file being packaged 
+
+**$outputPath** - Path to the directory to output to. 
+
 
 

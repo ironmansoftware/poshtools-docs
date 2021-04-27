@@ -47,7 +47,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 ## 5.20.8 - 2-8-2021
 
 * Fixed an issue where arguments would not be passed to packaged scripts running PowerShell 7
-* Added support for [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
+* Added support for [Packaging on Linux](../powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
 
 ## 5.20.7 - 1-31-2021
 
@@ -80,7 +80,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.20.0 - 1-10-2021
 
-* Added support for the [PSScriptPad WPF Designer](powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
+* Added support for the [PSScriptPad WPF Designer](../powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
 
 ## 5.19.10 - 1-04-2021
 
@@ -89,26 +89,26 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.19.9 - 12-31-2020
 
-* Added [Generate Proxy Function ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-proxy-function)refactoring
+* Added [Generate Proxy Function ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-proxy-function)refactoring
 * Fixed an issue with convert to $\_ and convert to $PSItem refactorings
 
 ## 5.19.8 - 12-28-2020
 
-* Added [Enhanced Hover](powershell-pro-tools-documentation/visual-studio-code/enhanced-hover.md) support
+* Added [Enhanced Hover](../powershell-pro-tools-documentation/visual-studio-code/enhanced-hover.md) support
 * Fixed an issue where the Variable Explorer would cause a memory leak
 
 ## 5.19.7 - 12-27-2020
 
 * Fixed issue with Split Pipeline refactoring changing the functionality of a script
 * Added integration into VS Code refactoring provider system
-* Added [Convert to $PSItem](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usdpsitem) refactoring
-* Added [Convert to $\_](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd_) refactoring
+* Added [Convert to $PSItem](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usdpsitem) refactoring
+* Added [Convert to $\_](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd_) refactoring
 * Fixed an issue where Split Pipeline would show on one-command pipelines
 
 ## 5.19.6 - 12-26-2020
 
-* Added [Split Pipeline ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#split-pipeline)refactoring
-* Added [Introduce Using Namespace ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#introduce-using-namespace)refactoring
+* Added [Split Pipeline ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#split-pipeline)refactoring
+* Added [Introduce Using Namespace ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#introduce-using-namespace)refactoring
 
 ## 5.19.5 - 12-25-2020
 
@@ -124,28 +124,28 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.19.3 - 12-18-2020
 
-* Added [Reorder Parameters](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters) 
+* Added [Reorder Parameters](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters) 
 
 ## 5.19.2 - 12-17-2020
 
-* Added [Generate Function from Usage ](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-function-from-usage)Refactoring
+* Added [Generate Function from Usage ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#generate-function-from-usage)Refactoring
 
 ## 5.19.1 - 12-15-2020
 
-* Added [Convert To Multiline Command](powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-multiline-command) Refactoring
+* Added [Convert To Multiline Command](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-multiline-command) Refactoring
 
 ## 5.19.0 - 12-14-2020
 
-* Added [Run in new Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
-* Added [Refactoring](powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
+* Added [Run in new Terminal](../powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
+* Added [Refactoring](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
 
 ## 5.18.0 - 12-13-2020
 
 * Fixed an issue where variables wouldn't work in PowerShell 7.1
 * Fixed an issue where Out-VSCodeGridView wouldn't work in PowerShell 7.1
-* Added a command to insert paths from [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
-* Added a command to view child items of a path in [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
-* Added a command to view item properties in [Provider Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
+* Added a command to insert paths from [Provider Explorer](../powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
+* Added a command to view child items of a path in [Provider Explorer](../powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
+* Added a command to view item properties in [Provider Explorer](../powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md#provider-explorer)
 
 ## 5.17.2 - 12-8-2020
 
@@ -161,7 +161,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.17.0 - 12-6-2020
 
-* Added [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
+* Added [RapidSense](../powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
 
 ## 5.16.11 - 12-5-2020
 
@@ -179,7 +179,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.16.7 - 11-21-2020
 
-* Added support for [scoped package.psd1 files](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md#scoped-package-psd1)
+* Added support for [scoped package.psd1 files](../powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md#scoped-package-psd1)
 
 ## 5.16.6 - 11-16-2020
 
@@ -331,13 +331,13 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ### 5.12.1 – 6-19-2020
 
-**Added** 
+**Added**
 
 * Added Host Processes tree node with support for one-click debugging runspaces
 
 ### 5.12.0 – 6-19-2020
 
-**Added** 
+**Added**
 
 * Added an Output Channel for PowerShell Pro Tools diagnostics
 
@@ -372,7 +372,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ### 5.9.0 – 4-16-2020
 
-**Added** 
+**Added**
 
 * Cmdlets for managing [VS Code with PowerShell](https://ironmansoftware.com/automating-visual-studio-code-with-powershell/)
 
