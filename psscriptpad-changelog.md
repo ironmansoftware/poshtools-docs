@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+### 5.10.0 - 4-27-2021
+
+- Added integrated mode
+
 ### 5.9.11 - 4-23-2021
 
 * Fixed an issue with activation caching
