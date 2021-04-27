@@ -42,6 +42,7 @@
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
+  * [Sign On Save](powershell-pro-tools-documentation/visual-studio-code/sign-on-save.md)
   * [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
   * [Refactoring](powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)

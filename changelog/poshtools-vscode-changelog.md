@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.23.0 - 4-27-2021
+
+* Added Sign on Save feature
+
 ## 5.22.4 - 4-23-2021
 
 * Fixed an issue with activation caching
