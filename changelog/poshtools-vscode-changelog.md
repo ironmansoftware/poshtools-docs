@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.24.0 - 4-28-2021
+
+* Added Reflection view
+
 ## 5.23.0 - 4-27-2021
 
 * Added Sign on Save feature

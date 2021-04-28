@@ -50,9 +50,15 @@ You can view child items in a grid by using the View Items command on containers
 
 ![](../../.gitbook/assets/get-childitem.gif)
 
+## Reflection Explorer
+
+The reflection explorer allows you to view assemblies, types, and members of those types within the side panel. 
+
+![](../../.gitbook/assets/image%20%2867%29.png)
+
 ## Variable Explorer
 
-The Variable Explorer allows you to see a variables defined in your session without being in the debugger. You can expand and view their properties. Clicking the refresh button will refresh the variable list. 
+The Variable Explorer allows you to see variables defined in your session without being in the debugger. You can expand and view their properties. Clicking the refresh button will refresh the variable list. 
 
 ![Variable Explorer](../../.gitbook/assets/variables.png)
 
