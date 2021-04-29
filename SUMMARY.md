@@ -35,6 +35,7 @@
   * [Debugging](powershell-pro-tools-documentation/visual-studio-code/debugging/README.md)
     * [Run in New Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
     * [One-Click Attach](powershell-pro-tools-documentation/visual-studio-code/debugging/one-click-attach.md)
+  * [Decompiler](powershell-pro-tools-documentation/visual-studio-code/decompiler.md)
   * [Diagnostics](powershell-pro-tools-documentation/visual-studio-code/diagnostics.md)
   * [Enhanced Hover](powershell-pro-tools-documentation/visual-studio-code/enhanced-hover.md)
   * [Generating a UI from a function](powershell-pro-tools-documentation/visual-studio-code/generating-a-ui-from-a-function.md)

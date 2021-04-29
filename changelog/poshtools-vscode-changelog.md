@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.24.1 - 4-29-2021
+
+* Added type decompiler to Reflection view
+* Improved field and property information in Reflection view. 
+
 ## 5.24.0 - 4-28-2021
 
 * Added Reflection view
