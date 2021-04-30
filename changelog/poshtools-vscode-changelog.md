@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.24.2 - 4-30-2021
+
+* Added namespaces to the reflection view
+* Added a command for loading assemblies into the reflection view
+
 ## 5.24.1 - 4-29-2021
 
 * Added type decompiler to Reflection view
