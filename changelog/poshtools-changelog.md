@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.8.7 - 4-30-2021
+
+* Fixed an issue where resource files would not be generated when paths contained periods
+
 ## 5.8.6 - 4-26-2021
 
 * Fixed an issue with packaging XAML files. 
