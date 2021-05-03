@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.24.3 - 5-3-2021
+
+* Improved extension activation performance
+* Improved status bar message icon visibility
+
 ## 5.24.2 - 4-30-2021
 
 * Added namespaces to the reflection view
