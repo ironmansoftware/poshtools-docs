@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.25.0 - 5-4-2021
+
+- Fixed an issue where the VS Code module wouldn't load properly
+- Fixed an issue with several links within the extension
+- Added support for custom tree views
+
 ## 5.24.3 - 5-3-2021
 
 * Improved extension activation performance
