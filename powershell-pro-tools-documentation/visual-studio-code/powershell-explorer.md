@@ -14,9 +14,25 @@ If you want to clear the AST node selection, click the Clear Selection button.
 
 ![Clear the AST Selection](../../.gitbook/assets/clear-ast.PNG)
 
+## Custom Tree View
+
+The custom tree view allows you to define your own tree views with custom items. Items can have children and support invocation which can call any cmdlet you'd like. You can also integrate with the [VS Code cmdlets](automating-visual-studio-code.md).
+
+The following example creates a tree view named test that creates nested tree items. When each item is clicked, it will display a VS Code message. 
+
+```text
+Register-VSCodeTreeView -Label 'Test' -LoadChildren {
+    1..10 | % { New-VSCodeTreeItem -Label "Test$_" -Icon 'archive' -HasChildren } 
+} -Icon 'account' -InvokeChild {
+    Show-VSCodeMessage -Message $args[0].Path
+}
+```
+
+![](../../.gitbook/assets/customtreeview.gif)
+
 ## Host Process Explorer
 
-The host process explorer let's you view processes running PowerShell on your machine. You can click the Attach button to use the [One-Click Attach](debugging/one-click-attach.md) feature. 
+The host process explorer lets you view processes running PowerShell on your machine. You can click the Attach button to use the [One-Click Attach](debugging/one-click-attach.md) feature. 
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
