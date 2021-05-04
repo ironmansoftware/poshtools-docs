@@ -48,6 +48,12 @@ The host process explorer lets you view processes running PowerShell on your mac
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
+## History Explorer 
+
+View the history from PSReadline and insert it into the PowerShell Integrated terminal
+
+![](../../.gitbook/assets/image%20%287%29.png)
+
 ## Modules Explorer
 
 The Module Explorer node provides the ability to view modules within your PowerShell environment. It will list all the modules and their versions directly in the tree view. If there is an updated version of a module, the update icon will be available and a description on the node will state the updated version that is available on the gallery. You can click the update button to update that module. 
