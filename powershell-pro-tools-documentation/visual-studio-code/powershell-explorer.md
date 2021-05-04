@@ -30,6 +30,18 @@ Register-VSCodeTreeView -Label 'Test' -LoadChildren {
 
 ![](../../.gitbook/assets/customtreeview.gif)
 
+This example creates a tree view of GitHub repositories and opens then when clicked.
+
+```text
+Register-VSCodeTreeView -Label 'GitHub' -LoadChildren {
+    New-VSCodeTreeItem -Label 'PowerShell Universal' -Description 'https://github.com/ironmansoftware/powershell-universal' -Icon 'github-inverted'
+    New-VSCodeTreeItem -Label 'Issues' -Description 'https://github.com/ironmansoftware/issues' -Icon 'github-inverted'
+    New-VSCodeTreeItem -Label 'PowerShell' -Description 'https://github.com/powershell/powershell' -Icon 'github-inverted'
+} -Icon 'github' -InvokeChild {
+    Start-Process $args[0].Description
+}
+```
+
 ## Host Process Explorer
 
 The host process explorer lets you view processes running PowerShell on your machine. You can click the Attach button to use the [One-Click Attach](debugging/one-click-attach.md) feature. 
