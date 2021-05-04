@@ -42,7 +42,7 @@ RapidSense triggers on on the following characters:
 
 When a trigger character is pressed the standard statement completion UI will be shown. 
 
-![](../../.gitbook/assets/image%20%2847%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2847%29%20%281%29%20%281%29.png)
 
 ## Configuring RapidSense
 
