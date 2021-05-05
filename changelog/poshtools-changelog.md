@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.8.10 - 5-5-2021
+
+* Added Execute Selection button to PowerShell Toolbar
+
 ## 5.8.9 - 5-4-2021
 
 * Removed a dependency on NewtonSoft.Json that was causing a problem when compiling scripts to executables
