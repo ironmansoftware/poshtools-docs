@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.26.0 - 5-7-2021
+
+* Added session explorer
+* Added pin and unpin session commands
+
 ## 5.25.0 - 5-4-2021
 
 * Fixed an issue where the VS Code module wouldn't load properly

@@ -41,6 +41,7 @@
   * [Generating a UI from a function](powershell-pro-tools-documentation/visual-studio-code/generating-a-ui-from-a-function.md)
   * [Generate a Tool from a Function](powershell-pro-tools-documentation/visual-studio-code/generate-a-tool-from-a-function.md)
   * [Packaging in Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/packaging-in-visual-studio-code.md)
+  * [Pin Session](powershell-pro-tools-documentation/visual-studio-code/pin-session.md)
   * [PowerShell Explorer](powershell-pro-tools-documentation/visual-studio-code/powershell-explorer.md)
   * [Profiler](powershell-pro-tools-documentation/visual-studio-code/profiler.md)
   * [Sign On Save](powershell-pro-tools-documentation/visual-studio-code/sign-on-save.md)

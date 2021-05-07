@@ -90,6 +90,14 @@ The reflection explorer allows you to view assemblies, types, and members of tho
 
 ![](../../.gitbook/assets/image%20%2867%29.png)
 
+## Session Explorer
+
+The session explorer allows you to view active PSSessions in your environment. You can connect, disconnect and remove sessions from the session explorer. 
+
+![](../../.gitbook/assets/image%20%2847%29.png)
+
+
+
 ## Variable Explorer
 
 The Variable Explorer allows you to see variables defined in your session without being in the debugger. You can expand and view their properties. Clicking the refresh button will refresh the variable list. 
