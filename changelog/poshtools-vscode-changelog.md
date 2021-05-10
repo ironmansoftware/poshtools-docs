@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.26.1 - 5-10-2021
+
+* Fixed an issue where string resources would not be output in the form design
+* Fixed an issue where the extension could fail to activate
+
 ## 5.26.0 - 5-7-2021
 
 * Added session explorer
