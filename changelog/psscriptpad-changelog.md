@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.10.1 - 5-10-2021
+
+* Fixed an issue where string resources would not be output in the form designer
+
 ## 5.10.0 - 4-27-2021
 
 * Added integrated mode
