@@ -54,6 +54,12 @@ View the history from PSReadline and insert it into the PowerShell Integrated te
 
 ![](../../.gitbook/assets/image%20%287%29.png)
 
+## Jobs Explorer 
+
+The Jobs explorer displays the status of jobs within your PowerShell session. You can stop, receive, debug and remove jobs.
+
+![](../../.gitbook/assets/image%20%2868%29.png)
+
 ## Modules Explorer
 
 The Module Explorer node provides the ability to view modules within your PowerShell environment. It will list all the modules and their versions directly in the tree view. If there is an updated version of a module, the update icon will be available and a description on the node will state the updated version that is available on the gallery. You can click the update button to update that module. 
