@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.10.3 - 5-10-2021
+
+* Fixed an issue with the WPF designer where it would lose focus on the current control when changing props
+
 ## 5.10.1 - 5-10-2021
 
 * Fixed an issue where string resources would not be output in the form designer
