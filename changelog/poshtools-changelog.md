@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.8.12 - 5-11-2021
+
+* Fixed an issue where the bundler could throw an error and fail when bundling certain modules.
+
 ## 5.8.11 - 5-10-2021
 
 * Fixed an issue where the packager would throw an error about NewtonSoft.Json when bundling modules.
