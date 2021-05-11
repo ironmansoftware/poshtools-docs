@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.27.1 - 5-11-2021
+
+* Fixed an issue where the extension could hang during activation
+
 ## 5.27.0 - 5-10-2021
 
 * Fixed an issue where string resources would not be output in the form design
