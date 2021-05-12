@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.27.2 - 5-12-2021
+
+* Updated PSScriptPad version
+* Removed custom telemetry setting to rely on the built-in, opt-in VS Code setting
+
 ## 5.27.1 - 5-11-2021
 
 * Fixed an issue where the extension could hang during activation

@@ -21,7 +21,7 @@ x:Name="wpfWindow" Background="White" Title="WPF Window">
 </Window>
 ```
 
-Next, click the Show Form Designer button in the toolbar of the file. PSScriptPad will open the XAML file in the WPF Designer. 
+Next, click the Show Form Designer button in the toolbar of the file. PSScriptPad will open the XAML file in the WPF Designer.
 
 ![PSScriptPad WPF Designer](../../.gitbook/assets/vscode.gif)
 
