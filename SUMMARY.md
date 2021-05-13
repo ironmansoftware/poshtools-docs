@@ -23,11 +23,12 @@
 ## PowerShell Pro Tools Documentation
 
 * [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
-  * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
+  
   * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
+  * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion.md)
   * [Go to Definition](powershell-pro-tools-documentation/visual-studio/go-to-definition.md)
   * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
-  * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion.md)
+  * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)
     * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
     * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
