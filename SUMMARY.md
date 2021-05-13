@@ -23,6 +23,7 @@
 ## PowerShell Pro Tools Documentation
 
 * [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
+  * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
   * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
   * [Go to Definition](powershell-pro-tools-documentation/visual-studio/go-to-definition.md)
   * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
