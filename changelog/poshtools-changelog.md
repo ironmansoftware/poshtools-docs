@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.9.1 - 5-14-2021
+
+* Added Modules window
+* Improved performance of the variables window 
+
 ## 5.9.0 - 5-13-2021
 
 * Added Variables window

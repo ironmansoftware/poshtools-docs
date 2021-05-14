@@ -23,7 +23,6 @@
 ## PowerShell Pro Tools Documentation
 
 * [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
-  
   * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
   * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion.md)
   * [Go to Definition](powershell-pro-tools-documentation/visual-studio/go-to-definition.md)
