@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.8 - 5-17-2021
+
+* Fixed an issue with running Merge-Script on Linux
+
 ## 5.8.5 - 4-23-2021
 
 * Fixed an issue with activation caching
