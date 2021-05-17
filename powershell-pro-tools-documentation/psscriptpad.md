@@ -216,7 +216,17 @@ You can switch between dark and light themes using the options dialog.
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 
+## Key Bindings
 
+| Key Binding | Command |
+| :--- | :--- |
+| Ctrl+S | Save |
+| F5 | Start Debugging or Continue |
+| F8 | Execute Selection |
+| F9 | Toggle Breakpoint |
+| F10 | Step Over |
+| F11 | Step Into |
+| Shift+F11 | Step Out |
 
 
 
