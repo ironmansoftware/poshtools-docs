@@ -1,6 +1,6 @@
 # PSScriptPad
 
-PSScriptPad is the tiny editor for Windows PowerShell. It requires no installation or configuration. It weighs in around 4Mbs, can edit and execute PowerShell scripts, design Windows Forms, and Package Executables. 
+PSScriptPad is the tiny editor for Windows PowerShell and PowerShell 7. It requires no installation or configuration. It weighs in around 4Mbs, can edit, execute and debug PowerShell scripts, design Windows Forms, WPF Windows, and Package Executables. 
 
 ## Download
 
