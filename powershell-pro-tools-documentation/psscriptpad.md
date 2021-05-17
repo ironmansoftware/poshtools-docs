@@ -216,17 +216,28 @@ You can switch between dark and light themes using the options dialog.
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 
-## Key Bindings
+## Keyboard Shortcuts
 
-| Key Binding | Command |
-| :--- | :--- |
-| Ctrl+S | Save |
-| F5 | Start Debugging or Continue |
-| F8 | Execute Selection |
-| F9 | Toggle Breakpoint |
-| F10 | Step Over |
-| F11 | Step Into |
-| Shift+F11 | Step Out |
+| Keyboard Shortcuts | Action | Used In |
+| :--- | :--- | :--- |
+| Ctrl+S | Save | Script, Form Designers |
+| F5 | Start Debugging or Continue | Script |
+| F8 | Execute Selection | Script |
+| F9 | Toggle Breakpoint | Script |
+| F10 | Step Over | Script |
+| F11 | Step Into | Script |
+| Shift+F11 | Step Out | Script |
+| Ctrl+F | Find | Script, Console |
+| F3 | Find Next | Script, Console |
+| Shift+F3 | Find Previous | Script, Console |
+| Ctrl+C | Copy | Script, Console |
+| Ctrl+X | Cut | Script, Console |
+| Ctrl+V | Paste | Script, Console |
+| Ctrl+H | Replace | Script, Console |
+| Ctrl+Z | Undo | Script, Console |
+| Ctrl+Y | Redo | Script, Console |
+| Ctrl++ | Zoom In | Script, Console |
+| Ctrl+- | Zoom Out | Script, Console |
 
 
 
