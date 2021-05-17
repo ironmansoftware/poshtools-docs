@@ -4,6 +4,14 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.10.4 - 5-17-2021
+
+* Fixed an issue where the terminal cursor was barely visible 
+* Fixed an issue where the terminal cursor would lose focus after executing a command
+* Added a Grid to the default WPF window so controls are draggable by default
+
+
+
 ## 5.10.3 - 5-10-2021
 
 * Fixed an issue with the WPF designer where it would lose focus on the current control when changing props
