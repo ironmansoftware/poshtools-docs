@@ -4,10 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
-## 5.27.4 - 5-18-2021
+## 5.28.0 - 5-18-2021
 
 * Updated version of PSScriptPad
 * Added Open with PSScriptPad to PS1 files navigation bar
+* Added F2 Rename Variables
 
 ## 5.27.3 - 5-17-2021
 

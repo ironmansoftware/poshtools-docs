@@ -48,6 +48,7 @@
   * [Sign On Save](powershell-pro-tools-documentation/visual-studio-code/sign-on-save.md)
   * [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md)
   * [Refactoring](powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
+  * [Rename Symbols](powershell-pro-tools-documentation/visual-studio-code/rename-symbols.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
   * [WPF Designer](powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
