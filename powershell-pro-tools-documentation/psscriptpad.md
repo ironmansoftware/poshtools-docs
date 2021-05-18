@@ -44,6 +44,12 @@ Code Folding collapses blocks of PowerShell script that you wish to hide. You ca
 
 ![](../.gitbook/assets/image.png)
 
+### PSScriptAnalyzer Support
+
+PSScriptPad will show PSScriptAnalyzer warnings if it is installed. You can customize your PSScriptAnalyzer settings by placing a configuration file in `$Env:AppData\PowerShell Pro Tools\PSScriptAnalyzerSettings.psd1`.
+
+![](../.gitbook/assets/image%20%2870%29.png)
+
 ## Debugging 
 
 PSScriptPad can also debug PowerShell scripts. It supports executing scripts, setting breakpoints, stepping through scripts and viewing the output of scripts in the terminal window. 

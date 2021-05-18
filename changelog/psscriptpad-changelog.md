@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.0 - 5-18-2021
+
+* PSScriptAnalyzer support
+* Fixed an issue where errors and warnings would not show any text when hovered
+
 ## 5.10.4 - 5-17-2021
 
 * Fixed an issue where the terminal cursor was barely visible 
