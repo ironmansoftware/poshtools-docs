@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.1 - 5-19-2021
+
+* Fixed an issue with Out-GridView
+
 ## 5.11.0 - 5-18-2021
 
 * PSScriptAnalyzer support
