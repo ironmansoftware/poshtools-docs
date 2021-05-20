@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.3 - 5-21-2021
+
+* Added copy and paste to the Windows Form designer
+
 ## 5.11.2 - 5-20-2021
 
 * Fixed a crash on startup in PSScriptPad 
