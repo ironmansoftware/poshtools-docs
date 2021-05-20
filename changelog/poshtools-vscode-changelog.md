@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.1 - 5-20-2021
+
+* Fixed a crash on startup in PSScriptPad 
+* Resolved a performance issue where analysis would run twice in PSScriptPad
+
 ## 5.28.0 - 5-18-2021
 
 * Updated version of PSScriptPad

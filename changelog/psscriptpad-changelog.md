@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.2 - 5-20-2021
+
+* Fixed a crash on startup in PSScriptPad 
+* Resolved a performance issue where analysis would run twice in PSScriptPad
+
 ## 5.11.1 - 5-19-2021
 
 * Fixed an issue with Out-GridView
