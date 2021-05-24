@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.9.4 - 5-24-2021
+
+* Fixed an issue where the variables window would not work due to a missing license file in the build process.
+
 ## 5.9.3 - 5-21-2021
 
 * Fixed an issue where bundling form resources would not work correctly
