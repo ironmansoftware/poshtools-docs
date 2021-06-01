@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.3 - 6-1-2021
+
+* Fixed an issue with extension activation
+* Fixed an issue with generating ImageLists in PSScriptPad resources
+
 ## 5.28.1 - 5-20-2021
 
 * Fixed a crash on startup in PSScriptPad 

@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.4 - 6-1-2021
+
+* Fixed an issue with ImageList resources would not be stored correctly
+
 ## 5.11.3 - 5-21-2021
 
 * Added copy and paste to the Windows Form designer
