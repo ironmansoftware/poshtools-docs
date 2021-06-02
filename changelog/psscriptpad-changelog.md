@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.5 - 6-2-2021
+
+* Fixed a packaging issue with concatenated strings and Join-Path
+
 ## 5.11.4 - 6-1-2021
 
 * Fixed an issue with ImageList resources would not be stored correctly

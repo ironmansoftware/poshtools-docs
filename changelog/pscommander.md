@@ -4,7 +4,11 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
-## 1.4.4 - 4-21-201
+## 1.4.5 - 6-2-2021
+
+* Fixed an exception that would be thrown during configuration file saves
+
+## 1.4.4 - 4-21-2021
 
 * Added subscription activation caching to prevent excessive web requests
 

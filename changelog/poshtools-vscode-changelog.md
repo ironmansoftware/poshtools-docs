@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.4 - 6-2-2021
+
+* Fixed a packaging issue with concatenated strings and Join-Path
+
 ## 5.28.3 - 6-1-2021
 
 * Fixed an issue with extension activation
