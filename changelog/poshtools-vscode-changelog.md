@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.5 - 6-3-2021
+
+* Add support for disabling QuickEdit during packaging
+* Fixed an issue with the packager and strings with single quotes
+
 ## 5.28.4 - 6-2-2021
 
 * Fixed a packaging issue with concatenated strings and Join-Path

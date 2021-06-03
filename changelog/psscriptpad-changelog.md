@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.11.6 - 6-3-2021
+
+* PSScriptPad layout now persists 
+* Add support for disabling QuickEdit during packaging
+* Fixed an issue with the packager and strings with single quotes
+
 ## 5.11.5 - 6-2-2021
 
 * Fixed a packaging issue with concatenated strings and Join-Path

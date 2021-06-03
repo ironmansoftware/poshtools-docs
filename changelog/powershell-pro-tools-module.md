@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.10 - 6-3-2021
+
+* Add support for disabling QuickEdit during packaging
+* Fixed an issue with the packager and strings with single quotes
+
 ## 5.8.9 - 6-2-2021
 
 * Fixed a packaging issue with concatenated strings and Join-Path
