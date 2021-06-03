@@ -4,7 +4,7 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
-## 5.11.6 - 6-3-2021
+## 5.12.1 - 6-3-2021
 
 * PSScriptPad layout now persists 
 * Add support for disabling QuickEdit during packaging
