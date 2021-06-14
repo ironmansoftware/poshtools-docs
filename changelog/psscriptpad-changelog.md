@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.12.2 - 6-14-2021
+
+* Fixed an issue where PSScriptPad would crash when pressing Ctrl+C
+
 ## 5.12.1 - 6-3-2021
 
 * PSScriptPad layout now persists 

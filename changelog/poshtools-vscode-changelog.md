@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.6 - 6-14-2021
+
+* Fixed an issue where the extension could fail to load in large workspaces
+* Fixed an issue where PSScriptPad would crash when pressing Ctrl+C
+
 ## 5.28.5 - 6-3-2021
 
 * Add support for disabling QuickEdit during packaging
