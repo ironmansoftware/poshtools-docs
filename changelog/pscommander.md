@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.6 - 6-14-2021
+
+* Fixed an crash when starting commander when no license was installed
+
 ## 1.4.5 - 6-2-2021
 
 * Fixed an exception that would be thrown during configuration file saves
