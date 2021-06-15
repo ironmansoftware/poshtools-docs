@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.7 - 6-15-2021
+
+* Fixed an issue where the extension could fail to load on some Windows system
+
 ## 5.28.6 - 6-14-2021
 
 * Fixed an issue where the extension could fail to load in large workspaces
