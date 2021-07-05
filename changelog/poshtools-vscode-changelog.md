@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.8 - 7-5-2021
+
+* Fixed an issue where Rename Symbol \(F2\) would incorrectly rename variables
+* Fixed a performance issue with workspace analysis
+
 ## 5.28.7 - 6-15-2021
 
 * Fixed an issue where the extension could fail to load on some Windows system
