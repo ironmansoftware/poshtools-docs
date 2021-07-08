@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.12.3 - 7-8-2021
+
+* Added support for packaging PowerShell 7.0.6
+
 ## 5.12.2 - 6-14-2021
 
 * Fixed an issue where PSScriptPad would crash when pressing Ctrl+C

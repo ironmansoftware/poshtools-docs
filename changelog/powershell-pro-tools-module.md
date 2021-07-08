@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.8.11 - 7-8-2021
+
+* Added support for packaging PowerShell 7.0.6
+
 ## 5.8.10 - 6-3-2021
 
 * Add support for disabling QuickEdit during packaging

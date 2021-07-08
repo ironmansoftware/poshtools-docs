@@ -7,6 +7,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 ## 5.28.10 - 7-8-2021
 
 * Fixed an issue where the PowerShellProTools.Host.exe process would constantly use CPU
+* Added support for packaging PowerShell 7.0.6
 
 ## 5.28.9 - 7-7-2021
 
