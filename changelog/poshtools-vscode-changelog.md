@@ -4,6 +4,14 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.28.10 - 7-8-2021
+
+* Fixed an issue where the PowerShellProTools.Host.exe process would constantly use CPU
+
+## 5.28.9 - 7-7-2021
+
+* Updated to latest .NET Core SDK to remediate CVE-2021-26701
+
 ## 5.28.8 - 7-5-2021
 
 * Fixed an issue where Rename Symbol \(F2\) would incorrectly rename variables

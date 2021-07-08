@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.7 - 7-7-2021
+
+* Updated to latest .NET Core SDK to remediate CVE-2021-26701
+
 ## 1.4.6 - 6-14-2021
 
 * Fixed an crash when starting commander when no license was installed
