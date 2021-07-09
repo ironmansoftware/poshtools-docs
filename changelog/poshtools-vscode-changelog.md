@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.9.11 - 7-9-2021
+
+* Fixed an issue where the extension would not activate
+* Fixed an issue where workspace analysis could prevent other features of the extension from work in tandem
+* Fixed an issue where the History node was slow
+
 ## 5.28.10 - 7-8-2021
 
 * Fixed an issue where the PowerShellProTools.Host.exe process would constantly use CPU
