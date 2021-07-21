@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.10.0 - 7-20-2021
+
+* Added support for bundling resources into executables
+
 ## 5.9.9 - 6-16-2021
 
 * Fixed an issue where Read-Host would not work

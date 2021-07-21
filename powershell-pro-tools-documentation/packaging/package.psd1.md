@@ -37,6 +37,7 @@ This about file contains information about using hashtables and PSD1 files to co
             PowerShellVersion = 'Windows PowerShell' # You can specify Windows PowerShell or PowerShell 7 or later versions version (e.g. 7.0.0)
             RuntimeIdentifier = 'win-x64' # You can specify other runtimes like linux-x64 (See .NET Core runtime identifiers)
             DisableQuickEdit = $false # Disables the quick edit mode on windows console apps
+            Resources = @() # Resources to embed in the output executable
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
@@ -121,12 +122,50 @@ Creates an executable that contains the PowerShell Core engine. This executable 
     OutputPath = 'c:\Users\Adam\Desktop\out'
     Package = @{
         Enabled = $true
-        PowerShellCore = $true
+        DotNetVersion = 'netcoreapp3.1'
+        PowerShellVersion = "7.1.3"
     }
     Bundle = @{
         Enabled = $true
         Modules = $true
     }
 }
+```
+
+## Bundle resources in a WPF application
+
+Embeds the `image.png` file within the application so you can reference it in your XAML. This file resides in the same folder as `window.ps1`.
+
+```text
+@{
+    Root = 'c:\Users\Adam\Desktop\Window.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        Resources = @("image.png")
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+In the XAML, you can reference the image like this. 
+
+```text
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="image.png" />
+    </Grid>
+</Window>
+
 ```
 

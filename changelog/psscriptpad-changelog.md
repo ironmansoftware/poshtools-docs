@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 5.13.0 - 7-20-2021
+
+* Added support for bundling resources into executables
+
 ## 5.12.3 - 7-8-2021
 
 * Added support for packaging PowerShell 7.0.6

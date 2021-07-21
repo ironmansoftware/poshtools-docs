@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.9.0 - 7-20-2021
+
+* Added support for bundling resources into executables
+
 ## 5.8.11 - 7-8-2021
 
 * Added support for packaging PowerShell 7.0.6
