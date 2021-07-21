@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.10.1 - 7-21-2021
+
+* Fixed an issue where an exception could be thrown during packaging.
+
 ## 5.10.0 - 7-20-2021
 
 * Added support for bundling resources into executables

@@ -37,7 +37,7 @@ This about file contains information about using hashtables and PSD1 files to co
             PowerShellVersion = 'Windows PowerShell' # You can specify Windows PowerShell or PowerShell 7 or later versions version (e.g. 7.0.0)
             RuntimeIdentifier = 'win-x64' # You can specify other runtimes like linux-x64 (See .NET Core runtime identifiers)
             DisableQuickEdit = $false # Disables the quick edit mode on windows console apps
-            Resources = @() # Resources to embed in the output executable
+            Resources = [string[]]@() # Resources to embed in the output executable
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
