@@ -102,3 +102,36 @@ To deploy your executable, you will only need to include the exe file. For examp
  C:\Users\adamr\source\repos\PowerShellProject3\PowerShellProject3\bin\Debug\Form.exe
 ```
 
+## Packaging Resources 
+
+Packaging resources, such as images, can be helpful when creating UI's like WPF windows. You can follow the below steps to embed resources.
+
+First, add the resource to your PowerShell Project. Right click on your project and then click Add \ Existing Item. When the file browser dialog opens, select your resource. 
+
+Next, right click on your resource and select properties. In the property dialog, change the Resource property to true. This will embed the resource into the assembly. 
+
+![](../../.gitbook/assets/image%20%2871%29.png)
+
+Finally, if you are using WPF, then you can reference the assembly by name. 
+
+```text
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="image.png" />
+    </Grid>
+</Window>
+```
+
+
+
+
+
+
+
