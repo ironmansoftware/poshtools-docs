@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 5.10.2 - 7-22-2021
+
+* Fixed an issue where the packager would fail when the script name had a space in it
+
 ## 5.10.1 - 7-21-2021
 
 * Fixed an issue where an exception could be thrown during packaging.

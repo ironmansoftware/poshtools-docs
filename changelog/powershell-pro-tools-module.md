@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.9.2 - 7-22-2021
+
+* Fixed an issue where the packager would fail when the script name had a space in it
+
 ## 5.9.1 - 7-21-2021
 
 * Fixed an issue where an exception could be thrown during packaging.

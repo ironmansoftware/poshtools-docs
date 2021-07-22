@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.29.3 - 7-22-2021
+
+* Fixed an issue where the packager would fail when the script name had a space in it
+
 ## 5.29.2 - 7-21-2021
 
 * Fixed an issue where an exception could be thrown during packaging.
