@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.29.4 - 7-27-2021
+
+* Fixed an issue where DataGridView columns could not be added to the form designer
+
 ## 5.29.3 - 7-22-2021
 
 * Fixed an issue where the packager would fail when the script name had a space in it

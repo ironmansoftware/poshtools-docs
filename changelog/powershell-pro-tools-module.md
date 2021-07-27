@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 5.9.3 - 7-27-2021
+
+* Fixed an issue where DataGridView columns could not be added to the form designer
+
 ## 5.9.2 - 7-22-2021
 
 * Fixed an issue where the packager would fail when the script name had a space in it
