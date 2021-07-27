@@ -90,3 +90,7 @@ Install-PoshProToolsLicense -Path C:\license.txt
 
 You can manually install your license by placing a `license.lic` file in your `%AppData%\PowerShell Pro Tools` directory. The directory may not exist. Place the full XML of the license file you received in this file. 
 
+### PSScriptPad 
+
+PSScriptPad licenses can be installed using the above methods. PSScriptPad also supports loading license files that reside next to the PSScriptPad.exe file. Create a file called `license.lic` and place it in the same directory as PSScriptPad. The license will be loaded from this location, if present. 
+
