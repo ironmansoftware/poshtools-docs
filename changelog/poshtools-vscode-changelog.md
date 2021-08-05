@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.30.0 - 8-5-2021
+
+* Added support for excluding automatic variables from variables view
+
 ## 5.29.4 - 7-27-2021
 
 * Fixed an issue where DataGridView columns could not be added to the form designer
