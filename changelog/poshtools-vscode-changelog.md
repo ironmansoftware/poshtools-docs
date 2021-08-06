@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 5.30.1 - 8-6-2021
+
+* Added better error handling to console host to prevent packaged applications from crashing and to provide a meaningful error
+
 ## 5.30.0 - 8-5-2021
 
 * Added support for excluding automatic variables from variables view
