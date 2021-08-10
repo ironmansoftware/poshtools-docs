@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 1.4.8 - 8-10-2021
+
+* Update to latest PSScriptPad 
+
 ## 1.4.7 - 7-7-2021
 
 * Updated to latest .NET Core SDK to remediate CVE-2021-26701
