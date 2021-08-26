@@ -14,7 +14,7 @@ On a machine with an internet connection, double click the VSIX file.
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-The online machine will install the certificate to the local machine.  After the VSIX installer opens, click the Digital Signature link to view more information about the certificate. 
+The online machine will install the certificate to the local machine.  After the VSIX installer opens, click the Digital Signature link to view more information about the certificate. Click Install Certificate.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
