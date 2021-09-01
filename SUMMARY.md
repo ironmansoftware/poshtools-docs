@@ -34,6 +34,7 @@
     * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 * [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/README.md)
   * [Automating Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/automating-visual-studio-code.md)
+  * [Code Conversion](powershell-pro-tools-documentation/visual-studio-code/code-conversion.md)
   * [Debugging](powershell-pro-tools-documentation/visual-studio-code/debugging/README.md)
     * [Run in New Terminal](powershell-pro-tools-documentation/visual-studio-code/debugging/start-in-new-terminal.md)
     * [One-Click Attach](powershell-pro-tools-documentation/visual-studio-code/debugging/one-click-attach.md)
