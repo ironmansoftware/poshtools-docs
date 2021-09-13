@@ -8,6 +8,17 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.9.0 - 9/14/2021
+
+* Visual Studio 2022 Support
+* Fixed an issue where debugging a script could say that a pre-req was missing
+* Fixed pre-req installation
+* Fixed an issue where the Convert To PowerShell and Convert To C\# commands were missing in the context menu
+* Fixed an error that would be shown when attempting to package a script in Visual Studio 
+* Fixed an MSBuild warning that was shown when compiling on Windows
+* Added support for bundling additional XAML files in executables
+* Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
+
 ## 5.10.2 - 7-22-2021
 
 * Fixed an issue where the packager would fail when the script name had a space in it
