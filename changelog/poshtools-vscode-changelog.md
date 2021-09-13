@@ -4,6 +4,15 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2021.9.0 - 9-14-2021
+
+* Fixed an issue where packaging in VS Code would use the wrong PowerShell SDK and fail to find modules
+* Fixed an issue where the Upgrade-Module functionality would silently fail
+* Fixed an MSBuild warning that was shown when compiling on Windows
+* Added support for bundling additional XAML files in executables
+* Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
+* Added support for switching the .NET SDK to use for packaging. 
+
 ## 5.30.1 - 8-6-2021
 
 * Added better error handling to console host to prevent packaged applications from crashing and to provide a meaningful error
