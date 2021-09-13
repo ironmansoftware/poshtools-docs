@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+## 2021.9.0 - 9-14-2021
+
+* Updated to the latest PSScriptPad
+
 ## 1.4.8 - 8-10-2021
 
 * Update to latest PSScriptPad 
