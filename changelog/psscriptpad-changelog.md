@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2021.9.0 - 9-14-2021
+
+* Fixed an MSBuild warning that was shown when compiling on Windows 
+* Added support for bundling additional XAML files in executables 
+* Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
+
 ## 5.13.3 - 7-27-2021
 
 * Fixed an issue where DataGridView columns could not be added to the form designer
