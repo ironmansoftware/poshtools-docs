@@ -62,9 +62,9 @@ Visit the [purchasing page](https://www.ironmansoftware.com/pricing/powershell-p
 
 ### Visual Studio 
 
-You can install your license file in Visual Studio by click Help and then About PowerShell Pro Tools Licensing. This will open a dialog that will allow you to install your license. Click the Install License button and select your license file. 
+You can install your license file in Visual Studio by clicking View \ PowerShell \ Settings and navigating to the settings tab. 
 
-![](../../.gitbook/assets/license.gif)
+![](../../.gitbook/assets/license%20%281%29.gif)
 
 #### Visual Studio Code
 
