@@ -24,6 +24,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 * Fixed an MSBuild warning that was shown when compiling on Windows
 * Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
+* Added settings dialog under View \ PowerShell \ Settings
 
 ## 5.10.2 - 7-22-2021
 
