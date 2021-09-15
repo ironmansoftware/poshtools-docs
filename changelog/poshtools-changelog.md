@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.9.1 - 9/15/2021
+
+* Fixed an issue where colors would be incorrect in dark themes
+* Fixed an issue where the packager would show a failure to load NewtonSoft.Json
+* Fixed an issue where WPF event handlers would be generated incorrectly
+
 ## 2021.9.0 - 9/14/2021
 
 * Visual Studio 2022 Support
