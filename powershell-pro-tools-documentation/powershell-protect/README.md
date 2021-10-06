@@ -12,6 +12,6 @@ PowerShell Protect integrates with the Antimalware Scan Interface to audit and b
 
 ### More Information 
 
-* [Getting Started]()
+* [Getting Started](getting-started.md)
 * [Download](https://www.powershellgallery.com/packages/PowerShellProtect)
 
