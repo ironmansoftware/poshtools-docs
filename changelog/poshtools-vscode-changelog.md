@@ -6,7 +6,6 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 2021.10.0 - 10-12-2021
 
-* Added support for Windows ARM
 * Fixed an issue where PSScriptPad would hang when saving a large file
 * Fixed an issue where the default WPF XAML would not work
 * PSScriptPad will now open the designer and the form 
