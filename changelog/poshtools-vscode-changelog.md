@@ -4,6 +4,13 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2021.10.0 - 10-12-2021
+
+* Added support for Windows ARM
+* Fixed an issue where PSScriptPad would hang when saving a large file
+* Fixed an issue where the default WPF XAML would not work
+* PSScriptPad will now open the designer and the form 
+
 ## 2021.9.0 - 9-14-2021
 
 * Fixed an issue where packaging in VS Code would use the wrong PowerShell SDK and fail to find modules
@@ -54,7 +61,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.28.8 - 7-5-2021
 
-* Fixed an issue where Rename Symbol \(F2\) would incorrectly rename variables
+* Fixed an issue where Rename Symbol (F2) would incorrectly rename variables
 * Fixed a performance issue with workspace analysis
 
 ## 5.28.7 - 6-15-2021
@@ -179,7 +186,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.20.10 - 2-11-2021
 
-* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+* Fixed an issue where packaging would not work with modules that contained a C# .cs file (like MSAL.PS)
 
 ## 5.20.9 - 2-9-2021
 
@@ -243,7 +250,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Fixed issue with Split Pipeline refactoring changing the functionality of a script
 * Added integration into VS Code refactoring provider system
 * Added [Convert to $PSItem](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usdpsitem) refactoring
-* Added [Convert to $\_](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd_) refactoring
+* Added [Convert to $\_](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd\_) refactoring
 * Fixed an issue where Split Pipeline would show on one-command pipelines
 
 ## 5.19.6 - 12-26-2020
@@ -257,7 +264,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Added Help and Information node
 * Fixed an issue where an error could be shown if the tree view was clicked before the extension was fully loaded
 * Added options for hiding tree view providers
-* Added an option to enable module update checks \(now disabled by default\) as it was slow on many machines
+* Added an option to enable module update checks (now disabled by default) as it was slow on many machines
 
 ## 5.19.4 - 12-23-2020
 
@@ -542,7 +549,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 **Added**
 
-– Added a $Service object to OnStart\OnStop for packaged services to access the ServiceBase for the service  
+– Added a $Service object to OnStart\OnStop for packaged services to access the ServiceBase for the service\
 – Added $ProcessArgs and $ServiceArgs variables to the runspace for packaged services
 
 **Changed**
@@ -565,49 +572,49 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 #### Added
 
-– Added -ProductId to New-Installer  
-– Added -ScriptArguments to New-InstallerCustomAction  
-– Added an option to add a context menu item for opening PS1 files with PSScriptPad  
-– Added support for Comment \(Ctrl+K,Ctrl+C\) and Uncomment \(Ctrl+K,Ctrl+U\) keyboard shortcuts in PSScriptPad  
+– Added -ProductId to New-Installer\
+– Added -ScriptArguments to New-InstallerCustomAction\
+– Added an option to add a context menu item for opening PS1 files with PSScriptPad\
+– Added support for Comment (Ctrl+K,Ctrl+C) and Uncomment (Ctrl+K,Ctrl+U) keyboard shortcuts in PSScriptPad\
 – Added support for reloading files updated outside of PSScriptPad
 
 #### Changed
 
-– Fixed issue with installer shortcuts throwing an exception if a workingDirectory or arguments were not specified  
-– Fixed an issue where the installer shortcut working directory would not be specified correctly  
-– Fixed an issue where the installer shortcut would not use the correct PowerShell variable  
-– Fixed an issue where adding images to the installer UI on Windows PowerShell would throw an exception  
+– Fixed issue with installer shortcuts throwing an exception if a workingDirectory or arguments were not specified\
+– Fixed an issue where the installer shortcut working directory would not be specified correctly\
+– Fixed an issue where the installer shortcut would not use the correct PowerShell variable\
+– Fixed an issue where adding images to the installer UI on Windows PowerShell would throw an exception\
 – Fixed an issue where PSScriptPad would crash on startup.
 
 ### 5.8.1 – 1-28-2020
 
 #### Added
 
-– Added support for WorkingDirectory on New-InstallerShortcut  
-– Added support for Arguments on New-InstallerShortcut  
-– Added support for Show on New-InstallerShortcut  
+– Added support for WorkingDirectory on New-InstallerShortcut\
+– Added support for Arguments on New-InstallerShortcut\
+– Added support for Show on New-InstallerShortcut\
 – Added support for Arguments on New-InstallerCustomAction
 
 #### Changed
 
-– Fixed issue where packaged applications wouldn’t work with arguments with spaces  
-– Fixed issue with installer cmdlets not resolving paths correctly  
+– Fixed issue where packaged applications wouldn’t work with arguments with spaces\
+– Fixed issue with installer cmdlets not resolving paths correctly\
 – When specifying a shortcut for an installer, if it’s a PS1, it will automatically launch PowerShell.exe rather than targeting the script
 
-### \[5.8.0\] – \(1-22-2020\)
+### \[5.8.0] – (1-22-2020)
 
 #### Changed
 
 * No longer requires a [trial key](https://ironmansoftware.com/simplifying-product-trial-licensing/)
 
-### \[5.7.1\] – \(1-21-2020\)
+### \[5.7.1] – (1-21-2020)
 
 #### Changed
 
 * PowerShellProTools module is now signed
 * Fixed an issue with [PSScriptPad](https://ironmansoftware.com/psscriptpad/) that was preventing typing while IntelliSense was running in the terminal
 
-### \[5.7.0\] – \(1-18-2020\)
+### \[5.7.0] – (1-18-2020)
 
 #### Added
 
@@ -617,32 +624,32 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 * Fixed issue with packaging resources used for WinForms.
 
-### \[5.6.6\] \(1-15-2020\)
+### \[5.6.6] (1-15-2020)
 
 #### Changed
 
 * Fixed an issue where licensing would attempt to activate more than once and sometimes failing which resulted in some users not being able to use the tools.
 
-### \[5.6.5\] \(1-14-2020\)
+### \[5.6.5] (1-14-2020)
 
 #### Changed
 
 * Fixed an issue where packaging config would not respect the platform property.
 
-### \[5.6.4\] \(1-13-2020\)
+### \[5.6.4] (1-13-2020)
 
 #### Changed
 
 * Fixed an issue where packaging would use a package.psd1 in the temp directory.
 
-### \[5.6.3\] \(1-12-2020\)
+### \[5.6.3] (1-12-2020)
 
 #### Changed
 
 * Fixed an issue where packaging would throw an invalid format exception
 * Fixed an issue with package architecture
 
-### \[5.6.2\] \(1-10-2020\)
+### \[5.6.2] (1-10-2020)
 
 #### Added
 
@@ -654,7 +661,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Fixed an issue with ToolStrip items.
 * Fixed an issue with deleting components
 
-### \[5.6.1\] \(12-31-2019\)
+### \[5.6.1] (12-31-2019)
 
 #### Added
 
@@ -667,7 +674,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Improved performance of IntelliSense
 * Fixed a bug where the Windows Form Designer would lose code-behind changes on startup.
 
-### \[5.6.0\] \(12-28-2019\)
+### \[5.6.0] (12-28-2019)
 
 #### Added
 
@@ -675,28 +682,27 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * The Windows Forms Designer can now package the Windows Form as a executable
 * An output window was added to the Windows Forms Designer so you can see the output from your PS scripts.
 
-### \[5.5.1\] \(12-20-2019\)
+### \[5.5.1] (12-20-2019)
 
 #### Changed
 
 * Fixed an issue where the Actipro license was not installed correctly resulting in a popup.
 
-### \[5.5.0\] \(12-20-2019\)
+### \[5.5.0] (12-20-2019)
 
 #### Added
 
 * The Windows Forms Designer properties and toolbox are now in a dockable tool window.
 * The Windows Forms Designer now supports moving controls with the arrow keys.
 
-### \[5.4.6\] \(12-18-2019\)
+### \[5.4.6] (12-18-2019)
 
 ### Added a button to open the Windows Form Designer
 
 We’ve made it easier to open the Windows Form Designer from a PowerShell file. Just click the new Show Windows Form Designer button from your form.ps1 file.
 
-[![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/12/show-winform.png?resize=570%2C351&ssl=1)](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/12/show-winform.png?ssl=1)
+[![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/12/show-winform.png?resize=570%2C351\&ssl=1)](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/12/show-winform.png?ssl=1)
 
 ### Fixed error message when executing commands
 
-In certain circumstances, when you would execute PowerShell Pro Tools commands, an E\_PIPE error would be shown even though the command was completed successfully.
-
+In certain circumstances, when you would execute PowerShell Pro Tools commands, an E_PIPE error would be shown even though the command was completed successfully.

@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2021.10.0 - 10-12-2021
+
+* Fixed an issue where PSScriptPad would hang when saving a large file
+* Fixed an issue where the default WPF XAML would not work
+* PSScriptPad will now open the designer and the form 
+
 ## 2021.9.0 - 9-14-2021
 
 * Fixed an MSBuild warning that was shown when compiling on Windows 
@@ -106,7 +112,7 @@ description: Changelog for PSScriptPad
 
 ## 5.9.5 - 2-11-2021
 
-* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+* Fixed an issue where packaging would not work with modules that contained a C# .cs file (like MSAL.PS)
 
 ## 5.9.4 - 1-14-2021
 
@@ -204,9 +210,9 @@ Fixed an issue where internal logging would be shown in the console.
 
 **Changed**
 
-Fixed an issue where ListView, TreeView and ContextMenu child items would not work in PSScriptPad  
-Fixed an issue where packaging would fail if a script ended in a comment  
-Fixed an issue where packaging would fail if a script was too large  
+Fixed an issue where ListView, TreeView and ContextMenu child items would not work in PSScriptPad\
+Fixed an issue where packaging would fail if a script ended in a comment\
+Fixed an issue where packaging would fail if a script was too large\
 Fixed an issue where the opacity setting wouldn’t work on form controls on certain systems.
 
 ## 5.6.3 – 6-19-2020
@@ -262,8 +268,8 @@ Fixed an issue where the opacity setting wouldn’t work on form controls on cer
 
 ### Added
 
-– Added an option to add a context menu item for opening PS1 files with PSScriptPad  
-– Added support for Comment \(Ctrl+K,Ctrl+C\) and Uncomment \(Ctrl+K,Ctrl+U\) keyboard shortcuts  
+– Added an option to add a context menu item for opening PS1 files with PSScriptPad\
+– Added support for Comment (Ctrl+K,Ctrl+C) and Uncomment (Ctrl+K,Ctrl+U) keyboard shortcuts\
 – Added support for reloading files updated outside of PSScriptPad
 
 ### Changed
@@ -330,7 +336,7 @@ Fixed issue with packaging resources used for WinForms.
 * Fixed an issue where the debugging status indicator would not advance correctly
 * Fixed an issue where the terminal would be disabled if broken in the debugger
 * Fixed an issue where output to the terminal would not appear on a new line
-* Fixed an issue where you would need to invoke debugging commands twice \(Step Over, Step Into, Continue, Stop\)
+* Fixed an issue where you would need to invoke debugging commands twice (Step Over, Step Into, Continue, Stop)
 
 ## 5.2.3 – 1-12-2020
 
@@ -352,4 +358,3 @@ Fixed issue with packaging resources used for WinForms.
 * Terminal now executes on a background thread so the UI doesn’t lock up
 * Fixed an issue where the entire script would be collapsible.
 * Fixed issue that would prevent the license from being installed through the UI
-

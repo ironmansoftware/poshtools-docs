@@ -29,6 +29,7 @@
   * [Packaging in Visual Studio](powershell-pro-tools-documentation/visual-studio/bundling-and-packaging-with-msbuild.md)
   * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
   * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
+  * [Refactoring](powershell-pro-tools-documentation/visual-studio/refactoring.md)
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)
     * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
     * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
@@ -68,7 +69,7 @@
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)
   * [Install-PoshProToolsLicense](powershell-pro-tools-documentation/powershell-module/install-poshprotoolslicense.md)
-  * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
+  * [about_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [PowerShell Protect](powershell-pro-tools-documentation/powershell-protect/README.md)
   * [Getting Started](powershell-pro-tools-documentation/powershell-protect/getting-started.md)
@@ -90,4 +91,3 @@
 * [PSScriptPad](changelog/psscriptpad-changelog.md)
 * [PowerShell Pro Tools Module](changelog/powershell-pro-tools-module.md)
 * [TUI Designer](changelog/tui-designer.md)
-

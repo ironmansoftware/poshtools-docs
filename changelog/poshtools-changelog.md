@@ -8,6 +8,13 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.10.0 - 10/12/2021
+
+* Added [refactoring tools ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
+* Fixed an issue where the $DTE variable was missing
+* Added support for Pester 5 in the test adapter
+* Fixed an issue where the package as executable command was missing in the solution explorer
+
 ## 2021.9.2 - 9/23/2021
 
 * Fixed an issue where build events would not run
@@ -23,7 +30,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 * Visual Studio 2022 Support
 * Fixed an issue where debugging a script could say that a pre-req was missing
 * Fixed pre-req installation
-* Fixed an issue where the Convert To PowerShell and Convert To C\# commands were missing in the context menu
+* Fixed an issue where the Convert To PowerShell and Convert To C# commands were missing in the context menu
 * Fixed an error that would be shown when attempting to package a script in Visual Studio 
 * Fixed an MSBuild warning that was shown when compiling on Windows
 * Added support for bundling additional XAML files in executables
@@ -133,7 +140,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.7.22 - 2-11-2021
 
-* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+* Fixed an issue where packaging would not work with modules that contained a C# .cs file (like MSAL.PS)
 
 ## 5.7.21 - 1-25-2021
 
@@ -308,11 +315,11 @@ Fixed an issue where the locals window wouldn’t display variables
 
 **Changed**
 
-Fixed an issue where ListView, TreeView and ContextMenu child items would not work in PSScriptPad  
-Fixed an issue where packaging would fail if a script ended in a comment  
-Fixed an issue where packaging would fail if a script was too large  
-Fixed an issue where the opacity setting wouldn’t work on form controls on certain systems.  
-Fixed an issue where script analysis would highlight too much of the script when there was an issue  
+Fixed an issue where ListView, TreeView and ContextMenu child items would not work in PSScriptPad\
+Fixed an issue where packaging would fail if a script ended in a comment\
+Fixed an issue where packaging would fail if a script was too large\
+Fixed an issue where the opacity setting wouldn’t work on form controls on certain systems.\
+Fixed an issue where script analysis would highlight too much of the script when there was an issue\
 Fixed an issue where script analysis quickfix items would replace too much of the script
 
 ## 5.5.1 – 6-2-2020
@@ -383,7 +390,7 @@ Fixed an issue where script analysis quickfix items would replace too much of th
 
 **Known Issues**
 
-* The console window may be allocated outside of Visual Studio and the PowerShell Console \(Experimental\) window will cause VS to become unresponsive.
+* The console window may be allocated outside of Visual Studio and the PowerShell Console (Experimental) window will cause VS to become unresponsive.
 
 ## 5.4.1 – 2020-4-13
 
@@ -395,7 +402,7 @@ Fixed an issue where script analysis quickfix items would replace too much of th
 
 **Added**
 
-* Added a new PowerShell Console window. Click View-&gt;Other Windows-&gt;PowerShell Console to open it.
+* Added a new PowerShell Console window. Click View->Other Windows->PowerShell Console to open it.
 
 **Changed**
 
@@ -407,13 +414,13 @@ Fixed an issue where script analysis quickfix items would replace too much of th
 
 **Added**
 
-– Added a $Service object to OnStart\OnStop for packaged services to access the ServiceBase for the service  
+– Added a $Service object to OnStart\OnStop for packaged services to access the ServiceBase for the service\
 – Added $ProcessArgs and $ServiceArgs variables to the runspace for packaged services
 
 **Changed**
 
-– Fixed an issue where Execute Selection would not show up in folder view  
-– Fixed an issue where $PSScriptRoot would not work for packaged services  
+– Fixed an issue where Execute Selection would not show up in folder view\
+– Fixed an issue where $PSScriptRoot would not work for packaged services\
 – Updated signing certificate
 
 ## 5.3.5 – 2020-2-28
@@ -487,7 +494,7 @@ License activation could run more than once causing the product to think that it
 
 ### Added Platform Settings to Packaging
 
-You can now specify the platform \(x64\x86\) when packaging executables.
+You can now specify the platform (x64\x86) when packaging executables.
 
 ## 5.1.4 – 2019-11-21
 
@@ -507,7 +514,7 @@ In the General options page, you can now select STA mode for Windows PowerShell.
 
 ### Hang when running command-line tools
 
-Command-line tools that used the error stream \(like git.exe\) would cause a hang in the PowerShell debugger.
+Command-line tools that used the error stream (like git.exe) would cause a hang in the PowerShell debugger.
 
 ## 5.1.2 – 2019-11-18
 
@@ -543,13 +550,13 @@ The debugger would not break on a breakpoint set in Visual Studio 2017.
 
 [PowerShell Pro Tools](https://ironmansoftware.com/powershell-pro-tools/) now uses [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) to analyze all the scripts within your solution in the background. You will still see tags on the active file, but the error list will also report any issues with any PSM1 or PS1 files in your solution.
 
-![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/11/solution-wide-analysis.png?resize=961%2C626&ssl=1)
+![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/11/solution-wide-analysis.png?resize=961%2C626\&ssl=1)
 
 ### Visual Studio: PSScriptAnalyzer Settings
 
 You can now modify PSScriptAnalyzer settings directly in the PowerShell Tools Options. Go to the Analysis page to turn on Analysis, Solution Wide Analysis, enable specific levels or even turn off specific rules.
 
-![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/11/analysis-options.png?resize=1005%2C663&ssl=1)
+![](https://i2.wp.com/ironmansoftware.com/wp-content/uploads/2019/11/analysis-options.png?resize=1005%2C663\&ssl=1)
 
 ### Visual Studio Code: Fixed PowerShell Host Initialization
 
@@ -558,4 +565,3 @@ The PowerShell Pro Tools host could fail to initialize so startup operations wou
 ### Visual Studio Code: Fixed PowerShell Host Crash Reinitialization
 
 If the Visual Code PowerShell Host would crash, PowerShell Pro Tools would not reconnect to the PowerShell process. This would prevent it from working.
-

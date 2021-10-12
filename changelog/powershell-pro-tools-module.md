@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2021.10.0 - 10-12-2021
+
+* Updated to the latest version of PSScriptPad
+
 ## 2021.9.0 - 9-14-2021
 
 * Fixed an MSBuild warning that was shown when compiling on Windows 
@@ -68,7 +72,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 ## 5.7.5 - 2-11-2021
 
-* Fixed an issue where packaging would not work with modules that contained a C\# .cs file \(like MSAL.PS\)
+* Fixed an issue where packaging would not work with modules that contained a C# .cs file (like MSAL.PS)
 
 ## 5.7.4 - 2-9-2021
 
@@ -104,4 +108,3 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 ## 5.6.6 - 11-4-2020
 
 * Fixed an issue with packaging the NTFSSecurity module
-
