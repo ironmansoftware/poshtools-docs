@@ -4,16 +4,21 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2021.10.1 - 10-18-2021
+
+* Fixed an issue where saving a file a second time would not work
+* Added logging mechanism to PSScriptPad
+
 ## 2021.10.0 - 10-12-2021
 
 * Fixed an issue where PSScriptPad would hang when saving a large file
 * Fixed an issue where the default WPF XAML would not work
-* PSScriptPad will now open the designer and the form 
+* PSScriptPad will now open the designer and the form&#x20;
 
 ## 2021.9.0 - 9-14-2021
 
-* Fixed an MSBuild warning that was shown when compiling on Windows 
-* Added support for bundling additional XAML files in executables 
+* Fixed an MSBuild warning that was shown when compiling on Windows&#x20;
+* Added support for bundling additional XAML files in executables&#x20;
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
 
 ## 5.13.3 - 7-27-2021
@@ -42,7 +47,7 @@ description: Changelog for PSScriptPad
 
 ## 5.12.1 - 6-3-2021
 
-* PSScriptPad layout now persists 
+* PSScriptPad layout now persists&#x20;
 * Add support for disabling QuickEdit during packaging
 * Fixed an issue with the packager and strings with single quotes
 
@@ -60,7 +65,7 @@ description: Changelog for PSScriptPad
 
 ## 5.11.2 - 5-20-2021
 
-* Fixed a crash on startup in PSScriptPad 
+* Fixed a crash on startup in PSScriptPad&#x20;
 * Resolved a performance issue where analysis would run twice in PSScriptPad
 
 ## 5.11.1 - 5-19-2021
@@ -74,7 +79,7 @@ description: Changelog for PSScriptPad
 
 ## 5.10.4 - 5-17-2021
 
-* Fixed an issue where the terminal cursor was barely visible 
+* Fixed an issue where the terminal cursor was barely visible&#x20;
 * Fixed an issue where the terminal cursor would lose focus after executing a command
 * Added a Grid to the default WPF window so controls are draggable by default
 
@@ -95,7 +100,7 @@ description: Changelog for PSScriptPad
 ## 5.9.11 - 4-23-2021
 
 * Fixed an issue with activation caching
-* Fixed an issue with packaging PowerCLI 
+* Fixed an issue with packaging PowerCLI&#x20;
 
 ## 5.9.10 - 4-21-2021
 
@@ -108,7 +113,7 @@ description: Changelog for PSScriptPad
 
 ## 5.9.6 - 4-7-2021
 
-* Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines. 
+* Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines.&#x20;
 
 ## 5.9.5 - 2-11-2021
 
