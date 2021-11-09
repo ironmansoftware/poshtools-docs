@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.11.0 - 11/9/2021
+
+* Support for Visual Studio 2022 GA
+* Fixed an issue where parameter splatting refactor would not work in all scenarios
+* PowerShell 7.1 packaging support
+
 ## 2021.10.0 - 10/12/2021
 
 * Added [refactoring tools ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
@@ -31,7 +37,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 * Fixed an issue where debugging a script could say that a pre-req was missing
 * Fixed pre-req installation
 * Fixed an issue where the Convert To PowerShell and Convert To C# commands were missing in the context menu
-* Fixed an error that would be shown when attempting to package a script in Visual Studio 
+* Fixed an error that would be shown when attempting to package a script in Visual Studio&#x20;
 * Fixed an MSBuild warning that was shown when compiling on Windows
 * Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
@@ -80,7 +86,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.9.1 - 5-14-2021
 
 * Added Modules window
-* Improved performance of the variables window 
+* Improved performance of the variables window&#x20;
 
 ## 5.9.0 - 5-13-2021
 
@@ -113,13 +119,13 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.8.6 - 4-26-2021
 
-* Fixed an issue with packaging XAML files. 
+* Fixed an issue with packaging XAML files.&#x20;
 
 ## 5.8.5 - 4-23-2021
 
 * Fixed an issue with activation caching
 * Fixed an issue with ImageList controls in the form designer
-* Fixed an issue with packaging PowerCLI 
+* Fixed an issue with packaging PowerCLI&#x20;
 
 ## 5.8.4 - 4-21-2021
 
@@ -153,7 +159,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.7.19 - 1-4-2021
 
 * Fixed an issue where stepping through a ForEach loop would fail to step properly
-* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case. 
+* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.&#x20;
 
 ## 5.7.18 - 12-30-2020
 
@@ -169,7 +175,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.7.14 - 12-4-2020
 
-* Fix an issue with subscription registration. 
+* Fix an issue with subscription registration.&#x20;
 
 ## 5.7.13 - 12-3-2020
 
@@ -184,7 +190,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.7.11 - 11-27-2020
 
-* Fixed an issue where expanding a collection in the variable window with a single value wouldn't work. 
+* Fixed an issue where expanding a collection in the variable window with a single value wouldn't work.&#x20;
 
 ## 5.7.10 - 11-23-2020
 
@@ -193,12 +199,12 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.7.9 - 11-21-2020
 
 * Fixed an issue where debugging wouldn't stop on breakpoints in PowerShell 7.1
-* Removed the Reset PowerShell Session option because it caused many problems when enabled. 
+* Removed the Reset PowerShell Session option because it caused many problems when enabled.&#x20;
 
 ## 5.7.8 - 11-16-2020
 
 * Fixed an issue where the analysis service could fail to start
-* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules. 
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.&#x20;
 
 ## 5.7.7 - 11-4-2020
 
@@ -213,13 +219,13 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Changed**
 
-* Fixed an issue where packaging would fail with a duplicate assembly error 
+* Fixed an issue where packaging would fail with a duplicate assembly error&#x20;
 
 ## 5.7.4 - 10-19-2020
 
 **Changed**
 
-* Fixed an issue where building with certain project types could result in a Visual Studio crash. 
+* Fixed an issue where building with certain project types could result in a Visual Studio crash.&#x20;
 
 ## 5.7.3 - 10-15-2020
 
@@ -257,7 +263,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Changed**
 
-* Fixed an issue where compiling a PowerShell 7 executable that included WinForms wouldn't work if Hide Console Window was unchecked. 
+* Fixed an issue where compiling a PowerShell 7 executable that included WinForms wouldn't work if Hide Console Window was unchecked.&#x20;
 
 ## 5.6.2 - 9-22-2020
 
@@ -265,7 +271,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 * Fixed an issue where parse errors would not be highlighed
 * Fixed an issue where clicking a parse or analysis error in the error list would throw an exception
-* Fixed an issue with the NumericDropDown Windows Form component would not be generated correctly. 
+* Fixed an issue with the NumericDropDown Windows Form component would not be generated correctly.&#x20;
 
 ## 5.6.1 - 9-17-2020
 

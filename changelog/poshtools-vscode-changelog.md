@@ -4,11 +4,19 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2021.11.1 - 10-9-2021
+
+* Reduced the size of the extension by 80%
+* Windows ARM platform support
+* Support for bundling PowerShell 7.1 scripts
+* Support for the Microsoft PowerShell Preview extension v3
+* Support for signing executables&#x20;
+
 ## 2021.10.0 - 10-12-2021
 
 * Fixed an issue where PSScriptPad would hang when saving a large file
 * Fixed an issue where the default WPF XAML would not work
-* PSScriptPad will now open the designer and the form 
+* PSScriptPad will now open the designer and the form&#x20;
 
 ## 2021.9.0 - 9-14-2021
 
@@ -17,7 +25,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Fixed an MSBuild warning that was shown when compiling on Windows
 * Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
-* Added support for switching the .NET SDK to use for packaging. 
+* Added support for switching the .NET SDK to use for packaging.&#x20;
 
 ## 5.30.1 - 8-6-2021
 
@@ -88,7 +96,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.28.1 - 5-20-2021
 
-* Fixed a crash on startup in PSScriptPad 
+* Fixed a crash on startup in PSScriptPad&#x20;
 * Resolved a performance issue where analysis would run twice in PSScriptPad
 
 ## 5.28.0 - 5-18-2021
@@ -141,7 +149,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 ## 5.24.1 - 4-29-2021
 
 * Added type decompiler to Reflection view
-* Improved field and property information in Reflection view. 
+* Improved field and property information in Reflection view.&#x20;
 
 ## 5.24.0 - 4-28-2021
 
@@ -154,7 +162,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 ## 5.22.4 - 4-23-2021
 
 * Fixed an issue with activation caching
-* Fixed an issue with packaging PowerCLI 
+* Fixed an issue with packaging PowerCLI&#x20;
 
 ## 5.22.3 - 4-21-2021
 
@@ -177,7 +185,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.21.1 - 3-3-2021
 
-* Added a setting for the license key so that licensing works with Settings Sync. 
+* Added a setting for the license key so that licensing works with Settings Sync.&#x20;
 
 ## 5.21.0 - 3-1-2021
 
@@ -232,7 +240,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 ## 5.19.10 - 1-04-2021
 
 * Fixed an issue where Generate Proxy Function would show errors in the terminal
-* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case. 
+* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.&#x20;
 
 ## 5.19.9 - 12-31-2020
 
@@ -271,7 +279,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.19.3 - 12-18-2020
 
-* Added [Reorder Parameters](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters) 
+* Added [Reorder Parameters](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#reorder-parameters)&#x20;
 
 ## 5.19.2 - 12-17-2020
 
@@ -296,9 +304,9 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.17.2 - 12-8-2020
 
-* Fixed an issue where ignored elements were case sensitive 
+* Fixed an issue where ignored elements were case sensitive&#x20;
 * Added support for expanding paths in strings
-* Added support for ignoring paths 
+* Added support for ignoring paths&#x20;
 
 ## 5.17.1 - 12-7-2020
 
@@ -330,7 +338,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.16.6 - 11-16-2020
 
-* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules. 
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.&#x20;
 
 ## 5.16.5 - 11-09-2020
 
@@ -348,13 +356,13 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 **Changed**
 
-* Fixed an issue where the profile would run within the PoshTools host process rather than in the PowerShell process. 
+* Fixed an issue where the profile would run within the PoshTools host process rather than in the PowerShell process.&#x20;
 
 ## 5.16.1 - 10-26-2020
 
 **Changed**
 
-* Fixed an issue where packaging would fail with a duplicate assembly error 
+* Fixed an issue where packaging would fail with a duplicate assembly error&#x20;
 
 ### 5.16.0 - 10-20-2020
 
@@ -373,7 +381,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 **Changed**
 
-* Fixed an issue in PSScriptPad where variables would not be shown during debugging. 
+* Fixed an issue in PSScriptPad where variables would not be shown during debugging.&#x20;
 
 ### 5.15.1 - 9-28-2020
 
@@ -704,4 +712,4 @@ We’ve made it easier to open the Windows Form Designer from a PowerShell file.
 
 ### Fixed error message when executing commands
 
-In certain circumstances, when you would execute PowerShell Pro Tools commands, an E_PIPE error would be shown even though the command was completed successfully.
+In certain circumstances, when you would execute PowerShell Pro Tools commands, an E\_PIPE error would be shown even though the command was completed successfully.

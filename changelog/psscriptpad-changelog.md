@@ -4,6 +4,13 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2021.11.0 - 11-9-2021
+
+* Fixed an issue where script analyzer would highlight too many lines
+* Add Scratch Pad feature
+* Add support for packaging PowerShell 7.1 scripts
+* Fixed an issue where you would be unable to stop long running scripts
+
 ## 2021.10.1 - 10-18-2021
 
 * Fixed an issue where saving a file a second time would not work

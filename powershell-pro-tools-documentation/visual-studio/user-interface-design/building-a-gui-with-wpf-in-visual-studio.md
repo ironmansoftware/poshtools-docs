@@ -6,7 +6,7 @@ Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 
 ## Building a GUI with Windows Forms in Visual Studio
 
-{% embed url="https://youtu.be/qh\_GGiSkxnw" %}
+{% embed url="https://youtu.be/qh_GGiSkxnw" %}
 
 
 
@@ -21,7 +21,7 @@ You will need the following:
 
 You can create a module or script project.
 
-Click File-&gt;New-&gt;Project
+Click File->New->Project
 
 ![](https://i0.wp.com/wandering.life/wp-content/uploads/2017/04/newproject.png?resize=581%2C155)
 
@@ -65,11 +65,11 @@ To learn more about the WPF Designer, you can read [this tutorial](https://msdn.
 
 In order to enable execution of actions based on different events, you’ll want to hook up some event handlers. To do so, the first thing you’ll need to do is name your control. Named controls are currently a requirement for event handlers.
 
-![](https://i1.wp.com/wandering.life/wp-content/uploads/2017/05/myButton.png?fit=521%2C149&ssl=1)
+![](https://i1.wp.com/wandering.life/wp-content/uploads/2017/05/myButton.png?fit=521%2C149\&ssl=1)
 
 Next, select the event you would like wired up, enter a name for the event handler function and press enter.
 
-![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/addEventHandler.png?fit=675%2C453&ssl=1)
+![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/addEventHandler.png?fit=675%2C453\&ssl=1)
 
 The code behind generator will create a bunch of code to wire your event handler function to your control.
 
@@ -92,4 +92,3 @@ From here, we can define logic in the onClick function to take actions like open
 ### Packaging as an executable
 
 XAML and the code behind script can be packaged as an executable. Simply right click on the WPF XAML window in the Solution Explorer window and select “Package as executable”.
-
