@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.11.1 - 11/15/2021
+
+* Fixed an issue where the form designer would not add the required references in Visual Studio 2022.&#x20;
+
 ## 2021.11.0 - 11/9/2021
 
 * Support for Visual Studio 2022 GA
