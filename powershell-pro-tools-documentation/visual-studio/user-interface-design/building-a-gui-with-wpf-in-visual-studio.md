@@ -1,7 +1,7 @@
 # Building a GUI with WPF in Visual Studio
 
 {% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools). The WPF designer is currently not supported in Visual Studio 2022.&#x20;
 {% endhint %}
 
 ## Building a GUI with Windows Forms in Visual Studio
