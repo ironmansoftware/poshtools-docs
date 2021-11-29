@@ -2,17 +2,17 @@
 
 ## Installation
 
-**Visual Studio**
+### **Visual Studio**
 
 PowerShell Pro Tools is included with [PowerShell Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561). You can install it through Visual Studio or download it from the Marketplace.&#x20;
 
 For offline installation instructions, click here.
 
-**Visual Studio Code **
+### **Visual Studio Code**&#x20;
 
 The Visual Studio Code extension is available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools) and can be installed from within Visual Studio Code. Search for PowerShell Pro Tools when searching in VSC.&#x20;
 
-**Visual Studio Code Offline Install**
+### **Visual Studio Code Offline Install**
 
 You can install a Visual Studio Code extension by downloading the VSIX file from the Marketplace and then clicking Install from VSIX within the extension pane in Visual Studio Code.&#x20;
 
@@ -20,7 +20,20 @@ You can install a Visual Studio Code extension by downloading the VSIX file from
 
 ![](<../../.gitbook/assets/image (30).png>)
 
+You will also need to install the proper binaries for your environment. You can download the binaries using the following PowerShell script on an internet connected machine. You will need to ensure you download the matching version of the binaries.
 
+```
+$Version = '2021.11.1'
+Invoke-WebRequest "https://poshtools.blog.core.windows.net/vscode/windows.$Version.zip" -OutFile .\vscode.zip
+```
+
+Once downloaded, you will need to transfer the ZIP to the offline machine. The ZIP needs to be extracted to your user's home directory. Ensure that the proper version is included.
+
+```
+$TargetDir = "$ENV:UserProfile\2021.11.1\windows"
+Expand-Archive .\vscode.zip -Destination $TargetDir
+Get-ChildItem $TargetDir -Recurse | Unblock-File 
+```
 
 **PowerShell Module**
 
