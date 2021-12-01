@@ -34,6 +34,6 @@ $BlockAction = New-PSPAction -Block
 $FileAction = New-PSPAction -File -Format "{applicationName},{rule}" -Path "%temp%\audit.csv" -Name 'File'
 $Rule = New-PSPRule -Name "Web Request" -Condition $Condition -Action @($BlockAction, $FileAction)
 
-$Configuration = New-PSPConfiguration -Rule $Rule
+$Configuration = New-PSPConfiguration -Rule $Rule -Action @($BlockAction, $FileAction)
 Set-PSPConfiguration -Configuration $Configuration -FileSystem
 ```
