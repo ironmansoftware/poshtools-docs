@@ -30,7 +30,7 @@ Invoke-WebRequest "https://poshtools.blog.core.windows.net/vscode/windows.$Versi
 Once downloaded, you will need to transfer the ZIP to the offline machine. The ZIP needs to be extracted to your user's home directory. Ensure that the proper version is included.
 
 ```
-$TargetDir = "$ENV:UserProfile\2021.11.1\windows"
+$TargetDir = "$ENV:UserProfile\PowerShellProTools\2021.11.1\windows"
 Expand-Archive .\vscode.zip -Destination $TargetDir
 Get-ChildItem $TargetDir -Recurse | Unblock-File 
 ```
