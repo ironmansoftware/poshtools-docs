@@ -26,6 +26,10 @@ Set-PSPConfiguration -Configuration $Configuration -FileSystem
 
 Once installed, the [Default Rules](rules.md#default-rules) will be enabled. You can also enable additional rules using the PowerShell Protect configuration cmdlets.&#x20;
 
+{% hint style="info" %}
+A license is required to use PowerShell Protect.
+{% endhint %}
+
 For example, this configuration will block and audit any script that contains a command with `webrequest` in the name.&#x20;
 
 ```powershell
