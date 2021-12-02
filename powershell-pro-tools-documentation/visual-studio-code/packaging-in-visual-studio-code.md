@@ -87,5 +87,5 @@ You can use two replacement variables that will be set when the file is created.
 
 **$root** - Replaced by the path to the PS1 file being packaged&#x20;
 
-**$outputPath **- Path to the directory to output to.&#x20;
+**$outputPath** - Path to the directory to output to.&#x20;
 

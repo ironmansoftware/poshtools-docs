@@ -70,7 +70,7 @@ You can still use these commands in your scripts but they will not be suggested 
 **Ignored Types** - Ignore specific types\
 **Ignore Modules** - Ignore commands found in certain modules\
 **Ignore Commands** - Ignore specific commands\
-**Ignore Variables **- Ignore specific variables.
+**Ignore Variables** - Ignore specific variables.
 
 ## Disabling RapidSense
 

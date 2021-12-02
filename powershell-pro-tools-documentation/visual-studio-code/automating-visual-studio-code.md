@@ -37,7 +37,7 @@ CreationOptions : PowerShell Integrated Console - C:\Program Files\PowerShell\7\
 
 ## Available Commands
 
-**Opening Documents **
+**Opening Documents**&#x20;
 
 Open documents by file name.
 
