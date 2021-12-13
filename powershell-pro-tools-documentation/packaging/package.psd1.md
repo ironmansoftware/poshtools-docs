@@ -6,11 +6,11 @@ Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 
 ## About
 
-This about file contains information about using hashtables and PSD1 files to configure Merge-Script. These psd1 files are also used by PowerShell Tools for Visual Studio Code. 
+This about file contains information about using hashtables and PSD1 files to configure Merge-Script. These psd1 files are also used by PowerShell Tools for Visual Studio Code.&#x20;
 
 ### Config File Schema
 
-```text
+```
 @{
         Root = 'c:\Users\Adam\Desktop\service.ps1' # Root script to package. This is the main entry point for the package. 
         OutputPath = 'c:\Users\Adam\Desktop\out' # The output directory for the packaging process. 
@@ -55,7 +55,7 @@ A config file can be used either from within a PowerShell script as a hashtable 
 
 It is not required to include all aspects of the config when using Merge-Script. The only required components are Root and OutputPath. Aside from that, anything that is not include will be considered false. This means that in the below example, packaging is disabled but bundling is not. The below operation will not bundle nested modules or required assemblies of any modules it is bundling.
 
-```text
+```
 Merge-Script -Config @{ 
     Root = ".\MyScript.ps1"
     OutputPath = ".\"
@@ -68,9 +68,9 @@ Merge-Script -Config @{
 
 ### Create console application
 
-Creates a PowerShell console based application that has an application icon and hides the console window. 
+Creates a PowerShell console based application that has an application icon and hides the console window.&#x20;
 
-```text
+```
 @{
         Root = 'c:\Users\Adam\Desktop\form.ps1'
         OutputPath = 'c:\Users\Adam\Desktop\out'
@@ -86,11 +86,11 @@ Creates a PowerShell console based application that has an application icon and 
 
 ### Create a service
 
-Creates a PowerShell service based on the service.ps1 file and outputs to the out directory on the desktop. It will use the .NET 4.6.2 Developer Pack. The service name will be PSService and the display name will be PowerShell Service. 
+Creates a PowerShell service based on the service.ps1 file and outputs to the out directory on the desktop. It will use the .NET 4.6.2 Developer Pack. The service name will be PSService and the display name will be PowerShell Service.&#x20;
 
 For more information on services, see the [Package as Service](package-a-service.md) section.
 
-```text
+```
 @{
         Root = 'c:\Users\Adam\Desktop\service.ps1'
         OutputPath = 'c:\Users\Adam\Desktop\out'
@@ -110,20 +110,20 @@ For more information on services, see the [Package as Service](package-a-service
     
 ```
 
-After building a service, you can install the service with the `--install` parameter of your service's executable. To uninstall a service, use the `--uninstall` parameter. 
+After building a service, you can install the service with the `--install` parameter of your service's executable. To uninstall a service, use the `--uninstall` parameter.&#x20;
 
 ### Bundle PowerShell Core Engine with your Script
 
-Creates an executable that contains the PowerShell Core engine. This executable does not require the target machine have PowerShell Core or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable. 
+Creates an executable that contains the PowerShell Core engine. This executable does not require the target machine have PowerShell Core or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable.&#x20;
 
-```text
+```
 @{
     Root = 'c:\Users\Adam\Desktop\script.ps1'
     OutputPath = 'c:\Users\Adam\Desktop\out'
     Package = @{
         Enabled = $true
         DotNetVersion = 'netcoreapp3.1'
-        PowerShellVersion = "7.1.3"
+        PowerShellVersion = "7.0.0"
     }
     Bundle = @{
         Enabled = $true
@@ -132,11 +132,57 @@ Creates an executable that contains the PowerShell Core engine. This executable 
 }
 ```
 
+### Package PowerShell 7.1&#x20;
+
+You can package PowerShell 7.1 scripts by targeting .NET 5.0. You will need the [.NET 5.0 SDK or later](https://dotnet.microsoft.com/en-us/download/dotnet/5.0).&#x20;
+
+```powershell
+@{
+    Root = 'c:\Users\Adam\Desktop\script.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        DotNetVersion = 'net5.0'
+        PowerShellVersion = "7.1.0"
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+### Package PowerShell 7.2
+
+{% hint style="info" %}
+PowerShell Pro Tools 2021.12.0 or later required.
+{% endhint %}
+
+You can package PowerShell 7.2 scripts by targeting .NET 6.0. You will need the [.NET 6.0 SDK or later](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).&#x20;
+
+```powershell
+@{
+    Root = 'c:\Users\Adam\Desktop\script.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        DotNetVersion = 'net6.0'
+        PowerShellVersion = "7.2.0"
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+
+
 ## Bundle resources in a WPF application
 
 Embeds the `image.png` file within the application so you can reference it in your XAML. This file resides in the same folder as `window.ps1`.
 
-```text
+```
 @{
     Root = 'c:\Users\Adam\Desktop\Window.ps1'
     OutputPath = 'c:\Users\Adam\Desktop\out'
@@ -151,9 +197,9 @@ Embeds the `image.png` file within the application so you can reference it in yo
 }
 ```
 
-In the XAML, you can reference the image like this. 
+In the XAML, you can reference the image like this.&#x20;
 
-```text
+```
 <Window x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -168,4 +214,3 @@ In the XAML, you can reference the image like this.
 </Window>
 
 ```
-
