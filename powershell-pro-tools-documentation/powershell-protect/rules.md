@@ -37,7 +37,8 @@ Conditions check specific properties to ensure that they meet the given criteria
 | Administrator    | The administrator property returns true if the current user is an elevated user. This property validates not only that the user has admin privileges but that they also are running a UAC elevated application.                                   |
 | ApplicationHash  | The SHA256 hash of the appliction. You can use `Get-FileHash` to generate this hash. PowerShell Protect 2021.12.0 or later required.                                                                                                              |
 | ApplicationName  | The application property returns a string that contains information about the application running PowerShell. This may be a process like PowerShell.exe or Pwsh.exe. This could also be a third-party application running the PowerShell engine.  |
-| Assembly         |                                                                                                                                                                                                                                                   |
+| Assembly         | The name of an assembly loaded into the process. PowerShell Protect 2021.12.0 or later required.                                                                                                                                                 |
+| AssemblyHash     | The SHA256 hash of an assembly loaded into the process.  You can use `Get-FileHash` to generate this hash. Using this property can reduce performance. PowerShell Protect 2021.12.0 or later required.                                                                                                                                                 |
 | Command          | The command property matches commands. PowerShell Protect uses the script's AST to match command executions within a script. Using the command property condition won't match definitions of commands but only executions.                        |
 | ComputerName     | The computer name property matches the current computer's name.                                                                                                                                                                                   |
 | ContentPath      | The content path property matches the path of the script that was run. This will be a null string when running a command inside a terminal like PowerShell.exe.                                                                                   |
@@ -77,6 +78,12 @@ The default rules are built-in to PowerShell Protect and do not require configur
 The AMSI bypass protection will be enabled by default. An AMSI bypass prevents AMSI from loading and thus prevents Windows Defender from scanning scripts as well as PowerShell Protect.&#x20;
 
 &#x20;You can learn more about AMSI bypass by reading our [previous post](https://blog.ironmansoftware.com/protect-amsi-bypass).
+
+#### Log4J CVE-2021-44228 (Log4Shell)
+
+Requires PowerShell Protect 2021.12.0 or later. 
+
+Blocks attempts to use the Log4j `jndi` string used to [exploit CVE-2021-44228](https://blog.ironmansoftware.com/powershell-protect-log4j/)
 
 #### Module and Script Block Logging Bypass Protection <a href="#module-and-script-block-logging-bypass-protection" id="module-and-script-block-logging-bypass-protection"></a>
 
