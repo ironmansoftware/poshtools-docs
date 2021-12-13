@@ -10,7 +10,7 @@ This about file contains information about using hashtables and PSD1 files to co
 
 ### Config File Schema
 
-```
+```powershell
 @{
         Root = 'c:\Users\Adam\Desktop\service.ps1' # Root script to package. This is the main entry point for the package. 
         OutputPath = 'c:\Users\Adam\Desktop\out' # The output directory for the packaging process. 
@@ -51,11 +51,15 @@ This about file contains information about using hashtables and PSD1 files to co
 
 A config file can be used either from within a PowerShell script as a hashtable or imported from a PSD1 file containing the hashtable.
 
+### Options
+
+
+
 ## EXAMPLES
 
 It is not required to include all aspects of the config when using Merge-Script. The only required components are Root and OutputPath. Aside from that, anything that is not include will be considered false. This means that in the below example, packaging is disabled but bundling is not. The below operation will not bundle nested modules or required assemblies of any modules it is bundling.
 
-```
+```powershell
 Merge-Script -Config @{ 
     Root = ".\MyScript.ps1"
     OutputPath = ".\"
@@ -70,7 +74,7 @@ Merge-Script -Config @{
 
 Creates a PowerShell console based application that has an application icon and hides the console window.&#x20;
 
-```
+```powershell
 @{
         Root = 'c:\Users\Adam\Desktop\form.ps1'
         OutputPath = 'c:\Users\Adam\Desktop\out'
@@ -90,7 +94,7 @@ Creates a PowerShell service based on the service.ps1 file and outputs to the ou
 
 For more information on services, see the [Package as Service](package-a-service.md) section.
 
-```
+```powershell
 @{
         Root = 'c:\Users\Adam\Desktop\service.ps1'
         OutputPath = 'c:\Users\Adam\Desktop\out'
@@ -112,11 +116,11 @@ For more information on services, see the [Package as Service](package-a-service
 
 After building a service, you can install the service with the `--install` parameter of your service's executable. To uninstall a service, use the `--uninstall` parameter.&#x20;
 
-### Bundle PowerShell Core Engine with your Script
+### Package PowerShell 7.0
 
-Creates an executable that contains the PowerShell Core engine. This executable does not require the target machine have PowerShell Core or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable.&#x20;
+Creates an executable that contains the PowerShell 7.0 engine. This executable does not require the target machine have PowerShell or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable.&#x20;
 
-```
+```powershell
 @{
     Root = 'c:\Users\Adam\Desktop\script.ps1'
     OutputPath = 'c:\Users\Adam\Desktop\out'
