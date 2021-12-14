@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2021.12.0 - 12-14-2021
+
+- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+- Added support for renaming the output executable
+
 ## 2021.11.0 - 11-9-2021
 
 * Added support for bundling PowerShell 7.1 scripts
