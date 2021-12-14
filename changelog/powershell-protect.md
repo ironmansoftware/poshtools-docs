@@ -4,6 +4,18 @@ description: Changelog for PowerShell Protect
 
 # PowerShell Protect
 
+## 2021.12.0 - 12/14/2021
+
+- Improved error logging for failed conditions
+- Fixed an issue where invalid configurations would cause exceptions in built-in rules
+- Added support for Application Hash (SHA256) conditions
+- Added support for Assembly conditions
+- Added support for Assembly Hash (SHA256) conditions
+- Added support for specifying a license within the configuration file
+- Added support for matching any condition on a rule
+- Fixed an issue where you could specify -Format for -Tcp or -UDP on New-PSPAction
+- Added built-in detection for attempts to explore Log4j CVE-2021-44228
+
 ## 2021.9.0 - 9/14/2021
 
 * Added support for sending event log actions based on rules
