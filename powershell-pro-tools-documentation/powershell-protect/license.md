@@ -8,6 +8,17 @@ PowerShell Protect requires a PowerShell Pro Tools or PowerShell Protect license
 
 ## Install a License
 
+### Configuration&#x20;
+
+You can include the license with your configuration. Pass the contents of the license file to `New-PSPConfiguration`
+
+```powershell
+New-PSPConfiguration -License "<license></license>"
+```
+
+### Installation Folder
+
 The license should be included in the module installation directory and named `license.lic`.&#x20;
 
 ![](<../../.gitbook/assets/image (82).png>)
+
