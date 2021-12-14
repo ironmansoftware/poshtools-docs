@@ -4,7 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
-## 2021.11.1 - 10-9-2021
+## 2021.12.0 - 12-14-2021
+
+- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+- Added support for renaming the output executable
+
+## 2021.11.1 - 11-9-2021
 
 * Reduced the size of the extension by 80%
 * Windows ARM platform support
