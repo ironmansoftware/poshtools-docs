@@ -4,7 +4,7 @@ description: Rules for PowerShell Protect.
 
 # Rules
 
-You can configure rules to determine which script executions to audit and\or block. This document outlines how to configure rules. You can generate rules with the configuration cmdlets.&#x20;
+You can configure rules to determine which script executions to audit and\or block. This document outlines how to configure rules. You can generate rules with the configuration cmdlets.
 
 ```powershell
 $Condition = New-PSPCondition -Property "command" -contains -Value "webrequest"
@@ -15,11 +15,11 @@ $Rule = New-PSPRule -Name "Web Request" -Condition $Condition -Action @($BlockAc
 
 ## Conditions
 
-Rules are evaluated based on conditions. Conditions look at various properties of a PowerShell script and execution environment to determine whether the script can run or if it should be audited.&#x20;
+Rules are evaluated based on conditions. Conditions look at various properties of a PowerShell script and execution environment to determine whether the script can run or if it should be audited.
 
 ### Multiple Conditions
 
-Rules can contain multiple conditions. If all of the conditions are met, the rule will execute the actions defined by the action references.&#x20;
+Rules can contain multiple conditions. If all of the conditions are met, the rule will execute the actions defined by the action references.
 
 ```powershell
 $Condition = New-PSPCondition -Property "command" -contains -Value "webrequest"
@@ -28,66 +28,77 @@ $BlockAction = New-PSPAction -Block
 $Rule = New-PSPRule -Name "Web Request" -Condition @($Condition, $Condition1) -Action @($BlockAction, $FileAction)
 ```
 
+### Match One or More Conditions
+
+When specifying multiple conditions, by default all conditions must be met before the rule is triggered. If you specify the `-AnyCondition` parameter of `New-PSPRule` , any condition will trigger the rule.&#x20;
+
+```powershell
+$Condition = New-PSPCondition -Property "command" -contains -Value "webrequest"
+$Condition2 = New-PSPCondition -Property "command" -contains -Value "invoke"
+$BlockAction = New-PSPAction -Block
+$Rule = New-PSPRule -AnyCondition -Name "Web Request" -Condition @($Condition, $Condition1) -Action @($BlockAction, $FileAction)
+```
+
 ### Properties
 
 Conditions check specific properties to ensure that they meet the given criteria. Below is a list of the available properties. PowerShell Protect takes advantage of the PowerShell Abstract Syntax Tree (AST) to analyzer scripts.
 
-| Property Name    | Description                                                                                                                                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Administrator    | The administrator property returns true if the current user is an elevated user. This property validates not only that the user has admin privileges but that they also are running a UAC elevated application.                                   |
-| ApplicationHash  | The SHA256 hash of the appliction. You can use `Get-FileHash` to generate this hash. PowerShell Protect 2021.12.0 or later required.                                                                                                              |
-| ApplicationName  | The application property returns a string that contains information about the application running PowerShell. This may be a process like PowerShell.exe or Pwsh.exe. This could also be a third-party application running the PowerShell engine.  |
+| Property Name    | Description                                                                                                                                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Administrator    | The administrator property returns true if the current user is an elevated user. This property validates not only that the user has admin privileges but that they also are running a UAC elevated application.                                  |
+| ApplicationHash  | The SHA256 hash of the appliction. You can use `Get-FileHash` to generate this hash. PowerShell Protect 2021.12.0 or later required.                                                                                                             |
+| ApplicationName  | The application property returns a string that contains information about the application running PowerShell. This may be a process like PowerShell.exe or Pwsh.exe. This could also be a third-party application running the PowerShell engine. |
 | Assembly         | The name of an assembly loaded into the process. PowerShell Protect 2021.12.0 or later required.                                                                                                                                                 |
-| AssemblyHash     | The SHA256 hash of an assembly loaded into the process.  You can use `Get-FileHash` to generate this hash. Using this property can reduce performance. PowerShell Protect 2021.12.0 or later required.                                                                                                                                                 |
-| Command          | The command property matches commands. PowerShell Protect uses the script's AST to match command executions within a script. Using the command property condition won't match definitions of commands but only executions.                        |
-| ComputerName     | The computer name property matches the current computer's name.                                                                                                                                                                                   |
-| ContentPath      | The content path property matches the path of the script that was run. This will be a null string when running a command inside a terminal like PowerShell.exe.                                                                                   |
-| Domain           | The domain path property returns the current domain of the user running the command.                                                                                                                                                              |
-| DomainController | The domain controller property returns true if the current machine is a domain controller.                                                                                                                                                        |
-| Member           | The member property matches any .NET property or methods that are executed within the script. This can be helpful for blocking method calls to .NET classes that may invoke low-level APIs that may be undesirable.                               |
-| Script           | The script property returns a string that contains the entire content of the script. You can use this for using basic matching of strings within the script.                                                                                      |
-| String           | The string property matches strings within the script. This includes both regular strings and strings that contain variable expansions.                                                                                                           |
-| Variable         | The variable property matches variables within the script.                                                                                                                                                                                        |
+| AssemblyHash     | The SHA256 hash of an assembly loaded into the process. You can use `Get-FileHash` to generate this hash. Using this property can reduce performance. PowerShell Protect 2021.12.0 or later required.                                            |
+| Command          | The command property matches commands. PowerShell Protect uses the script's AST to match command executions within a script. Using the command property condition won't match definitions of commands but only executions.                       |
+| ComputerName     | The computer name property matches the current computer's name.                                                                                                                                                                                  |
+| ContentPath      | The content path property matches the path of the script that was run. This will be a null string when running a command inside a terminal like PowerShell.exe.                                                                                  |
+| Domain           | The domain path property returns the current domain of the user running the command.                                                                                                                                                             |
+| DomainController | The domain controller property returns true if the current machine is a domain controller.                                                                                                                                                       |
+| Member           | The member property matches any .NET property or methods that are executed within the script. This can be helpful for blocking method calls to .NET classes that may invoke low-level APIs that may be undesirable.                              |
+| Script           | The script property returns a string that contains the entire content of the script. You can use this for using basic matching of strings within the script.                                                                                     |
+| String           | The string property matches strings within the script. This includes both regular strings and strings that contain variable expansions.                                                                                                          |
+| Variable         | The variable property matches variables within the script.                                                                                                                                                                                       |
 
 ### Operators
 
-Operators are used for matching properties to values. Below is a list of available operators. None of the operators are case sensitive.&#x20;
+Operators are used for matching properties to values. Below is a list of available operators. None of the operators are case sensitive.
 
-| Operator      | Description                                                                         |
-| ------------- | ----------------------------------------------------------------------------------- |
-| Contains      | Contains determines whether a property contains the value string.                   |
-| NotContains   | NotContains determines whether a property doesn't contain the value string.         |
-| EndsWith      | EndsWith determines whether a property ends with the value string.                  |
-| NotEndsWith   | NotEndsWith determines whether a property doesn't end with the value string.        |
-| Equals        | Equals determines the property equals the value string.                             |
-| NotEquals     | NotEquals determines whether the property doesn't equal the value string.           |
-| StartsWith    | StartsWith determines whether the property starts with the value string.            |
-| NotStartsWith | NotStartsWith determines whether the property doesn't start with the value string.  |
-| Matches       | Matches uses RegEx to determine whether the property matches the value string.      |
+| Operator      | Description                                                                        |
+| ------------- | ---------------------------------------------------------------------------------- |
+| Contains      | Contains determines whether a property contains the value string.                  |
+| NotContains   | NotContains determines whether a property doesn't contain the value string.        |
+| EndsWith      | EndsWith determines whether a property ends with the value string.                 |
+| NotEndsWith   | NotEndsWith determines whether a property doesn't end with the value string.       |
+| Equals        | Equals determines the property equals the value string.                            |
+| NotEquals     | NotEquals determines whether the property doesn't equal the value string.          |
+| StartsWith    | StartsWith determines whether the property starts with the value string.           |
+| NotStartsWith | NotStartsWith determines whether the property doesn't start with the value string. |
+| Matches       | Matches uses RegEx to determine whether the property matches the value string.     |
 
 ### Value
 
-The value is a string to match with the property value during execution. This is a string, boolean or a RegEx.&#x20;
+The value is a string to match with the property value during execution. This is a string, boolean or a RegEx.
 
 ## Default Rules
 
-The default rules are built-in to PowerShell Protect and do not require configuration.&#x20;
+The default rules are built-in to PowerShell Protect and do not require configuration.
 
 #### AMSI Bypass Protection <a href="#amsi-bypass-protection" id="amsi-bypass-protection"></a>
 
-The AMSI bypass protection will be enabled by default. An AMSI bypass prevents AMSI from loading and thus prevents Windows Defender from scanning scripts as well as PowerShell Protect.&#x20;
+The AMSI bypass protection will be enabled by default. An AMSI bypass prevents AMSI from loading and thus prevents Windows Defender from scanning scripts as well as PowerShell Protect.
 
-&#x20;You can learn more about AMSI bypass by reading our [previous post](https://blog.ironmansoftware.com/protect-amsi-bypass).
+You can learn more about AMSI bypass by reading our [previous post](https://blog.ironmansoftware.com/protect-amsi-bypass).
 
 #### Log4J CVE-2021-44228 (Log4Shell)
 
-Requires PowerShell Protect 2021.12.0 or later. 
+Requires PowerShell Protect 2021.12.0 or later.
 
 Blocks attempts to use the Log4j `jndi` string used to [exploit CVE-2021-44228](https://blog.ironmansoftware.com/powershell-protect-log4j/)
 
 #### Module and Script Block Logging Bypass Protection <a href="#module-and-script-block-logging-bypass-protection" id="module-and-script-block-logging-bypass-protection"></a>
 
-Module and script block logging provide insight into the scripts that are running on a system. There are techniques to bypass this logging and Protect will block those by default.&#x20;
+Module and script block logging provide insight into the scripts that are running on a system. There are techniques to bypass this logging and Protect will block those by default.
 
 #### Assembly Load from Memory <a href="#assembly-load-from-memory" id="assembly-load-from-memory"></a>
 
@@ -217,7 +228,7 @@ You can disable default rules by using the `-DisableBuiltinRules`.
 New-PSPConfiguration -DisableBuiltinRules
 ```
 
-You can disable default rules by using the `-DisabledBuiltInConditions` parameter.&#x20;
+You can disable default rules by using the `-DisabledBuiltInConditions` parameter.
 
 ```powershell
 New-PSPConfiguration -DisabledBuiltInConditions "asmiBypass"
