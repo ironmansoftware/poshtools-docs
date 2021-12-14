@@ -4,6 +4,15 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2021.12.0 - 12-14-2021
+
+- Improved startup performance of PSScriptPad
+- Fixed an issue where you couldn't view the options dialog when a Windows Form was open
+- Fixed a race condition that could cause the debugger to hang was running a selection
+- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+- Added support for renaming the output executable
+- Added an option to generate Windows Forms event handlers as functions
+
 ## 2021.11.0 - 11-9-2021
 
 * Fixed an issue where script analyzer would highlight too many lines
