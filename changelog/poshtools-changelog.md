@@ -8,6 +8,16 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.12.0 - 12/1/2021
+
+- Fixed an issue where adding multiple form items would attempt to add multiple Resource.resx files
+- Implemented a new settings dialog for Script Analyzer
+- Added a new setting to change the behavior of script analyzer to only run on save
+- Fixed an issue where Go To Definition would not work consistently
+- Fixed an issue where post-build events would not run
+- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+- Added support for renaming the output executable
+
 ## 2021.11.1 - 11/15/2021
 
 * Fixed an issue where the form designer would not add the required references in Visual Studio 2022.&#x20;
