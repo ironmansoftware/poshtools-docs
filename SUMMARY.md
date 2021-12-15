@@ -73,6 +73,7 @@
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [PowerShell Protect](powershell-pro-tools-documentation/powershell-protect/README.md)
   * [Getting Started](powershell-pro-tools-documentation/powershell-protect/getting-started.md)
+  * [Installation](powershell-pro-tools-documentation/powershell-protect/installation.md)
   * [License](powershell-pro-tools-documentation/powershell-protect/license.md)
   * [Actions](powershell-pro-tools-documentation/powershell-protect/actions.md)
   * [Rules](powershell-pro-tools-documentation/powershell-protect/rules.md)
