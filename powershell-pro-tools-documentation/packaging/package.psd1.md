@@ -53,6 +53,14 @@ A config file can be used either from within a PowerShell script as a hashtable 
 
 ## Options
 
+### Root
+
+The root script to package. 
+
+### OutputPath
+
+The path of the output directory for the resulting executable. 
+
 ### Package
 
 Options for the packager. See the config file schema for the proper layout.&#x20;
@@ -86,7 +94,83 @@ The file version to display in the assembly properties.
 
 #### FileDescription
 
-The file description&#x20;
+The file description to display in the assembly properties. 
+
+#### ProductName
+
+The product name to display in the assembly properties. 
+
+#### ProductVersion
+
+The product version to display in the assembly properties. 
+
+#### Copyright
+
+The copyright to display in the assembly properties. 
+
+#### RequireElevation 
+
+Whether the executable requires elevation to run. This setting is only supported on Windows. Either $true or $false.
+
+#### ApplicationIconPath 
+
+The path to the icon to display for this application. 
+
+#### PackageType
+
+The type of package to product. Valid values are Console or Service. 
+
+#### ServiceName
+
+The name of the service when packaging a service. 
+
+#### ServiceDisplayName
+
+The display name of the service when packaging a service.
+
+#### HighDPISupport
+
+Enable high DPI support for Windows Forms applications. Either $true or $false. 
+
+#### PowerShellArguments
+
+Additional arugments to provide to the PowerShell process. This can include arguments like `-ExecutionPolicy` or `-NoProfile`. Do not include `-Command`. 
+
+#### Platform
+
+The target architecture for the executable. This should be either x86 or x64.
+
+#### PowerShellVersion 
+
+The PowerShell version to target. Ensure that you specify a supported .NET version when selecting your PowerShell version. Supported versions are:
+
+- Windows PowerShell
+- 7.0.0
+- 7.0.1
+
+#### RuntimeIdentifier 
+
+The .NET runtime identifier to target. This defaults to `win-x64`. If you wish to target Linux, you could specify `linux-x64`. You can find a list of valid [.NET runtime identifiers here](https://docs.microsoft.com/en-us/dotnet/core/rid-catalog). 
+
+#### DisableQuickEdit 
+
+Disables the quick edit mode on Windows console applications. This defaults to $false. Either $true or $false.
+
+#### Resources
+
+An array of resources to include with the executable. This should be an array of strings. These resources will be stored as embedded resources. 
+
+#### DotNetSdk
+
+This is an advanced option. The target .NET SDK to use when packaging the executable. If not specified, the highest version will be used. 
+
+#### Certificate 
+
+The certificate used to sign the assembly. The packager will use `Set-AuthenticodeSignature` to sign the assembly. This should be the path to a valid code signing certificate. For example: `'Cert:\CurrentUser\AuthRoot\02FAF3E291435468607857694DF5E45B68851555'`
+
+#### OutputName
+
+The name of the output assembly. When this is not specified, this will be the root script name. 
 
 ## EXAMPLES
 
