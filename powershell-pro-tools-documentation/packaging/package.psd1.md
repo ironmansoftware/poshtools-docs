@@ -147,6 +147,16 @@ The PowerShell version to target. Ensure that you specify a supported .NET versi
 - Windows PowerShell
 - 7.0.0
 - 7.0.1
+- 7.0.2
+- 7.0.3
+- 7.0.6
+- 7.1.0
+- 7.1.1
+- 7.1.2
+- 7.1.3
+- 7.1.4
+- 7.1.5
+- 7.2.0
 
 #### RuntimeIdentifier 
 
@@ -171,6 +181,24 @@ The certificate used to sign the assembly. The packager will use `Set-Authentico
 #### OutputName
 
 The name of the output assembly. When this is not specified, this will be the root script name. 
+
+### Bundle 
+
+#### Enabled
+
+Whether bundling is enabled. Bundling will include referenced scripts and modules in the resulting executable. 
+
+#### Modules
+
+Whether to bundle modules with the script executable. Modules will only be bundled when imported with `Import-Module`. 
+
+#### NestedModules
+
+Whether to include nested modules of packaged modules. Requires Modules to be set to $true. 
+
+#### IgnoredModules
+
+A list of modules to ignore during packaging. This should be an array of strings. 
 
 ## EXAMPLES
 
