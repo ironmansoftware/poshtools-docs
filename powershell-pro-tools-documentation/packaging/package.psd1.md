@@ -51,7 +51,36 @@ This about file contains information about using hashtables and PSD1 files to co
 
 A config file can be used either from within a PowerShell script as a hashtable or imported from a PSD1 file containing the hashtable.
 
-### Options
+## Options
+
+### Package
+
+Options for the packager. See the config file schema for the proper layout.&#x20;
+
+#### Enabled&#x20;
+
+Whether the packager is enabled. Valid values are either $true or $false.&#x20;
+
+#### Obfuscate&#x20;
+
+Whether to obfuscate the assembly. Only valid for Windows PowerShell. Valid values are $true or $false.&#x20;
+
+#### HideConsoleWindow
+
+Whether to hide the console window. Useful for when packaging form applications. Valid values are $true or $false.&#x20;
+
+#### DotNetVersion
+
+The .NET version to target for the executable. You can find the valid values below.&#x20;
+
+| PowerShell Version | Valid .NET Versions                              |
+| ------------------ | ------------------------------------------------ |
+| Windows PowerShell | net4.6.2, net4.7.0, net4.7.1, net4.7.2, net4.8.0 |
+| PowerShell 7.0.x   | netcoreapp31                                     |
+| PowerShell 7.1.x   | net5.0                                           |
+| PowerShell 7.2.x   | net6.0                                           |
+
+#### FileVersion
 
 
 
