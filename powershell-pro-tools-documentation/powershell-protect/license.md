@@ -6,6 +6,8 @@ description: Licensing for PowerShell Protect.
 
 PowerShell Protect requires a PowerShell Pro Tools or PowerShell Protect license. You can request a trial or purchase a license from [our website](https://www.ironmansoftware.com). Each active user using PowerShell Protect will require a license.&#x20;
 
+Default rules do not require a license and will be enabled without configuration.&#x20;
+
 ## Install a License
 
 ### Configuration&#x20;
