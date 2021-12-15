@@ -121,7 +121,8 @@ Creates an executable that contains the PowerShell Core engine. This executable 
     OutputPath = 'c:\Users\Adam\Desktop\out'
     Package = @{
         Enabled = $true
-        PowerShellCore = $true
+        PowerShellVersion = '7.2.0'
+        DotNetVersion = 'net6.0'
     }
     Bundle = @{
         Enabled = $true
