@@ -82,7 +82,11 @@ The .NET version to target for the executable. You can find the valid values bel
 
 #### FileVersion
 
+The file version to display in the assembly properties.
 
+#### FileDescription
+
+The file description&#x20;
 
 ## EXAMPLES
 
