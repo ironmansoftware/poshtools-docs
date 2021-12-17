@@ -8,7 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
-## 2021.12.0 - 12/1/2021
+## 2021.12.1 - 12/17/2021
+
+- Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
+- Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
+
+## 2021.12.0 - 12/14/2021
 
 - Fixed an issue where adding multiple form items would attempt to add multiple Resource.resx files
 - Implemented a new settings dialog for Script Analyzer
