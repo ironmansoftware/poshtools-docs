@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2021.12.1 - 12-17-2021
+
+- Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
+- Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
+
 ## 2021.12.0 - 12-14-2021
 
 - Added support for packaging PowerShell 7.2 and .NET 6.0 executables
