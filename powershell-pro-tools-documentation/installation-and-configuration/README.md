@@ -24,7 +24,7 @@ You will also need to install the proper binaries for your environment. You can 
 
 ```
 $Version = '2021.11.1'
-Invoke-WebRequest "https://poshtools.blog.core.windows.net/vscode/windows.$Version.zip" -OutFile .\vscode.zip
+Invoke-WebRequest "https://poshtools.blob.core.windows.net/vscode/windows.$Version.zip" -OutFile .\vscode.zip
 ```
 
 Once downloaded, you will need to transfer the ZIP to the offline machine. The ZIP needs to be extracted to your user's home directory. Ensure that the proper version is included.
