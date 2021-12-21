@@ -4,15 +4,19 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2021.12.2 - 12-21-2021
+
+* Fixed an issue where an attempt to load missing assemblies would be made.
+
 ## 2021.12.1 - 12-17-2021
 
-- Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
-- Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
+* Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
+* Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
 
 ## 2021.12.0 - 12-14-2021
 
-- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
-- Added support for renaming the output executable
+* Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+* Added support for renaming the output executable
 
 ## 2021.11.0 - 11-9-2021
 
@@ -25,8 +29,8 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 ## 2021.9.0 - 9-14-2021
 
-* Fixed an MSBuild warning that was shown when compiling on Windows&#x20;
-* Added support for bundling additional XAML files in executables&#x20;
+* Fixed an MSBuild warning that was shown when compiling on Windows
+* Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
 * Added support for switching the .NET SDK used to build executables
 
@@ -66,7 +70,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 ## 5.8.5 - 4-23-2021
 
 * Fixed an issue with activation caching
-* Fixed an issue with packaging PowerCLI&#x20;
+* Fixed an issue with packaging PowerCLI
 
 ## 5.8.3 - 4-21-2021
 
@@ -100,7 +104,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 ## 5.7.2 - 1-15-2021
 
-* Fixed an issue where the license key would always show the incorrect date&#x20;
+* Fixed an issue where the license key would always show the incorrect date
 * Updated to the latest version of PSScriptPad.
 
 ## 5.7.1 - 12-10-2020
@@ -118,7 +122,7 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 ## 5.6.7 - 11-16-2020
 
-* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.&#x20;
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.
 
 ## 5.6.6 - 11-4-2020
 
