@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2021.12.3 - 12-27-2021
+
+- Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
+
 ## 2021.12.2 - 12-21-2021
 
 * Fixed an issue where an attempt to load missing assemblies would be made.
