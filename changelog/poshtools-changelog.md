@@ -8,6 +8,14 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2021.12.2 - 12/27/2021
+
+- Fixed an issue when switching between PowerShell 7 and Windows PowerShell could cause VS to hang
+- Fixed an issue where pressing escape to cancel IntelliSense would clear the line in the PowerShell Interactive Window
+- Fixed an issue where the PowerShell Interactive Window did not support ANSI escape characters in PowerShell 7.2
+- Fixed an issue where the the PowerShell 7 profile would not be loaded properly.
+- Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
+
 ## 2021.12.1 - 12/17/2021
 
 - Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
