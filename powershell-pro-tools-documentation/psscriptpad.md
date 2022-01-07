@@ -134,7 +134,7 @@ The Scratch Pad is a way of quickly testing scripts. Open the Script Pad by clic
 
 Scratches are saved and visible in the Scratches window. Scratches contain the scratch that was executed and the output that was generated from the scratch.&#x20;
 
-![](<../.gitbook/assets/image (81).png>)
+![](<../.gitbook/assets/image (81) (1).png>)
 
 ## WPF Designer
 

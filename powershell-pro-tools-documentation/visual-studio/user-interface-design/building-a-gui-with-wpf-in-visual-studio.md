@@ -1,7 +1,7 @@
 # Building a GUI with WPF in Visual Studio
 
 {% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools). The WPF designer is currently not supported in Visual Studio 2022.&#x20;
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools).&#x20;
 {% endhint %}
 
 ## Building a GUI with Windows Forms in Visual Studio
@@ -14,7 +14,7 @@ Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools). The WPF 
 
 You will need the following:
 
-* Visual Studio 2017 and Visual Studio 2019
+* Visual Studio 2017, 2019 and 2022
 * PowerShell Pro Tools for Visual Studio
 
 ## Creating a Project
@@ -38,6 +38,12 @@ Right click on your project and click Add and then New Item.
 Select the PowerShell WPF Window item template.
 
 ![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/newWpfItem.png?resize=1024%2C709)
+
+## Enabling IntelliSense&#x20;
+
+You will need to add references to the following assemblies in order to use IntelliSense. This is also required for Visual Studio 2022 support.&#x20;
+
+![](<../../../.gitbook/assets/image (81).png>)
 
 ## Working with the WPF Designer
 
