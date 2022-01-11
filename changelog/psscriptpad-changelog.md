@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.1.0 - 1-11-2022
+
+- Added Save All button
+- Fixed an issue where PowerShell 7 executables would not have file properties
+- Added About dialog.
+
 ## 2021.12.1 - 12-17-2021
 
 - Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
