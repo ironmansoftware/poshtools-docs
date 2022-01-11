@@ -8,6 +8,15 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.1.0 - 1/11/2022
+
+- Fixed an issue where the settings page would crash if PSScriptAnalyzer was not installed
+- Fixed an issue where ProductVersion was set incorrectly in MSBuild
+- Fixed an issue where PowerShell 7 executables would not have file properties
+- Fixed an issue where you could not browse for application icons
+- Added support for the WPF Designer in Visual Studio 2022
+- Fixed an issue where the WPF designer IntelliSense would not work in VS 2019
+
 ## 2021.12.2 - 12/27/2021
 
 - Fixed an issue when switching between PowerShell 7 and Windows PowerShell could cause VS to hang
