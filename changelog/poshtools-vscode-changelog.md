@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.1.0 - 1-11-2022
+
+- Fixed an issue where PowerShell 7 executables would not have file properties
+
 ## 2021.12.3 - 12-27-2021
 
 - Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
