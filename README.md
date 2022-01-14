@@ -1,12 +1,22 @@
 # About
 
-PowerShell Tools for Visual Studio provides PowerShell language support to the development environment. You can enhance your experience with PowerShell Pro Tools features such as packaging, user interface designers and code conversion.
+PowerShell Pro Tools is a collection of tools for PowerShell users to improve development. This toolset includes:
+
+- [PowerShell Tools for Visual Studio](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio)
+- [PowerShell Pro Tools for Visual Studio Code](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio-code)
+- [PSScriptPad](https://docs.poshtools.com/powershell-pro-tools-documentation/psscriptpad)
+- [PowerShell Protect](https://docs.poshtools.com/powershell-pro-tools-documentation/powershell-protect)
+- [PSCommander](https://docs.poshtools.com/powershell-pro-tools-documentation/pscommander)
+- [PowerShell TUI Designer](https://docs.poshtools.com/powershell-pro-tools-documentation/tui-designer)
+- [PowerShell Pro Tools PowerShell Module](https://docs.poshtools.com/powershell-pro-tools-documentation/powershell-module)
 
 {% hint style="info" %}
-To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com](https://store.ironmansoftware.com/pricing/powershell-pro-tools).
+To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com](https://www.ironmansoftware.com/pricing/powershell-pro-tools).
 {% endhint %}
 
-## Feature Comparison
+## PowerShell Tools for Visual Studio Feature Comparison
+
+PowerShell Tools for Visual Studio is free. With a PowerShell Pro Tools license, you receive additional features. 
 
 | Feature | PowerShell Tools | PowerShell Pro Tools |
 | :--- | :--- | :--- |
@@ -32,11 +42,9 @@ To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com
 | Pester Test Adapter |  ✅ |  ✅ |
 | **Tools** |  |  |
 | Module Explorer |  ✅ |  ✅ |
-| MSI Installer Cmdlets |  ❌ |  ✅ |
 | WinForm Designer |  ❌ |  ✅ |
 | WPF Designer |  ❌ |  ✅ |
 | Profiler |  ❌ |  ✅ |
-| Terminal User Interface Designer |  ❌ |  ✅ |
 
 
 
