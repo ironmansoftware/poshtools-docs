@@ -1,6 +1,12 @@
+---
+description: Supported versions of PowerShell.
+---
+
 # PowerShell Support
 
-PowerShell Tools for Visual Studio supports Windows PowerShell version 5.0 and later. 
+PowerShell Tools for Visual Studio supports the Microsoft supported versions of PowerShell including:&#x20;
 
-PowerShell Pro Tools for Visual Studio adds support for PowerShell 6.0 and greater. 
-
+* Windows PowerShell 5.1
+* PowerShell 7.0
+* PowerShell 7.1
+* PowerShell 7.2
