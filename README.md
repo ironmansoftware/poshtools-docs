@@ -23,7 +23,6 @@ PowerShell Tools for Visual Studio is free. With a PowerShell Pro Tools license,
 | **Editor** |   |   |
 | Syntax Highlighting |  ✅ |  ✅ |
 | IntelliSense |  ✅ |  ✅ |
-| [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md) |  ❌ |  ✅ |
 | PSScriptAnalyzer Support |  ❌ |  ✅ |
 | Quick Fix Support |  ❌ |  ✅ |
 | Function Navigation |  ✅ |  ✅ |
@@ -40,6 +39,7 @@ PowerShell Tools for Visual Studio is free. With a PowerShell Pro Tools license,
 | Locals and Watch Window |  ✅ |  ✅ |
 | Call Stack Window |  ✅ |  ✅ |
 | Pester Test Adapter |  ✅ |  ✅ |
+| PowerShell 7 Support |  ❌ |  ✅ |
 | **Tools** |  |  |
 | Module Explorer |  ✅ |  ✅ |
 | WinForm Designer |  ❌ |  ✅ |
