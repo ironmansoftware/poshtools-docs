@@ -5,7 +5,7 @@
 
 ## PowerShell Tools Documentation
 
-* [PowerShell Support](powershell-tools-documentation/powershell-support.md)
+* [About](powershell-tools-documentation/powershell-support.md)
 * [Debugging](powershell-tools-documentation/chapter1/README.md)
   * [Local Debugging](powershell-tools-documentation/chapter1/local-debugging.md)
   * [Remote Debugging](powershell-tools-documentation/chapter1/remote-debugging.md)
@@ -27,7 +27,7 @@
   * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion.md)
   * [Go to Definition](powershell-pro-tools-documentation/visual-studio/go-to-definition.md)
   * [Packaging in Visual Studio](powershell-pro-tools-documentation/visual-studio/bundling-and-packaging-with-msbuild.md)
-  * [PowerShell 6 and 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
+  * [PowerShell 7 Support](powershell-pro-tools-documentation/visual-studio/powershell-6-and-7-support.md)
   * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
   * [Refactoring](powershell-pro-tools-documentation/visual-studio/refactoring.md)
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)

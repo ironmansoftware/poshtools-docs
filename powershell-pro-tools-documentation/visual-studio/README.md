@@ -1,9 +1,15 @@
+---
+description: PowerShell Pro Tools for Visual Studio
+---
+
 # Visual Studio
 
-PowerShell Pro Tools provides Visual Studio integration through the [PowerShell Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561). The Visual Studio integration provides the following features. 
+PowerShell Pro Tools for Visual Studio enhances the PowerShell experience and includes additional development features for users wishing for more functionality. These features include:&#x20;
 
-* Packaging as executables including command line utilities and services
-* Windows Forms Designer 
-* WPF Designer Integration 
-* Code Conversion
-
+* Windows Forms Designer
+* WPF Designer Integration
+* PSScriptAnalyzer Integration
+* Script to Executable Packaging&#x20;
+* PowerShell 7 Support
+* Variables Tool Window
+* Refactoring Tools
