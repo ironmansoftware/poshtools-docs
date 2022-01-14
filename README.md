@@ -29,7 +29,7 @@ To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com
 | Remote Debugging |  ✅ |  ✅ |
 | Locals and Watch Window |  ✅ |  ✅ |
 | Call Stack Window |  ✅ |  ✅ |
-| **Pester Test Adapter** |  ✅ |  ✅ |
+| Pester Test Adapter |  ✅ |  ✅ |
 | **Tools** |  |  |
 | Module Explorer |  ✅ |  ✅ |
 | MSI Installer Cmdlets |  ❌ |  ✅ |
