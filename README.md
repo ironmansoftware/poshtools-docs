@@ -10,9 +10,17 @@ PowerShell Pro Tools is a collection of productivty and development tools for Po
 - [PowerShell TUI Designer](https://docs.poshtools.com/powershell-pro-tools-documentation/tui-designer)
 - [PowerShell Pro Tools PowerShell Module](https://docs.poshtools.com/powershell-pro-tools-documentation/powershell-module)
 
-{% hint style="info" %}
-To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com](https://www.ironmansoftware.com/pricing/powershell-pro-tools).
-{% endhint %}
+## Download
+
+- [PowerShell Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561)
+- [PowerShell Tools for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsVS2022)
+- [PowerShell Pro Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools) 
+- [Additional Tools](https://ironmansoftware.com/powershell-pro-tools/downloads)
+
+## Licensing
+
+- [Purchasing](https://www.ironmansoftware.com/pricing/powershell-pro-tools)
+- [Trial Key](https://ironmansoftware.com/trial/powershell-pro-tools)
 
 ## PowerShell Tools for Visual Studio Feature Comparison
 
