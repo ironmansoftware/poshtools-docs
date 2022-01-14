@@ -10,7 +10,7 @@ To purchase a license to PowerShell Pro Tools, please visit [IronmanSoftware.com
 
 | Feature | PowerShell Tools | PowerShell Pro Tools |
 | :--- | :--- | :--- |
-| **Editor** |  ✅ |  ✅ |
+| **Editor** |   |   |
 | Syntax Highlighting |  ✅ |  ✅ |
 | IntelliSense |  ✅ |  ✅ |
 | [RapidSense](powershell-pro-tools-documentation/visual-studio-code/rapidsense.md) |  ❌ |  ✅ |
