@@ -1,6 +1,6 @@
 # About
 
-PowerShell Pro Tools is a collection of tools for PowerShell users to improve development. This toolset includes:
+PowerShell Pro Tools is a collection of productivty and development tools for PowerShell users. This toolset includes:
 
 - [PowerShell Tools for Visual Studio](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio)
 - [PowerShell Pro Tools for Visual Studio Code](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio-code)
