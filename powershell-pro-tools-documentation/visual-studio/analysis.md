@@ -1,20 +1,19 @@
 # Analysis
 
-PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click Tools-&gt;Options and navigating to PowerShell Tools. 
+PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click View->PowerShell->Settings.
 
-![Script Analysis Options](../../.gitbook/assets/image%20%2823%29%20%282%29.png)
+![Script Analysis Options](<../../.gitbook/assets/image (23) (2).png>)
 
-On the options page, you can turn on and off script analyzer completely, manage solution wide analysis, disable specific severities or even specific rules. 
+On the options page, you can turn on and off script analyzer completely, manage solution wide analysis, disable specific severities or even specific rules.&#x20;
 
-When Script Analyzer is enabled, squiggly lines will be present within source files to provide information on potential issues with the ability to provide quick fixes for those issues. 
+When Script Analyzer is enabled, squiggly lines will be present within source files to provide information on potential issues with the ability to provide quick fixes for those issues.&#x20;
 
-If you have solution wide analysis enabled, you will be able to see errors within your entire solution within the Error List window. 
+If you have solution wide analysis enabled, you will be able to see errors within your entire solution within the Error List window.&#x20;
 
-![Error List Window](../../.gitbook/assets/image%20%288%29%20%281%29.png)
+![Error List Window](<../../.gitbook/assets/image (8) (1).png>)
 
 ## Quick Fix
 
-PowerShell Pro Tools supports quick fix actions provided by PSScriptAnalyzer. If the suggestion has a Suggested Correction, PowerShell Pro Tools will provide a Quick Action light bulb next to the line that needs to be addressed. 
+PowerShell Pro Tools supports quick fix actions provided by PSScriptAnalyzer. If the suggestion has a Suggested Correction, PowerShell Pro Tools will provide a Quick Action light bulb next to the line that needs to be addressed.&#x20;
 
 ![Executing quick fix actions](../../.gitbook/assets/quickfix.gif)
-
