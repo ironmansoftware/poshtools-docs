@@ -10,39 +10,39 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 2022.1.0 - 1/11/2022
 
-- Fixed an issue where the settings page would crash if PSScriptAnalyzer was not installed
-- Fixed an issue where ProductVersion was set incorrectly in MSBuild
-- Fixed an issue where PowerShell 7 executables would not have file properties
-- Fixed an issue where you could not browse for application icons
-- Added support for the WPF Designer in Visual Studio 2022
-- Fixed an issue where the WPF designer IntelliSense would not work in VS 2019
+* Fixed an issue where the settings page would crash if PSScriptAnalyzer was not installed
+* Fixed an issue where ProductVersion was set incorrectly in MSBuild
+* Fixed an issue where PowerShell 7 executables would not have file properties
+* Fixed an issue where you could not browse for application icons
+* Added support for the WPF Designer in Visual Studio 2022
+* Fixed an issue where the WPF designer IntelliSense would not work in VS 2019
 
 ## 2021.12.2 - 12/27/2021
 
-- Fixed an issue when switching between PowerShell 7 and Windows PowerShell could cause VS to hang
-- Fixed an issue where pressing escape to cancel IntelliSense would clear the line in the PowerShell Interactive Window
-- Fixed an issue where the PowerShell Interactive Window did not support ANSI escape characters in PowerShell 7.2
-- Fixed an issue where the the PowerShell 7 profile would not be loaded properly.
-- Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
+* Fixed an issue when switching between PowerShell 7 and Windows PowerShell could cause VS to hang
+* Fixed an issue where pressing escape to cancel IntelliSense would clear the line in the PowerShell Interactive Window
+* Fixed an issue where the PowerShell Interactive Window did not support ANSI escape characters in PowerShell 7.2
+* Fixed an issue where the the PowerShell 7 profile would not be loaded properly.
+* Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
 
 ## 2021.12.1 - 12/17/2021
 
-- Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
-- Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
+* Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
+* Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
 
 ## 2021.12.0 - 12/14/2021
 
-- Fixed an issue where adding multiple form items would attempt to add multiple Resource.resx files
-- Implemented a new settings dialog for Script Analyzer
-- Added a new setting to change the behavior of script analyzer to only run on save
-- Fixed an issue where Go To Definition would not work consistently
-- Fixed an issue where post-build events would not run
-- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
-- Added support for renaming the output executable
+* Fixed an issue where adding multiple form items would attempt to add multiple Resource.resx files
+* Implemented a new settings dialog for Script Analyzer
+* Added a new setting to change the behavior of script analyzer to only run on save
+* Fixed an issue where Go To Definition would not work consistently
+* Fixed an issue where post-build events would not run
+* Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+* Added support for renaming the output executable
 
 ## 2021.11.1 - 11/15/2021
 
-* Fixed an issue where the form designer would not add the required references in Visual Studio 2022.&#x20;
+* Fixed an issue where the form designer would not add the required references in Visual Studio 2022.
 
 ## 2021.11.0 - 11/9/2021
 
@@ -52,7 +52,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 2021.10.0 - 10/12/2021
 
-* Added [refactoring tools ](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
+* Added [refactoring tools](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md)
 * Fixed an issue where the $DTE variable was missing
 * Added support for Pester 5 in the test adapter
 * Fixed an issue where the package as executable command was missing in the solution explorer
@@ -73,7 +73,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 * Fixed an issue where debugging a script could say that a pre-req was missing
 * Fixed pre-req installation
 * Fixed an issue where the Convert To PowerShell and Convert To C# commands were missing in the context menu
-* Fixed an error that would be shown when attempting to package a script in Visual Studio&#x20;
+* Fixed an error that would be shown when attempting to package a script in Visual Studio
 * Fixed an MSBuild warning that was shown when compiling on Windows
 * Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
@@ -122,7 +122,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.9.1 - 5-14-2021
 
 * Added Modules window
-* Improved performance of the variables window&#x20;
+* Improved performance of the variables window
 
 ## 5.9.0 - 5-13-2021
 
@@ -155,13 +155,13 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.8.6 - 4-26-2021
 
-* Fixed an issue with packaging XAML files.&#x20;
+* Fixed an issue with packaging XAML files.
 
 ## 5.8.5 - 4-23-2021
 
 * Fixed an issue with activation caching
 * Fixed an issue with ImageList controls in the form designer
-* Fixed an issue with packaging PowerCLI&#x20;
+* Fixed an issue with packaging PowerCLI
 
 ## 5.8.4 - 4-21-2021
 
@@ -195,7 +195,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.7.19 - 1-4-2021
 
 * Fixed an issue where stepping through a ForEach loop would fail to step properly
-* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.&#x20;
+* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.
 
 ## 5.7.18 - 12-30-2020
 
@@ -211,7 +211,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.7.14 - 12-4-2020
 
-* Fix an issue with subscription registration.&#x20;
+* Fix an issue with subscription registration.
 
 ## 5.7.13 - 12-3-2020
 
@@ -226,7 +226,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 5.7.11 - 11-27-2020
 
-* Fixed an issue where expanding a collection in the variable window with a single value wouldn't work.&#x20;
+* Fixed an issue where expanding a collection in the variable window with a single value wouldn't work.
 
 ## 5.7.10 - 11-23-2020
 
@@ -235,12 +235,12 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 5.7.9 - 11-21-2020
 
 * Fixed an issue where debugging wouldn't stop on breakpoints in PowerShell 7.1
-* Removed the Reset PowerShell Session option because it caused many problems when enabled.&#x20;
+* Removed the Reset PowerShell Session option because it caused many problems when enabled.
 
 ## 5.7.8 - 11-16-2020
 
 * Fixed an issue where the analysis service could fail to start
-* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.&#x20;
+* Fixed an issue where the packager could fail when packaging certain Windows PowerShell modules.
 
 ## 5.7.7 - 11-4-2020
 
@@ -255,13 +255,13 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Changed**
 
-* Fixed an issue where packaging would fail with a duplicate assembly error&#x20;
+* Fixed an issue where packaging would fail with a duplicate assembly error
 
 ## 5.7.4 - 10-19-2020
 
 **Changed**
 
-* Fixed an issue where building with certain project types could result in a Visual Studio crash.&#x20;
+* Fixed an issue where building with certain project types could result in a Visual Studio crash.
 
 ## 5.7.3 - 10-15-2020
 
@@ -286,7 +286,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Added**
 
-* [Go to definition support](../powershell-pro-tools-documentation/visual-studio/go-to-definition.md) for commands and functions
+* [Go to definition support](../powershell-tools-documentation/visual-studio/go-to-definition.md) for commands and functions
 
 ## 5.6.4 - 9-28-2020
 
@@ -299,7 +299,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 **Changed**
 
-* Fixed an issue where compiling a PowerShell 7 executable that included WinForms wouldn't work if Hide Console Window was unchecked.&#x20;
+* Fixed an issue where compiling a PowerShell 7 executable that included WinForms wouldn't work if Hide Console Window was unchecked.
 
 ## 5.6.2 - 9-22-2020
 
@@ -307,7 +307,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 * Fixed an issue where parse errors would not be highlighed
 * Fixed an issue where clicking a parse or analysis error in the error list would throw an exception
-* Fixed an issue with the NumericDropDown Windows Form component would not be generated correctly.&#x20;
+* Fixed an issue with the NumericDropDown Windows Form component would not be generated correctly.
 
 ## 5.6.1 - 9-17-2020
 
@@ -582,7 +582,7 @@ When the PowerShell extension would initialize and PowerShell v3 or v4 was being
 
 The error “Attaching the PowerShell Debug Engine debugger to Process unknown process” would be shown when attempting to debug.
 
-### Visual Studio: Breakpoint would not be set in Visual  Studio 2017
+### Visual Studio: Breakpoint would not be set in Visual Studio 2017
 
 The debugger would not break on a breakpoint set in Visual Studio 2017.
 

@@ -1,17 +1,21 @@
 # User Interface Design
 
+{% hint style="info" %}
+Requires a PowerShell Pro Tools license.
+{% endhint %}
+
 ## Building a GUI with WPF in Visual Studio
 
 ## Applies to:
 
-* Visual Studio 2017 and 2015
-* PowerShell Pro Tools for Visual Studio 2015 and 2017
+* Visual Studio 2017, 2019, 2022
+* PowerShell Pro Tools license
 
 ## Creating a Project
 
 You can create a module or script project.
 
-Click File-&gt;New-&gt;Project
+Click File->New->Project
 
 ![](https://i0.wp.com/wandering.life/wp-content/uploads/2017/04/newproject.png?resize=581%2C155)
 
@@ -21,7 +25,7 @@ Right click on your project to create a new file and select the PowerShell WPF W
 
 ![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/newWpfItem.png?resize=778%2C539)
 
-After creating your WPF window, you will see the same designer you would for a C\# or VB.NET project.
+After creating your WPF window, you will see the same designer you would for a C# or VB.NET project.
 
 ![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/WpfDesigner.png?resize=728%2C572)
 
@@ -31,7 +35,9 @@ A code behind file is automatically created that contains a PowerShell script ca
 
 Pressing F5 or clicking the Start button on the menu will launch your WPF window.
 
-![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/debuggingWpf.png?resize=617%2C582)‘
+‘
+
+![](https://i2.wp.com/wandering.life/wp-content/uploads/2017/05/debuggingWpf.png?resize=617%2C582)
 
 ## Wiring up Event Handlers
 
@@ -64,4 +70,3 @@ From here, we can define logic in the onClick function to take actions like open
 ## Packaging as an executable
 
 XAML and the code behind script can be[packaged as an executable](https://poshtools.com/docs/posh-pro-tools/package-as-executable/). Simply right click on the WPF XAML window in the Solution Explorer window and select “Package as executable”.
-

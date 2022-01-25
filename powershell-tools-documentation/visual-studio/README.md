@@ -1,8 +1,8 @@
 ---
-description: About PowerShell Tools for Visual Studio
+description: PowerShell Tools for Visual Studio
 ---
 
-# About
+# Visual Studio
 
 PowerShell Tools for Visual Studio provides IntelliSense, syntax highlighting, debugging and more for PowerShell in Visual Studio.&#x20;
 
