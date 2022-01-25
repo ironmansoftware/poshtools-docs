@@ -10,7 +10,7 @@ Refactorings require a PowerShell Pro Tools license.
 
 ### About
 
-Refactorings allow you to change or generate code based on the code you have. You will find a list of refactors below. You can invoke a refactor by pressing `Ctrl+.` or by clicking the light bulb. 
+Refactorings allow you to change or generate code based on the code you have. You will find a list of refactors below. You can invoke a refactor by pressing `Ctrl+.` or by clicking the light bulb.&#x20;
 
 Only valid refactors will be returned in the drop down menu.
 

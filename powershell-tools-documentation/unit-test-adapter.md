@@ -13,13 +13,11 @@ Test results are shown just like any other testing framework. They will include 
 The test adapter will look in a few places while attempting to load the Pester module.
 
 1. Test run directory
-2. Solution Package directory
+2.  Solution Package directory
 
-   _Note: this does not follow the NuGet package resolution logic and only currently uses the solution directory_
-
+    _Note: this does not follow the NuGet package resolution logic and only currently uses the solution directory_
 3. PSModule path
 
 ## Debugging Issues with the test adapter
 
 The test adapater will log to the Output pane in the Tests category. Check here first for any issues you may encounter when writing tests.
-

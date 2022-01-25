@@ -10,8 +10,8 @@ Remote Debugging is a totally new and separate feature from the already existing
 
 ### Remote Attaching Prerequisites
 
-* Your local machine \(the one running Visual Studio\) must have PowerShell v4 or higher installed
-* Your remote machine \(the one running the remote process\) must have PowerShell v5 or higher installed
+* Your local machine (the one running Visual Studio) must have PowerShell v4 or higher installed
+* Your remote machine (the one running the remote process) must have PowerShell v5 or higher installed
 * If your remote machine has a PowerShell version lower than 5.0.10240.0, then the remote process must be run as administrator. This is a bug with earlier versions of the PowerShell 5 preview.
 
 ### Attaching to a Remote Process
@@ -20,11 +20,11 @@ Before attaching to a remote process, you will need to know the name or address 
 
 > some.machine.net
 
-Next, you will need to know whether or not your machine requires you to connect with a secure \(SSL\) connection. If it does, you will need to install the SSL certificate of your remote machine before continuing \(see Remote Attaching with Azure below for more information\). Finally, you will need to know the port number your remote machine uses for PowerShell sessions. By default, PowerShell and PowerShell Tools attempt to connect to 5985 for non-SSL connections and 5986 for SSL connections. If your port is different you can simply add it to the end of your machine name/address as so:
+Next, you will need to know whether or not your machine requires you to connect with a secure (SSL) connection. If it does, you will need to install the SSL certificate of your remote machine before continuing (see Remote Attaching with Azure below for more information). Finally, you will need to know the port number your remote machine uses for PowerShell sessions. By default, PowerShell and PowerShell Tools attempt to connect to 5985 for non-SSL connections and 5986 for SSL connections. If your port is different you can simply add it to the end of your machine name/address as so:
 
 > some.machine.net:5988
 
-You can now open up Visual Studio and go to Debug -&gt; Attach to Process, and then select the appropriate PowerShell Tools remote debugging transport from the transport dropdown. Which one you choose will depend on whether or not you need to use SSL. Once you have chosen a transport, enter in your machine name \(and port if needed\) as the qualifier and then hit refresh. You will now be prompted to login:
+You can now open up Visual Studio and go to Debug -> Attach to Process, and then select the appropriate PowerShell Tools remote debugging transport from the transport dropdown. Which one you choose will depend on whether or not you need to use SSL. Once you have chosen a transport, enter in your machine name (and port if needed) as the qualifier and then hit refresh. You will now be prompted to login:
 
 ![](https://camo.githubusercontent.com/8c167068e8bd25878adff1b1244d16d208094e1f/687474703a2f2f692e696d6775722e636f6d2f476166493575692e706e67)
 
@@ -42,7 +42,7 @@ If you do see your process, then go ahead and hit attach. The process you select
 
 ![](https://camo.githubusercontent.com/cf045c94657f589799a7dc700cb7f1bd12ebf532/687474703a2f2f692e696d6775722e636f6d2f784733764a47362e706e67)
 
-You have now successfully attached to the remote process. From here you can set and remove breakpoints, step into, step over, step out, view the call stack, the locals window, and execute commands in the PowerShell Tools Interactive Window \(edit and continue, variable examination, etc.\).
+You have now successfully attached to the remote process. From here you can set and remove breakpoints, step into, step over, step out, view the call stack, the locals window, and execute commands in the PowerShell Tools Interactive Window (edit and continue, variable examination, etc.).
 
 Once you have finished debugging, you may complete your session by hitting the Stop Debugging button.
 
@@ -52,7 +52,7 @@ A final few things to note about remote attaching:
 * If you stop/detach while the script is running any set breakpoints may not be cleared from the remote program which could cause it to stop in the future.
 * If you have a copy of the remote script open before you attach, set breakpoints and then attach, those breakpoints will not be transferred over to the remote program.
 * Issuing debugging cmdlets in the interactive window while attached to a process is not fully supported.
-* You should not be using remote attaching to debug a local process. You should use local attaching to attach to a local process \(see below\).
+* You should not be using remote attaching to debug a local process. You should use local attaching to attach to a local process (see below).
 
 ### Remote Attaching with Azure
 
@@ -66,7 +66,7 @@ Attaching to a remote process running on Azure is just as easy as attaching to a
 
 ### Attaching to a Local Process
 
-To attach to a local process, go to Debug -&gt; Attach to Process, and then make sure that the Default transport option is selected. You will then need to make sure that the “Attach to:” type is only PowerShell code:
+To attach to a local process, go to Debug -> Attach to Process, and then make sure that the Default transport option is selected. You will then need to make sure that the “Attach to:” type is only PowerShell code:
 
 ![](https://camo.githubusercontent.com/d0343f6b1ae7c85f939d1fd3c4beea6d286d04ec/687474703a2f2f692e696d6775722e636f6d2f346758354c6d452e706e67)
 
@@ -78,7 +78,7 @@ If you are unsure as to whether or not you can attach to a process, simply look 
 
 ![](https://camo.githubusercontent.com/8c1ad2c36c60bc46cc2d8983016a2fa058437abc/687474703a2f2f692e696d6775722e636f6d2f4c76484e4132342e706e67)
 
-You will now be attached to the selected program and the running script opened in Visual Studio. Similar to remote attaching, you can set and remove breakpoints, step into, step over, step out, view the call stack, the locals window, and execute commands in the PowerShell Tools Interactive Window \(edit and continue, variable examination, etc.\). Once you have finished debugging, you may complete your session by hitting the Stop Debugging button.
+You will now be attached to the selected program and the running script opened in Visual Studio. Similar to remote attaching, you can set and remove breakpoints, step into, step over, step out, view the call stack, the locals window, and execute commands in the PowerShell Tools Interactive Window (edit and continue, variable examination, etc.). Once you have finished debugging, you may complete your session by hitting the Stop Debugging button.
 
 A final few things to note about remote debugging:
 
@@ -87,4 +87,3 @@ A final few things to note about remote debugging:
 * Issuing debugging cmdlets in the interactive window while attached to a process might produce negative behavior.
 * Attaching directly to the PowerShell Tools Host process is not fully supported.
 * If you are running PowerShell tools in 32 bit mode, the ability to attach to a 64 bit process is not yet supported
-
