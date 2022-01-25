@@ -24,5 +24,5 @@ New-PSPConfiguration -License "<license></license>"
 
 The license should be included in the module installation directory and named `license.lic`.&#x20;
 
-![](<../../.gitbook/assets/image (82) (1).png>)
+![](<../../.gitbook/assets/image (82) (1) (1).png>)
 

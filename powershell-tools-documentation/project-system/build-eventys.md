@@ -1,7 +1,9 @@
 # Build Events
 
-[_Visual Studio 2015_](https://poshtools.com/docs/poshtools-docs/enabling-msbuild-support-visual-studio-2015-powershell-projects/) _requires a manual step in order to take advantage of build events._&#x20;
+PowerShell Projects support pre-build and post-build events. Currently, there is no actual build step so running pre-build will simply run a script before the post-build script.
 
-PowerShell Projects support pre-build and post-build events. Currently, there is no actually build step so running pre-build will simply run a script before the post-build script.
+![](<../../.gitbook/assets/image (82).png>)
 
-You can access the pre and post build events by opening the Properties page for you project. You can add PowerShell scripts and access MSBuild variables in your build events. You build events are executed when MSBuild builds your PowerShell project.
+You can access the pre and post build events by opening the Properties page for you project. Right click on your project within the Solution Explorer window and select Properties. You can add PowerShell scripts and access MSBuild variables in your build events. You build events are executed when MSBuild builds your PowerShell project.
+
+![Project Properties](<../../.gitbook/assets/image (83).png>)
