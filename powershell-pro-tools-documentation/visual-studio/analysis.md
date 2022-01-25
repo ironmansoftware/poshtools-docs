@@ -1,8 +1,8 @@
 # Analysis
 
-PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click View->PowerShell->Settings.
+PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click View->PowerShell->Settings. Click Save after modifying the settings.&#x20;
 
-![Script Analysis Options](<../../.gitbook/assets/image (23) (2).png>)
+![Script Analyzer Settings](<../../.gitbook/assets/image (83).png>)
 
 On the options page, you can turn on and off script analyzer completely, manage solution wide analysis, disable specific severities or even specific rules.&#x20;
 
