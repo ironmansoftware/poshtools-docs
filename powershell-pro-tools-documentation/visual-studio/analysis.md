@@ -5,7 +5,7 @@ description: Script analysis for PowerShell scripts.
 # Analysis
 
 {% hint style="info" %}
-Requires a PowerShell Pro Tools license.
+Requires a [PowerShell Pro Tools license](https://ironmansoftware.com/pricing/powershell-pro-tools).
 {% endhint %}
 
 PowerShell Pro Tools uses PSScriptAnalyzer to run static code analysis of PowerShell scripts in Visual Studio. You can enable analysis by click View->PowerShell->Settings. Click Save after modifying the settings.&#x20;

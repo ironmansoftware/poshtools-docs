@@ -5,7 +5,7 @@ description: Refactoring tools for Visual Studio.
 # Refactoring
 
 {% hint style="info" %}
-Refactorings require a PowerShell Pro Tools license.
+Requires a[ PowerShell Pro Tools license.](https://ironmansoftware.com/pricing/powershell-pro-tools)
 {% endhint %}
 
 ### About

@@ -1,7 +1,7 @@
 # Building a GUI with Windows Forms in Visual Studio
 
 {% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
+Requires a [PowerShell Pro Tools](https://ironmansoftware.com/poshtools) license.
 {% endhint %}
 
 ## Creating a Project

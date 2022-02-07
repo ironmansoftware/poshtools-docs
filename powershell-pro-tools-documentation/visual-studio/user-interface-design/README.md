@@ -1,7 +1,7 @@
 # User Interface Design
 
 {% hint style="info" %}
-Requires a PowerShell Pro Tools license.
+Requires a [PowerShell Pro Tools license.](https://ironmansoftware.com/pricing/powershell-pro-tools)
 {% endhint %}
 
 ## Building a GUI with WPF in Visual Studio

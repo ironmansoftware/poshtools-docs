@@ -1,7 +1,7 @@
 # Tool Windows
 
 {% hint style="info" %}
-Requires a PowerShell Pro Tools license.
+Requires a [PowerShell Pro Tools license](https://ironmansoftware.com/pricing/powershell-pro-tools).
 {% endhint %}
 
 ## Variables&#x20;

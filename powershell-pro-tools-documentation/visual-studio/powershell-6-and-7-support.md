@@ -1,7 +1,7 @@
 # PowerShell 7 Support
 
 {% hint style="info" %}
-Requires a PowerShell Pro Tools license.
+Requires a[ PowerShell Pro Tools license.](https://ironmansoftware.com/pricing/powershell-pro-tools)
 {% endhint %}
 
 PowerShell 7 support is available if you have either of the environments installed. PowerShell Pro Tools will automatically locate the pwsh.exe that is required.
