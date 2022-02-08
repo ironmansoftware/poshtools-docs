@@ -8,6 +8,21 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.2.0 - 2/8/2022
+
+* Fixed an issue where File Description would not be set properly for PS7 executables
+* Changed some of the language within the options page to be more descriptive.
+* Fixed an issue where the WPF designer would not load in VS2022 on certain environments.
+* Fixed an issue where Script Analyzer Quick Fixes would not work in VS2022
+* Added support for format document (Ctrl+K, Ctrl+D)
+* Fixed an issue where the form designer would save files as ANSI rather than UTF8
+* Fixed an issue where cls or Clear-Host would cause the terminal prompt to disappear in the PowerShell Interactive Window.
+* Added support for compiling Linux executables in Visual Studio
+* Fixed an issue where WPF event handlers could be generated incorrectly for generic parameter types
+* Fixed an issue where the PowerShell Interactive window buffer width would not adjust when the window size changed
+* Added support for icons in PS7 executables
+* Added support for obfuscating PS7 executables
+
 ## 2022.1.0 - 1/11/2022
 
 * Fixed an issue where the settings page would crash if PSScriptAnalyzer was not installed

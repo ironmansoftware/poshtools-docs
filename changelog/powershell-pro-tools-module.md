@@ -4,13 +4,19 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.2.0 - 2-8-2022
+
+* Fixed an issue where packaging for Linux would not work
+* Added support for icons in PS7 executables
+* Added support for obfuscating PS7 executables
+
 ## 2022.1.0 - 1-11-2022
 
-- Fixed an issue where PowerShell 7 executables would not have file properties
+* Fixed an issue where PowerShell 7 executables would not have file properties
 
 ## 2021.12.3 - 12-27-2021
 
-- Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
+* Fixed an issue where packaging a PowerShell 7.2 or later executable could result in a failure to build
 
 ## 2021.12.2 - 12-21-2021
 
