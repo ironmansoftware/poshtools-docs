@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.2.1 - 2/10/2022
+
+* Fixed an issue where obfuscated builds wouldn't work twice
+* Fixed an issue where obfuscated Windows PowerShell builds wouldn't execute correctly
+
 ## 2022.2.0 - 2/8/2022
 
 * Fixed an issue where File Description would not be set properly for PS7 executables
