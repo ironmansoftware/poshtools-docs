@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.2.1 - 2-10-2022
+
+* Fixed an issue where obfuscated builds wouldn't work twice
+* Fixed an issue where obfuscated Windows PowerShell builds wouldn't execute correctly
+
 ## 2022.2.0 - 2-8-2022
 
 * Fixed an issue where packaging for Linux would not work
