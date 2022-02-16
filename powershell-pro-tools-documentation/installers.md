@@ -71,7 +71,7 @@ New-Installer -Product "My First Product" -UpgradeCode '1a73a1be-50e6-4e92-af03-
           New-InstallerFile -Source .\license.txt
        }
     }
- } -OutputDirectory (Join-Path $PSScriptRoot "output")
+ } -OutputDirectory (Join-Path $PSScriptRoot "output") -RequiresElevation
 ```
 
 ### Add\Remove Programs Icon
