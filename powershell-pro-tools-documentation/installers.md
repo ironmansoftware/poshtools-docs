@@ -198,6 +198,23 @@ New-InstallerDirectory -PredefinedDirectory "DesktopFolder" -Content {
 }
 ```
 
+### Working Directory
+
+You can set the working directory of a shortcut by specifying the ID of the folder. The below example sets the working directory to the installation directory's ID.&#x20;
+
+```powershell
+New-Installer -ProductName "MyImage" -UpgradeCode (New-Guid) -Version 1.0.0 -Content {
+    New-InstallerDirectory -PredefinedDirectoryName ProgramFilesFolder -Content {
+        New-InstallerDirectory -DirectoryName 'MyDir' -Id 'MyDir' -Content {
+            New-InstallerFile -Id 'Image' -Source 'services.png'
+        }
+    }
+    New-InstallerDirectory -PredefinedDirectoryName DesktopFolder -Content {
+        New-InstallerShortcut -Name 'Test' -FileId 'Image' -WorkingDirectoryId 'MyDir'
+    }    
+} -OutputDirectory .\installer -RequiresElevation
+```
+
 ## User Interfaces
 
 You can customize the user interface of the installer by using the `UserInterface` parameter of `New-Installer` along with `New-InstallerUserInterface`.&#x20;
