@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.3.0 - 3-8-2022
+
+* Fixed an issue where a script compiled as a service would fail to run
+* Fixed an issue where compiling on Linux would fail
+
 ## 2022.2.1 - 2-10-2022
 
 * Fixed an issue where obfuscated builds wouldn't work twice

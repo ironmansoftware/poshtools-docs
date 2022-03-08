@@ -4,25 +4,34 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.3.0 - 3-8-2022
+
+* Fixed an issue where a script compiled as a service would fail to run
+
+## 2022.2.0 - 2-10-2022
+
+* Fixed an issue where obfuscated builds wouldn't work twice
+* Fixed an issue where obfuscated Windows PowerShell builds wouldn't execute correctly
+
 ## 2022.1.0 - 1-11-2022
 
-- Added Save All button
-- Fixed an issue where PowerShell 7 executables would not have file properties
-- Added About dialog.
+* Added Save All button
+* Fixed an issue where PowerShell 7 executables would not have file properties
+* Added About dialog.
 
 ## 2021.12.1 - 12-17-2021
 
-- Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
-- Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
+* Fixed an issue where packaging an executable into an output directory with an apostrophe does not work.
+* Fixed an issue where PS7.1 and PS7.2 output directories would contain all unpackaged files
 
 ## 2021.12.0 - 12-14-2021
 
-- Improved startup performance of PSScriptPad
-- Fixed an issue where you couldn't view the options dialog when a Windows Form was open
-- Fixed a race condition that could cause the debugger to hang was running a selection
-- Added support for packaging PowerShell 7.2 and .NET 6.0 executables
-- Added support for renaming the output executable
-- Added an option to generate Windows Forms event handlers as functions
+* Improved startup performance of PSScriptPad
+* Fixed an issue where you couldn't view the options dialog when a Windows Form was open
+* Fixed a race condition that could cause the debugger to hang was running a selection
+* Added support for packaging PowerShell 7.2 and .NET 6.0 executables
+* Added support for renaming the output executable
+* Added an option to generate Windows Forms event handlers as functions
 
 ## 2021.11.0 - 11-9-2021
 
@@ -40,12 +49,12 @@ description: Changelog for PSScriptPad
 
 * Fixed an issue where PSScriptPad would hang when saving a large file
 * Fixed an issue where the default WPF XAML would not work
-* PSScriptPad will now open the designer and the form&#x20;
+* PSScriptPad will now open the designer and the form
 
 ## 2021.9.0 - 9-14-2021
 
-* Fixed an MSBuild warning that was shown when compiling on Windows&#x20;
-* Added support for bundling additional XAML files in executables&#x20;
+* Fixed an MSBuild warning that was shown when compiling on Windows
+* Added support for bundling additional XAML files in executables
 * Fixed an issue where using the .NET 5 SDK would cause executables to fail to build on Windows
 
 ## 5.13.3 - 7-27-2021
@@ -74,7 +83,7 @@ description: Changelog for PSScriptPad
 
 ## 5.12.1 - 6-3-2021
 
-* PSScriptPad layout now persists&#x20;
+* PSScriptPad layout now persists
 * Add support for disabling QuickEdit during packaging
 * Fixed an issue with the packager and strings with single quotes
 
@@ -92,7 +101,7 @@ description: Changelog for PSScriptPad
 
 ## 5.11.2 - 5-20-2021
 
-* Fixed a crash on startup in PSScriptPad&#x20;
+* Fixed a crash on startup in PSScriptPad
 * Resolved a performance issue where analysis would run twice in PSScriptPad
 
 ## 5.11.1 - 5-19-2021
@@ -106,11 +115,9 @@ description: Changelog for PSScriptPad
 
 ## 5.10.4 - 5-17-2021
 
-* Fixed an issue where the terminal cursor was barely visible&#x20;
+* Fixed an issue where the terminal cursor was barely visible
 * Fixed an issue where the terminal cursor would lose focus after executing a command
 * Added a Grid to the default WPF window so controls are draggable by default
-
-
 
 ## 5.10.3 - 5-10-2021
 
@@ -127,7 +134,7 @@ description: Changelog for PSScriptPad
 ## 5.9.11 - 4-23-2021
 
 * Fixed an issue with activation caching
-* Fixed an issue with packaging PowerCLI&#x20;
+* Fixed an issue with packaging PowerCLI
 
 ## 5.9.10 - 4-21-2021
 
@@ -140,7 +147,7 @@ description: Changelog for PSScriptPad
 
 ## 5.9.6 - 4-7-2021
 
-* Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines.&#x20;
+* Fixed an issue where PSScriptPad would unnecessarily allocate a console and cause a hang on some machines.
 
 ## 5.9.5 - 2-11-2021
 
