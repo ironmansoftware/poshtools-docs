@@ -6,6 +6,155 @@ schema: 2.0.0
 
 # ConvertTo-CSharp
 
-{% hint style="warning" %}
-This cmdlet is no longer supported but is still available as an [open-source project](https://github.com/ironmansoftware/code-conversion).&#x20;
+{% hint style="info" %}
+Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 {% endhint %}
+
+## SYNOPSIS
+
+Converts PowerShell script to C\# code.
+
+## SYNTAX
+
+### PathByPipeline
+
+```text
+ConvertTo-CSharp -PowerShellScriptFile <FileInfo>
+```
+
+### Path
+
+```text
+ConvertTo-CSharp -PowerShellScriptPath <String>
+```
+
+### Text
+
+```text
+ConvertTo-CSharp -PowerShellScript <String>
+```
+
+### ScriptBlock
+
+```text
+ConvertTo-CSharp -ScriptBlock <ScriptBlock>
+```
+
+## DESCRIPTION
+
+Converts PowerShell script to C\# code. You can specify a path, PowerShell script text or a PowerShell script block.
+
+## EXAMPLES
+
+### Example 1
+
+```text
+PS C:\> ConvertTo-CSharp -PowerShellScriptPath .\*.ps1
+```
+
+Converts all PS1 files in the current directory to C\# code. Returns an array of the contents of the files.
+
+### Example 2
+
+```text
+PS C:\> ConvertTo-CSharp -PowerShellScript "Get-Process"
+```
+
+Converts the specified PowerShell script to C\# code.
+
+### Example 3
+
+```text
+PS C:\> ConvertTo-CSharp -ScriptBlock { Get-Process }
+```
+
+Converts the specified PowerShell ScriptBlock to C\# code.
+
+### Example 4
+
+```text
+PS C:\> Get-ChildItem .\*.ps1 | ConvertTo-CSharp
+```
+
+Converts the piped PS1 files to C\#
+
+## PARAMETERS
+
+### -PowerShellScriptFile
+
+A FileInfo for a PS1 or PSM1
+
+```yaml
+Type: FileInfo
+Parameter Sets: PathByPipeline
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -PowerShellScript
+
+The contents of a PowerShell script
+
+```yaml
+Type: String
+Parameter Sets: Text
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -PowerShellScriptPath
+
+The path to a PS1 or PSM1 file.
+
+```yaml
+Type: String
+Parameter Sets: Path
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: True
+```
+
+### -ScriptBlock
+
+A PowerShell ScriptBlock
+
+```yaml
+Type: ScriptBlock
+Parameter Sets: ScriptBlock
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+## INPUTS
+
+### System.String
+
+System.Management.Automation.ScriptBlock
+
+## OUTPUTS
+
+### System.String
+
+## NOTES
+
+## RELATED LINKS
+
