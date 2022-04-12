@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.4.1 - 4-12-2022
+
+* Fixed an issue where Connect-ExchangeOnline would throw an exception
+
 ## 2022.4.0 - 4-12-2022
 
 * Fixed an issue where using Clear in the terminal would produce an exception
