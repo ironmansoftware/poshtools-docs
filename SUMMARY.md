@@ -66,7 +66,7 @@
   * [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md)
   * [Show-PSEditor](powershell-pro-tools-documentation/powershell-module/show-pseditor.md)
   * [Show-PSScriptPad](powershell-pro-tools-documentation/powershell-module/show-psscriptpad.md)
-  * [Show-TUIDesigner](powershell-pro-tools-documentation/powershell-module/show-tuidesigner.md)
+  * [Show-TUIDesigner](powershell-pro-tools-documentation/powershell-module/tui-designer.md)
   * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)
@@ -82,7 +82,6 @@
   * [Configuration](powershell-pro-tools-documentation/powershell-protect/configuration.md)
 * [PSCommander](powershell-pro-tools-documentation/pscommander.md)
 * [PSScriptPad](powershell-pro-tools-documentation/psscriptpad.md)
-* [TUI Designer](powershell-pro-tools-documentation/tui-designer.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration/README.md)
   * [Visual Studio Offline Installation](powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md)
 

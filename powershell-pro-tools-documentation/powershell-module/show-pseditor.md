@@ -4,10 +4,6 @@ description: A terminal PowerShell editor.
 
 # Show-PSEditor
 
-{% hint style="info" %}
-Show-PSEditor is being released in an upcoming version of PowerShell Pro Tools.&#x20;
-{% endhint %}
-
 `Show-PSEditor` displays a terminal-based PowerShell editor that contains the following features.&#x20;
 
 * IntelliSense
