@@ -4,6 +4,15 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.4.0 - 4/12/2022
+
+* Removed code conversion features
+* Added support for MacOS ARM64
+* Fixed an issue where the extension would not load properly on MacOS or Linux
+* Fixed an issue where PowerShell 7.2 executables would not work as a service
+* Fixed an issue where PowerShell 7.x executables would not have an icon
+* Fixed an issue where PowerShell 7.x executables would not elevate properly
+
 ## 2022.3.0 - 3/8/2022
 
 * Added Extract Variable refactoring

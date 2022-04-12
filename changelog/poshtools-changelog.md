@@ -8,6 +8,14 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.4.0 - 4/12/2022
+
+* Removed code conversion features
+* Fixed an issue where Read-Host would not work in VS2022
+* Fixed an issue where PowerShell 7.2 executables would not work as a service
+* Fixed an issue where PowerShell 7.x executables would not have an icon
+* Fixed an issue where PowerShell 7.x executables would not elevate properly
+
 ## 2022.3.0 - 3/8/2022
 
 * Fixed an issue where a script compiled as a service would fail to run

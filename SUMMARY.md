@@ -93,4 +93,3 @@
 * [PSCommander](changelog/pscommander.md)
 * [PSScriptPad](changelog/psscriptpad-changelog.md)
 * [PowerShell Pro Tools Module](changelog/powershell-pro-tools-module.md)
-* [TUI Designer](changelog/tui-designer.md)

@@ -4,6 +4,16 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.4.0 - 4-12-2022
+
+* Added support for shortcuts to directories.
+* Removed code conversion features
+* Added Show-PSEditor
+* Added Show-TUIDesigner
+* Fixed an issue where PowerShell 7.2 executables would not work as a service
+* Fixed an issue where PowerShell 7.x executables would not have an icon
+* Fixed an issue where PowerShell 7.x executables would not elevate properly
+
 ## 2022.3.0 - 3-8-2022
 
 * Fixed an issue where a script compiled as a service would fail to run
