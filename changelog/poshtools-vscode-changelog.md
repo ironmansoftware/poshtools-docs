@@ -14,6 +14,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 * Fixed an issue where Rename Symbol would not work properly
 * Fixed an issue where Use parameter splatting wouldn't work with switch parameters
 * Fixed an issue where Use parameter splatting wouldn't work for commands line a pipeline
+* Fixed an issue where providers would not load correctly
 
 ## 2022.4.0 - 4/12/2022
 
