@@ -4,6 +4,17 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.4.3 - 4/15/2022
+
+* Fixed an issue where licenses could not be applied through the UI
+* Fixed an issue where the welcome page would be blank
+* Fixed an issue where an exception would be thrown when moving arguments
+* Fixed a typo in the introduce using namespace refactoring
+* Fixed an issue where Generate Proxy Function would add an additional blank line on Windows
+* Fixed an issue where Rename Symbol would not work properly
+* Fixed an issue where Use parameter splatting wouldn't work with switch parameters
+* Fixed an issue where Use parameter splatting wouldn't work for commands line a pipeline
+
 ## 2022.4.0 - 4/12/2022
 
 * Removed code conversion features
