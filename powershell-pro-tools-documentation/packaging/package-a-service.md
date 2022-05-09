@@ -16,7 +16,7 @@ function OnStart() {
 }
 
 <#
-	This function is called when the service is started. Once this function returns,
+	This function is called when the service is stopped. Once this function returns,
 	your service will be set to a Stopped state and the process will terminate.
 #>
 function OnStop() {
