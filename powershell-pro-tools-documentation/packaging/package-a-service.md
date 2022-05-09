@@ -4,7 +4,7 @@
 Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 {% endhint %}
 
-The PowerShell Pro Tools package can create Windows services based on PS1 files. It has all the same options as other exectuables but requires a special entry point script. This script should be used at the `Root` value when using `Merge-Script` or the Entry Point when packaging through Visual Studio.&#x20;
+The PowerShell Pro Tools package can create Windows services based on PS1 files. It has all the same options as other executables but requires a special entry point script. This script should be used at the `Root` value when using `Merge-Script` or the Entry Point when packaging through Visual Studio.&#x20;
 
 ```
 <#
