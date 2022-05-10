@@ -4,6 +4,13 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.5.0 - 5-10-2022
+
+* Fixed an issue where the link to the docs from Show-PSEditor would end in a 404
+* Fixed an issue where ANSI escape characters were shown in Show-PSEditor output
+* Added support for packaging PS 7.2.3
+* Fixed an issue where non-ASCII characters wouldn't be stored correctly after packaging
+
 ## 2022.4.0 - 4-12-2022
 
 * Added support for shortcuts to directories.

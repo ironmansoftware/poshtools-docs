@@ -4,6 +4,12 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.5.0 - 5-10-2022
+
+* Fixed an issue where ANSI escape characters were shown in output
+* Added support for packaging PS 7.2.3
+* Fixed an issue where non-ASCII characters wouldn't be stored correctly after packaging
+
 ## 2022.4.1 - 4-12-2022
 
 * Fixed an issue where Connect-ExchangeOnline would throw an exception

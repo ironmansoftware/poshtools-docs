@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.5.0 - 5/10/2022
+
+* Added settings to hide the buttons in the toolbar
+* Added support for packaging PS 7.2.3
+* Fixed an issue where non-ASCII characters wouldn't be stored correctly after packaging
+
 ## 2022.4.3 - 4/15/2022
 
 * Fixed an issue where licenses could not be applied through the UI
