@@ -25,13 +25,17 @@ Click File->New->Project
 
 ![](https://i0.wp.com/wandering.life/wp-content/uploads/2017/04/newproject.png?resize=581%2C155)
 
-Select the Module or Script project type, name it and then click Ok.
+Select the Module, Forms or Script project type, name it and then click Ok.
 
-![](https://i1.wp.com/wandering.life/wp-content/uploads/2017/04/newproject2.png?resize=753%2C522)
+![](<../../../.gitbook/assets/image (84).png>)
+
+![](<../../../.gitbook/assets/image (82).png>)
 
 ## Create the Form
 
 Right click on your project and click Add and then New Item.
+
+⚠ Warning ⚠ **Make sure you are selecting the Project and not the Solution when you right-click.**
 
 ![](https://i1.wp.com/wandering.life/wp-content/uploads/2017/04/newitem.png?resize=481%2C222)
 
