@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.5.2 - 5/31/2022
+
+* Fixed an issue where the form designer would not be shown even when the setting was enabled.&#x20;
+
 ## 2022.5.0 - 5/10/2022
 
 * Added settings to hide the buttons in the toolbar
