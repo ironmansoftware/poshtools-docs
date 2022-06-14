@@ -4,6 +4,10 @@ description: Changelog for PSCommander.
 
 # PSCommander
 
+{% hint style="danger" %}
+As of June 14th, 2022, PSCommander has reached end of life and is no longer supported. You can continue to use it if you have a license. For functionality similar to PSCommander, please see [PowerShell Universal Desktop](https://docs.powershelluniversal.com/v/v3/desktop/about-desktop-mode).
+{% endhint %}
+
 ## 2022.1.0 - 1-11-2022
 
 * Updated to latest PSScriptPad
@@ -18,7 +22,7 @@ description: Changelog for PSCommander.
 
 ## 1.4.8 - 8-10-2021
 
-* Update to latest PSScriptPad 
+* Update to latest PSScriptPad
 
 ## 1.4.7 - 7-7-2021
 
@@ -43,7 +47,7 @@ description: Changelog for PSCommander.
 
 ## 1.4.1 - 4-14-2021
 
-* Fixed an issue with desktop widgets. 
+* Fixed an issue with desktop widgets.
 
 ## 1.4.0 - 4-14-2021
 
@@ -54,7 +58,7 @@ description: Changelog for PSCommander.
 
 ## 1.3.0 - 4-8-2021
 
-### Added 
+### Added
 
 * Commander desktop support
 * New-CommanderDesktop cmdlet
@@ -93,14 +97,14 @@ description: Changelog for PSCommander.
 
 Bugs Fixed
 
-* Cannot reapply hotkeys 
-* Menu doesn't show up at all if you don't do toolbar icon 
-* If you remove toolbar icon it continues showing the previous version 
-* Open config the first time when there is no config 
-* Executing cmdlets in regular PS instance doesn't work 
+* Cannot reapply hotkeys
+* Menu doesn't show up at all if you don't do toolbar icon
+* If you remove toolbar icon it continues showing the previous version
+* Open config the first time when there is no config
+* Executing cmdlets in regular PS instance doesn't work
 * Install-CommanderLicense not exposed in PSD1
 * New-CommanderSchedule not exposed in PSD1
 
 ## 1.0.1 - 3-27-2021
 
-Initial release 
+Initial release

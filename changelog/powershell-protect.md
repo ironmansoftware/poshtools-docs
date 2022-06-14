@@ -4,6 +4,11 @@ description: Changelog for PowerShell Protect
 
 # PowerShell Protect
 
+## 2022.6.0 - 6/14/2022
+
+* Added support to PowerShell Universal for generating PowerShell Protect configuration files
+* Added support for sending events to PowerShell Universal&#x20;
+
 ## 2021.12.1 - 12/15/2021
 
 * Built-in rules no longer require a license.&#x20;
