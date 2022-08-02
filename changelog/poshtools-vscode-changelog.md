@@ -4,6 +4,15 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.7.1 - 8/2/2022
+
+* Fixed an issue where the extension would fail to activate.&#x20;
+
+## 2022.6.0 - 6/14/2022
+
+* Removed a duplicate license key install command that did not work
+* Fixed an issue where the icon was incorrect for PowerShell Pro Tools&#x20;
+
 ## 2022.5.2 - 5/31/2022
 
 * Fixed an issue where the form designer would not be shown even when the setting was enabled.&#x20;

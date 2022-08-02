@@ -42,7 +42,7 @@ IntelliSense is automatically invoked. It will complete PowerShell cmdlet names,
 
 Code Folding collapses blocks of PowerShell script that you wish to hide. You can collapse blocks such as if blocks, script blocks and functions blocks. Just click the minus and plus sign to close and open blocks.&#x20;
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
 ### PSScriptAnalyzer Support
 

@@ -27,9 +27,9 @@ Click File->New->Project
 
 Select the Module, Forms or Script project type, name it and then click Ok.
 
-![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (4).png>)
 
-![](<../../../.gitbook/assets/image (82).png>)
+![](../../../.gitbook/assets/image.png)
 
 ## Create the Form
 
