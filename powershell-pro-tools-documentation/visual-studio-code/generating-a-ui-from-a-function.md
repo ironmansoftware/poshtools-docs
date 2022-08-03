@@ -14,4 +14,4 @@ Once you select that, two new files will be created. One will include `form.ps1`
 
 If you execute the `form.ps1` file, your UI will be shown.&#x20;
 
-![Auto-generated UI](<../../.gitbook/assets/image (5) (1).png>)
+![Auto-generated UI](<../../.gitbook/assets/image (5).png>)

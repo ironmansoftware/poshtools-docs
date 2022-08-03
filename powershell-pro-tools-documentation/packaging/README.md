@@ -4,7 +4,7 @@
 
 * [.NET Core 3.1 SDK or Later](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.415-windows-x64-installer)
 * [.NET 5.0 SDK for Packaging PowerShell 7.1](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.403-windows-x64-installer)
-* .[NET 4.6.2 Developer Pack](https://www.microsoft.com/en-us/download/details.aspx?id=53321)
+* [.NET 4.6.2 Developer Pack](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net462)
 * Internet Connection
 
 The packaging component of PowerShell Pro Tools allows you to bundle, package as an executable and obfuscate the resulting executable.
