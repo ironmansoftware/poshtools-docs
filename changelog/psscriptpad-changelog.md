@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.7.0 - 7-12-2022
+
+* Fixed an issue where license files were not correctly validated
+
 ## 2022.5.0 - 5-10-2022
 
 * Fixed an issue where ANSI escape characters were shown in output

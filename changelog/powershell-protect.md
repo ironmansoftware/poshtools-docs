@@ -4,6 +4,10 @@ description: Changelog for PowerShell Protect
 
 # PowerShell Protect
 
+## 2022.7.0 - 7/12/2022
+
+* Fixed an issue where license files were not correctly validated
+
 ## 2022.6.0 - 6/14/2022
 
 * Added support to PowerShell Universal for generating PowerShell Protect configuration files

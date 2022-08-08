@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.7.0 - 7-12-2022
+
+* Fixed an issue where license files were not correctly validated
+
 ## 2022.5.0 - 5-10-2022
 
 * Fixed an issue where the link to the docs from Show-PSEditor would end in a 404

@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.7.0 - 7/12/2022
+
+* Fixed an issue where license files were not correctly validated
+
 ## 2022.5.0 - 5/10/2022
 
 * Fixed an issue where syntax errors would be shown as warnings

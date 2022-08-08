@@ -8,6 +8,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 * Fixed an issue where the extension would fail to activate.&#x20;
 
+## 2022.7.0 - 7/12/2022
+
+* Fixed an issue where license files were not correctly validated
+
 ## 2022.6.0 - 6/14/2022
 
 * Removed a duplicate license key install command that did not work
