@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.8.0 - 8/9/2022
+
+* Added support for packaging PowerShell 7.2.3 and 7.2.4 executables
+
 ## 2022.7.1 - 8/2/2022
 
 * Fixed an issue where the extension would fail to activate.&#x20;
