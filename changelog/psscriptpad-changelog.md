@@ -8,7 +8,7 @@ description: Changelog for PSScriptPad
 
 * Fixed an issue where PSScriptPad would scroll to the top after saving
 * Fixed a hang that could be caused by using the variables window while broken in the debugger.
-* Added support for packaging PowerShell 7.2.4 executables
+* Added support for packaging PowerShell 7.2.3 and 7.2.4 executables
 
 ## 2022.7.0 - 7-12-2022
 
