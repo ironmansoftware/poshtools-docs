@@ -10,7 +10,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 
 ## 2022.8.0 - 8/9/2022
 
-* Added support for packaging PowerShell 7.2.3 and 7.2.4 executables
+* Added support for packaging PowerShell 7.2.4 executables
 
 ## 2022.7.0 - 7/12/2022
 
