@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.9.0 - 9/13/2022
+
+* Added support for packaging PowerShell 7.2.5 and 7.2.6 executables
+* Added support for switch parameters with Convert To Splat
+
 ## 2022.8.0 - 8/9/2022
 
 * Added support for packaging PowerShell 7.2.4 executables

@@ -4,6 +4,10 @@ description: Changelog for PowerShell Protect
 
 # PowerShell Protect
 
+## 2022.9.0 - 9/13/2022
+
+* Fixed an issue where not all formats of Invoke-Expression would be detected with the built in rule.&#x20;
+
 ## 2022.7.0 - 7/12/2022
 
 * Fixed an issue where license files were not correctly validated
