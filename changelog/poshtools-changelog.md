@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.9.0 - 9/13/2022
+
+* Added support for packaging PowerShell 7.2.5 and 7.2.6 executables
+* Added support for switch parameters with Convert To Splat
+
 ## 2022.8.0 - 8/9/2022
 
 * Added support for packaging PowerShell 7.2.4 executables
