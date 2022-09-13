@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.9.0 - 9-13-2022
+
+* Added support for packaging PowerShell 7.2.5 and 7.2.6 executables
+
 ## 2022.8.0 - 8-9-2022
 
 * Added support for packaging PowerShell 7.2.4 executables

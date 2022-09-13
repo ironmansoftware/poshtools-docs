@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.9.0 - 9-13-2022
+
+* Added support for packaging PowerShell 7.2.5 and 7.2.6 executables
+
 ## 2022.8.0 - 8-9-2022
 
 * Fixed an issue where PSScriptPad would scroll to the top after saving
