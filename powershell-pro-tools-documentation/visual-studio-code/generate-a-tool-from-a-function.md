@@ -14,6 +14,6 @@ function New-User {
 
 This would generate a form that looked like this.&#x20;
 
-![Auto-generated UI](<../../.gitbook/assets/image (5).png>)
+![Auto-generated UI](<../../.gitbook/assets/image (5) (1).png>)
 
 If the file was named `NewUser.ps1` , then a `NewUser.exe` would be created that would show the form and execute your tool.&#x20;

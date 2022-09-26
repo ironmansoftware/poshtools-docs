@@ -4,7 +4,7 @@
 Requires a [PowerShell Pro Tools](https://ironmansoftware.com/poshtools) license.&#x20;
 {% endhint %}
 
-## Building a GUI with Windows Forms in Visual Studio
+## Building a GUI with WPF in Visual Studio
 
 {% embed url="https://youtu.be/qh_GGiSkxnw" %}
 
@@ -27,7 +27,7 @@ Click File->New->Project
 
 Select the Module, Forms or Script project type, name it and then click Ok.
 
-![](<../../../.gitbook/assets/image (1) (2).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 ![](<../../../.gitbook/assets/image (3).png>)
 
@@ -102,3 +102,101 @@ From here, we can define logic in the onClick function to take actions like open
 ### Packaging as an executable
 
 XAML and the code behind script can be packaged as an executable. Simply right click on the WPF XAML window in the Solution Explorer window and select “Package as executable”.
+
+## Adding an Icon to a Window
+
+You cannot directly add icons to WPF windows with PowerShell and will need to do so using code. First, you'll need to ensure that your icon is in the same directory of the script. You will also need to add your icon as a resource.&#x20;
+
+In your PowerShell Project, you can set the add the icon to your project and set it as a resource.&#x20;
+
+First, right click on your project and Add an Existing Item to the project.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Next, right click on the icon you added and set the Resource property to true.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Next, in your PS1 file for your WPF window, you will need to load your icon from either the file system or the packaged resources. The `Get-Resource` function below attempts to load from the packaged resource and, if not found, will instead load it from disk.&#x20;
+
+```powershell
+function Get-Resource {
+     param($Name)
+     
+     $ProcessName = (Get-Process -Id $PID).Name
+     try 
+     {
+        $Stream = [System.Reflection.Assembly]::GetEntryAssembly().GetManifestResourceStream("$ProcessName.g.resources")
+        $KV = [System.Resources.ResourceReader]::new($Stream) | Where-Object Key -EQ $Name
+        $Stream = $KV.Value
+     } catch {}
+
+    if (-not $Stream)
+    {
+        $Stream = [IO.File]::OpenRead("$PSScriptRoot\favicon.ico")
+    }
+
+    $Stream
+}
+```
+
+Next, you'll need to create a new bitmap and set the window's icon property to the bitmap.&#x20;
+
+```powershell
+$bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
+$bitmap.BeginInit()
+$bitmap.StreamSource = Get-Resource -Name 'favicon.ico'
+$bitmap.EndInit()
+$bitmap.Freeze()
+ 
+$window.Icon = $bitmap
+```
+
+An entire working example of the PS1 file can be found below.&#x20;
+
+```powershell
+[System.Reflection.Assembly]::LoadWithPartialName("PresentationFramework") | Out-Null
+
+function Import-Xaml {
+	[xml]$xaml = Get-Content -Path $PSScriptRoot\WpfWindow1.xaml
+	$manager = New-Object System.Xml.XmlNamespaceManager -ArgumentList $xaml.NameTable
+	$manager.AddNamespace("x", "http://schemas.microsoft.com/winfx/2006/xaml");
+	$xamlReader = New-Object System.Xml.XmlNodeReader $xaml
+	[Windows.Markup.XamlReader]::Load($xamlReader)
+}
+
+$window = Import-Xaml
+
+function Get-Resource {
+     param($Name)
+     
+     $ProcessName = (Get-Process -Id $PID).Name
+     try 
+     {
+        $Stream = [System.Reflection.Assembly]::GetEntryAssembly().GetManifestResourceStream("$ProcessName.g.resources")
+        $KV = [System.Resources.ResourceReader]::new($Stream) | Where-Object Key -EQ $Name
+        $Stream = $KV.Value
+     } catch {}
+
+    if (-not $Stream)
+    {
+        $Stream = [IO.File]::OpenRead("$PSScriptRoot\favicon.ico")
+    }
+
+    $Stream
+}
+
+$bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
+$bitmap.BeginInit()
+$bitmap.StreamSource = Get-Resource -Name 'favicon.ico'
+$bitmap.EndInit()
+$bitmap.Freeze()
+ 
+$window.Icon = $bitmap
+
+$window.ShowDialog()
+```
+
+The result is a WPF window with a custom icon that is shown both when packaged and when running the script outside of the package.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
