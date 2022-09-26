@@ -27,7 +27,7 @@ Click File->New->Project
 
 Select the Module, Forms or Script project type, name it and then click Ok.
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (2).png>)
 
 ![](<../../../.gitbook/assets/image (3).png>)
 

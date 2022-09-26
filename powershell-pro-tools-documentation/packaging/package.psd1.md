@@ -398,3 +398,110 @@ You will package the resource file, just like you do with WPF applications.&#x20
     }
 }
 ```
+
+## Adding an Icon to a WPF Window
+
+You cannot directly add icons to WPF windows with PowerShell and will need to do so using code. First, you'll need to ensure that your icon is in the same directory of the script. You will also need to add your icon as a resource.&#x20;
+
+```powershell
+@{
+    Root       = 'c:\Users\adamr\Desktop\WpfWindow.xaml.ps1'
+    OutputPath = 'c:\Users\adamr\Desktop\out'
+    Package    = @{
+        Enabled   = $true
+        Resources = [string[]]@("favicon.ico")
+    }
+    Bundle     = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+If you are using Visual Studio rather than `package.psd1`, you can set the add the icon to your project and set it as a resource.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Next, in your PS1 file for your WPF window, you will need to load your icon from either the file system or the packaged resources. The `Get-Resource` function below attempts to load from the packaged resource and, if not found, will instead load it from disk.&#x20;
+
+```powershell
+function Get-Resource {
+     param($Name)
+     
+     $ProcessName = (Get-Process -Id $PID).Name
+     try 
+     {
+        $Stream = [System.Reflection.Assembly]::GetEntryAssembly().GetManifestResourceStream("$ProcessName.g.resources")
+        $KV = [System.Resources.ResourceReader]::new($Stream) | Where-Object Key -EQ $Name
+        $Stream = $KV.Value
+     } catch {}
+
+    if (-not $Stream)
+    {
+        $Stream = [IO.File]::OpenRead("$PSScriptRoot\favicon.ico")
+    }
+
+    $Stream
+}
+```
+
+Next, you'll need to create a new bitmap and set the window's icon property to the bitmap.&#x20;
+
+```powershell
+$bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
+$bitmap.BeginInit()
+$bitmap.StreamSource = Get-Resource -Name 'favicon.ico'
+$bitmap.EndInit()
+$bitmap.Freeze()
+ 
+$window.Icon = $bitmap
+```
+
+An entire working example of the PS1 file can be found below.&#x20;
+
+```powershell
+[System.Reflection.Assembly]::LoadWithPartialName("PresentationFramework") | Out-Null
+
+function Import-Xaml {
+	[xml]$xaml = Get-Content -Path $PSScriptRoot\WpfWindow1.xaml
+	$manager = New-Object System.Xml.XmlNamespaceManager -ArgumentList $xaml.NameTable
+	$manager.AddNamespace("x", "http://schemas.microsoft.com/winfx/2006/xaml");
+	$xamlReader = New-Object System.Xml.XmlNodeReader $xaml
+	[Windows.Markup.XamlReader]::Load($xamlReader)
+}
+
+$window = Import-Xaml
+
+function Get-Resource {
+     param($Name)
+     
+     $ProcessName = (Get-Process -Id $PID).Name
+     try 
+     {
+        $Stream = [System.Reflection.Assembly]::GetEntryAssembly().GetManifestResourceStream("$ProcessName.g.resources")
+        $KV = [System.Resources.ResourceReader]::new($Stream) | Where-Object Key -EQ $Name
+        $Stream = $KV.Value
+     } catch {}
+
+    if (-not $Stream)
+    {
+        $Stream = [IO.File]::OpenRead("$PSScriptRoot\favicon.ico")
+    }
+
+    $Stream
+}
+
+$bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
+$bitmap.BeginInit()
+$bitmap.StreamSource = Get-Resource -Name 'favicon.ico'
+$bitmap.EndInit()
+$bitmap.Freeze()
+ 
+$window.Icon = $bitmap
+
+$window.ShowDialog()
+```
+
+The result is a WPF window with a custom icon that is shown both when packaged and when running the script outside of the package.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
