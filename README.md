@@ -16,6 +16,10 @@ PowerShell Pro Tools is a collection of productivity and development tools for P
 * [PowerShell Pro Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools)
 * [Additional Tools](https://ironmansoftware.com/powershell-pro-tools/downloads)
 
+## Training
+
+Follow along with our [free training course](https://ironmansoftware.com/training/powershell-pro-tools) for PowerShell Pro Tools.&#x20;
+
 ## Licensing
 
 * [Purchasing](https://www.ironmansoftware.com/pricing/powershell-pro-tools)
