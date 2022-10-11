@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.10.0 - 10/11/2022
+
+* Added PowerShell Performance output
+* Fixed an issue where bundled assemblies would cause unexpected output in executables
+
 ## 2022.9.0 - 9/13/2022
 
 * Added support for packaging PowerShell 7.2.5 and 7.2.6 executables

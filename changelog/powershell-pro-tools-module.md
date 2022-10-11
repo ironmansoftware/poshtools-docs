@@ -4,6 +4,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.10.0 - 10-11-2022
+
+* Fixed an issue where you couldn't create 2 shortcuts to the same file with New-Installer
+* Fixed an issue where bundled assemblies would cause unexpected output in executables
+
 ## 2022.9.0 - 9-13-2022
 
 * Added support for packaging PowerShell 7.2.5 and 7.2.6 executables

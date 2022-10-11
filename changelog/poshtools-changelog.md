@@ -8,6 +8,18 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.10.0 - 10/11/2022
+
+* Fixed an issue where button1 was defined in forms by default
+* Added EnableVisualStyles to the default form template
+* Added support for removing a license file
+* Fixed a crash that could happen when using the function drop down in the code editor
+* Fixed an issue where PSScriptAnalyzer would fail to install
+* Enabled line numbers by default
+* Fixed an issue where event handlers could be created with invalid characters
+* Diagnostics is now always enabled
+* Fixed an issue where bundled assemblies would cause unexpected output in executables
+
 ## 2022.9.0 - 9/13/2022
 
 * Added support for packaging PowerShell 7.2.5 and 7.2.6 executables

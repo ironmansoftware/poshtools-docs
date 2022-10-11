@@ -4,6 +4,15 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.10.0 - 10-11-2022
+
+* Added Replace Tabs with Spaces
+* Validate event handler names before allowing creation of handlers
+* Fixed an issue where bundled assemblies would cause unexpected output in executables
+* When opening files from the context menu, the current directory is now set to the file's parent directory
+* Fixed a crash that could happen when navigating history in the terminal
+* Fixed an issue where bundled assemblies would cause unexpected output in executables
+
 ## 2022.9.0 - 9-13-2022
 
 * Added support for packaging PowerShell 7.2.5 and 7.2.6 executables
