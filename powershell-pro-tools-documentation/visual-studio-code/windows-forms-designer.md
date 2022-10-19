@@ -14,7 +14,7 @@ Create a PowerShell script by clicking File \ New File, entering the name of the
 
 ## Opening the Designer
 
-To open the designer press `Ctrl+Shift+P` and then type `Show Windows Forms Designer` . The `PowerShell Pro Tools: Show Windows Forms Designer` command should be show. Click or press enter. &#x20;
+To open the designer press `Ctrl+Shift+P` and then type `Show Windows Forms Designer` . The `PowerShell Pro Tools: Show Forms Designer` command should be show. Click or press enter. &#x20;
 
 You can also open a form by clicking the Show Windows Forms Designer button in the tool bar of a PS1 file.&#x20;
 
