@@ -54,7 +54,7 @@ Add-Type -Path (Join-path $guiTools Terminal.Gui.dll)
 [Terminal.Gui.Application]::Init()
 ```
 
-The script that is generate with the TUI designer will return a Window object that you can use in your application. Invoke your script and add it to the application. Do not modify the script directly. It will be overridden if you use the designer again and the designer may not be able to load the script if you modify it.&#x20;
+The script that is generated with the TUI designer will return a Window object that you can use in your application. Invoke your script and add it to the application. Do not modify the script directly. It will be overwritten if you use the designer again and the designer may not be able to load the script if you modify it.&#x20;
 
 ```
 $Window = .\tui.ps1
@@ -69,9 +69,9 @@ Finally, you can start your application by calling `Run`.
 
 ## Adding Event Handlers
 
-To add interaction to your TUI, you will need to add event handlers. You can learn about all the events the are available by visiting the [Terminal.Gui documentation](https://migueldeicaza.github.io/gui.cs/api/Terminal.Gui/Terminal.Gui.Button.html).&#x20;
+To add interaction to your TUI, you will need to add event handlers. You can learn about all of the events that are available by visiting the [Terminal.Gui documentation](https://migueldeicaza.github.io/gui.cs/api/Terminal.Gui/Terminal.Gui.Button.html).&#x20;
 
-For example, if you want to add a click event to a button, you could do the following. Variables for each one of your controls will be defined based on their ID.&#x20;
+For example, if you want to add a click event to a button, you could do the following (see code below). Variables for each one of your controls will be defined based on their ID.&#x20;
 
 ```
 $View0.add_Clicked({[Terminal.Gui.MessageBox]::Query("Hello", "")})
