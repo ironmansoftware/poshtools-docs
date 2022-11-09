@@ -34,4 +34,5 @@ Features that are not supported include:
 * Custom Application Icon
 * Obfuscation
 * Services
+* Resources
 

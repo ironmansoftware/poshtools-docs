@@ -38,7 +38,6 @@ This about file contains information about using hashtables and PSD1 files to co
             RuntimeIdentifier = 'win-x64' # You can specify other runtimes like linux-x64 (See .NET Core runtime identifiers)
             DisableQuickEdit = $false # Disables the quick edit mode on windows console apps
             Resources = [string[]]@() # Resources to embed in the output executable
-            Host = 'Default' # The PowerShell Host to use. 
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
@@ -158,13 +157,6 @@ The PowerShell version to target. Ensure that you specify a supported .NET versi
 * 7.1.4
 * 7.1.5
 * 7.2.0
-* 7.2.1
-* 7.2.2
-* 7.2.3
-* 7.2.4
-* 7.2.5
-* 7.2.6
-* 7.2.7
 
 #### RuntimeIdentifier
 
@@ -189,10 +181,6 @@ The certificate used to sign the assembly. The packager will use `Set-Authentico
 #### OutputName
 
 The name of the output assembly. When this is not specified, this will be the root script name.
-
-#### Host
-
-The PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts here.&#x20;
 
 ### Bundle
 
