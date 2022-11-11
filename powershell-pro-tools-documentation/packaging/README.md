@@ -49,10 +49,6 @@ You can package scripts with PowerShell Pro tools using [Visual Studio](https://
 
 Once scripts have been packaged as a .NET executable, you can take an additional step and obfuscate the executable. This will make it much more difficult for users to decompile your executable and inspect your PowerShell script. Obfuscated assemblies scramble the C# code as well as the PowerShell script.
 
-{% hint style="warning" %}
-Obfuscation is not supported when packaging PowerShell 7.
-{% endhint %}
-
 You can obfuscate executables with PowerShell Pro tools using Visual Studio, Visual Studio Code and Merge-Script.
 
 ## Anti-Virus
