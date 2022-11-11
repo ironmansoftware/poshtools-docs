@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.11.0 - 10-9-2022
+
+* Display execution policy
+* Attempt to Load PresentationFramework from multiple locations by default
+
 ## 2022.10.0 - 10-11-2022
 
 * Added Replace Tabs with Spaces

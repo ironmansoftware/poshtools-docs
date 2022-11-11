@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2022.11.0 - 11-9-2022
+
+* Added Ironman Software Host Process
+
 ## 2022.10.0 - 10-11-2022
 
 * Fixed an issue where you couldn't create 2 shortcuts to the same file with New-Installer

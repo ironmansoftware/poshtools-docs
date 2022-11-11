@@ -4,6 +4,14 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.11.1 - 11/11/2022
+
+* Fixed an issue where PSScriptPad failed to launch from VS Code.&#x20;
+
+## 2022.11.0 - 11/9/2022
+
+* Added Ironman Software host for packaging
+
 ## 2022.10.1 - 10/13/2022
 
 * Fixed an issue where the variable explorer would be empty

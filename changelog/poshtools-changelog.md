@@ -8,6 +8,11 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2022.11.0 - 10/9/2022
+
+* Changed logging framework
+* Removed the Ctrl+C shortcut to clear the screen in the PowerShell Interactive Window
+
 ## 2022.10.0 - 10/11/2022
 
 * Fixed an issue where button1 was defined in forms by default
