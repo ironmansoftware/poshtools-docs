@@ -255,7 +255,7 @@ Use the Ironman Software host to build your executable without having to install
     OutputPath = 'c:\Users\Adam\Desktop\out'
     Package = @{
         Enabled = $true
-        Host = 'IronmanSoftwareHost'
+        Host = 'IronmanPowerShellHost'
         FileVersion = '2.1.0.0'
     }
 }
