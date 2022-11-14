@@ -14,13 +14,13 @@ You do not need to make any changes to use the default host.&#x20;
 
 The Ironman Software host is a precompiled executable that is updated to include your script and settings. It does not require the .NET SDK and is less likely to be flagged by antivirus.&#x20;
 
-To use the Ironman Software PowerShell host, you will need to set the Host property in `package.psd1` to ther `IronmanSoftwareHost` or `IronmanSoftwareWinFormsHost`.&#x20;
+To use the Ironman Software PowerShell host, you will need to set the Host property in `package.psd1` to the `IronmanPowerShellHost` or `IronmanPowerShellWinFormsHost`.&#x20;
 
 The different between the standard host and the Win Forms host is that the latter will hide the console window.&#x20;
 
 ### Supported Features
 
-A subset of the packaging features are supported by the Ironman Software host.
+A subset of the packaging features is supported by the Ironman Software host.
 
 * Script Bundling and Packaging
 * Automatic Module Bundling and Packaging
