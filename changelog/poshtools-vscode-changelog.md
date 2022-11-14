@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.11.2 - 11/14/2022
+
+* Fixed an issue where unsigned DLLs were not loaded successfully when packaging executables
+
 ## 2022.11.1 - 11/11/2022
 
 * Fixed an issue where PSScriptPad failed to launch from VS Code.&#x20;
