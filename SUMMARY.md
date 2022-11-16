@@ -58,6 +58,7 @@
 * [Installers](powershell-pro-tools-documentation/installers.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Package.psd1](powershell-pro-tools-documentation/packaging/package.psd1.md)
+  * [PowerShell Packager](powershell-pro-tools-documentation/packaging/powershell-packager.md)
   * [Package Hosts](powershell-pro-tools-documentation/packaging/package-hosts.md)
   * [Package as Service](powershell-pro-tools-documentation/packaging/package-a-service.md)
   * [Packaging on Linux](powershell-pro-tools-documentation/packaging/packaging-on-linux.md)
