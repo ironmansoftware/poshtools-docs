@@ -7,7 +7,7 @@ description: Command your desktop with PSCommander.
 ![](../.gitbook/assets/4a9c6a24400e45aea31c30b7b1f2bdf8.png)
 
 {% hint style="danger" %}
-As of June 14th, 2022, PSCommander has reached end of life and is no longer supported. You can continue to use it if you have a license. For functionality similar to PSCommander, please see [PowerShell Universal Desktop](https://docs.powershelluniversal.com/v/v3/desktop/about-desktop-mode).
+PSCommander is now [free and open source](https://github.com/ironmansoftware/pscommander).&#x20;
 {% endhint %}
 
 
