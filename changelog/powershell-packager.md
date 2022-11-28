@@ -4,6 +4,7 @@
 
 * Fixed an issue where the Require Elevation parameter would not work
 * Fixed an issue where modules would not be loaded correctly in packaged executables.
+* Fixed an issue where invalid File Versions would cause the packager to fail
 
 ## 2022.11.1 - 11-28-2022
 
