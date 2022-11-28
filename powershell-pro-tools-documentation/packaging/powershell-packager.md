@@ -5,7 +5,7 @@ description: Packager PowerShell scripts as executables.
 # PowerShell Packager
 
 {% hint style="info" %}
-This tool is currently in beta. Download from the [PowerShell Pro Tools download page](https://ironmansoftware.com/powershell-pro-tools/downloads).
+Download from the [PowerShell Pro Tools download page](https://ironmansoftware.com/powershell-pro-tools/downloads).
 {% endhint %}
 
 The PowerShell Packager uses the same packaging tools as the PowerShell Pro Tools module and PowerShell Pro Tools for VS Code but provides a simple interface that does not require configuration files or special build tools. This tool currently only supports Windows PowerShell executables.&#x20;
