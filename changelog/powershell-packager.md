@@ -1,5 +1,10 @@
 # PowerShell Packager
 
+## 2022.11.2 - 11-28-2022
+
+* Fixed an issue where the Require Elevation parameter would not work
+* Fixed an issue where modules would not be loaded correctly in packaged executables.
+
 ## 2022.11.1 - 11-28-2022
 
 * Fixed an issue where the packager would start on Windows startup
