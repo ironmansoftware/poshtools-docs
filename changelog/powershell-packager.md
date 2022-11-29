@@ -1,5 +1,9 @@
 # PowerShell Packager
 
+## 2022.11.3 - 11-29-2022
+
+* Added support for packaging icons
+
 ## 2022.11.2 - 11-28-2022
 
 * Fixed an issue where the Require Elevation parameter would not work
