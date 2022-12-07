@@ -10,4 +10,4 @@
 * Packaging
   * [.NET Core 3.1 or later](https://dotnet.microsoft.com/download/dotnet/3.1)
   * [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0) is required for packaging PowerShell 7.1 or later
-  * [.NET 4.6.2 (or later) Developer Pack](https://www.microsoft.com/en-us/download/details.aspx?id=53321) is required for packaging for Windows PowerShell
+  * .NET 4.6.2 (or later) Developer Pack [https://dotnet.microsoft.com/en-us/download/dotnet-framework/net462](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net462) is required for packaging for Windows PowerShell
