@@ -165,6 +165,7 @@ The PowerShell version to target. Ensure that you specify a supported .NET versi
 * 7.2.5
 * 7.2.6
 * 7.2.7
+* 7.3.0
 
 #### RuntimeIdentifier
 
