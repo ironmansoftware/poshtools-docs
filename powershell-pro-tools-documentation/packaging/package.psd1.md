@@ -88,6 +88,7 @@ The .NET version to target for the executable. You can find the valid values bel
 | PowerShell 7.0.x   | netcoreapp31                                     |
 | PowerShell 7.1.x   | net5.0                                           |
 | PowerShell 7.2.x   | net6.0                                           |
+| PowerShell 7.3.x   | net7.0                                           |
 
 #### FileVersion
 
