@@ -6,6 +6,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 
 
+## 2022.12.0 - 12/13/2022
+
+* Removed features that are now available for free
+* Add support for icons in the Ironman Software Host Process
+
 ## 2022.11.1 - 11/14/2022
 
 * Fixed an issue where unsigned DLLs were not loaded successfully when packaging executables

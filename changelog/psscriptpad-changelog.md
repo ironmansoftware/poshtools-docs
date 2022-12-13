@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.12.0 - 12-13-2022
+
+* Fixed an issue where the format on save feature could cause PSScriptPad to crash
+
 ## 2022.11.0 - 10-9-2022
 
 * Display execution policy
