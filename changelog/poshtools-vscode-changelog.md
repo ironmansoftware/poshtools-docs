@@ -4,6 +4,15 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.12.1 - 12/16/2022
+
+* Fixed an issue where the form designer would not open
+
+## 2022.12.0 - 12/13/2022
+
+* Removed license check for several features in the PowerShell Pro Tools Activity pane
+* Fixed an issue where the packager wouldn't correctly pacakge scripts with Unicode characters
+
 ## 2022.11.2 - 11/14/2022
 
 * Fixed an issue where unsigned DLLs were not loaded successfully when packaging executables
