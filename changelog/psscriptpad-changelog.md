@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2022.12.1 - 12-17-2022
+
+* Fixed an issue where the Ironman PowerShell Host wouldn't properly set $PSScriptRoot
+
 ## 2022.12.0 - 12-13-2022
 
 * Fixed an issue where the format on save feature could cause PSScriptPad to crash

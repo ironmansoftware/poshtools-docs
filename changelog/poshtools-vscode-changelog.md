@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2022.12.2 - 12/17/2022
+
+* Fixed an issue where the Ironman PowerShell Host wouldn't properly set $PSScriptRoot
+
 ## 2022.12.1 - 12/16/2022
 
 * Fixed an issue where the form designer would not open

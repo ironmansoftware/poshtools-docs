@@ -6,6 +6,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 
 
+## 2022.12.1 - 12/17/2022
+
+* Fixed an issue where the Ironman PowerShell Host wouldn't properly set $PSScriptRoot
+
 ## 2022.12.0 - 12/13/2022
 
 * Removed features that are now available for free
