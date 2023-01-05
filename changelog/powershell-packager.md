@@ -1,5 +1,9 @@
 # PowerShell Packager
 
+## 2022.12.2 - 1/5/2023
+
+* Fixed an issue where the IronmanPowerShellWinFormsHost wouldn't run anything
+
 ## 2022.12.1 - 12/17/2022
 
 * Fixed an issue where the Ironman PowerShell Host wouldn't properly set $PSScriptRoot

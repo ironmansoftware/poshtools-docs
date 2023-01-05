@@ -25,13 +25,13 @@ A subset of the packaging features is supported by the Ironman Software host.
 * Script Bundling and Packaging
 * Automatic Module Bundling and Packaging
 * File Information (Version, Description, Company, etc)&#x20;
-* Custom Application Icon
 * Windows PowerShell
 * Hidden Console Window&#x20;
 
 Features that are not supported include:
 
 * PowerShell 7
+* Custom Application Icon
 * Obfuscation
 * Services
 * Resources
