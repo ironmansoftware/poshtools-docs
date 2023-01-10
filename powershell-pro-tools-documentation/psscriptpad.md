@@ -118,7 +118,7 @@ You can set the properties of a control by selecting the control and then modify
 
 ### Setting Event Handlers
 
-You can set event handlers for a control by selecting the control, clicking the lightening bolt icon in the Properties pane and then typing the name of the event handler for the event you'd like to hook up. After saving the form, you can view the code-behind file to define what happens when the event takes place.&#x20;
+You can set event handlers for a control by selecting the control, clicking the lightning bolt icon in the Properties pane and then typing the name of the event handler for the event you'd like to hook up. After saving the form, you can view the code-behind file to define what happens when the event takes place.&#x20;
 
 ![Setting an Event Handler](../.gitbook/assets/setevents.gif)
 
@@ -130,7 +130,7 @@ You can run a form by open the PS1 file for your form and pressing `F5` or by cl
 
 ## Scratch Pad
 
-The Scratch Pad is a way of quickly testing scripts. Open the Script Pad by clicking the Open Scratch Pad button on the toolbar. The Scratch Pad will save automatically and you can execute scripts immediately.&#x20;
+The Scratch Pad is a way of quickly testing scripts. Open the Script Pad by clicking the Open Scratch Pad button on the toolbar. The Scratch Pad will save automatically, and you can execute scripts immediately.&#x20;
 
 Scratches are saved and visible in the Scratches window. Scratches contain the scratch that was executed and the output that was generated from the scratch.&#x20;
 
