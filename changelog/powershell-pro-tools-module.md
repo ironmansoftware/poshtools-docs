@@ -6,6 +6,13 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 
 
+## 2023.1.0 - 1/10/2023
+
+* Added support for specifying any .NET or PowerShell 7 version to package
+* Merge-Script now outputs build progress by default
+* Fixed an issue where the IronmanPowerShellHost would truncate the first 3 characters
+* Fixed an issue where the IronmanPowerShellHost would not accept arguments
+
 ## 2022.12.2 - 1/7/2023
 
 * Fixed an issue where the IronmanPowerShellWinFormsHost wouldn't run anything

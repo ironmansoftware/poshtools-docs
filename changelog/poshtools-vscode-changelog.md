@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.1.0 - 1/10/2023
+
+* Added support for specifying any .NET or PowerShell 7 version to package
+* Fixed an issue where the IronmanPowerShellHost would truncate the first 3 characters
+* Fixed an issue where the IronmanPowerShellHost would not accept arguments
+
 ## 2022.12.3 - 1/5/2022
 
 * Fixed an issue where the IronmanPowerShellWinFormsHost wouldn't run anything

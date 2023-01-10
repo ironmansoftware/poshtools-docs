@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.1.0 - 1/10/2023
+
+* Added support for specifying any .NET or PowerShell 7 version to package
+* Added command line arguments for every setting
+
 ## 2022.12.1 - 12-17-2022
 
 * Fixed an issue where the Ironman PowerShell Host wouldn't properly set $PSScriptRoot

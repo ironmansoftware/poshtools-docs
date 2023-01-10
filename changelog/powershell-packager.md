@@ -1,5 +1,11 @@
 # PowerShell Packager
 
+## 2023.1.0 - 1/10/2023
+
+* Added support for specifying any .NET or PowerShell 7 version to package
+* Fixed an issue where the IronmanPowerShellHost would not accept arguments
+* Fixed an issue where the IronmanPowerShellHost would truncate the first 3 characters
+
 ## 2022.12.2 - 1/5/2023
 
 * Fixed an issue where the IronmanPowerShellWinFormsHost wouldn't run anything
