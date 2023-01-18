@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.1.1 - 1/18/2023
+
+* Removed telemetry collection
+
 ## 2023.1.0 - 1/10/2023
 
 * Added support for specifying any .NET or PowerShell 7 version to package
