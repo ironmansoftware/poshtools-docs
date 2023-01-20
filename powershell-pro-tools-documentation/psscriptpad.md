@@ -1,10 +1,10 @@
 # PSScriptPad
 
-PSScriptPad is the tiny editor for Windows PowerShell and PowerShell 7. It requires no installation or configuration. It weighs in around 4Mbs, can edit, execute and debug PowerShell scripts, design Windows Forms, WPF Windows, and Package Executables.&#x20;
+PSScriptPad is a tiny editor for Windows PowerShell and PowerShell 7. It requires no installation or configuration and weighs in around 6MB. It can edit, execute and debug PowerShell scripts, design Windows Forms, WPF Windows and package executables.&#x20;
 
 ## Download
 
-You can [download PSScriptPad from our website](https://ironmansoftware.com/downloads). It is just a .exe file.&#x20;
+You can [download PSScriptPad from our website](https://ironmansoftware.com/downloads). It is a single standalone portable .exe file.&#x20;
 
 ## PowerShell Versions
 
@@ -28,7 +28,7 @@ Click the New File button on the toolbar to create a new file.&#x20;
 
 #### Opening a PowerShell Script
 
-Click the Open File button on the toolbar to open a script.&#x20;
+Click the Open button on the toolbar to open a script file.
 
 ![](<../.gitbook/assets/image (23) (1).png>)
 
@@ -82,7 +82,7 @@ PSScriptPad can package scripts to executables using [package.psd1](packaging/pa
 
 ### Packaging Without a Package.PSD1 file
 
-You can select an PS1 file and click the package button and the script will be packaged into an executable. Results of the packaging process will be shown within the Console.&#x20;
+You can select a PS1 file and click the Package button and the script will be packaged into an executable. The results of the packaging process will be shown within the console.&#x20;
 
 ![Package Script](../.gitbook/assets/package.gif)
 
@@ -100,7 +100,7 @@ The Windows Form Designer allows you to create forms with PowerShell scripts.&#x
 
 ### Creating a new Form
 
-You can create a new form by click the drop arrow next to the new file button and click New Windows Form.
+You can create a new form by clicking the dropdown arrow next to the New button and then click New Windows Form.
 
 ![New Windows Form](../.gitbook/assets/new-form.gif)
 
@@ -124,13 +124,13 @@ You can set event handlers for a control by selecting the control, clicking the 
 
 ### Running a Form
 
-You can run a form by open the PS1 file for your form and pressing `F5` or by clicking the run button.&#x20;
+You can run a form by opening the PS1 file for your form and pressing `F5` or by clicking the Run button.&#x20;
 
 ![Running a Form](../.gitbook/assets/run-form.gif)
 
 ## Scratch Pad
 
-The Scratch Pad is a way of quickly testing scripts. Open the Script Pad by clicking the Open Scratch Pad button on the toolbar. The Scratch Pad will save automatically, and you can execute scripts immediately.&#x20;
+The Scratch Pad is a way of quickly testing scripts. Open the Scratch Pad by clicking the Open Scratch Pad button on the toolbar. The Scratch Pad will save automatically, and you can execute scripts immediately.&#x20;
 
 Scratches are saved and visible in the Scratches window. Scratches contain the scratch that was executed and the output that was generated from the scratch.&#x20;
 
@@ -180,7 +180,7 @@ function Import-Xaml {
 }
 ```
 
-To show the form, you can load the XAML, store the result in a  variable and then call `ShowDialog`.
+To show the form, you can load the XAML, store the result in a variable and then call `ShowDialog`.
 
 ```
 $Window = Import-Xaml
