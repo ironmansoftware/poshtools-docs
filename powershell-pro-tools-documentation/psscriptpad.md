@@ -106,7 +106,7 @@ You can create a new form by clicking the dropdown arrow next to the New button 
 
 ### Adding Controls to a Form
 
-You can add controls to a form by expanding the toolbox pane, clicking the control you'd like to add and then clicking on the form.
+You can add controls to a form by expanding the toolbox pane, clicking the control you'd like to add and then clicking on the form. This action requires 2 clicks. In other words, you cannot drag and drop the control from the Toolbox onto the form.
 
 ![Adding Controls to a Form](../.gitbook/assets/add-controls.gif)
 
