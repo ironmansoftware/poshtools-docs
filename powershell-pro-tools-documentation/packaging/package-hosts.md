@@ -6,7 +6,7 @@ description: Learn about the different ways to host your PowerShell scripts.
 
 ## Default Host&#x20;
 
-The default host uses the .NET SDK to compile an executable that runs your PowerShell script. The default host currently provides more options than the other hosts but is often flagged as suspicious by anti-virus applications. It also requires the .NET SDK installed on the local machien in order to function.&#x20;
+The default host uses the .NET SDK to compile an executable that runs your PowerShell script. The default host currently provides more options than the other hosts but is often flagged as suspicious by anti-virus applications. It also requires the .NET SDK installed on the local machine in order to function.&#x20;
 
 You do not need to make any changes to use the default host.&#x20;
 
@@ -25,13 +25,13 @@ A subset of the packaging features is supported by the Ironman Software host.
 * Script Bundling and Packaging
 * Automatic Module Bundling and Packaging
 * File Information (Version, Description, Company, etc)&#x20;
+* Custom Application Icon
 * Windows PowerShell
 * Hidden Console Window&#x20;
 
 Features that are not supported include:
 
 * PowerShell 7
-* Custom Application Icon
 * Obfuscation
 * Services
 * Resources
