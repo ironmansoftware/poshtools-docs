@@ -22,6 +22,7 @@
     * [Build Events](powershell-tools-documentation/project-system/build-eventys.md)
   * [Settings](powershell-tools-documentation/settings/README.md)
     * [General](powershell-tools-documentation/settings/general.md)
+    * [.editorconfig](powershell-tools-documentation/visual-studio/settings/.editorconfig.md)
     * [Analysis](powershell-tools-documentation/settings/analysis.md)
     * [Diagnostics](powershell-tools-documentation/settings/diagnostics.md)
   * [Tool Windows](powershell-pro-tools-documentation/visual-studio/tool-windows.md)
