@@ -396,7 +396,7 @@ In the XAML, you can reference the image like this.
 You can access resources in your script using the following function.&#x20;
 
 ```powershell
-function Get-Resource {
+function Get-ResourceAsString {
      param($Name)
      
      $ProcessName = (Get-Process -Id $PID).Name
@@ -409,7 +409,7 @@ function Get-Resource {
 In your script, just use this function to load the file.&#x20;
 
 ```powershell
-$MyManifest = Get-Resource -Name 'manifest.json'
+$MyManifest = Get-ResourceAsString -Name 'manifest.json'
 ```
 
 You will package the resource file, just like you do with WPF applications.&#x20;
@@ -450,12 +450,12 @@ You cannot directly add icons to WPF windows with PowerShell and will need to do
 
 If you are using Visual Studio rather than `package.psd1`, you can set the add the icon to your project and set it as a resource.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Next, in your PS1 file for your WPF window, you will need to load your icon from either the file system or the packaged resources. The `Get-Resource` function below attempts to load from the packaged resource and, if not found, will instead load it from disk.&#x20;
 
 ```powershell
-function Get-Resource {
+function Get-ResourceAsStream {
      param($Name)
      
      $ProcessName = (Get-Process -Id $PID).Name
@@ -480,7 +480,7 @@ Next, you'll need to create a new bitmap and set the window's icon property to t
 ```powershell
 $bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
 $bitmap.BeginInit()
-$bitmap.StreamSource = Get-Resource -Name 'favicon.ico'
+$bitmap.StreamSource = Get-ResourceAsStream -Name 'favicon.ico'
 $bitmap.EndInit()
 $bitmap.Freeze()
  

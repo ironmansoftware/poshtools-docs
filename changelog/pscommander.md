@@ -5,7 +5,7 @@ description: Changelog for PSCommander.
 # PSCommander
 
 {% hint style="danger" %}
-As of June 14th, 2022, PSCommander has reached end of life and is no longer supported. You can continue to use it if you have a license. For functionality similar to PSCommander, please see [PowerShell Universal Desktop](https://docs.powershelluniversal.com/v/v3/desktop/about-desktop-mode).
+PSCommand is now [free and open-source.](https://github.com/ironmansoftware/pscommander)
 {% endhint %}
 
 ## 2022.1.0 - 1-11-2022
