@@ -8,6 +8,13 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2023.2.0 - 2/14/2023
+
+* Added support for .editorconfig files
+* Improved performance of analysis of large projects
+* Fixed issues with Go To Definition on large projects
+* Fixed an issue where the Locals window would hang when expanding large arrays or objects
+
 ## 2022.12.1 - 1/4/2023
 
 * Fixed an issue where Go To Definition wouldn't work for parameters or members within a class using the `$this` variable.&#x20;
