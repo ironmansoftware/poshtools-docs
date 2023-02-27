@@ -1,5 +1,9 @@
 # PowerShell Packager
 
+## 2023.2.0 - 2/27/2023
+
+* Fixed an issue where specifying an icon with the IronmanPowerShellHost would cause the executable to fail to run.
+
 ## 2023.1.0 - 1/10/2023
 
 * Added support for specifying any .NET or PowerShell 7 version to package

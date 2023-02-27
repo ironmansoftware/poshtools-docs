@@ -5,6 +5,8 @@ PowerShell Pro Tools is a collection of productivity and development tools for P
 * [PowerShell Tools for Visual Studio](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio)
 * [PowerShell Pro Tools for Visual Studio Code](https://docs.poshtools.com/powershell-pro-tools-documentation/visual-studio-code)
 * [PSScriptPad](https://docs.poshtools.com/powershell-pro-tools-documentation/psscriptpad)
+* [PowerShell Protect](https://docs.poshtools.com/powershell-pro-tools-documentation/powershell-protect)
+* [PowerShell TUI Designer](https://docs.poshtools.com/powershell-pro-tools-documentation/tui-designer)
 * [PowerShell Pro Tools PowerShell Module](https://docs.poshtools.com/powershell-pro-tools-documentation/powershell-module)
 
 ## Download
