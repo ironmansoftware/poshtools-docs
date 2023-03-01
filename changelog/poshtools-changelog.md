@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2023.2.1 - 3/1/2023
+
+* Fixed an issue with Go To Definition and classes
+* Fixed an issue where script analyzer would not highlight scripts properly
+* Fixed an issue with the File Description property for packaged executables
+
 ## 2023.2.0 - 2/14/2023
 
 * Added support for .editorconfig files
