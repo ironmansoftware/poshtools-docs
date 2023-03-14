@@ -6,6 +6,11 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 
 
+## 2023.3.0 - 3/14/2023
+
+* Fixed an issue where FileDescription would not be set properly on executables
+* Updated version of PSScriptPad
+
 ## 2023.2.0 - 2/27/2023
 
 * Fixed an issue where specifying an icon with the IronmanPowerShellHost would cause the executable to fail to run.

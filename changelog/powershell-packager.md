@@ -1,5 +1,9 @@
 # PowerShell Packager
 
+## 2023.3.0 - 3/14/2023
+
+* Added support for loading package.psd1 files&#x20;
+
 ## 2023.2.0 - 2/27/2023
 
 * Fixed an issue where specifying an icon with the IronmanPowerShellHost would cause the executable to fail to run.
