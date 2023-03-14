@@ -7,6 +7,7 @@ description: Changelog for PSScriptPad
 ## 2023.3.0 - 3/14/2023
 
 * Added integration with PSPackager
+* Added support for resetting the PSScriptPad layout
 
 ## 2023.1.1 - 1/18/2023
 
