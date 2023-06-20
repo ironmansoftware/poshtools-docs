@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.6.0 - 6/20/2023
+
+* Updated version of PSScriptPad
+* Added support for Lightweight PS7 executables&#x20;
+* Fixed an issue with PS7 7.3.x executables not running properly
+
 ## 2023.3.0 - 3/14/2023
 
 * Updated version of PSScriptPad

@@ -4,10 +4,14 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2023.6.0 - 6/20/2023
 
+* Added support for Lightweight PS7 executables&#x20;
+* Fixed an issue with PS7 7.3.x executables not running properly
 
 ## 2023.3.0 - 3/14/2023
 
+* Added better logging to PSScriptPad to catch startup errors
 * Fixed an issue where FileDescription would not be set properly on executables
 * Updated version of PSScriptPad
 

@@ -4,8 +4,15 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.6.0 - 6/20/2023
+
+* Added support for Lightweight PS7 executables&#x20;
+* Fixed an issue with PS7 7.3.x executables not running properly
+* Fixed an issue with dark mode and the WPF form designer
+
 ## 2023.3.0 - 3/14/2023
 
+* Added better logging to PSScriptPad to catch startup errors
 * Added integration with PSPackager
 * Added support for resetting the PSScriptPad layout
 
