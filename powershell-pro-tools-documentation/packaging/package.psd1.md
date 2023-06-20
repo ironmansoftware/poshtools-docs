@@ -39,6 +39,7 @@ This about file contains information about using hashtables and PSD1 files to co
             DisableQuickEdit = $false # Disables the quick edit mode on windows console apps
             Resources = [string[]]@() # Resources to embed in the output executable
             Host = 'Default' # The PowerShell Host to use. 
+            Lightweight = $false # Removes WPF and WinForm support in PowerShell 7 executables.
         }
         Bundle = @{
             Enabled = $true # Whether to bundle multiple PS1s into a single PS1. Always enabled when Package is enabled. 
@@ -144,29 +145,13 @@ The target architecture for the executable. This should be either x86 or x64.
 
 #### PowerShellVersion
 
-The PowerShell version to target. Ensure that you specify a supported .NET version when selecting your PowerShell version. Supported versions are:
+The PowerShell version to target. Ensure that you specify a supported .NET version when selecting your PowerShell version. Supported versions are (replace x with specific version number):
 
 * Windows PowerShell
-* 7.0.0
-* 7.0.1
-* 7.0.2
-* 7.0.3
-* 7.0.6
-* 7.1.0
-* 7.1.1
-* 7.1.2
-* 7.1.3
-* 7.1.4
-* 7.1.5
-* 7.2.0
-* 7.2.1
-* 7.2.2
-* 7.2.3
-* 7.2.4
-* 7.2.5
-* 7.2.6
-* 7.2.7
-* 7.3.0
+* 7.0.x
+* 7.1.x
+* 7.2.x
+* 7.3.x&#x20;
 
 #### RuntimeIdentifier
 
@@ -195,6 +180,10 @@ The name of the output assembly. When this is not specified, this will be the ro
 #### Host
 
 The PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts here.&#x20;
+
+**Lightweight**
+
+Removes WinForms and WPF support from .NET 7\PowerShell 7 executables. This reduces the overall footprint of the executable by about 45%.&#x20;
 
 ### Bundle
 
