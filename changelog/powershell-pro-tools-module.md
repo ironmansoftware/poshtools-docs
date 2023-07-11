@@ -4,10 +4,14 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
-## 2023.6.0 - 6/20/2023
+## 2023.7.0 - 6/11/2023
 
-* Added support for Lightweight PS7 executables&#x20;
-* Fixed an issue with PS7 7.3.x executables not running properly
+* Fixed an issue in PSScriptPad that caused OpenFileDialog to fail when run within the editor
+* The packager now uses the local output directory for staging rather than the temp directory to reduce AV false positives
+* Reduced AV false positives for Windows PowerShell executables that do not use obfuscation
+* Fixed a bug that allowed the form to be deleted in the Windows Form Designer in PSScriptPad
+* Added support for bundling .NET 8.0 and 7.4 executables
+* Fixed an issue where the editor could crash if an invalid license was installed
 
 ## 2023.3.0 - 3/14/2023
 

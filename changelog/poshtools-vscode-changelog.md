@@ -4,6 +4,14 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.7.0 - 6/11/2023
+
+* Fixed an issue in PSScriptPad that caused OpenFileDialog to fail when run within the editor
+* The packager now uses the local output directory for staging rather than the temp directory to reduce AV false positives
+* Reduced AV false positives for Windows PowerShell executables that do not use obfuscation
+* Fixed a bug that allowed the form to be deleted in the Windows Form Designer in PSScriptPad
+* Added support for bundling .NET 8.0 and 7.4 executables
+
 ## 2023.6.0 - 6/20/2023
 
 * Updated version of PSScriptPad
