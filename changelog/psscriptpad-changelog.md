@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.7.1 - 7/16/2023
+
+* Fixed a build error when packaging Windows PowerShell executables
+
 ## 2023.7.0 - 6/11/2023
 
 * Fixed an issue in PSScriptPad that caused OpenFileDialog to fail when run within the editor
