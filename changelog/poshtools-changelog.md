@@ -8,6 +8,10 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2023.8.0 - 8/13/2023
+
+* Fixed an issue with the Extract as Function refactoring
+
 ## 2023.7.1 - 7/16/2023
 
 * Fixed a build error when packaging Windows PowerShell executables

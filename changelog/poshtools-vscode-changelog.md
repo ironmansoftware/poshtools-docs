@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.8.0 - 8/13/2023
+
+* Updated version of PSScriptPad
+
 ## 2023.7.1 - 7/16/2023
 
 * Fixed a build error when packaging Windows PowerShell executables

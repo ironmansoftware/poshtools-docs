@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.8.0 - 8/13/2023
+
+* Editing features are now available for free
+
 ## 2023.7.1 - 7/16/2023
 
 * Fixed a build error when packaging Windows PowerShell executables
