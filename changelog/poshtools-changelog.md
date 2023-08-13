@@ -11,6 +11,7 @@ This page contains the changelog for both PowerShell Tools for Visual Studio and
 ## 2023.8.0 - 8/13/2023
 
 * Fixed an issue with the Extract as Function refactoring
+* Removed support for WPF in VS 2022
 
 ## 2023.7.1 - 7/16/2023
 
