@@ -1,7 +1,7 @@
 # Building a GUI with WPF in Visual Studio
 
 {% hint style="info" %}
-Requires a [PowerShell Pro Tools](https://ironmansoftware.com/poshtools) license.&#x20;
+Requires a [PowerShell Pro Tools](https://ironmansoftware.com/poshtools) license. Only support in Visual Studio 2017 and 2019.
 {% endhint %}
 
 ## Building a GUI with WPF in Visual Studio
@@ -14,7 +14,7 @@ Requires a [PowerShell Pro Tools](https://ironmansoftware.com/poshtools) license
 
 You will need the following:
 
-* Visual Studio 2017, 2019 and 2022
+* Visual Studio 2017 and 2019
 * PowerShell Pro Tools for Visual Studio
 
 ## Creating a Project

@@ -52,5 +52,5 @@ PowerShell Tools for Visual Studio is free. With a PowerShell Pro Tools license,
 | **Tools**                        |                  |                      |
 | Module Explorer                  | ✅                | ✅                    |
 | WinForm Designer                 | ❌                | ✅                    |
-| WPF Designer                     | ❌                | ✅                    |
+| WPF Designer                     | ❌                | ✅ _VS 2019 Only_     |
 | Profiler                         | ❌                | ✅                    |
