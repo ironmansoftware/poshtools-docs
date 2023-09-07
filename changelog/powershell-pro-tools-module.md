@@ -4,6 +4,10 @@ description: Changelog for the PowerShell Pro Tools PowerShell module.
 
 # PowerShell Pro Tools Module
 
+## 2023.9.0 - 9/7/2023
+
+* Fixed an issue when packaging scripts with Obfuscate
+
 ## 2023.7.1 - 7/16/2023
 
 * Fixed a build error when packaging Windows PowerShell executables

@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2023.9.0 - 9/7/2023
+
+* Fixed an issue when packaging scripts with Obfuscate
+
 ## 2023.8.0 - 8/13/2023
 
 * Editing features are now available for free

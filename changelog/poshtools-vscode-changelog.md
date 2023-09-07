@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.9.0 - 9/7/2023
+
+* Fixed an issue when packaging scripts with Obfuscate
+
 ## 2023.8.0 - 8/13/2023
 
 * Updated version of PSScriptPad
