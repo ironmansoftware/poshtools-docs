@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.12.0 - 12/5/2023
+
+* Added support for all supported PowerShell platforms.
+* Added method overloads hover.
+* Added support for bundling PowerShell 7.4 and .NET 8.0 executables.
+
 ## 2023.9.0 - 9/7/2023
 
 * Fixed an issue when packaging scripts with Obfuscate
