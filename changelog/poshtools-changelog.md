@@ -8,10 +8,6 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
-## 2023.9.0 - 9/7/2023
-
-* Fixed an issue when packaging scripts with Obfuscate
-
 ## 2023.8.0 - 8/13/2023
 
 * Fixed an issue with the Extract as Function refactoring
