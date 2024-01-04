@@ -1,7 +1,5 @@
 # PowerShell Packager
 
-## 2023.6.0 - 6/20/2023
-
 * Added installation directory selector during upgrade
 
 ## 2023.3.0 - 3/14/2023

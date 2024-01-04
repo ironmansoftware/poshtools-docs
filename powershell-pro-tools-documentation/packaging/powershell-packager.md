@@ -40,3 +40,18 @@ These are properties of the application itself. These include hiding the console
 
 &#x20;The folder path to output the resulting executable to.&#x20;
 
+## Certificate
+
+The certificate is optional and will cause the packager to call `Set-AuthenticodeSignature` against the executable. The certificate path should be a certificate provider path.
+
+```powershell
+Cert:\LocalMachine\My\1111DDDDD
+```
+
+## Diagnostic Logging
+
+The packager will automatically write diagnostic logs to the following location.&#x20;
+
+```powershell
+$Env:LOCALAPPDATA\PowerShellTools\PSPackager
+```
