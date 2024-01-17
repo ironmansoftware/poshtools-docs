@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2023.12.2 - 1/17/2024
+
+* Fixed an issue where Generate Windows Form would not run properly.&#x20;
+
 ## 2023.12.1 - 1/9/2024
 
 * Fixed an issue that could result in extension activation crashing VS Code
