@@ -8,6 +8,12 @@ description: Changelog for PowerShell Tools for Visual Studio
 This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
 {% endhint %}
 
+## 2024.1.0 - 1/29/2024
+
+* Fixed an issue with project system icons
+* Added a search bar to the PSScriptAnalyzer rules
+* Fixed an issue with the High DPI Setting for packaged executables.&#x20;
+
 ## 2023.8.0 - 8/13/2023
 
 * Fixed an issue with the Extract as Function refactoring
