@@ -6,7 +6,7 @@ Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
 
 ## About
 
-This about file contains information about using hashtables and PSD1 files to configure Merge-Script. These psd1 files are also used by PowerShell Tools for Visual Studio Code.
+This about file contains information about using hashtables and psd1 files to configure Merge-Script. These psd1 files (e.g. "package.psd1") are also used by PowerShell Tools for Visual Studio Code.
 
 ### Config File Schema
 
@@ -51,7 +51,7 @@ This about file contains information about using hashtables and PSD1 files to co
 
 ### Using a config file
 
-A config file can be used either from within a PowerShell script as a hashtable or imported from a PSD1 file containing the hashtable.
+A config file can be used either from within a PowerShell script as a hashtable or imported from a psd1 file containing the hashtable. The standard name for this file is _package.psd1_.
 
 ## Options
 
@@ -73,7 +73,7 @@ Whether the packager is enabled. Valid values are either $true or $false.
 
 #### Obfuscate
 
-Whether to obfuscate the assembly. Only valid for Windows PowerShell. Valid values are $true or $false.
+Whether to obfuscate the assembly. Only valid for Windows PowerShell. Valid values are $true or $false. Note: this is a legacy technique (for educational purposes) which is easily reversed by free modern security tools.
 
 #### HideConsoleWindow
 
@@ -90,6 +90,7 @@ The .NET version to target for the executable. You can find the valid values bel
 | PowerShell 7.1.x   | net5.0                                           |
 | PowerShell 7.2.x   | net6.0                                           |
 | PowerShell 7.3.x   | net7.0                                           |
+| PowerShell 7.4.x   | net8.0                                           |
 
 #### FileVersion
 
@@ -125,11 +126,11 @@ The type of package to product. Valid values are Console or Service.
 
 #### ServiceName
 
-The name of the service when packaging a service.
+The name of the service when packaging a service (e.g. "MyService").
 
 #### ServiceDisplayName
 
-The display name of the service when packaging a service.
+The display name of the service when packaging a service (e.g. "My Utility Service").
 
 #### HighDPISupport
 
@@ -137,7 +138,7 @@ Enable high DPI support for Windows Forms applications. Either $true or $false.
 
 #### PowerShellArguments
 
-Additional arugments to provide to the PowerShell process. This can include arguments like `-ExecutionPolicy` or `-NoProfile`. Do not include `-Command`.
+Additional arguments to provide to the PowerShell process. This can include arguments like `-ExecutionPolicy` or `-NoProfile`. Do not include `-Command`.
 
 #### Platform
 
@@ -152,6 +153,7 @@ The PowerShell version to target. Ensure that you specify a supported .NET versi
 * 7.1.x
 * 7.2.x
 * 7.3.x&#x20;
+* 7.4.x
 
 #### RuntimeIdentifier
 
@@ -179,7 +181,7 @@ The name of the output assembly. When this is not specified, this will be the ro
 
 #### Host
 
-The PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts here.&#x20;
+Specifies the PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts [here](https://docs.poshtools.com/powershell-pro-tools-documentation/packaging/package-hosts).&#x20;
 
 **Lightweight**
 
@@ -282,7 +284,13 @@ After building a service, you can install the service with the `--install` param
 
 ### Package PowerShell 7.0
 
-Creates an executable that contains the PowerShell 7.0 engine. This executable does not require the target machine have PowerShell or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable.
+Creates an executable that contains the PowerShell 7.0 engine. This executable does not require the target machine to have PowerShell or .NET Core installed. The size of the executable will be considerably larger than a typical `Merge-Script` executable.
+
+{% hint style="info" %}
+Note: PowerShell 7.0 is no longer supported by Microsoft or IronmanSoftware and is considered legacy. _You must use a currently supported version of PowerShell with PowerShell Pro Tools to receive support from Ironman Software_.
+
+&#x20;See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
+{% endhint %}
 
 ```powershell
 @{
@@ -303,6 +311,12 @@ Creates an executable that contains the PowerShell 7.0 engine. This executable d
 ### Package PowerShell 7.1
 
 You can package PowerShell 7.1 scripts by targeting .NET 5.0. You will need the [.NET 5.0 SDK or later](https://dotnet.microsoft.com/en-us/download/dotnet/5.0).
+
+{% hint style="info" %}
+Note: PowerShell 7.1 is no longer supported by Microsoft or IronmanSoftware and is considered legacy. _You must use a currently supported version of PowerShell with PowerShell Pro Tools to receive support from Ironman Software_.
+
+&#x20;See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
+{% endhint %}
 
 ```powershell
 @{
@@ -335,7 +349,55 @@ You can package PowerShell 7.2 scripts by targeting .NET 6.0. You will need the 
     Package = @{
         Enabled = $true
         DotNetVersion = 'net6.0'
-        PowerShellVersion = "7.2.0"
+        PowerShellVersion = "7.2.18"
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+### Package PowerShell 7.3
+
+{% hint style="info" %}
+PowerShell Pro Tools 2023.7.0 or later required.
+{% endhint %}
+
+You can package PowerShell 7.3 scripts by targeting .NET 7.0. You will need the .NET 7.0 SDK or later.
+
+```powershell
+@{
+    Root = 'c:\Users\Adam\Desktop\script.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        DotNetVersion = 'net7.0'
+        PowerShellVersion = "7.3.11"
+    }
+    Bundle = @{
+        Enabled = $true
+        Modules = $true
+    }
+}
+```
+
+### Package PowerShell 7.4
+
+{% hint style="info" %}
+PowerShell Pro Tools 2023.7.0 or later required.
+{% endhint %}
+
+You can package PowerShell 7.4 scripts by targeting .NET 8.0. You will need the .NET 8.0 SDK or later.
+
+```
+@{
+    Root = 'c:\Users\Adam\Desktop\script.ps1'
+    OutputPath = 'c:\Users\Adam\Desktop\out'
+    Package = @{
+        Enabled = $true
+        DotNetVersion = 'net8.0'
+        PowerShellVersion = "7.4.1"
     }
     Bundle = @{
         Enabled = $true
