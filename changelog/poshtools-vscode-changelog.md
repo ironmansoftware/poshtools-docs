@@ -4,6 +4,11 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2024.2.0 - 2/20/2024
+
+* Added a Retry option when PowerShell Pro Tools fails to connect
+* Added more logging to connect failures
+
 ## 2023.12.2 - 1/17/2024
 
 * Fixed an issue where Generate Windows Form would not run properly.&#x20;
