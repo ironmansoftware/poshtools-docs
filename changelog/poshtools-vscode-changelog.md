@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2024.2.1 - 3/18/2024
+
+* Fixed an issue where PoshTools wouldn't connect when persistent terminals were enabled
+
 ## 2024.2.0 - 2/20/2024
 
 * Added a Retry option when PowerShell Pro Tools fails to connect
