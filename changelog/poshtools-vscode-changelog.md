@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2024.3.0 - 3/19/2024
+
+* Fixed an issue with packaging as a service (#3184)
+
 ## 2024.2.1 - 3/18/2024
 
 * Fixed an issue where PoshTools wouldn't connect when persistent terminals were enabled

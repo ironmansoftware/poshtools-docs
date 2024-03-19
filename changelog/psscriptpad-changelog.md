@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2024.3.0 - 3/19/2024
+
+* Fixed an issue with packaging as a service (#3184)
+
 ## 2023.9.0 - 9/7/2023
 
 * Fixed an issue when packaging scripts with Obfuscate

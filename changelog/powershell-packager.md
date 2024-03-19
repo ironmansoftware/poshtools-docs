@@ -1,5 +1,9 @@
 # PowerShell Packager
 
+## 2024.3.0 - 3/19/2024
+
+* Fixed an issue with packaging as a service (#3184)
+
 ### 2024.1.0 - 1/4/2024
 
 * Added support for signing executables
