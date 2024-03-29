@@ -4,6 +4,10 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+## 2024.3.1 - 3/29/2024
+
+* Fixed an issue where VS Code would report command not found when PowerShell Pro Tools was starting.&#x20;
+
 ## 2024.3.0 - 3/19/2024
 
 * Fixed an issue with packaging as a service (#3184)
