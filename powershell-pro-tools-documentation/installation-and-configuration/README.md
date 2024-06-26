@@ -20,21 +20,6 @@ You can install a Visual Studio Code extension by downloading the VSIX file from
 
 ![](<../../.gitbook/assets/image (30).png>)
 
-You will also need to install the proper binaries for your environment. You can download the binaries using the following PowerShell script on an internet connected machine. You will need to ensure you download the matching version of the binaries.
-
-```
-$Version = '2023.1.0'
-Invoke-WebRequest "https://imsreleases.blob.core.windows.net/vscode/windows.$Version.zip" -OutFile .\vscode.zip
-```
-
-Once downloaded, you will need to transfer the ZIP to the offline machine. The ZIP needs to be extracted to your user's home directory. Ensure that the proper version is included.
-
-```
-$TargetDir = "$ENV:UserProfile\PowerShellProTools\2021.12.1\windows"
-Expand-Archive .\vscode.zip -Destination $TargetDir
-Get-ChildItem $TargetDir -Recurse | Unblock-File 
-```
-
 **PowerShell Module**
 
 The PowerShell Module is available on the [PowerShell Gallery](https://www.powershellgallery.com/packages/powershellprotools/1.3.0).&#x20;
