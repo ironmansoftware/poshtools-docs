@@ -48,6 +48,10 @@ Install-Module -Name PowerShellProTools -RequiredVersion 5.7.0
 
 ## Licensing
 
+{% hint style="warning" %}
+We are sunsetting PowerShell Pro Tools. End of sales will be October 1st, 2024 with end of life is October 1st, 2025. [Learn more](https://blog.ironmansoftware.com/powershell-pro-tools-end-of-life).
+{% endhint %}
+
 ### Trial Licenses
 
 By default, PowerShell Pro Tools installs and allows for a limited set of features. If you would like to trial PowerShell Pro Tools without these limitations, you can [request a trial key](https://www.ironmansoftware.com/trial/powershell-pro-tools).&#x20;
