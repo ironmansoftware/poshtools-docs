@@ -10,7 +10,7 @@ Using PowerShell Pro Tools for Visual Studio Code you can automate the editor it
 
 ## Getting Started
 
-To automate Visual Studio Code, you will need to first import the PowerShell Pro Tools VS Code module .
+To automate Visual Studio Code, you will need to first import the PowerShell Pro Tools VS Code module.
 
 ```
 PS C:\> Import-Module PowerSHellProTools.VSCode

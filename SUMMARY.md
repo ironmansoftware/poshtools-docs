@@ -55,7 +55,6 @@
   * [Rename Symbols](powershell-pro-tools-documentation/visual-studio-code/rename-symbols.md)
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
-  * [WPF Designer](powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
 * [Installers](powershell-pro-tools-documentation/installers.md)
 * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
   * [Package.psd1](powershell-pro-tools-documentation/packaging/package.psd1.md)

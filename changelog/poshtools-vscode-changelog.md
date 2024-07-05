@@ -4,6 +4,12 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 # PowerShell Pro Tools for Visual Studio Code
 
+##
+
+{% hint style="info" %}
+Changelogs can now be found on our [GitHub repository](https://github.com/ironmansoftware/powershell-pro-tools/releases).&#x20;
+{% endhint %}
+
 ## 2024.3.1 - 3/29/2024
 
 * Fixed an issue where VS Code would report command not found when PowerShell Pro Tools was starting.&#x20;
@@ -429,7 +435,7 @@ description: Changelog for PowerShell Pro Tools for Visual Studio Code
 
 ## 5.20.0 - 1-10-2021
 
-* Added support for the [PSScriptPad WPF Designer](../powershell-pro-tools-documentation/visual-studio-code/wpf-designer.md)
+* Added support for the [PSScriptPad WPF Designer](broken-reference)
 
 ## 5.19.10 - 1-04-2021
 

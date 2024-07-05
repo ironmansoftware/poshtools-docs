@@ -4,10 +4,6 @@ description: Information about compiling PowerShell Scripts into executables wit
 
 # Packaging in Visual Studio Code
 
-{% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
-{% endhint %}
-
 PowerShell Pro Tools provides an [extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools). PowerShell Pro Tools takes advantage of the package.psd1 file to configure packaging for scripts within VS Code.&#x20;
 
 ## Requirements for Packaging

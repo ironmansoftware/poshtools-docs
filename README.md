@@ -20,6 +20,10 @@ Follow along with our [free training course](https://ironmansoftware.com/trainin
 
 ## Licensing
 
+{% hint style="warning" %}
+We are sunsetting PowerShell Pro Tools. End of sales will be October 1st, 2024 with end of life is October 1st, 2025. [Learn more](https://blog.ironmansoftware.com/powershell-pro-tools-end-of-life).
+{% endhint %}
+
 * [Purchasing](https://www.ironmansoftware.com/pricing/powershell-pro-tools)
 * [Trial Key](https://ironmansoftware.com/trial/powershell-pro-tools)
 

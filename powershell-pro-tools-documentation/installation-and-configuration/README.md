@@ -70,15 +70,7 @@ You can install your license file in Visual Studio by clicking View \ PowerShell
 
 #### Visual Studio Code
 
-When the PowerShell Pro Tools extension activates, it will ask for a license key. You can click Install License to install the license key.
-
-![](../../.gitbook/assets/install-license.gif)
-
-Use the `PowerShell Pro Tools: Install License Key` command to install your license.&#x20;
-
-In Visual Studio Code, press `Ctrl+Shift+P` to activate the command palette. Once the palette is shown, you can start to search for the command listed above. Select it and press enter. Paste the entire contents of the license key file into the input box shown.
-
-![](../../.gitbook/assets/install-license-full.gif)
+PowerShell Pro Tools for Visual Studio Code does not require a license.
 
 ### PowerShell
 
