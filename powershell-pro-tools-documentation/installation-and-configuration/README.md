@@ -72,14 +72,6 @@ You can install your license file in Visual Studio by clicking View \ PowerShell
 
 PowerShell Pro Tools for Visual Studio Code does not require a license.
 
-### PowerShell
-
-You can use the `Install-PoshProToolsLicense` cmdlet to install your license.
-
-```
-Install-PoshProToolsLicense -Path C:\license.txt
-```
-
 ### Manual Installation
 
 You can manually install your license by placing a `license.lic` file in your `%AppData%\PowerShell Pro Tools` directory. The directory may not exist. Place the full XML of the license file you received in this file.&#x20;
