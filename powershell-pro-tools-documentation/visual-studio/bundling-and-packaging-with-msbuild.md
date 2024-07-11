@@ -1,8 +1,8 @@
-# Packaging in Visual Studio
+---
+description: Package PowerShell scripts as executables.
+---
 
-{% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
-{% endhint %}
+# Packaging in Visual Studio
 
 PowerShell Pro Tools exposes bundling and packaging as an MSBuild task and PowerShell project system property page.
 

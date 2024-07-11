@@ -10,7 +10,6 @@
   * [Debugging](powershell-tools-documentation/chapter1/README.md)
     * [Local Debugging](powershell-tools-documentation/chapter1/local-debugging.md)
     * [Remote Debugging](powershell-tools-documentation/chapter1/remote-debugging.md)
-  * [Code Conversion](powershell-pro-tools-documentation/visual-studio/code-conversion.md)
   * [Format Document](powershell-tools-documentation/visual-studio/format-document.md)
   * [Go to Definition](powershell-pro-tools-documentation/visual-studio/go-to-definition.md)
   * [Packaging in Visual Studio](powershell-pro-tools-documentation/visual-studio/bundling-and-packaging-with-msbuild.md)
@@ -29,8 +28,7 @@
   * [Refactoring](powershell-pro-tools-documentation/visual-studio/refactoring.md)
   * [Unit Test Adapter](powershell-tools-documentation/unit-test-adapter.md)
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)
-    * [Building a GUI with WPF in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-wpf-in-visual-studio.md)
-    * [Building a GUI with Windows Forms in Visual Studio](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
+    * [Windows Forms](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 
 ## PowerShell Pro Tools Documentation
 

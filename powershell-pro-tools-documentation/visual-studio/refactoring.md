@@ -4,10 +4,6 @@ description: Refactoring tools for Visual Studio.
 
 # Refactoring
 
-{% hint style="info" %}
-Requires a[ PowerShell Pro Tools license.](https://ironmansoftware.com/pricing/powershell-pro-tools)
-{% endhint %}
-
 ### About
 
 Refactorings allow you to change or generate code based on the code you have. You will find a list of refactors below. You can invoke a refactor by pressing `Ctrl+.` or by clicking the light bulb.&#x20;

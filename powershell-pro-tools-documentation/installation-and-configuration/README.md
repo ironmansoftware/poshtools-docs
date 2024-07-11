@@ -1,6 +1,6 @@
 # Installation and Licensing
 
-## Installation
+Installation
 
 ### **Visual Studio**
 
@@ -64,11 +64,9 @@ Visit the [purchasing page](https://www.ironmansoftware.com/pricing/powershell-p
 
 ### Visual Studio&#x20;
 
-You can install your license file in Visual Studio by clicking View \ PowerShell \ Settings and navigating to the settings tab.&#x20;
+PowerShell Tools for Visual Studio does not require a license.
 
-![](<../../.gitbook/assets/license (1).gif>)
-
-#### Visual Studio Code
+### Visual Studio Code
 
 PowerShell Pro Tools for Visual Studio Code does not require a license.
 

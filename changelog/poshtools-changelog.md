@@ -5,7 +5,7 @@ description: Changelog for PowerShell Tools for Visual Studio
 # PowerShell Tools for Visual Studio
 
 {% hint style="info" %}
-This page contains the changelog for both PowerShell Tools for Visual Studio and [PowerShell Pro Tools for Visual Studio](https://ironmansoftware.com/powershell-pro-tools-for-visual-studio/).
+The PowerShell Tools for Visual Studio changelog has moved to [GitHub](https://github.com/ironmansoftware/powershell-pro-tools/releases).
 {% endhint %}
 
 ## 2024.3.0 - 3/19/2024
