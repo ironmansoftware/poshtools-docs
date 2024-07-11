@@ -4,6 +4,10 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2024.7.0 - 7/11/2024
+
+* PSScriptPad no longer requires a license.
+
 ## 2024.3.0 - 3/19/2024
 
 * Fixed an issue with packaging as a service (#3184)
