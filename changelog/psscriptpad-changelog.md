@@ -4,6 +4,11 @@ description: Changelog for PSScriptPad
 
 # PSScriptPad
 
+## 2024.7.1 - 7/15/2024
+
+* Fixed link to EULA
+* PSScriptPad.exe is now signed
+
 ## 2024.7.0 - 7/11/2024
 
 * PSScriptPad no longer requires a license.
