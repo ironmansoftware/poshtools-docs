@@ -12,7 +12,7 @@ The PowerShell Packager uses the same packaging tools as the PowerShell Pro Tool
 
 Running the packager will provide a simple wizard that you can step through to provide details for the resulting executable.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Properties
 
