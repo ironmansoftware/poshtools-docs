@@ -13,7 +13,7 @@ You will need to include the MSBuild targets and assemblies in your repository i
 The MSBuild assets are stored in the Visual Studio MSBuild directory when the extension is installed.&#x20;
 
 ```
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\PowerShell Tools for Visual Studio
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\PowerShell Tools for Visual Studio
 ```
 
 Your path to this folder may different based on your version and edition of Visual Studio. [VSWhere ](https://github.com/microsoft/vswhere)can be used to determine this file location.&#x20;
