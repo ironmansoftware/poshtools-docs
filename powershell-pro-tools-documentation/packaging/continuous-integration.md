@@ -20,7 +20,7 @@ Your path to this folder may different based on your version and edition of Visu
 
 Place the files in a directory that you can link to during the build process. As an example, you can place them at the root of the repo.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>PowerShell Tools for VS Folder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>PowerShell Tools for VS Folder</p></figcaption></figure>
 
 ### Update PSSProj File&#x20;
 
@@ -49,3 +49,9 @@ steps:
 - publish: $(System.DefaultWorkingDirectory)/bin/Debug
   artifact: App
 ```
+
+### Run the Build
+
+Once the pipeline is complete, it should run automatically. If it hasn't you can run it manually and view the job output. The built binaries will be included under the related section.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
