@@ -81,7 +81,6 @@
   * [Rules](powershell-pro-tools-documentation/powershell-protect/rules.md)
   * [Configuration](powershell-pro-tools-documentation/powershell-protect/configuration.md)
 * [PSCommander](powershell-pro-tools-documentation/pscommander.md)
-* [PSScriptPad](powershell-pro-tools-documentation/psscriptpad.md)
 * [Installation and Licensing](powershell-pro-tools-documentation/installation-and-configuration/README.md)
   * [Visual Studio Offline Installation](powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md)
 

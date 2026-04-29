@@ -435,7 +435,7 @@ Changelogs can now be found on our [GitHub repository](https://github.com/ironma
 
 ## 5.20.0 - 1-10-2021
 
-* Added support for the [PSScriptPad WPF Designer](broken-reference)
+* Added support for the [PSScriptPad WPF Designer](/broken/pages/-MQh81XqMmK37OjdJCdy)
 
 ## 5.19.10 - 1-04-2021
 
@@ -457,7 +457,7 @@ Changelogs can now be found on our [GitHub repository](https://github.com/ironma
 * Fixed issue with Split Pipeline refactoring changing the functionality of a script
 * Added integration into VS Code refactoring provider system
 * Added [Convert to $PSItem](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usdpsitem) refactoring
-* Added [Convert to $\_](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd\_) refactoring
+* Added [Convert to $\_](../powershell-pro-tools-documentation/visual-studio-code/refactoring.md#convert-to-usd_) refactoring
 * Fixed an issue where Split Pipeline would show on one-command pipelines
 
 ## 5.19.6 - 12-26-2020
