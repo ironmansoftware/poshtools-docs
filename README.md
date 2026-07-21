@@ -1,3 +1,7 @@
+---
+description: PowerShell Pro Tools is a free set of tools for PowerShell Developers.
+---
+
 # About
 
 PowerShell Pro Tools is a collection of productivity and development tools for PowerShell users. This toolset includes:
