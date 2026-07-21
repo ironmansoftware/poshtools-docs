@@ -4,8 +4,8 @@ description: Audit and block PowerShell scripts on Windows.
 
 # PowerShell Protect
 
-{% hint style="danger" %}
-PowerShell Protect is now [open source](https://github.com/ironmansoftware/powershell-protect).
+{% hint style="success" %}
+Check out PowerShell Protect on [GitHub](https://github.com/ironmansoftware/powershell-protect).
 {% endhint %}
 
 PowerShell Protect provides auditing and blocking support for Windows PowerShell and PowerShell on Windows 10 and Windows Server 2016 or later machines.
