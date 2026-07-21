@@ -6,17 +6,13 @@ schema: 2.0.0
 
 # Merge-Script
 
-{% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
-{% endhint %}
-
 ## SYNOPSIS
 
 Packages, bundles and\or obfuscates scripts.
 
 ## SYNTAX
 
-```text
+```
 Merge-Script -Script <String> [-OutputPath <String>] [-Bundle] [-Package] [-Obfuscate]
 
 Merge-Script -Config <Hashtable>
@@ -26,22 +22,22 @@ Merge-Script -ConfigFile <String>
 
 ## DESCRIPTION
 
-Packages, bundles and\or obfuscates scripts. Packaging and bundling are not mutually exclusive. Obfuscation  
+Packages, bundles and\or obfuscates scripts. Packaging and bundling are not mutually exclusive. Obfuscation\
 requires packaging.
 
 ## EXAMPLES
 
 ### Example 1
 
-```text
+```
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\ -Package
 ```
 
-Packages MyScript.ps1 into MyScript.exe and then outputs it to .\
+Packages MyScript.ps1 into MyScript.exe and then outputs it to .\\
 
 ### Example 2
 
-```text
+```
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle
 ```
 
@@ -49,7 +45,7 @@ Bundles MyScript.ps1 and any scripts it dot sources into a single file and outpu
 
 ### Example 3
 
-```text
+```
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle -Package
 ```
 
@@ -57,7 +53,7 @@ Bundles MyScript.ps1 and any scripts it dot sources into a single file and then 
 
 ### Example 4
 
-```text
+```
 PS C:\> Merge-Script -Script .\MyScript.ps1 -Output .\Bundle -Bundle -Package -Obfuscate
 ```
 
@@ -131,7 +127,7 @@ Accept wildcard characters: False
 
 ### -OutputPath
 
-The output path for the resulting script or executable.  
+The output path for the resulting script or executable.\
 This should be a directory.
 
 ```yaml
@@ -189,4 +185,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

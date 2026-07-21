@@ -1,34 +1,28 @@
 # Show-WinFormDesigner
 
-
-
-{% hint style="info" %}
-Requires [PowerShell Pro Tools](https://ironmansoftware.com/poshtools)
-{% endhint %}
-
 ## SYNOPSIS
 
 Shows the Windows Form designer.
 
 ## SYNTAX
 
-```text
+```
 Show-WinFormDesigner -DesignerFilePath <String> -CodeFilePath <String> [-EditorPipeName <String>] [-Theme <String>]
 ```
 
 ## DESCRIPTION
 
-Shows the Windows Form designer. 
+Shows the Windows Form designer.
 
 ## EXAMPLES
 
 ### Example 1
 
-```text
+```
 PS C:\> Show-WinFormDesigner -DesignerFilePath .\form.designer.ps1 -CodeFilePath .\form.ps1
 ```
 
-Opens the Windows Form designer and loads the form.designer.ps1 form. 
+Opens the Windows Form designer and loads the form.designer.ps1 form.
 
 ## PARAMETERS
 
@@ -82,7 +76,7 @@ Accept wildcard characters: False
 
 ### -Theme
 
-The VS Code theme file to use. This should be the full path to a VS Code theme file. 
+The VS Code theme file to use. This should be the full path to a VS Code theme file.
 
 ```yaml
 Type: String
@@ -95,4 +89,3 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
-

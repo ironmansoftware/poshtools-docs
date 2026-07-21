@@ -65,7 +65,6 @@
   * [Anti-Virus](powershell-pro-tools-documentation/packaging/anti-virus.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
   * [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md)
-  * [ConvertTo-CSharp](powershell-pro-tools-documentation/powershell-module/convertto-csharp.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
