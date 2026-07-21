@@ -6,29 +6,27 @@ description: Command your desktop with PSCommander.
 
 ![](../.gitbook/assets/4a9c6a24400e45aea31c30b7b1f2bdf8.png)
 
-{% hint style="danger" %}
-PSCommander is now [free and open source](https://github.com/ironmansoftware/pscommander).&#x20;
+{% hint style="success" %}
+PSCommander is on [GitHub](https://github.com/ironmansoftware/pscommander).
 {% endhint %}
 
-
-
-PSCommander allows you to configure various Windows integration points and execute PowerShell script blocks when certain things happen on your desktop.&#x20;
+PSCommander allows you to configure various Windows integration points and execute PowerShell script blocks when certain things happen on your desktop.
 
 {% embed url="https://youtu.be/Pzjr88j8yL4" %}
 
 ## Features
 
-* CRON Schedules&#x20;
+* CRON Schedules
 * Desktop Shortcuts
 * Events
-* Explorer Context Menu&#x20;
-* File Associations&#x20;
-* Global Hot Keys&#x20;
+* Explorer Context Menu
+* File Associations
+* Global Hot Keys
 * Tray Icon and Menu
 
-## Installation&#x20;
+## Installation
 
-PSCommander is installed as a PowerShell module. You can install it from the PowerShell Gallery.&#x20;
+PSCommander is installed as a PowerShell module. You can install it from the PowerShell Gallery.
 
 ```
 Install-Module PSCommander
@@ -40,9 +38,9 @@ Once you have the module installed, you can cause PSCommander to run at logon by
 Install-Commander
 ```
 
-## Licensing&#x20;
+## Licensing
 
-PSCommander requires a PowerShell Pro Tools license. If you already have a license installed, you will be able to use PSCommander. You can also use the `Install-CommanderLicense` cmdlet to install your license file.&#x20;
+PSCommander requires a PowerShell Pro Tools license. If you already have a license installed, you will be able to use PSCommander. You can also use the `Install-CommanderLicense` cmdlet to install your license file.
 
 ```
 Install-CommanderLicense -Path .\license.txt
@@ -50,7 +48,7 @@ Install-CommanderLicense -Path .\license.txt
 
 ## Configuration
 
-PSCommander is configured using a single PS1 file. This file is stored within your documents folder. To create a new config file, you can use the following command.&#x20;
+PSCommander is configured using a single PS1 file. This file is stored within your documents folder. To create a new config file, you can use the following command.
 
 ```
 $Documents = [Environment]::GetFolderPath('MyDocuments')
@@ -65,15 +63,15 @@ PSCommander will use this configuration file to load settings. Any changes to th
 Start-Commander 
 ```
 
-The following sections outline the commands you can use within the `config.ps1` file. These cmdlets will not work outside of PSCommander.&#x20;
+The following sections outline the commands you can use within the `config.ps1` file. These cmdlets will not work outside of PSCommander.
 
-## Features&#x20;
+## Features
 
-### CRON Schedules&#x20;
+### CRON Schedules
 
-PSCommander allows you to run script blocks based on CRON schedules. Note that PSCommander uses a single runspace. Long running scripts are not recommended for use with PSCommander.&#x20;
+PSCommander allows you to run script blocks based on CRON schedules. Note that PSCommander uses a single runspace. Long running scripts are not recommended for use with PSCommander.
 
-To create a CRON schedule, use `New-CommanderSchedule` within the `config.ps1`file. For example, this configuration will create a schedule that opens notepad every minute.&#x20;
+To create a CRON schedule, use `New-CommanderSchedule` within the `config.ps1`file. For example, this configuration will create a schedule that opens notepad every minute.
 
 You can use a site like [crontab guru](https://crontab.guru/) to define schedules.
 
@@ -85,9 +83,9 @@ New-CommanderSchedule -CronExpression "* * * * *" -Action {
 
 ### Custom Protocol Handlers
 
-A custom protocol handler can cause a PSCommander action to be taken from a website or other invocation of the custom protocol.&#x20;
+A custom protocol handler can cause a PSCommander action to be taken from a website or other invocation of the custom protocol.
 
-To define a custom protocol, you can use the `New-CommanderCustomProtocol`. The `$args[0]` parameter will have the URL that was clicked.&#x20;
+To define a custom protocol, you can use the `New-CommanderCustomProtocol`. The `$args[0]` parameter will have the URL that was clicked.
 
 ```
 New-CommanderCustomProtocol -Protocol myApp -Action {
@@ -97,7 +95,7 @@ New-CommanderCustomProtocol -Protocol myApp -Action {
 }
 ```
 
-To use the custom protocol, you can include regular links in websites and it will invoke PSCommander remotely.&#x20;
+To use the custom protocol, you can include regular links in websites and it will invoke PSCommander remotely.
 
 ```
 <html>
@@ -111,9 +109,9 @@ To use the custom protocol, you can include regular links in websites and it wil
 
 ### Data Sources
 
-Data sources allow you to load data a single time and use it with multiple desktop widgets. This provides better performance than loading the data in each widget. It also provides data binding support for WPF components.&#x20;
+Data sources allow you to load data a single time and use it with multiple desktop widgets. This provides better performance than loading the data in each widget. It also provides data binding support for WPF components.
 
-To register a data source, use the `Register-CommanderDataSource` cmdlet. The below data source loads computer performance information. It loads the data every 5 seconds.&#x20;
+To register a data source, use the `Register-CommanderDataSource` cmdlet. The below data source loads computer performance information. It loads the data every 5 seconds.
 
 ```
 Register-CommanderDataSource -Name 'ComputerInfo' -LoadData {
@@ -133,7 +131,7 @@ Register-CommanderDataSource -Name 'ComputerInfo' -LoadData {
 } -RefreshInterval 5
 ```
 
-To use this data source with a desktop widget, you'll need to use the `-DataSource` parameter for a custom widget. Every time the data source is updated, the WPF custom widget will be notified and will load UI components.&#x20;
+To use this data source with a desktop widget, you'll need to use the `-DataSource` parameter for a custom widget. Every time the data source is updated, the WPF custom widget will be notified and will load UI components.
 
 This example creates a small, grey bar that formats and displays the computer information.
 
@@ -147,7 +145,7 @@ New-CommanderDesktop -Widget @(
 }
 ```
 
-The XAML can take advantage of binding to the hashtable created by the data source.&#x20;
+The XAML can take advantage of binding to the hashtable created by the data source.
 
 ```
 <Window 
@@ -185,15 +183,15 @@ The XAML can take advantage of binding to the hashtable created by the data sour
 </Window>
 ```
 
-This produces a widget that looks like this.&#x20;
+This produces a widget that looks like this.
 
 ![](<../.gitbook/assets/image (64).png>)
 
 ### Desktop Widgets
 
-PSCommander providers a desktop widget system that allows you to place text, images, web pages, custom WPF windows and measurement counters on the desktop. It is a similar experience to SysInternals bginfo and Rainmeter.&#x20;
+PSCommander providers a desktop widget system that allows you to place text, images, web pages, custom WPF windows and measurement counters on the desktop. It is a similar experience to SysInternals bginfo and Rainmeter.
 
-All widgets are created using the `New-CommanderDesktopWidget` cmdlet in combination with the `New-CommanderDesktop` or `Set-CommanderDesktop` cmdlets.&#x20;
+All widgets are created using the `New-CommanderDesktopWidget` cmdlet in combination with the `New-CommanderDesktop` or `Set-CommanderDesktop` cmdlets.
 
 ![](../.gitbook/assets/desktop.gif)
 
@@ -262,9 +260,9 @@ New-CommanderDesktop -Widget @(
 
 ### Desktop Shortcuts
 
-PSCommander can create desktop shortcuts that will execute PowerShell when clicked. Desktop shortcuts require the PSCommander is running so you may want to use `Install-Commander` to ensure that it has been started before a user clicks a shortcut.&#x20;
+PSCommander can create desktop shortcuts that will execute PowerShell when clicked. Desktop shortcuts require the PSCommander is running so you may want to use `Install-Commander` to ensure that it has been started before a user clicks a shortcut.
 
-You can configure the text, description and icon for the shortcut. This example creates a desktop shortcut that opens notepad when clicked.&#x20;
+You can configure the text, description and icon for the shortcut. This example creates a desktop shortcut that opens notepad when clicked.
 
 ```
 New-CommanderShortcut -Text 'Click Me' -Description 'Nice' -Action {
@@ -284,7 +282,7 @@ Register-CommanderEvent -OnCommander Start -Action {
 }
 ```
 
-You can also listen to events that are happening with Windows using WMI event filters. This example will use the built-in `ProcessStarted` event to run a script block whenever a process is started. This example writes to a file. The `$args[0]` is the WMI object that was created.&#x20;
+You can also listen to events that are happening with Windows using WMI event filters. This example will use the built-in `ProcessStarted` event to run a script block whenever a process is started. This example writes to a file. The `$args[0]` is the WMI object that was created.
 
 ```
 Register-CommanderEvent -OnWindows ProcessStarted -Action {
@@ -292,7 +290,7 @@ Register-CommanderEvent -OnWindows ProcessStarted -Action {
 }
 ```
 
-If you want to configure a custom WMI event, you can use the `-WmiEventType` and `-WmiEventFilter` parameters to listen for those events.&#x20;
+If you want to configure a custom WMI event, you can use the `-WmiEventType` and `-WmiEventFilter` parameters to listen for those events.
 
 ```
 Register-CommanderEvent -OnWindows WmiEvent -WmiEventType '__InstanceCreationEvent' -WmiEventFilter 'TargetInstance isa "Win32_Process"' -Action {
@@ -300,11 +298,11 @@ Register-CommanderEvent -OnWindows WmiEvent -WmiEventType '__InstanceCreationEve
 }
 ```
 
-### Explorer Context Menus&#x20;
+### Explorer Context Menus
 
-PSCommander can create context menu items that appear when right clicking on folders and files within Windows Explorer. Your script block will receive the path to the folder or file via the `$Args[0]` variable.&#x20;
+PSCommander can create context menu items that appear when right clicking on folders and files within Windows Explorer. Your script block will receive the path to the folder or file via the `$Args[0]` variable.
 
-You can create context menu items that appear on folders or only apply to particular extensions of files.&#x20;
+You can create context menu items that appear on folders or only apply to particular extensions of files.
 
 This example creates a context menu that displays as Click Me and opens VS Code to the file that was clicked.
 
@@ -316,9 +314,9 @@ New-CommanderContextMenu -Text 'Click me' -Action {
 
 ### File Associations
 
-PSCommander allows you to associate files with script blocks defined within the commander configuration. You can define the extension and action to take when the file type is open. You will receive the full file path in the `$Args[0]` variable.&#x20;
+PSCommander allows you to associate files with script blocks defined within the commander configuration. You can define the extension and action to take when the file type is open. You will receive the full file path in the `$Args[0]` variable.
 
-This example opens VS Code based on the file that was opened and associates it with the `.ps2` file extension.&#x20;
+This example opens VS Code based on the file that was opened and associates it with the `.ps2` file extension.
 
 ```
 New-CommanderFileAssociation -Extension ".ps2" -Action {
@@ -328,9 +326,9 @@ New-CommanderFileAssociation -Extension ".ps2" -Action {
 
 ### Global Hot Keys
 
-PSCommander allows you to associate global hot keys to PowerShell actions.&#x20;
+PSCommander allows you to associate global hot keys to PowerShell actions.
 
-This example defines a hot key that is invoked whenever the `Ctrl+T` key combo is pressed. Note that key combinations cannot interfere with other pre-existing combinations.&#x20;
+This example defines a hot key that is invoked whenever the `Ctrl+T` key combo is pressed. Note that key combinations cannot interfere with other pre-existing combinations.
 
 ```
 New-CommanderHotKey -Key 'T' -ModifierKey 'Ctrl' -Action { 
@@ -340,7 +338,7 @@ New-CommanderHotKey -Key 'T' -ModifierKey 'Ctrl' -Action {
 
 ### Tray Icon and Menu
 
-PSCommander provides configuration for the tray icon. You can define the hover text and the icon that is displayed. You can choose to hide the Exit and Edit Config options and define your own right click menus.&#x20;
+PSCommander provides configuration for the tray icon. You can define the hover text and the icon that is displayed. You can choose to hide the Exit and Edit Config options and define your own right click menus.
 
 Tray menu items can invoke script actions and you can define menu items dynamically. This example creates some menu items statically and dynamically.
 
