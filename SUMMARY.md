@@ -86,8 +86,4 @@
 
 ## Changelog
 
-* [PowerShell Tools for Visual Studio](changelog/poshtools-changelog.md)
-* [PowerShell Pro Tools for Visual Studio Code](changelog/poshtools-vscode-changelog.md)
-* [PowerShell Packager](changelog/powershell-packager.md)
-* [PSScriptPad](changelog/psscriptpad-changelog.md)
-* [PowerShell Pro Tools Module](changelog/powershell-pro-tools-module.md)
+* [Changelog](changelog/README.md)
