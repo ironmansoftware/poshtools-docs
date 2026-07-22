@@ -52,7 +52,6 @@ You can install the PowerShell Pro Tools module and then run merge script agains
 ```text
 Install-Module PowerShellProTools
 Merge-Script -ConfigFile ./package.psd1 -Verbose
-VERBOSE: Checking license
 VERBOSE: OutputPath is /mnt/c/Users/adamr/desktop/out
 VERBOSE: Bundling /mnt/c/Users/adamr/desktop/test.ps1
 VERBOSE: Packaging /tmp/test.ps1

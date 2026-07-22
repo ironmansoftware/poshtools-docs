@@ -18,10 +18,3 @@ Install-Module PowerShellProTools -Scope CurrentUser
 Update-Module PowerShellProTools
 ```
 
-## Licensing
-
-Install a license file with `Install-PoshProToolsLicense`.
-
-```powershell
-Install-PoshProToolsLicense -Path C:\license.txt
-```

@@ -4,7 +4,7 @@ Create a build script, place the files you want to install next to the script, a
 
 ```powershell
 $OutputDirectory = Join-Path $PSScriptRoot "output"
-$LicensePath = Join-Path $PSScriptRoot "license.txt"
+$ConfigPath = Join-Path $PSScriptRoot "appsettings.json"
 
 New-Installer -ProductName "My First Product" `
     -Manufacturer "Example Company" `
@@ -14,7 +14,7 @@ New-Installer -ProductName "My First Product" `
     -Content {
         New-InstallerDirectory -PredefinedDirectoryName "LocalAppDataFolder" -Content {
             New-InstallerDirectory -DirectoryName "My First Product" -Content {
-                New-InstallerFile -Source $LicensePath
+                New-InstallerFile -Source $ConfigPath
             }
         }
     }

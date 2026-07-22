@@ -18,6 +18,8 @@ This documentation covers the PowerShell developer and automation tools maintain
 
 ## Download
 
+PowerShell Pro Tools is free to use.
+
 * [PowerShell Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561)
 * [PowerShell Tools for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsVS2022)
 * [PowerShell Pro Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ironmansoftware.powershellprotools)
