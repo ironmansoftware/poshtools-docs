@@ -10,7 +10,7 @@ description: Command your desktop with PSCommander.
 PSCommander is on [GitHub](https://github.com/ironmansoftware/pscommander).
 {% endhint %}
 
-PSCommander allows you to configure various Windows integration points and execute PowerShell script blocks when certain things happen on your desktop.
+PSCommander allows you to configure Windows desktop integration points and execute PowerShell script blocks when events happen on your desktop. This page is the feature reference for the commands you can place in `Documents\PSCommander\config.ps1`.
 
 {% embed url="https://youtu.be/Pzjr88j8yL4" %}
 
@@ -26,40 +26,25 @@ PSCommander allows you to configure various Windows integration points and execu
 
 ## Installation
 
-PSCommander is installed as a PowerShell module. You can install it from the PowerShell Gallery.
+PSCommander is installed as a PowerShell module from the PowerShell Gallery.
 
-```
+```powershell
 Install-Module PSCommander
 ```
 
 Once you have the module installed, you can cause PSCommander to run at logon by using the `Install-Commander` cmdlet.
 
-```
+```powershell
 Install-Commander
-```
-
-## Licensing
-
-PSCommander requires a PowerShell Pro Tools license. If you already have a license installed, you will be able to use PSCommander. You can also use the `Install-CommanderLicense` cmdlet to install your license file.
-
-```
-Install-CommanderLicense -Path .\license.txt
 ```
 
 ## Configuration
 
-PSCommander is configured using a single PS1 file. This file is stored within your documents folder. To create a new config file, you can use the following command.
-
-```
-$Documents = [Environment]::GetFolderPath('MyDocuments')
-$Commander = Join-Path $Documents 'PSCommander'
-New-Item $Commander -ItemType Directory 
-New-Item (Join-Path $Commander 'config.ps1')
-```
+PSCommander is configured using a single PS1 file. This file is stored in `Documents\PSCommander\config.ps1`. To create the file with a starter configuration and open it in the editor, run `Start-Commander`.
 
 PSCommander will use this configuration file to load settings. Any changes to the file will result in PSCommander reconfiguring itself. If you don't have PSCommander running yet, you can use `Start-Commander`.
 
-```
+```powershell
 Start-Commander 
 ```
 
@@ -189,7 +174,7 @@ This produces a widget that looks like this.
 
 ### Desktop Widgets
 
-PSCommander providers a desktop widget system that allows you to place text, images, web pages, custom WPF windows and measurement counters on the desktop. It is a similar experience to SysInternals bginfo and Rainmeter.
+PSCommander provides a desktop widget system that allows you to place text, images, web pages, custom WPF windows and measurement counters on the desktop. It is a similar experience to SysInternals bginfo and Rainmeter.
 
 All widgets are created using the `New-CommanderDesktopWidget` cmdlet in combination with the `New-CommanderDesktop` or `Set-CommanderDesktop` cmdlets.
 
@@ -356,7 +341,7 @@ New-CommanderToolbarIcon -MenuItem @(
         }
     }
 ) -LoadMenuItems {
-    New-CommanderMenuItem -Text 'Dynmaic Notepad' -Action {
+    New-CommanderMenuItem -Text 'Dynamic Notepad' -Action {
         Start-Process notepad
     }
 }

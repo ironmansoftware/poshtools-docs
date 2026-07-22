@@ -8,17 +8,26 @@ PowerShell Protect is distributed as a PowerShell module. You can install it fro
 
 ## Install
 
-You can install PowerShell Protect by installing the module and then installing the PowerShell Protect provider using `Install-PowerShellProtect`. You will need to run this action as a local administrator.&#x20;
+Install the module and then register the PowerShell Protect AMSI provider using `Install-PowerShellProtect`. Registering the provider must be run as a local administrator.&#x20;
 
 ```powershell
 Install-Module 'PowerShellProtect'
 Install-PowerShellProtect
 ```
 
+To install the module for the current user before registering the provider, use `-Scope CurrentUser`.
+
+```powershell
+Install-Module 'PowerShellProtect' -Scope CurrentUser
+Install-PowerShellProtect
+```
+
 ## Uninstall
 
-You can uninstall the PowerShell Protect provider by using `Uninstall-PowerShellProtect`. You will need to run this action as a local administrator.&#x20;
+Unregister the provider by using `Uninstall-PowerShellProtect`. This action must be run as a local administrator.&#x20;
 
 ```powershell
 Uninstall-PowerShellProtect
 ```
+
+Restart the machine after uninstalling to ensure the AMSI provider is fully unloaded before removing the module.

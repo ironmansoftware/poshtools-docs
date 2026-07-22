@@ -63,12 +63,12 @@ New-PSPAction -TCP -HostName "MYSIEM" -Port 527 -Format "{applicationName}" -Nam
 
 ### HTTP
 
-The HTTP action send HTTP requests to the configured URL using the specified format. The message is sent as a UTF8 encoded string.&#x20;
+The HTTP action sends HTTP requests to the configured URL using the specified format. The message is sent as a UTF8 encoded string.&#x20;
 
 This example sends the application name of the PowerShell engine to an HTTP server.&#x20;
 
 ```powershell
-New-PSPAction -TCP -Address "http://powershelluniversal:8080/protect" -Format "{applicationName}" -Nanme "HTTP"
+New-PSPAction -Http -Address "http://powershelluniversal:8080/protect" -Format "{applicationName}" -Name "HTTP"
 ```
 
 #### Settings
