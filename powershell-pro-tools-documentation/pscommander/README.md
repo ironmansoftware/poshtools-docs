@@ -10,16 +10,16 @@ Use PSCommander when you want persistent desktop automation that is configured w
 
 ## Features
 
-* CRON schedules.
-* Desktop shortcuts.
-* Desktop widgets.
-* Data sources for widgets.
-* Windows and PSCommander events.
-* Explorer context menus.
-* File associations.
-* Custom protocol handlers.
-* Global hot keys.
-* Tray icon and menus.
+* [CRON schedules](feature-reference/cron-schedules.md).
+* [Desktop shortcuts](feature-reference/desktop-shortcuts.md).
+* [Desktop widgets](feature-reference/desktop-widgets/README.md).
+* [Data sources for widgets](feature-reference/data-sources.md).
+* [Windows and PSCommander events](feature-reference/events.md).
+* [Explorer context menus](feature-reference/explorer-context-menus.md).
+* [File associations](feature-reference/file-associations.md).
+* [Custom protocol handlers](feature-reference/custom-protocol-handlers.md).
+* [Global hot keys](feature-reference/global-hot-keys.md).
+* [Tray icon and menus](feature-reference/tray-icon-and-menu.md).
 
 ## Quick Examples
 
@@ -58,10 +58,13 @@ New-CommanderToolbarIcon -MenuItem @(
 
 PSCommander loads its configuration from `Documents\PSCommander\config.ps1`. Add PSCommander commands to that file. Changes to the file are reloaded while PSCommander is running.
 
+See [Configuration](configuration.md) for more information.
+
 ## More Information
 
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
-* [Feature Reference](../pscommander.md)
+* [Configuration](configuration.md)
+* [Feature Reference](feature-reference/README.md)
 * [GitHub](https://github.com/ironmansoftware/pscommander)
 * [PowerShell Gallery](https://www.powershellgallery.com/packages/PSCommander)
