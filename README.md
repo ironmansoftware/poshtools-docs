@@ -71,8 +71,8 @@ PowerShell Pro Tools brings together editors, packagers, designers, installers, 
   </thead>
   <tbody>
     <tr>
-      <td><strong>Install and license</strong></td>
-      <td>Find the right installer, extension, module, offline package, and licensing steps for your environment.</td>
+      <td><strong>Install</strong></td>
+      <td>Find the right installer, extension, module, and offline package for your environment.</td>
       <td><a href="powershell-pro-tools-documentation/installation-and-configuration/README.md">powershell-pro-tools-documentation/installation-and-configuration/README.md</a></td>
     </tr>
     <tr>
