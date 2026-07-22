@@ -15,6 +15,3 @@ You can install from the Marketplace website or from **Extensions > Manage Exten
 
 Download the VSIX package from the Marketplace and install it on the target machine. For environments without internet access, see [Visual Studio Offline Installation](../installation-and-configuration/visual-studio-offline-installation.md).
 
-## Licensing
-
-Open **Help > About PowerShell Pro Tools** in Visual Studio to view or update the license used by the extension.

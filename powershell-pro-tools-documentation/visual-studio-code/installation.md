@@ -22,6 +22,3 @@ Some commands use the PowerShell Pro Tools module. The extension includes an **I
 Install-Module PowerShellProTools
 ```
 
-## Licensing
-
-Run the `PowerShell Pro Tools: Install License Key` command from the Command Palette and paste the license text when prompted.

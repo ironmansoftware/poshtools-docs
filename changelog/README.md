@@ -17,7 +17,6 @@ Released: 2024-07-11
 
 ## PSScriptPad
 
-* PSScriptPad no longer requires a license.
 
 # 2024.3.1
 
@@ -221,7 +220,6 @@ Released: 2023-06-11
 * Reduced AV false positives for Windows PowerShell executables that do not use obfuscation
 * Fixed a bug that allowed the form to be deleted in the Windows Form Designer in PSScriptPad
 * Added support for bundling .NET 8.0 and 7.4 executables
-* Fixed an issue where the editor could crash if an invalid license was installed
 
 ## PowerShell Pro Tools Module
 
@@ -230,7 +228,6 @@ Released: 2023-06-11
 * Reduced AV false positives for Windows PowerShell executables that do not use obfuscation
 * Fixed a bug that allowed the form to be deleted in the Windows Form Designer in PSScriptPad
 * Added support for bundling .NET 8.0 and 7.4 executables
-* Fixed an issue where the editor could crash if an invalid license was installed
 
 # 2023.3.0
 
@@ -400,7 +397,6 @@ Released: 2022-12-13
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Removed license check for several features in the PowerShell Pro Tools Activity pane
 * Fixed an issue where the packager wouldn't correctly pacakge scripts with Unicode characters
 
 ## PSScriptPad
@@ -442,7 +438,6 @@ Released: 2022-11-28
 ## PowerShell Packager
 
 * Fixed an issue where the packager would start on Windows startup
-* Fixed an issue where the Actipro license was not activated properly
 
 # 2202.11.0
 
@@ -509,7 +504,6 @@ Released: 2022-10-11
 
 * Fixed an issue where button1 was defined in forms by default
 * Added EnableVisualStyles to the default form template
-* Added support for removing a license file
 * Fixed a crash that could happen when using the function drop down in the code editor
 * Fixed an issue where PSScriptAnalyzer would fail to install
 * Enabled line numbers by default
@@ -603,19 +597,15 @@ Released: 2022-07-12
 
 ## PowerShell Tools for Visual Studio
 
-* Fixed an issue where license files were not correctly validated
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Fixed an issue where license files were not correctly validated
 
 ## PSScriptPad
 
-* Fixed an issue where license files were not correctly validated
 
 ## PowerShell Pro Tools Module
 
-* Fixed an issue where license files were not correctly validated
 
 # 2022.6.0
 
@@ -623,7 +613,6 @@ Released: 2022-06-14
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Removed a duplicate license key install command that did not work
 * Fixed an issue where the icon was incorrect for PowerShell Pro Tools
 
 # 2022.5.2
@@ -669,7 +658,6 @@ Released: 2022-04-15
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Fixed an issue where licenses could not be applied through the UI
 * Fixed an issue where the welcome page would be blank
 * Fixed an issue where an exception would be thrown when moving arguments
 * Fixed a typo in the introduce using namespace refactoring
@@ -1383,7 +1371,6 @@ Released: 2021-05-24
 
 ## PowerShell Tools for Visual Studio
 
-* Fixed an issue where the variables window would not work due to a missing license file in the build process.
 
 # 5.11.3
 
@@ -1708,7 +1695,6 @@ Released: 2021-04-21
 ## PowerShell Pro Tools for Visual Studio Code
 
 * Fixed an issue where packaging modules could cause an Access Denied error
-* Added subscription activation caching to prevent excessive web requests
 
 # 5.9.10
 
@@ -1717,7 +1703,6 @@ Released: 2021-04-21
 ## PSScriptPad
 
 * Fixed an issue where packaging modules could cause an Access Denied error
-* Added subscription activation caching to prevent excessive web requests
 
 # 5.8.4
 
@@ -1726,7 +1711,6 @@ Released: 2021-04-21
 ## PowerShell Tools for Visual Studio
 
 * Fixed an issue where packaging modules could cause an Access Denied error
-* Added subscription activation caching to prevent excessive web requests
 
 # 5.8.3
 
@@ -1735,7 +1719,6 @@ Released: 2021-04-21
 ## PowerShell Pro Tools Module
 
 * Fixed an issue where packaging modules could cause an Access Denied error
-* Added subscription activation caching to prevent excessive web requests
 
 # 5.22.2
 
@@ -1809,7 +1792,6 @@ Released: 2021-03-03
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Added a setting for the license key so that licensing works with Settings Sync.
 
 # 5.21.0
 
@@ -1919,7 +1901,6 @@ Released: 2021-01-25
 
 ## PowerShell Tools for Visual Studio
 
-* Fixed an issue with subscription licenses not displaying correctly.
 
 # 5.20.5
 
@@ -1943,7 +1924,6 @@ Released: 2021-01-15
 
 ## PowerShell Pro Tools Module
 
-* Fixed an issue where the license key would always show the incorrect date
 * Updated to the latest version of PSScriptPad.
 
 # 5.20.4
@@ -2001,7 +1981,6 @@ Released: 2021-01-10
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Fixed a licensing issue with a 3rd party component
 
 # 5.20.0
 
@@ -2017,7 +1996,6 @@ Released: 2021-01-10
 
 ## PSScriptPad
 
-* Fixed a licensing issue with a 3rd party component
 
 # 5.9.0
 
@@ -2034,7 +2012,6 @@ Released: 2021-01-04
 ## PowerShell Pro Tools for Visual Studio Code
 
 * Fixed an issue where Generate Proxy Function would show errors in the terminal
-* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.
 
 # 5.7.19
 
@@ -2043,7 +2020,6 @@ Released: 2021-01-04
 ## PowerShell Tools for Visual Studio
 
 * Fixed an issue where stepping through a ForEach loop would fail to step properly
-* Fixed an issue where non-subscription licenses would show they were only licensed for 1 week when this wasn't actually the case.
 
 # 5.19.9
 
@@ -2272,7 +2248,6 @@ Released: 2020-12-04
 
 ## PowerShell Tools for Visual Studio
 
-* Fix an issue with subscription registration.
 
 # 5.16.10
 
@@ -2280,7 +2255,6 @@ Released: 2020-12-03
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Added support for PowerShell Pro Tools subscriptions
 
 # 5.7.13
 
@@ -2291,7 +2265,6 @@ Released: 2020-12-03
 * Fixed an issue where script analysis could fail after a script was saved with syntax errors
 * Fixed an issue with the WPF event binding service where it would fail silently when an event handler was added to a control without a name.
 * Fixed an issue with the WPF event binding service where it would generate functions with unapproved verbs
-* Added support for PowerShell Pro Tools subscriptions
 
 # 5.6.8
 
@@ -2299,7 +2272,6 @@ Released: 2020-12-03
 
 ## PowerShell Pro Tools Module
 
-* Added support for PowerShell Pro Tools subscriptions
 
 # 5.16.9
 
@@ -2316,7 +2288,6 @@ Released: 2020-12-02
 
 ## PSScriptPad
 
-* Added support for PowerShell Pro Tools subscriptions
 
 # 5.7.12
 
@@ -2365,7 +2336,6 @@ Released: 2020-11-21
 
 ## PSScriptPad
 
-* Fixed an issue where the license link would go to a 404 page.
 
 # 5.16.6
 
@@ -2628,7 +2598,6 @@ Released: 2020-09-13
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Default install of trial license
 
 # 5.7.2
 
@@ -2636,7 +2605,6 @@ Released: 2020-09-13
 
 ## PSScriptPad
 
-* Default install of trial key
 
 # 5.5.7
 
@@ -2644,7 +2612,6 @@ Released: 2020-09-13
 
 ## PowerShell Tools for Visual Studio
 
-* Default install of PowerShell Pro Tools trial license
 
 # 5.13.0
 
@@ -2797,7 +2764,6 @@ Released: 2020-07-01
 ## PowerShell Pro Tools for Visual Studio Code
 
 * Fixed an issue where the PowerShell Pro Tools host process could lock up
-* Fixed an issue where installing a license would report failure when it was actually succeeding.
 
 # 5.12.4
 
@@ -2805,7 +2771,6 @@ Released: 2020-06-26
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Changed the license notification text and link as new licenses have been deployed to all affected customer’s accounts
 * Fixed an issue where launching more than one version of VS Code would cause the extension to fail to connect
 
 # 5.12.3
@@ -3203,7 +3168,6 @@ Released: 2020-01-22
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* No longer requires a [trial key](https://ironmansoftware.com/simplifying-product-trial-licensing/)
 
 # 5.3.1
 
@@ -3211,7 +3175,6 @@ Released: 2020-01-22
 
 ## PowerShell Tools for Visual Studio
 
-* No longer requires a [trial key](https://ironmansoftware.com/simplifying-product-trial-licensing/)
 
 # 5.7.1
 
@@ -3286,8 +3249,6 @@ Released: 2020-01-16
 
 ## PowerShell Tools for Visual Studio
 
-* Fixed an issue with license checking for the WinForm designer
-* If you opened the WinForm designer before installing your license, then installed a license and then opened the WinForm designer, you would need to restart Visual Studio for the license to take effect.
 
 # 5.6.6
 
@@ -3295,7 +3256,6 @@ Released: 2020-01-15
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Fixed an issue where licensing would attempt to activate more than once and sometimes failing which resulted in some users not being able to use the tools.
 
 # 5.2.6
 
@@ -3303,7 +3263,6 @@ Released: 2020-01-15
 
 ## PSScriptPad
 
-* Improved licensing error messages and improved performance of license checking.
 
 # 5.2.2
 
@@ -3320,8 +3279,6 @@ Released: 2020-01-15
 
 ## PowerShell Tools for Visual Studio
 
-* Fixed an issue with license activation
-* License activation could run more than once causing the product to think that it was unlicensed.
 
 # 5.6.5
 
@@ -3408,7 +3365,6 @@ Released: 2020-01-10
 * Fixed issue with terminal attempting to run commands while the runspace was busy
 * Terminal now executes on a background thread so the UI doesn’t lock up
 * Fixed an issue where the entire script would be collapsible.
-* Fixed issue that would prevent the license from being installed through the UI
 
 # 5.6.1
 
@@ -3438,7 +3394,6 @@ Released: 2019-12-20
 
 ## PowerShell Pro Tools for Visual Studio Code
 
-* Fixed an issue where the Actipro license was not installed correctly resulting in a popup.
 
 # 5.5.0
 

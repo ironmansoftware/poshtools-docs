@@ -105,6 +105,8 @@ PowerShell Pro Tools brings together editors, packagers, designers, installers, 
 
 ## Download
 
+PowerShell Pro Tools is free to use.
+
 <table data-view="cards">
   <thead>
     <tr>
