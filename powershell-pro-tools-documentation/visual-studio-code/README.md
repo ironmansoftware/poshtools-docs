@@ -43,6 +43,7 @@ Attach to a running PowerShell host from the **Host Processes** view and then se
 
 ## More Information
 
+* [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [Packaging in Visual Studio Code](packaging-in-visual-studio-code.md)

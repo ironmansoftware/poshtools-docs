@@ -45,6 +45,7 @@ Install-Module PSScriptAnalyzer
 
 ## More Information
 
+* [Changelog](https://github.com/ironmansoftware/psedit/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [GitHub](https://github.com/ironmansoftware/psedit)

@@ -33,6 +33,7 @@ Design a Windows Forms UI from Visual Studio with the form item templates and de
 
 * [Visual Studio 2022 extension](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsVS2022)
 * [Visual Studio 2017 and 2019 extension](https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561)
+* [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
 
 ## More Information
 

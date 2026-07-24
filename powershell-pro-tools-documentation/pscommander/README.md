@@ -62,6 +62,7 @@ See [Configuration](configuration.md) for more information.
 
 ## More Information
 
+* [Changelog](https://github.com/ironmansoftware/pscommander/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [Configuration](configuration.md)

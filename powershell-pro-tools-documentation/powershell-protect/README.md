@@ -45,6 +45,7 @@ Test-PSPConfiguration -ConfigurationPath ".\config.xml" -ScriptBlock { Invoke-We
 
 ## More Information&#x20;
 
+* [Changelog](https://github.com/ironmansoftware/powershell-protect/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [Getting Started](getting-started.md)
