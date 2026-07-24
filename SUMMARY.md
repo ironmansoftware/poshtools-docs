@@ -6,6 +6,7 @@
 ## Tools
 
 * [PoshTools VS](powershell-pro-tools-documentation/visual-studio/README.md)
+  * [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
   * [Installation](powershell-pro-tools-documentation/visual-studio/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/visual-studio/system-requirements.md)
   * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
@@ -32,6 +33,7 @@
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)
     * [Windows Forms](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
 * [PoshTools VSC](powershell-pro-tools-documentation/visual-studio-code/README.md)
+  * [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
   * [Installation](powershell-pro-tools-documentation/visual-studio-code/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/visual-studio-code/system-requirements.md)
   * [Automating Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/automating-visual-studio-code.md)
@@ -55,6 +57,7 @@
   * [Quick Scripts](powershell-pro-tools-documentation/visual-studio-code/quick-scripts.md)
   * [Windows Forms Designer](powershell-pro-tools-documentation/visual-studio-code/windows-forms-designer.md)
 * [PowerShell Module](powershell-pro-tools-documentation/powershell-module/README.md)
+  * [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
   * [Installation](powershell-pro-tools-documentation/powershell-module/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/powershell-module/system-requirements.md)
   * [Packaging](powershell-pro-tools-documentation/packaging/README.md)
@@ -71,6 +74,7 @@
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
   * [Show-WinFormDesigner](powershell-pro-tools-documentation/powershell-module/show-winformdesigner.md)
 * [PSMSI](powershell-pro-tools-documentation/psmsi/README.md)
+  * [Changelog](https://github.com/ironmansoftware/psmsi/releases)
   * [Installation](powershell-pro-tools-documentation/psmsi/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/psmsi/system-requirements.md)
   * [Getting Started](powershell-pro-tools-documentation/psmsi/getting-started.md)
@@ -83,9 +87,11 @@
   * [Command Reference](powershell-pro-tools-documentation/psmsi/command-reference.md)
   * [Troubleshooting](powershell-pro-tools-documentation/psmsi/troubleshooting.md)
 * [PSEdit](powershell-pro-tools-documentation/psedit/README.md)
+  * [Changelog](https://github.com/ironmansoftware/psedit/releases)
   * [Installation](powershell-pro-tools-documentation/psedit/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/psedit/system-requirements.md)
 * [PSCommander](powershell-pro-tools-documentation/pscommander/README.md)
+  * [Changelog](https://github.com/ironmansoftware/pscommander/releases)
   * [Installation](powershell-pro-tools-documentation/pscommander/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/pscommander/system-requirements.md)
   * [Configuration](powershell-pro-tools-documentation/pscommander/configuration.md)
@@ -106,6 +112,7 @@
     * [Global Hot Keys](powershell-pro-tools-documentation/pscommander/feature-reference/global-hot-keys.md)
     * [Tray Icon and Menu](powershell-pro-tools-documentation/pscommander/feature-reference/tray-icon-and-menu.md)
 * [PowerShell Protect](powershell-pro-tools-documentation/powershell-protect/README.md)
+  * [Changelog](https://github.com/ironmansoftware/powershell-protect/releases)
   * [Installation](powershell-pro-tools-documentation/powershell-protect/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/powershell-protect/system-requirements.md)
   * [Getting Started](powershell-pro-tools-documentation/powershell-protect/getting-started.md)
@@ -117,7 +124,3 @@
 
 * [Installation](powershell-pro-tools-documentation/installation-and-configuration/README.md)
   * [Visual Studio Offline Installation](powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md)
-
-## Changelog
-
-* [Changelog](changelog/README.md)

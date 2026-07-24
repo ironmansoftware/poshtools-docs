@@ -51,6 +51,7 @@ The output directory contains the generated `.wxs`, `.wxsobj`, and `.msi` files.
 
 ## More Information
 
+* [Changelog](https://github.com/ironmansoftware/psmsi/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [GitHub](https://github.com/ironmansoftware/psmsi)
