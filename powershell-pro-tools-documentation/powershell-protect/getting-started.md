@@ -19,7 +19,7 @@ This command needs to be run as administrator.&#x20;
 ```powershell
 Install-PowerShellProtect
 $Configuration = New-PSPConfiguration 
-Set-PSPConfiguration -Configuration $Configuration -FileSystem -License '<myLicense>'
+Set-PSPConfiguration -Configuration $Configuration -FileSystem
 ```
 
 Once installed, the [Default Rules](rules.md#default-rules) will be enabled. You can also enable additional rules using the PowerShell Protect configuration cmdlets.&#x20;
@@ -33,5 +33,5 @@ $FileAction = New-PSPAction -File -Format "{applicationName},{rule}" -Path "%tem
 $Rule = New-PSPRule -Name "Web Request" -Condition $Condition -Action @($BlockAction, $FileAction)
 
 $Configuration = New-PSPConfiguration -Rule $Rule -Action @($BlockAction, $FileAction)
-Set-PSPConfiguration -Configuration $Configuration -FileSystem -License '<myLicense>'
+Set-PSPConfiguration -Configuration $Configuration -FileSystem
 ```
