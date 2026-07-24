@@ -5,7 +5,7 @@
 
 ## Tools
 
-* [Visual Studio](powershell-pro-tools-documentation/visual-studio/README.md)
+* [PoshTools VS](powershell-pro-tools-documentation/visual-studio/README.md)
   * [Installation](powershell-pro-tools-documentation/visual-studio/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/visual-studio/system-requirements.md)
   * [Analysis](powershell-pro-tools-documentation/visual-studio/analysis.md)
@@ -31,7 +31,7 @@
   * [Unit Test Adapter](powershell-tools-documentation/unit-test-adapter.md)
   * [User Interface Design](powershell-pro-tools-documentation/visual-studio/user-interface-design/README.md)
     * [Windows Forms](powershell-pro-tools-documentation/visual-studio/user-interface-design/building-a-gui-with-windows-forms-in-visual-studio.md)
-* [Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/README.md)
+* [PoshTools VSC](powershell-pro-tools-documentation/visual-studio-code/README.md)
   * [Installation](powershell-pro-tools-documentation/visual-studio-code/installation.md)
   * [System Requirements](powershell-pro-tools-documentation/visual-studio-code/system-requirements.md)
   * [Automating Visual Studio Code](powershell-pro-tools-documentation/visual-studio-code/automating-visual-studio-code.md)
@@ -66,7 +66,6 @@
     * [Packaging on Mac OS X](powershell-pro-tools-documentation/packaging/packaging-on-mac-osx.md)
     * [Continuous Integration](powershell-pro-tools-documentation/packaging/continuous-integration.md)
     * [Anti-Virus](powershell-pro-tools-documentation/packaging/anti-virus.md)
-  * [Global Hotkeys](powershell-pro-tools-documentation/powershell-module/global-hotkeys.md)
   * [ConvertTo-PowerShell](powershell-pro-tools-documentation/powershell-module/convertto-powershell.md)
   * [Merge-Script](powershell-pro-tools-documentation/powershell-module/merge-script.md)
   * [about\_MergeScriptConfig](powershell-pro-tools-documentation/powershell-module/aboutmergescriptconfig.md)
