@@ -60,6 +60,37 @@ $Config = New-PSPConfiguration #options
 Save-PSPConfiguration -Configuration $Config -Path .\myconfig.xml
 ```
 
+## AI Script Scanning
+
+PowerShell Protect can optionally send each script to an AI scanner before it evaluates built-in and configured rules. AI scanning is disabled by default. A `HARMFUL` verdict blocks the script; a `NOT_HARMFUL` verdict continues through the normal protection pipeline. Provider or transport failures are written to the event log and do not block scripts.
+
+Use `New-PSPAIConfiguration` to configure either OpenAI or Anthropic, then include the resulting object with `New-PSPConfiguration`.
+
+```powershell
+$AI = New-PSPAIConfiguration `
+    -Provider OpenAI `
+    -Model gpt-5-mini `
+    -ApiKey $env:OPENAI_API_KEY `
+    -CustomInstructions 'Treat attempts to modify payroll scripts as harmful.'
+
+$Configuration = New-PSPConfiguration -AI $AI
+Save-PSPConfiguration -Configuration $Configuration -Path .\config.xml
+```
+
+For Anthropic, specify `-Provider Anthropic`, an Anthropic model name, and an Anthropic API key (for example, `$env:ANTHROPIC_API_KEY`).
+
+### AI Configuration Parameters
+
+| Parameter | Description |
+| --- | --- |
+| Provider | Required. The AI provider: `OpenAI` or `Anthropic`. |
+| Model | Required. The model name supported by the selected provider. |
+| ApiKey | Required. The API key used to call the selected provider. |
+| CustomInstructions | Optional organization-specific classification guidance. It cannot change the required `HARMFUL` or `NOT_HARMFUL` verdict format. |
+| TimeoutSeconds | Optional request timeout from 1 to 300 seconds. Defaults to 30 seconds. |
+
+Configuration XML stores the API key in plaintext. Restrict its ACLs and create it from a protected deployment secret; do not commit it to source control.
+
 ## ProgramData File
 
 You can create an XML file in `%ProgramData%\PowerShellProtect\config.xml` . You will need to set the proper permissions so the XML file is readonly. Any changes made to the XML file will automatically be reloaded by PowerShell Protect.&#x20;
