@@ -42,6 +42,31 @@ New-PSPAction -File -Path "%temp%\log.txt% -Format "{applicationName}" -Name "Fi
 | Format    | The formatting string used for writing the message.                |
 | Name      | The name of this action                                            |
 
+### Event Log
+
+The event log action writes an audit record to the Windows Application event log using the `PowerShellProtect` source. Choose the entry type and provide a formatting string.
+
+```powershell
+New-PSPAction -EventLog -EventLogEntryType Warning -Format "{timestamp}, {applicationName}, {rule}" -Name "Event Log"
+```
+
+Event log entries use these IDs:
+
+| Entry type | Event ID |
+| --- | --- |
+| Information | 101 |
+| Warning | 103 |
+| Error | 102 |
+
+#### Parameters
+
+| Parameter | Description |
+| --- | --- |
+| EventLog | Enables the event log action. |
+| EventLogEntryType | Required. The Windows event log entry type: `Information`, `Warning`, or `Error`. |
+| Format | Required. The formatting string used for the event message. |
+| Name | The name of this action. |
+
 ### TCP
 
 The TCP action connects to a TCP address and port to send a formatted TCP message. This is primarily used for SIEM integration. You will need to specify the hostname, port and format settings. The message is sent as an UTF8 encoded string to the address and port.&#x20;

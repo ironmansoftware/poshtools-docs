@@ -19,7 +19,9 @@ Use PowerShell Protect when you need configurable policy enforcement for PowerSh
 * Configurable blocking policies.
 * Configurable audit policies.
 * Audit output to file, HTTP, TCP, UDP, and event log actions.
+* Optional AI-powered script scanning with OpenAI or Anthropic.
 * Built-in blocking rules for common suspicious PowerShell techniques.
+* Built-in rule names and descriptions available through the configuration.
 * Windows PowerShell and PowerShell 7 support.
 * File system or registry-backed configuration.
 
@@ -48,4 +50,7 @@ Test-PSPConfiguration -ConfigurationPath ".\config.xml" -ScriptBlock { Invoke-We
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
 * [Getting Started](getting-started.md)
+* [Configuration](configuration.md)
+* [Actions](actions.md)
+* [Rules](rules.md)
 * [Download](https://www.powershellgallery.com/packages/PowerShellProtect)

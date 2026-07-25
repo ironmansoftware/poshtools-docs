@@ -84,6 +84,14 @@ The value is a string to match with the property value during execution. This is
 
 The default rules are built-in to PowerShell Protect and do not require configuration.
 
+### Inspect Built-in Rules
+
+`Get-PSPConfiguration` returns a `BuiltInRules` property containing the name and description of every rule included with the module. This metadata is informational only and is not written to exported configuration XML.
+
+```powershell
+(Get-PSPConfiguration).BuiltInRules | Format-Table Name, Description -Wrap
+```
+
 #### AMSI Bypass Protection <a href="#amsi-bypass-protection" id="amsi-bypass-protection"></a>
 
 The AMSI bypass protection will be enabled by default. An AMSI bypass prevents AMSI from loading and thus prevents Windows Defender from scanning scripts as well as PowerShell Protect.
