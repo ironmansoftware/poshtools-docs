@@ -93,6 +93,7 @@
 * [PSCommander](powershell-pro-tools-documentation/pscommander/README.md)
   * [Changelog](https://github.com/ironmansoftware/pscommander/releases)
   * [Installation](powershell-pro-tools-documentation/pscommander/installation.md)
+  * [Uninstallation](powershell-pro-tools-documentation/pscommander/uninstallation.md)
   * [System Requirements](powershell-pro-tools-documentation/pscommander/system-requirements.md)
   * [Configuration](powershell-pro-tools-documentation/pscommander/configuration.md)
   * [Feature Reference](powershell-pro-tools-documentation/pscommander/feature-reference/README.md)
