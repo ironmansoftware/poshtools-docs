@@ -1,21 +1,21 @@
 # Packaging on Mac OS X
 
-Packaging is supported on Mac OSX systems. Packaged executables will contain the entire PowerShell and .NET runtime so destination systems will not need either of these installed. 
+Packaging is supported on Mac OSX systems. Packaged executables will contain the entire PowerShell and .NET runtime so destination systems will not need either of these installed.
 
-## Prerequisites 
+## Prerequisites
 
 You will need to install the following in order to package on Mac OS X.
 
 * [.NET Core SDK 3.1 or later](https://docs.microsoft.com/en-us/dotnet/core/install/macos)
 * [PowerShell 7 or later](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7.1)
 
-Once you have them installed, you can setup your script for packaging. 
+Once you have them installed, you can setup your script for packaging.
 
 ## Configuration
 
-You will need to create a [Package.psd1](package.psd1.md) file in order to package. Here is an example configuration that will package the `test.ps1` script and output it to the `Downloads`You need to ensure that you set the .NET framework version to `netcoreapp31` and the platform to `osx-x64`. 
+You will need to create a [Package.psd1](package.psd1.md) file in order to package. Here is an example configuration that will package the `test.ps1` script and output it to the `Downloads`You need to ensure that you set the .NET framework version to `netcoreapp31` and the platform to `osx-x64`.
 
-```text
+```
 @{
     Root = '/Users/adamdriscoll/Downloads/test.ps1' # Root script to package. This is the main entry point for the package. 
     OutputPath = '/Users/adamdriscoll/Downloads/out' # The output directory for the packaging process. 
@@ -35,21 +35,21 @@ You will need to create a [Package.psd1](package.psd1.md) file in order to packa
 }
 ```
 
-By default, some core modules are included. Additional modules will also be included when enabling the Modules bundle. 
+By default, some core modules are included. Additional modules will also be included when enabling the Modules bundle.
 
 ## Running the Packager
 
-You can run the packager by using the `Merge-Script` cmdlet of the PowerShell Pro Tools module. If you include the `-Verbose` flag, you will see output from the packaging process. 
+You can run the packager by using the `Merge-Script` cmdlet of the PowerShell Pro Tools module. If you include the `-Verbose` flag, you will see output from the packaging process.
 
-In this example, we have a script named `test.ps1` with the following content. 
+In this example, we have a script named `test.ps1` with the following content.
 
-```text
+```
 "Hello. I'm running on $($PSVersionTable.OS)"
 ```
 
-You can install the PowerShell Pro Tools module and then run merge script against the package.psd1 file we created earlier. 
+You can install the PowerShell Pro Tools module and then run merge script against the package.psd1 file we created earlier.
 
-```text
+```
 Install-Module PowerShellProTools
 Merge-Script -ConfigFile ./package.psd1 -Verbose
 VERBOSE: OutputPath is /Users/adamdriscoll/Downloads/out
@@ -89,7 +89,6 @@ Copyright (C) Microsoft Corporation. All rights reserved.
   test -> /Users/adamdriscoll/Downloads/out
 ```
 
-After the packaging process is done, you can run your executable. 
+After the packaging process is done, you can run your executable.
 
-![](../../.gitbook/assets/image%20%2863%29.png)
-
+![](<../../../.gitbook/assets/image (63).png>)

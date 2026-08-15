@@ -17,4 +17,4 @@
 
 ## Packaging
 
-Packaging scripts as executables may require additional .NET SDKs or developer packs based on the target PowerShell version. See the [PowerShell Module requirements](../powershell-module/system-requirements.md) and [Package.psd1](../packaging/package.psd1.md) for target framework details.
+Packaging scripts as executables may require additional .NET SDKs or developer packs based on the target PowerShell version. See the [PowerShell Module requirements](../powershell-module/system-requirements.md) and [Package.psd1](../powershell-module/packaging/package.psd1.md) for target framework details.

@@ -42,6 +42,5 @@ Show-WinFormDesigner -Path .\MainForm.ps1
 * [Changelog](https://github.com/ironmansoftware/powershell-pro-tools/releases)
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
-* [Packaging](../packaging/README.md)
+* [Packaging](packaging/)
 * [PowerShell Gallery](https://www.powershellgallery.com/packages/PowerShellProTools)
-

@@ -13,5 +13,4 @@ You can install from the Marketplace website or from **Extensions > Manage Exten
 
 ## Offline Installation
 
-Download the VSIX package from the Marketplace and install it on the target machine. For environments without internet access, see [Visual Studio Offline Installation](../installation-and-configuration/visual-studio-offline-installation.md).
-
+Download the VSIX package from the Marketplace and install it on the target machine. For environments without internet access, see [Visual Studio Offline Installation](../../powershell-pro-tools-documentation/installation-and-configuration/visual-studio-offline-installation.md).

@@ -2,7 +2,7 @@
 description: PowerShell Tools for Visual Studio
 ---
 
-# Visual Studio
+# PoshTools VS
 
 PowerShell Pro Tools for Visual Studio adds a PowerShell-focused development experience to Visual Studio. It provides editor services, project templates, debugging, analysis, test discovery, packaging, and UI design tools for PowerShell scripts and modules.
 
@@ -27,7 +27,7 @@ Create a PowerShell project from **File > New > Project**, select a PowerShell p
 
 Package a script from a project by configuring the PowerShell project properties or by using the MSBuild packaging task documented in [Packaging in Visual Studio](bundling-and-packaging-with-msbuild.md).
 
-Design a Windows Forms UI from Visual Studio with the form item templates and designer documented in [User Interface Design](user-interface-design/README.md).
+Design a Windows Forms UI from Visual Studio with the form item templates and designer documented in [User Interface Design](user-interface-design/).
 
 ## Downloads
 
@@ -39,5 +39,5 @@ Design a Windows Forms UI from Visual Studio with the form item templates and de
 
 * [Installation](installation.md)
 * [System Requirements](system-requirements.md)
-* [Project System](../../powershell-tools-documentation/project-system/README.md)
-* [Debugging](../../powershell-tools-documentation/chapter1/README.md)
+* [Project System](project-system/)
+* [Debugging](chapter1/)

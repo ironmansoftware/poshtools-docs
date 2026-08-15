@@ -2,13 +2,13 @@
 
 Each tool has its own requirements page. Use the per-tool page when installing a single component.
 
-* [Visual Studio requirements](powershell-pro-tools-documentation/visual-studio/system-requirements.md)
-* [Visual Studio Code requirements](powershell-pro-tools-documentation/visual-studio-code/system-requirements.md)
-* [PowerShell Module requirements](powershell-pro-tools-documentation/powershell-module/system-requirements.md)
-* [PSMSI requirements](powershell-pro-tools-documentation/psmsi/system-requirements.md)
-* [PSEdit requirements](powershell-pro-tools-documentation/psedit/system-requirements.md)
-* [PSCommander requirements](powershell-pro-tools-documentation/pscommander/system-requirements.md)
-* [PowerShell Protect requirements](powershell-pro-tools-documentation/powershell-protect/system-requirements.md)
+* [Visual Studio requirements](open-source-tools/visual-studio/system-requirements.md)
+* [Visual Studio Code requirements](open-source-tools/visual-studio-code/system-requirements.md)
+* [PowerShell Module requirements](open-source-tools/powershell-module/system-requirements.md)
+* [PSMSI requirements](open-source-tools/psmsi/system-requirements.md)
+* [PSEdit requirements](open-source-tools/psedit/system-requirements.md)
+* [PSCommander requirements](open-source-tools/pscommander/system-requirements.md)
+* [PowerShell Protect requirements](open-source-tools/powershell-protect/system-requirements.md)
 
 ## Shared Requirements
 

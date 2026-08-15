@@ -152,7 +152,7 @@ The PowerShell version to target. Ensure that you specify a supported .NET versi
 * 7.0.x
 * 7.1.x
 * 7.2.x
-* 7.3.x&#x20;
+* 7.3.x
 * 7.4.x
 
 #### RuntimeIdentifier
@@ -181,11 +181,11 @@ The name of the output assembly. When this is not specified, this will be the ro
 
 #### Host
 
-Specifies the PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts [here](https://docs.poshtools.com/powershell-pro-tools-documentation/packaging/package-hosts).&#x20;
+Specifies the PowerShell host to use. The Default host will use the .NET SDK to create and package a script executable. The Ironman Software host's do not function this way. You can read more about Ironman Software hosts [here](https://docs.poshtools.com/powershell-pro-tools-documentation/packaging/package-hosts).
 
 **Lightweight**
 
-Removes WinForms and WPF support from .NET 7\PowerShell 7 executables. This reduces the overall footprint of the executable by about 45%.&#x20;
+Removes WinForms and WPF support from .NET 7\PowerShell 7 executables. This reduces the overall footprint of the executable by about 45%.
 
 ### Bundle
 
@@ -240,7 +240,7 @@ Creates a PowerShell console based application that has an application icon and 
 
 ### Ironman Software Host
 
-Use the Ironman Software host to build your executable without having to install the .NET SDK.&#x20;
+Use the Ironman Software host to build your executable without having to install the .NET SDK.
 
 ```powershell
 @{
@@ -289,7 +289,7 @@ Creates an executable that contains the PowerShell 7.0 engine. This executable d
 {% hint style="info" %}
 Note: PowerShell 7.0 is no longer supported by Microsoft or IronmanSoftware and is considered legacy. _You must use a currently supported version of PowerShell with PowerShell Pro Tools to receive support from Ironman Software_.
 
-&#x20;See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
+See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
 {% endhint %}
 
 ```powershell
@@ -315,7 +315,7 @@ You can package PowerShell 7.1 scripts by targeting .NET 5.0. You will need the 
 {% hint style="info" %}
 Note: PowerShell 7.1 is no longer supported by Microsoft or IronmanSoftware and is considered legacy. _You must use a currently supported version of PowerShell with PowerShell Pro Tools to receive support from Ironman Software_.
 
-&#x20;See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
+See [Microsoft Support LifeCycle for PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-support-lifecycle) for a list of supported versions.
 {% endhint %}
 
 ```powershell
@@ -444,7 +444,7 @@ In the XAML, you can reference the image like this.
 
 ## Access Resources in Your Script
 
-You can access resources in your script using the following function.&#x20;
+You can access resources in your script using the following function.
 
 ```powershell
 function Get-ResourceAsString {
@@ -457,13 +457,13 @@ function Get-ResourceAsString {
 }
 ```
 
-In your script, just use this function to load the file.&#x20;
+In your script, just use this function to load the file.
 
 ```powershell
 $MyManifest = Get-ResourceAsString -Name 'manifest.json'
 ```
 
-You will package the resource file, just like you do with WPF applications.&#x20;
+You will package the resource file, just like you do with WPF applications.
 
 ```powershell
 @{
@@ -482,7 +482,7 @@ You will package the resource file, just like you do with WPF applications.&#x20
 
 ## Adding an Icon to a WPF Window
 
-You cannot directly add icons to WPF windows with PowerShell and will need to do so using code. First, you'll need to ensure that your icon is in the same directory of the script. You will also need to add your icon as a resource.&#x20;
+You cannot directly add icons to WPF windows with PowerShell and will need to do so using code. First, you'll need to ensure that your icon is in the same directory of the script. You will also need to add your icon as a resource.
 
 ```powershell
 @{
@@ -499,11 +499,11 @@ You cannot directly add icons to WPF windows with PowerShell and will need to do
 }
 ```
 
-If you are using Visual Studio rather than `package.psd1`, you can set the add the icon to your project and set it as a resource.&#x20;
+If you are using Visual Studio rather than `package.psd1`, you can set the add the icon to your project and set it as a resource.
 
-<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-Next, in your PS1 file for your WPF window, you will need to load your icon from either the file system or the packaged resources. The `Get-Resource` function below attempts to load from the packaged resource and, if not found, will instead load it from disk.&#x20;
+Next, in your PS1 file for your WPF window, you will need to load your icon from either the file system or the packaged resources. The `Get-Resource` function below attempts to load from the packaged resource and, if not found, will instead load it from disk.
 
 ```powershell
 function Get-ResourceAsStream {
@@ -526,7 +526,7 @@ function Get-ResourceAsStream {
 }
 ```
 
-Next, you'll need to create a new bitmap and set the window's icon property to the bitmap.&#x20;
+Next, you'll need to create a new bitmap and set the window's icon property to the bitmap.
 
 ```powershell
 $bitmap = New-Object System.Windows.Media.Imaging.BitmapImage
@@ -538,7 +538,7 @@ $bitmap.Freeze()
 $window.Icon = $bitmap
 ```
 
-An entire working example of the PS1 file can be found below.&#x20;
+An entire working example of the PS1 file can be found below.
 
 ```powershell
 [System.Reflection.Assembly]::LoadWithPartialName("PresentationFramework") | Out-Null
@@ -583,6 +583,6 @@ $window.Icon = $bitmap
 $window.ShowDialog()
 ```
 
-The result is a WPF window with a custom icon that is shown both when packaged and when running the script outside of the package.&#x20;
+The result is a WPF window with a custom icon that is shown both when packaged and when running the script outside of the package.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

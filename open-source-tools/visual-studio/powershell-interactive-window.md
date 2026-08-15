@@ -6,7 +6,7 @@ The PowerShell Interactive Window provides a console like experience within Visu
 
 To access the PowerShell interactive window, click View->PowerShell->PowerShell Interactive Window. You can also use the default key combination Ctrl+Shift+\\.
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (31).png>)
 
 ## Executing Commands
 
